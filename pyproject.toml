@@ -1,0 +1,11 @@
+[project]
+name = "gate-cs-2027-mock-series"
+version = "0.1.0"
+requires-python = ">=3.10"
+description = "Fail-closed, resumable examination-content publishing and validation"
+
+[project.optional-dependencies]
+export = ["markdown-it-py==3.0.0"]
+
+[tool.unittest]
+start-directory = "tests"

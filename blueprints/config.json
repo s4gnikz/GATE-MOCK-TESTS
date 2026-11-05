@@ -1,0 +1,10 @@
+{
+  "seed": 20271012,
+  "paper_count": 100,
+  "difficulty_counts": {"Medium": 26, "Medium-Hard": 29, "Hard": 10},
+  "difficulty_bounds": {"Medium": [24, 28], "Medium-Hard": [27, 31], "Hard": [8, 12]},
+  "minimum_multistep_technical": 28,
+  "core_one_mark_base": 2,
+  "core_two_mark_base": 2,
+  "notes": "Each core subject receives two slots of each mark value before rotating surplus allocations. Counts and difficulty are design choices, not historical estimates. Question types are advisory until author review."
+}

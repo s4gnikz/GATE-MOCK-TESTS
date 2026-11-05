@@ -1,0 +1,592 @@
+{
+  "algorithm_version": 1,
+  "semantic_embeddings": "UNAVAILABLE; n-gram and signature heuristics do not prove originality",
+  "records": {
+    "CS27-M001-Q001": {
+      "paper": 1,
+      "number": 1,
+      "text_hash": "2da8ad7573e140674680a426bbcdbd36ddde484a7fa21760eade347d20027948",
+      "numeric_hash": "2da8ad7573e140674680a426bbcdbd36ddde484a7fa21760eade347d20027948",
+      "family": "ga_relative_clause_vs_main_agreement",
+      "reasoning_pattern": "ga_relative_clause_vs_main_agreement",
+      "structure_signature": "ga_relative_clause_vs_main_agreement"
+    },
+    "CS27-M001-Q002": {
+      "paper": 1,
+      "number": 2,
+      "text_hash": "3eae6a66150f146ef7d04a9e7b930f3513a814410721b3299de0a785c624bc7d",
+      "numeric_hash": "92aa4ace9ab92043369e11cb74ee2613fdb23db5ec75340da7eea3757d14eae3",
+      "family": "ga_conditional_percentage_after_asymmetric_cancellation",
+      "reasoning_pattern": "ga_conditional_percentage_after_asymmetric_cancellation",
+      "structure_signature": "ga_conditional_percentage_after_asymmetric_cancellation"
+    },
+    "CS27-M001-Q003": {
+      "paper": 1,
+      "number": 3,
+      "text_hash": "9522e32936e87800e0fd28225f64e2da8011ae59effad411b29b5ad0378e8066",
+      "numeric_hash": "9522e32936e87800e0fd28225f64e2da8011ae59effad411b29b5ad0378e8066",
+      "family": "ga_exact_cardinality_implication_biconditional",
+      "reasoning_pattern": "ga_exact_cardinality_implication_biconditional",
+      "structure_signature": "ga_exact_cardinality_implication_biconditional"
+    },
+    "CS27-M001-Q004": {
+      "paper": 1,
+      "number": 4,
+      "text_hash": "3ba9cc49722a67268b392e08c1ec8f5a7a2a6f3835d0006353c2c688082db3d6",
+      "numeric_hash": "123a58f1a9f36591de6b1da4efff3ee2d7c02ddf550c2fa32c36150b7392bfb5",
+      "family": "ga_labelled_triangle_reflection_rotation",
+      "reasoning_pattern": "ga_labelled_triangle_reflection_rotation",
+      "structure_signature": "ga_labelled_triangle_reflection_rotation"
+    },
+    "CS27-M001-Q005": {
+      "paper": 1,
+      "number": 5,
+      "text_hash": "c46215428eebc2b342c03313bdfbd15fa5b4f8fd653e4f6af68a7334ba4e36ea",
+      "numeric_hash": "c46215428eebc2b342c03313bdfbd15fa5b4f8fd653e4f6af68a7334ba4e36ea",
+      "family": "ga_aggregate_observation_vs_individual_inference",
+      "reasoning_pattern": "ga_aggregate_observation_vs_individual_inference",
+      "structure_signature": "ga_aggregate_observation_vs_individual_inference"
+    },
+    "CS27-M001-Q006": {
+      "paper": 1,
+      "number": 6,
+      "text_hash": "360e58980ac0bf8cab7c3a65c7212a0d202c44f967016812827a1986a134289a",
+      "numeric_hash": "360e58980ac0bf8cab7c3a65c7212a0d202c44f967016812827a1986a134289a",
+      "family": "ga_circular_required_block_two_forbidden_blocks_inclusion_exclusion",
+      "reasoning_pattern": "ga_circular_required_block_two_forbidden_blocks_inclusion_exclusion",
+      "structure_signature": "ga_circular_required_block_two_forbidden_blocks_inclusion_exclusion"
+    },
+    "CS27-M001-Q007": {
+      "paper": 1,
+      "number": 7,
+      "text_hash": "c75d122e33a4caa94df67eeba578bc5945a2cf8d4da2c195974b56ba4e6a3982",
+      "numeric_hash": "5e9ccde45bbd7d332e2c134752f7e49ebd5a95986517072a188d1dc34336e865",
+      "family": "ga_productivity_mix_shift",
+      "reasoning_pattern": "ga_productivity_mix_shift",
+      "structure_signature": "ga_productivity_mix_shift"
+    },
+    "CS27-M001-Q008": {
+      "paper": 1,
+      "number": 8,
+      "text_hash": "4e715bfe7b0f022848d8523213d0132c3abe695dd74d5c81ee6d516c6af4c015",
+      "numeric_hash": "8ee281fda05791d9d29e5de49870d7a81749d7c85388e4e492c4d8f1ec0d10eb",
+      "family": "ga_double_fold_two_punch_line_incidence",
+      "reasoning_pattern": "ga_double_fold_two_punch_line_incidence",
+      "structure_signature": "ga_double_fold_two_punch_line_incidence"
+    },
+    "CS27-M001-Q009": {
+      "paper": 1,
+      "number": 9,
+      "text_hash": "d45a2516ef2f62179d769a471b16ec960ee37079ff0f1e8f2b3f9fdc48bd7f34",
+      "numeric_hash": "d45a2516ef2f62179d769a471b16ec960ee37079ff0f1e8f2b3f9fdc48bd7f34",
+      "family": "ga_causal_narrative_constraint_chain",
+      "reasoning_pattern": "ga_causal_narrative_constraint_chain",
+      "structure_signature": "ga_causal_narrative_constraint_chain"
+    },
+    "CS27-M001-Q010": {
+      "paper": 1,
+      "number": 10,
+      "text_hash": "58378abebdc46e2fb5d362faa06df09867ecd6caffa606412bf4ba792830ef2f",
+      "numeric_hash": "602772753887f8c45f35d17ec63f18feec7301ff9c5a84ba67371cffdc42d5b1",
+      "family": "ga_mixture_without_replacement_colour_condition",
+      "reasoning_pattern": "ga_mixture_without_replacement_colour_condition",
+      "structure_signature": "ga_mixture_without_replacement_colour_condition"
+    },
+    "CS27-M001-Q011": {
+      "paper": 1,
+      "number": 11,
+      "text_hash": "d730d3cfa4d6caada66b816101eb738ed98e486ea5558326a8cb732cf8dcdabe",
+      "numeric_hash": "d730d3cfa4d6caada66b816101eb738ed98e486ea5558326a8cb732cf8dcdabe",
+      "family": "dl_mux_cofactor_consensus",
+      "reasoning_pattern": "dl_mux_cofactor_consensus",
+      "structure_signature": "dl_mux_cofactor_consensus"
+    },
+    "CS27-M001-Q012": {
+      "paper": 1,
+      "number": 12,
+      "text_hash": "e7896c751a3389659ba33489b0b0390188a58148245f0ce98e70c7c53ef743dd",
+      "numeric_hash": "578b453d128315c9068ba6e65b273aaf28850777576acb7e456dc39d8bcd1871",
+      "family": "os_dup_seek_shared_open_description",
+      "reasoning_pattern": "os_dup_seek_shared_open_description",
+      "structure_signature": "os_dup_seek_shared_open_description"
+    },
+    "CS27-M001-Q013": {
+      "paper": 1,
+      "number": 13,
+      "text_hash": "88391c64cf993c0ae462f97692eec222ef668416ec20c7a5e8102b1ca60e75e0",
+      "numeric_hash": "9d58cf697d99d2e09c3d14580db18d392c82ade75dc7bee07b820131b172f94d",
+      "family": "dl_dontcare_eightcell_literal_lower_bound",
+      "reasoning_pattern": "dl_dontcare_eightcell_literal_lower_bound",
+      "structure_signature": "dl_dontcare_eightcell_literal_lower_bound"
+    },
+    "CS27-M001-Q014": {
+      "paper": 1,
+      "number": 14,
+      "text_hash": "737ac9ebba580db19ca969038723a06d3300797111b32afe003a4dde12f56603",
+      "numeric_hash": "737ac9ebba580db19ca969038723a06d3300797111b32afe003a4dde12f56603",
+      "family": "em_nested_unique_successor_negation",
+      "reasoning_pattern": "em_nested_unique_successor_negation",
+      "structure_signature": "em_nested_unique_successor_negation"
+    },
+    "CS27-M001-Q015": {
+      "paper": 1,
+      "number": 15,
+      "text_hash": "5c729e42644e69c15c706f14977be645f99b16b087c9762ffbc259b813a00ff0",
+      "numeric_hash": "2385fff330689cbda80a8a1e1c25468b2bc1016e39e630b25853b29a5f59fceb",
+      "family": "coa_signed_scaled_pc_relative_indirection",
+      "reasoning_pattern": "coa_signed_scaled_pc_relative_indirection",
+      "structure_signature": "coa_signed_scaled_pc_relative_indirection"
+    },
+    "CS27-M001-Q016": {
+      "paper": 1,
+      "number": 16,
+      "text_hash": "0dd491c110ed5281d185256a9e61216bde819c69c233f4615022aae006f032c4",
+      "numeric_hash": "56e2b9e1328e2ec0ea15a97d178bb00a38e2657f0bcfc69f1ae0f8c65bf402fe",
+      "family": "coa_subtractor_carry_vs_signed_overflow",
+      "reasoning_pattern": "coa_subtractor_carry_vs_signed_overflow",
+      "structure_signature": "coa_subtractor_carry_vs_signed_overflow"
+    },
+    "CS27-M001-Q017": {
+      "paper": 1,
+      "number": 17,
+      "text_hash": "ea02b7f0de865a753d585762f3ffd8705073cfbe921261df6639ea4f8bfae129",
+      "numeric_hash": "ea02b7f0de865a753d585762f3ffd8705073cfbe921261df6639ea4f8bfae129",
+      "family": "db_nested_weak_entity_key_inheritance",
+      "reasoning_pattern": "db_nested_weak_entity_key_inheritance",
+      "structure_signature": "db_nested_weak_entity_key_inheritance"
+    },
+    "CS27-M001-Q018": {
+      "paper": 1,
+      "number": 18,
+      "text_hash": "5900dcb0dfdc5b2e8165c3d1cfa5b2d2fb364c29c872cdf1a9bdcd2ad1a0fbed",
+      "numeric_hash": "10b2b6966f6a81353edaaa5097c825e5d7f2eea1c93139503be1717b4fbd6018",
+      "family": "compiler_maximal_munch_keyword_prefix",
+      "reasoning_pattern": "compiler_maximal_munch_keyword_prefix",
+      "structure_signature": "compiler_maximal_munch_keyword_prefix"
+    },
+    "CS27-M001-Q019": {
+      "paper": 1,
+      "number": 19,
+      "text_hash": "81a3f09a6720c24ba94d1efb6018d7986a62b9fcfed2d36e7cebf4aa776abcad",
+      "numeric_hash": "dbd05ff39472f93a8ffd4c8e0b48d727262c1b90c06cbf416edce5d6d19060a8",
+      "family": "cn_router_layer_specific_field_changes",
+      "reasoning_pattern": "cn_router_layer_specific_field_changes",
+      "structure_signature": "cn_router_layer_specific_field_changes"
+    },
+    "CS27-M001-Q020": {
+      "paper": 1,
+      "number": 20,
+      "text_hash": "e8d4f7f1648da1d714f534c9ba9ae96e2ad5b5661ee30bbac4f7bc37f7fb4cb9",
+      "numeric_hash": "919bcfabd86d3c070cb7a2bed75a081eeb431b5bdeeaaf434ab303ee8b0dc857",
+      "family": "alg_insertion_stability_equal_pair_shift_delta",
+      "reasoning_pattern": "alg_insertion_stability_equal_pair_shift_delta",
+      "structure_signature": "alg_insertion_stability_equal_pair_shift_delta"
+    },
+    "CS27-M001-Q021": {
+      "paper": 1,
+      "number": 21,
+      "text_hash": "e378131e29aa7b6f05b63355d3b0b830a4c11b0dcde860056b33d4067d280894",
+      "numeric_hash": "1248ebb055321fb4d363d4a78fe9f1f71dd0e8ce9061150211aaafd94dd8a45a",
+      "family": "db_division_expression_empty_divisor_counterfactuals",
+      "reasoning_pattern": "db_division_expression_empty_divisor_counterfactuals",
+      "structure_signature": "db_division_expression_empty_divisor_counterfactuals"
+    },
+    "CS27-M001-Q022": {
+      "paper": 1,
+      "number": 22,
+      "text_hash": "44d9043656e565123542a14536393724bb10ec831cd71a4ce2a63dbece904206",
+      "numeric_hash": "26fbed0538b9fd1c75ff7d779fedcb75f419040acb96d94df6ded9234c7fe626",
+      "family": "compiler_predictive_table_two_distinct_sources_of_conflict",
+      "reasoning_pattern": "compiler_predictive_table_two_distinct_sources_of_conflict",
+      "structure_signature": "compiler_predictive_table_two_distinct_sources_of_conflict"
+    },
+    "CS27-M001-Q023": {
+      "paper": 1,
+      "number": 23,
+      "text_hash": "c9ef9cee35c0f2c654a8d547570360467e465f19a8502bce7ed8f44a3016bf0d",
+      "numeric_hash": "ff201d9148d565b20aebcadfb68554086fca110192c20d0a0c6dc1f627239f90",
+      "family": "em_parameter_singular_homogeneous_system",
+      "reasoning_pattern": "em_parameter_singular_homogeneous_system",
+      "structure_signature": "em_parameter_singular_homogeneous_system"
+    },
+    "CS27-M001-Q024": {
+      "paper": 1,
+      "number": 24,
+      "text_hash": "cd996a330b0eab4015dc0742129491d33c75828b1ad182c14757ee31c63b11d1",
+      "numeric_hash": "2419d299888b0f07d27e57dbbb3cd6c04420d22ff0eabc6d4f7500fd819c3827",
+      "family": "em_absolute_value_composition_hides_inner_corners",
+      "reasoning_pattern": "em_absolute_value_composition_hides_inner_corners",
+      "structure_signature": "em_absolute_value_composition_hides_inner_corners"
+    },
+    "CS27-M001-Q025": {
+      "paper": 1,
+      "number": 25,
+      "text_hash": "1b6837138882c3fffedddc30a434864280927ed122ccaba461c3acfdbe0fecdc",
+      "numeric_hash": "4eee0983c11233f7a0b294cb18979db47efbe0341f8ac6055849b5efdeb3c4a8",
+      "family": "em_poisson_probability_identity_second_moment",
+      "reasoning_pattern": "em_poisson_probability_identity_second_moment",
+      "structure_signature": "em_poisson_probability_identity_second_moment"
+    },
+    "CS27-M001-Q026": {
+      "paper": 1,
+      "number": 26,
+      "text_hash": "8bdb29441aeb1cdfd6342b6afa6f641c91fb011751ebb03064a99c4597baff48",
+      "numeric_hash": "88ef0fae9f215319db4e6357d671068606ca491ede34c250f25f6daf062d5430",
+      "family": "dl_prime_implicant_cycle_minimum_cover_count",
+      "reasoning_pattern": "dl_prime_implicant_cycle_minimum_cover_count",
+      "structure_signature": "dl_prime_implicant_cycle_minimum_cover_count"
+    },
+    "CS27-M001-Q027": {
+      "paper": 1,
+      "number": 27,
+      "text_hash": "8d6555de0152db2875d131ab6e3e09312c4685c28de3658ea0aab00a0ee42fcd",
+      "numeric_hash": "d1bb2510ed6ee213c38435dc02de0ef03886fe5210186d6f9aab7c54b78fb37e",
+      "family": "pds_pointer_to_row_postincrement_alias_trace",
+      "reasoning_pattern": "pds_pointer_to_row_postincrement_alias_trace",
+      "structure_signature": "pds_pointer_to_row_postincrement_alias_trace"
+    },
+    "CS27-M001-Q028": {
+      "paper": 1,
+      "number": 28,
+      "text_hash": "b67ce491269ac3ace154c22753691f9771e3eb46c43e29f9aee491be0f5ab0ab",
+      "numeric_hash": "8e8497e037c9820e363aef4b071ab6a5b359e9b071ac9053161588240d91d8e2",
+      "family": "alg_doublehash_delete_search_reuse",
+      "reasoning_pattern": "alg_doublehash_delete_search_reuse",
+      "structure_signature": "alg_doublehash_delete_search_reuse"
+    },
+    "CS27-M001-Q029": {
+      "paper": 1,
+      "number": 29,
+      "text_hash": "85441e994584db046f905711c16457f6cbb1164f8b61ac6e9d8d6666170f61fb",
+      "numeric_hash": "d200f0563b204bf4b15948e300f0687b584ba834143c3b0c1698dfb624526db1",
+      "family": "os_fork_child_break_parent_continuation",
+      "reasoning_pattern": "os_fork_child_break_parent_continuation",
+      "structure_signature": "os_fork_child_break_parent_continuation"
+    },
+    "CS27-M001-Q030": {
+      "paper": 1,
+      "number": 30,
+      "text_hash": "e7f35e6f6f58553179b09eb0ccb3a9663ceb51ba342b8823241d14c5e390dfe5",
+      "numeric_hash": "e7f35e6f6f58553179b09eb0ccb3a9663ceb51ba342b8823241d14c5e390dfe5",
+      "family": "toc_parity_lastsymbol_product_quotient",
+      "reasoning_pattern": "toc_parity_lastsymbol_product_quotient",
+      "structure_signature": "toc_parity_lastsymbol_product_quotient"
+    },
+    "CS27-M001-Q031": {
+      "paper": 1,
+      "number": 31,
+      "text_hash": "c39a024b1e2dfc9956fe9fdb5a970bea8cfcfa008b75f472401e7644f8d7cd93",
+      "numeric_hash": "a9201a59f62ff27bd307c84916aca5d5456c238e2be2ef03f8cb42be269cd4d9",
+      "family": "cn_heterogeneous_storeforward_two_packet_schedule",
+      "reasoning_pattern": "cn_heterogeneous_storeforward_two_packet_schedule",
+      "structure_signature": "cn_heterogeneous_storeforward_two_packet_schedule"
+    },
+    "CS27-M001-Q032": {
+      "paper": 1,
+      "number": 32,
+      "text_hash": "af424ed056f66357777f8067477a8b3dd3d81d1c86a4d3c5a793485dc13514bf",
+      "numeric_hash": "af424ed056f66357777f8067477a8b3dd3d81d1c86a4d3c5a793485dc13514bf",
+      "family": "toc_nullable_binary_recursion_infinite_parse_ambiguity",
+      "reasoning_pattern": "toc_nullable_binary_recursion_infinite_parse_ambiguity",
+      "structure_signature": "toc_nullable_binary_recursion_infinite_parse_ambiguity"
+    },
+    "CS27-M001-Q033": {
+      "paper": 1,
+      "number": 33,
+      "text_hash": "780e5b700ab905e08301c165322be4d69b2c4ad75248321bbdc759fd79c16a96",
+      "numeric_hash": "8ebc8f957c1c3b3b077bc506bd4085297e0a135f9e898ef17edba60bf24b62f1",
+      "family": "pds_binary_reconstruction_induction_depth",
+      "reasoning_pattern": "pds_binary_reconstruction_induction_depth",
+      "structure_signature": "pds_binary_reconstruction_induction_depth"
+    },
+    "CS27-M001-Q034": {
+      "paper": 1,
+      "number": 34,
+      "text_hash": "84e48c09704143725f14f44641f5a81c86525a7f299e082aa24d60ddeddfc420",
+      "numeric_hash": "0b1c4356fef45ef6d4d14092021a7935b2caba36eda4989bb1629270326aade0",
+      "family": "toc_marked_reverse_deterministic_stack_invariant",
+      "reasoning_pattern": "toc_marked_reverse_deterministic_stack_invariant",
+      "structure_signature": "toc_marked_reverse_deterministic_stack_invariant"
+    },
+    "CS27-M001-Q035": {
+      "paper": 1,
+      "number": 35,
+      "text_hash": "4affd3a0a250944ab340069804d8f0d36e8bebdc56d83ea1dc40b572d80fc58d",
+      "numeric_hash": "3fa7440fe2e8c880a2af30151b0f0e8af8e1b542482f280208f56cea99b9375e",
+      "family": "em_idempotent_map_exact_fixedpoint_count",
+      "reasoning_pattern": "em_idempotent_map_exact_fixedpoint_count",
+      "structure_signature": "em_idempotent_map_exact_fixedpoint_count"
+    },
+    "CS27-M001-Q036": {
+      "paper": 1,
+      "number": 36,
+      "text_hash": "fb06aa8c8b77c06969778e947ae223e4e3ee4cb48fcd88af1273672163f81b9a",
+      "numeric_hash": "e4801bf4164ffc86e0b64df19f88d8ee0faa925d0a0cc139cde3ce9c674a459e",
+      "family": "alternating-block-dyadic-scan",
+      "reasoning_pattern": "count-work-per-level-then-number-of-levels",
+      "structure_signature": "dyadic widths; half of indices touched at every level"
+    },
+    "CS27-M001-Q037": {
+      "paper": 1,
+      "number": 37,
+      "text_hash": "29499632536fc3523d9eeb72d237e53ea66d621e08dc11cd52070f4f781dcce1",
+      "numeric_hash": "29499632536fc3523d9eeb72d237e53ea66d621e08dc11cd52070f4f781dcce1",
+      "family": "bounded-operation-runs-with-unbounded-stack-depth",
+      "reasoning_pattern": "construct-product-of-stack-and-finite-control; distinguish-prefixes-by-balancing-suffixes",
+      "structure_signature": "Dyck logs avoiding triple runs; aab growth blocks versus abb drain blocks"
+    },
+    "CS27-M001-Q038": {
+      "paper": 1,
+      "number": 38,
+      "text_hash": "b7af42e4240b652741c6508a3dfe29f3af3642ce418cd887d51b81103081d492",
+      "numeric_hash": "b7af42e4240b652741c6508a3dfe29f3af3642ce418cd887d51b81103081d492",
+      "family": "postfix-stack-peak-via-synthesized-attribute",
+      "reasoning_pattern": "derive-postfix-order; account-for-retained-left-results",
+      "structure_signature": "left binary subtree times right deeply nested subtree"
+    },
+    "CS27-M001-Q039": {
+      "paper": 1,
+      "number": 39,
+      "text_hash": "ed5065250795aa8181c8422789ef6daa5f600111b6096ae576bd1ce8b3ce3912",
+      "numeric_hash": "f42275e96cbc2917b8ea5df8621f2ebe14c543cac4c6f8e3b61c22844c797da6",
+      "family": "em_rank_one_update_eigenspace_triangularization_commutation",
+      "reasoning_pattern": "em_rank_one_update_eigenspace_triangularization_commutation",
+      "structure_signature": "em_rank_one_update_eigenspace_triangularization_commutation"
+    },
+    "CS27-M001-Q040": {
+      "paper": 1,
+      "number": 40,
+      "text_hash": "793a1ff8483e26f68eaadfd213b5fb4e0e64851a3caa3de15284a9b1dfe5cb82",
+      "numeric_hash": "3cebad852afbc9e405a37b5df82e14be565e7b5eebb1ee0fde9ac0a4a7870010",
+      "family": "em_quartic_parameter_two_strict_minima_threshold",
+      "reasoning_pattern": "em_quartic_parameter_two_strict_minima_threshold",
+      "structure_signature": "em_quartic_parameter_two_strict_minima_threshold"
+    },
+    "CS27-M001-Q041": {
+      "paper": 1,
+      "number": 41,
+      "text_hash": "7938d9e401bb7758756b1036f0a35df6481e3ce964bdf8e491cc32d89e975c19",
+      "numeric_hash": "71c9404670e52367018dd48acd98d01fc729208dbfe86905e5e5db9127473a7a",
+      "family": "composed-inplace-array-permutation-periodic-matrix-rotation",
+      "reasoning_pattern": "infer-two-index-transformations; compose; reduce-exponent; invert-position-map",
+      "structure_signature": "flat five-by-five row-major array; upper-triangle transpose; row reversal; quarter-turn cycle"
+    },
+    "CS27-M001-Q042": {
+      "paper": 1,
+      "number": 42,
+      "text_hash": "2635ed379eefd2aa574af1d9af7b82881dde115f78d9644fe8864582a7648220",
+      "numeric_hash": "182e2a8ab2503460b923cfb46e2d48ea0b8f2b8b92f436b0e996ff6eba5c636f",
+      "family": "threshold-function-shannon-mux",
+      "reasoning_pattern": "fix-select-count; derive-remaining-threshold",
+      "structure_signature": "four-input-at-least-three threshold with middle selects"
+    },
+    "CS27-M001-Q043": {
+      "paper": 1,
+      "number": 43,
+      "text_hash": "6213f0a9da651c9e1a5be594786e60c6dff0066ede337ad6b9eeff5c2a5f5326",
+      "numeric_hash": "c82649c959e62d066d918a613218da6e881ff3528121abe7de620124a10590e8",
+      "family": "recursive-sibling-calls-mutating-shared-lexical-environment",
+      "reasoning_pattern": "resolve-static-binding; trace-recursive-unwinding; accumulate-stateful-return-values",
+      "structure_signature": "Main/A/{B,C}; recursive B local shadows x; C increments A.x on unwind"
+    },
+    "CS27-M001-Q044": {
+      "paper": 1,
+      "number": 44,
+      "text_hash": "76a02e5ff9c79f230e3e8b80b81fa7dc551c53a18ca14600958f4cb4c4c71bc4",
+      "numeric_hash": "7bf376b4491a767f9d7377277d0d9ac9ab5525de4439993f5d984d7f3184287a",
+      "family": "reachable-cycle-with-unreachable-fixed-point",
+      "reasoning_pattern": "construct-simultaneous-transition; reduce-clock-index",
+      "structure_signature": "two-bit nonlinear state map; 3-cycle plus fixed point"
+    },
+    "CS27-M001-Q045": {
+      "paper": 1,
+      "number": 45,
+      "text_hash": "71458bb1136c24884afdde17fa263839b0fc92b8a203e935dead72c27640038c",
+      "numeric_hash": "71458bb1136c24884afdde17fa263839b0fc92b8a203e935dead72c27640038c",
+      "family": "pipe-eof-leaked-writer-process-wait-cycle",
+      "reasoning_pattern": "track-descriptor-lifetime; build-wait-dependency-graph",
+      "structure_signature": "two pipes plus inherited writer and process wait"
+    },
+    "CS27-M001-Q046": {
+      "paper": 1,
+      "number": 46,
+      "text_hash": "15f6c980b4b9bdf6d90d90d8820ef8191a720b28e78b5afbfbcd15ba340a8eee",
+      "numeric_hash": "c7b2df2bcd521699f0b4f0be39d78f38088c0f03269f0bf367c89a8e811b90da",
+      "family": "three-affine-updates-interleaving-value-set",
+      "reasoning_pattern": "partition-by-last-writer; track-read-from-values",
+      "structure_signature": "one affine doubling and two additive read/write pairs"
+    },
+    "CS27-M001-Q047": {
+      "paper": 1,
+      "number": 47,
+      "text_hash": "7165670602dc9b4c7f79c53090390e5401697c16bc2c40e77360a684e5cbfea2",
+      "numeric_hash": "249e9479417afc6aa7a753df5db0a614e7732c71de7531557e1623e0c95269a4",
+      "family": "crc-burst-guarantees-and-generator-order",
+      "reasoning_pattern": "factor-shift; compare-degree; exhibit-divisible-error",
+      "structure_signature": "irreducible cubic; two-bit period seven; odd-weight generator"
+    },
+    "CS27-M001-Q048": {
+      "paper": 1,
+      "number": 48,
+      "text_hash": "cec16a8ace3a8f9b412ab64271e6a5db4692cc9ff8e94a0e368215e7779a6541",
+      "numeric_hash": "cec16a8ace3a8f9b412ab64271e6a5db4692cc9ff8e94a0e368215e7779a6541",
+      "family": "tuple-calculus-biconditional-with-empty-requirement",
+      "reasoning_pattern": "translate-quantifiers-to-set-equality; test-extras-and-empty-case",
+      "structure_signature": "department-specific exact coverage with an extra-project counterexample"
+    },
+    "CS27-M001-Q049": {
+      "paper": 1,
+      "number": 49,
+      "text_hash": "8d7d2435280132bd767878784d30d7ccefb6620c6151e1e40445e4dc1d9dafa6",
+      "numeric_hash": "fd15e19cc7d63c97726564955981844987d2da754b1b0e4cd37fe3eb227e18bb",
+      "family": "short-circuit-code-motion-truncation-side-effects",
+      "reasoning_pattern": "derive-control-flow; find-rounding-counterexample; check-speculation",
+      "structure_signature": "guarded quotient OR postincrement"
+    },
+    "CS27-M001-Q050": {
+      "paper": 1,
+      "number": 50,
+      "text_hash": "dad0bfb20a6e2955d70ed828c60ead0344f0b3a496ef23f06727255ad473e63d",
+      "numeric_hash": "c2d67a049557b8ca3c11a2afccae724a76acaef41d6ab0bc723f8048f6f68fdd",
+      "family": "cfl-pumping-universal-decomposition-count-invariant",
+      "reasoning_pattern": "bound-span; preserve-one-count; quantify-all-decompositions",
+      "structure_signature": "equal three blocks; delete nonempty material spanning at most two blocks"
+    },
+    "CS27-M001-Q051": {
+      "paper": 1,
+      "number": 51,
+      "text_hash": "78dbf33e33b8aec66eca8c2c75e90b594530d502f069510f598fe2efb7ba45e8",
+      "numeric_hash": "d19711d409bfc54d0b95f2b581f18f2f7c80a61c9110ad16044ca95a5547118e",
+      "family": "alternate-node-extraction-reversed-secondary-list",
+      "reasoning_pattern": "track-aliases-and-detach; distinguish-prepend-from-append",
+      "structure_signature": "singly-linked-list alternate extraction with surviving-pointer advance"
+    },
+    "CS27-M001-Q052": {
+      "paper": 1,
+      "number": 52,
+      "text_hash": "d4d184a5618c42eaac635d912b8b379de5bf62f03376a2fe7b1fc0d1e5c5514a",
+      "numeric_hash": "45199223790d564a536f1f7de7bdeddc59cfd1a3cb7b9120af1b11f72f67c396",
+      "family": "fixed-product-rescale-round-reencode",
+      "reasoning_pattern": "decode-signed; multiply-scales; round; encode-unsigned",
+      "structure_signature": "negative fractional product with nonzero discarded bits"
+    },
+    "CS27-M001-Q053": {
+      "paper": 1,
+      "number": 53,
+      "text_hash": "0df5475b0bff63177f70dd19cbd36cdb4fc3f622f78e0686c7774da3951ae8ba",
+      "numeric_hash": "634a65190205d7c899ccde00d6a8a67288e17dfd4a798d127d533711aafcf2a4",
+      "family": "bounded-stack-completions-after-forced-output-prefix",
+      "reasoning_pattern": "force-prefix; count-residual-dyck-paths; exclude-capacity-violation",
+      "structure_signature": "capacity-three; one-existing-item; three-unread-items"
+    },
+    "CS27-M001-Q054": {
+      "paper": 1,
+      "number": 54,
+      "text_hash": "e3e54c9ef6a8d7e780b1537de812330a78ef04a4dd6924a6ff691ed772d20d27",
+      "numeric_hash": "c76e394b1bdb2cb0cab4a3ba60f10d3a97e4a7d2ab4cd5efb688a6ceed36999e",
+      "family": "joint-microinstruction-field-encoding-with-restricted-command-space",
+      "reasoning_pattern": "count-nonempty-destination-subsets; count-source-subset-products; encode-fields",
+      "structure_signature": "one idle plus eight times thirty-one legal bus commands; separate 6/128/4 fields"
+    },
+    "CS27-M001-Q055": {
+      "paper": 1,
+      "number": 55,
+      "text_hash": "5f0a411dccecf7c165059c1f17be7e974a865e9153a40fff876c7f614d61d24c",
+      "numeric_hash": "96345ecfaa0b8a691be0a7375e84640f5d126d0fcceb84b5fc863f420e7fe866",
+      "family": "em_latent_status_stopped_test_paths_expectation_posteriors",
+      "reasoning_pattern": "em_latent_status_stopped_test_paths_expectation_posteriors",
+      "structure_signature": "em_latent_status_stopped_test_paths_expectation_posteriors"
+    },
+    "CS27-M001-Q056": {
+      "paper": 1,
+      "number": 56,
+      "text_hash": "9c3e5c999cb9e89294c77ef83802c21aa26e0e379e3f6a368b963c6e476823f1",
+      "numeric_hash": "4f9e0fba33ef921db104f1cd8c9bd8975e755793f0b939c107094e176fefac7b",
+      "family": "recognizability-witness-versus-universal-machine-properties",
+      "reasoning_pattern": "dovetail-existentials; reduce-nonhalting-to-two-universal-properties",
+      "structure_signature": "four machine properties; acceptance singleton; language subset; totality; state reachability"
+    },
+    "CS27-M001-Q057": {
+      "paper": 1,
+      "number": 57,
+      "text_hash": "6e943b5c0023444bec121331767eeaa2d1ea1dda1aa62dfe790b915bb4da6eab",
+      "numeric_hash": "8fd8f60123f5967d28e3827d6bec618bca1f7c0e29eb833b61d453fc989bd5ac",
+      "family": "memory-bank-decode-and-address-alias",
+      "reasoning_pattern": "split-window-bank-offset; trace-address; remove-decode-bit",
+      "structure_signature": "four-byte-wide-chips; upper-window-decode; alias under ignored bit"
+    },
+    "CS27-M001-Q058": {
+      "paper": 1,
+      "number": 58,
+      "text_hash": "5c37fe57dd70fcc2155a1caa38e00dfb47db39eacc914cf4afeb18fbc3ea2f45",
+      "numeric_hash": "80c2e6bb5f9375a76dca4499b7856d589af401c795dea214fc7cd7543bf438cb",
+      "family": "sql-null-aggregate-having-with-duplicates",
+      "reasoning_pattern": "aggregate-per-group; apply-three-valued-filter",
+      "structure_signature": "duplicate values; partly-null group; all-null group; nonnull group"
+    },
+    "CS27-M001-Q059": {
+      "paper": 1,
+      "number": 59,
+      "text_hash": "7a4db5c7d99d224b42a464e3bea84fc35fde02428a252c17b81e97ec5de222d6",
+      "numeric_hash": "486254ee37131574a7cb8e9e71f36bf19141c0b6aa19dde3f9cc525d7e11414e",
+      "family": "banker-request-destroys-last-feasible-completion",
+      "reasoning_pattern": "compute-needs; find-original-sequence; redo-after-request",
+      "structure_signature": "three-process two-resource safety transition"
+    },
+    "CS27-M001-Q060": {
+      "paper": 1,
+      "number": 60,
+      "text_hash": "5f1743c8548ecb71c673611b53e1d772ceb57c72d7b53a64c9261e42ccfb7ebc",
+      "numeric_hash": "2b48c8c9bc4a75801e8bd645e19c51676fa17213f7873cfb5978796aa16bdb4d",
+      "family": "cache-redesign-break-even-with-local-miss-rate",
+      "reasoning_pattern": "derive-conditional-penalty; compare-affine-average-times",
+      "structure_signature": "three-level serial hierarchy; miss reduction traded for hit latency"
+    },
+    "CS27-M001-Q061": {
+      "paper": 1,
+      "number": 61,
+      "text_hash": "49789d0508860ef939419fbf13b4b4977e714d951ac72d2e267e4e5a950add5e",
+      "numeric_hash": "83a3fca427c1f7ed17c4ac0f18f5f667412c8a54f893858b32d89b379a10f0ea",
+      "family": "count-all-optimal-interval-schedules-after-greedy-bound",
+      "reasoning_pattern": "establish-optimal-cardinality-with-greedy; enumerate-tied-optima-by-first-choice",
+      "structure_signature": "eight staggered intervals; four-slot optimum; five distinct maximum subsets"
+    },
+    "CS27-M001-Q062": {
+      "paper": 1,
+      "number": 62,
+      "text_hash": "0bd9f226f8fbcb4af09e33780d02be591338e83db95675dbf73fc44fa8d5561f",
+      "numeric_hash": "09af8db16f3d8b8737644df3d68e94342b88638646dbc3d87eb211956a7de7fa",
+      "family": "inplace-knapsack-dependency-order",
+      "reasoning_pattern": "map-two-row-recurrence-to-one-array; find-self-reuse-counterexample",
+      "structure_signature": "descending-versus-ascending positive-weight capacity scan"
+    },
+    "CS27-M001-Q063": {
+      "paper": 1,
+      "number": 63,
+      "text_hash": "c746165223164f94b4664027c3a5aa7017af5074523abe8ab6d5399052baf4ed",
+      "numeric_hash": "276dc0a2f7d18afef2a2117323a0644e7f78bf029fc94305778e26161376b61f",
+      "family": "referential-actions-versus-primary-key-and-nullability",
+      "reasoning_pattern": "separate-referenced-uniqueness; apply-cascade; apply-null-foreign-key-rule",
+      "structure_signature": "independent delete/update/insert operations with nullable child references"
+    },
+    "CS27-M001-Q064": {
+      "paper": 1,
+      "number": 64,
+      "text_hash": "2631b8905594443ea479a55382ebd36614e5755eea21d0e06603d89b1288d56a",
+      "numeric_hash": "2631b8905594443ea479a55382ebd36614e5755eea21d0e06603d89b1288d56a",
+      "family": "em_missing_union_lattice_complements_order_automorphisms",
+      "reasoning_pattern": "em_missing_union_lattice_complements_order_automorphisms",
+      "structure_signature": "em_missing_union_lattice_complements_order_automorphisms"
+    },
+    "CS27-M001-Q065": {
+      "paper": 1,
+      "number": 65,
+      "text_hash": "c9452063e8cb7ed1746f3d6442eb81b32b26e43692518fb79bfb6583afeb52ea",
+      "numeric_hash": "cfa1ad6154f133c3563cc8cb8cc2c5adb33c4e548eced01b7e38228086758cb7",
+      "family": "csma-cd-minimum-frame-with-detector-latency",
+      "reasoning_pattern": "derive-roundtrip; add-detection-delay; convert-bits-to-whole-bytes",
+      "structure_signature": "long-halfduplex-link inclusive collision detection bound"
+    }
+  },
+  "unresolved_warnings": []
+}

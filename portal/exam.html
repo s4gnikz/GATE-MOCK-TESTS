@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATE 2027 Mock Examination Simulator</title>
+    <link rel="stylesheet" href="/static/css/exam.css">
+    <link rel="stylesheet" href="/static/css/calculator.css">
+    <!-- Optional KaTeX for fast math rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <!-- ================= 1. PRE-EXAM INSTRUCTIONS SCREEN ================= -->
+    <div id="pre-exam-screen" class="pre-exam-container">
+        <div class="pre-exam-header">
+            <h1 id="pre-exam-title">GATE CS 2027 — Full-Length Mock Test</h1>
+            <div style="font-size: 13px; color: #d0dce5;">Duration: 180 Minutes | Total Marks: 100</div>
+        </div>
+
+        <div class="pre-exam-body">
+            <!-- Candidate Details Card -->
+            <div class="pre-exam-candidate-card">
+                <div class="pre-exam-avatar">CS</div>
+                <div class="pre-exam-details">
+                    <div>Candidate Name: <span class="cand-name-text">Candidate Name</span></div>
+                    <div>Roll Number: <span id="pre-exam-roll">GATE2027-CS-C001</span></div>
+                    <div>Subject: <span>Computer Science & Information Technology (CS)</span></div>
+                    <div>System ID: <span id="pre-exam-system">C001</span></div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 16px; margin: 16px 0 8px 0; color: #1e3a5f;">General Instructions</h3>
+            <ol style="margin-left: 20px; margin-bottom: 16px;">
+                <li>Total duration of the examination is <strong>180 Minutes (3 Hours)</strong>.</li>
+                <li>The clock in the top right corner displays the remaining time left for the examination. When the timer reaches zero, the examination will end automatically.</li>
+                <li>The paper consists of <strong>65 Questions</strong> with a total of <strong>100 Marks</strong> divided into two sections:
+                    <ul>
+                        <li><strong>Section 1 (General Aptitude):</strong> Questions 1 to 5 (1 Mark each) and Questions 6 to 10 (2 Marks each) = 15 Marks.</li>
+                        <li><strong>Section 2 (Computer Science & Engineering Mathematics):</strong> Questions 11 to 35 (1 Mark each) and Questions 36 to 65 (2 Marks each) = 85 Marks.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3 style="font-size: 16px; margin: 16px 0 8px 0; color: #1e3a5f;">Question Types & Marking Scheme</h3>
+            <table class="gate-table" style="max-width: 750px;">
+                <thead>
+                    <tr>
+                        <th>Question Type</th>
+                        <th>1-Mark Correct / Wrong</th>
+                        <th>2-Mark Correct / Wrong</th>
+                        <th>Evaluation Rules</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>MCQ (Multiple Choice)</strong></td>
+                        <td>+1.00 &nbsp;|&nbsp; <span style="color:#c0392b;">-0.33</span></td>
+                        <td>+2.00 &nbsp;|&nbsp; <span style="color:#c0392b;">-0.67</span></td>
+                        <td>Only 1 option is correct out of 4 choices. Negative marking applies.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MSQ (Multiple Select)</strong></td>
+                        <td>+1.00 &nbsp;|&nbsp; 0.00</td>
+                        <td>+2.00 &nbsp;|&nbsp; 0.00</td>
+                        <td>One or more choices may be correct. No partial marking, NO negative marking.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>NAT (Numerical Answer)</strong></td>
+                        <td>+1.00 &nbsp;|&nbsp; 0.00</td>
+                        <td>+2.00 &nbsp;|&nbsp; 0.00</td>
+                        <td>Enter a numerical value. Virtual keypad is provided. NO negative marking.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 style="font-size: 16px; margin: 20px 0 8px 0; color: #1e3a5f;">Question Palette Status Legend</h3>
+            <div class="instruction-legend-grid">
+                <div class="instruction-legend-item">
+                    <div class="palette-shape shape-not-visited">0</div>
+                    <div><strong>Not Visited:</strong> You have not visited the question yet.</div>
+                </div>
+                <div class="instruction-legend-item">
+                    <div class="palette-shape shape-not-answered">1</div>
+                    <div><strong>Not Answered:</strong> You have visited but not answered the question.</div>
+                </div>
+                <div class="instruction-legend-item">
+                    <div class="palette-shape shape-answered">2</div>
+                    <div><strong>Answered:</strong> You have answered the question.</div>
+                </div>
+                <div class="instruction-legend-item">
+                    <div class="palette-shape shape-marked">3</div>
+                    <div><strong>Marked for Review:</strong> Marked for review WITHOUT answering.</div>
+                </div>
+                <div class="instruction-legend-item">
+                    <div class="palette-shape shape-ans-marked">4</div>
+                    <div><strong>Answered & Marked for Review:</strong> Answered and marked for review (WILL be evaluated!).</div>
+                </div>
+            </div>
+
+            <div style="background: #fff8e1; border-left: 4px solid #ffb300; padding: 10px 14px; margin: 16px 0; font-size: 13px;">
+                <strong>Notice:</strong> An authentic GATE Virtual Scientific Calculator is accessible at any time from the top navigation bar. Progress is continuously auto-saved.
+            </div>
+        </div>
+
+        <div class="pre-exam-footer">
+            <label class="declaration-label">
+                <input type="checkbox" id="pre-exam-terms">
+                <span>I have read and understood all the above instructions and agree to adhere strictly to GATE 2027 examination rules.</span>
+            </label>
+            <button id="btn-begin-exam" class="btn-begin-exam" disabled>I am ready to begin</button>
+        </div>
+    </div>
+
+    <!-- ================= 2. LIVE 3-HOUR EXAM APP (TCS iON STYLE) ================= -->
+    <div id="exam-live-app" class="exam-app" style="display: none;">
+        
+        <!-- Header Bar -->
+        <header class="exam-top-bar">
+            <div class="exam-brand">
+                <span class="gate-emblem">GATE 2027</span>
+                <span class="exam-title-text" id="live-exam-header-title">Mock Examination — Computer Science & IT</span>
+            </div>
+
+            <div class="exam-header-tools">
+                <button class="btn-exam-tool" id="btn-tool-question-paper" title="View entire question paper">
+                    <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+                    Question Paper
+                </button>
+                <button class="btn-exam-tool" id="btn-tool-instructions" title="View exam instructions">
+                    <svg viewBox="0 0 24 24"><path d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"/></svg>
+                    Instructions
+                </button>
+                <button class="btn-exam-tool" id="btn-tool-calc" title="Open GATE Virtual Scientific Calculator">
+                    <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-6 2h5v3h-5V5zm-7 0h5v3H6V5zm0 5h5v3H6v-3zm7 0h5v3h-5v-3zm-7 5h5v3H6v-3zm7 0h5v3h-5v-3z"/></svg>
+                    Calculator
+                </button>
+
+                <!-- 180-min Countdown Timer -->
+                <div class="exam-timer-box">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                    <span id="exam-timer-display">03:00:00</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sub-bar / Section Selection Strip -->
+        <div class="exam-section-strip">
+            <span class="section-label">Sections:</span>
+            <button class="section-tab-btn active" id="tab-section-ga">
+                Section 1: General Aptitude
+                <span class="section-badge" id="section-badge-ga">0/10</span>
+            </button>
+            <button class="section-tab-btn" id="tab-section-cs">
+                Section 2: Computer Science & Engg Math
+                <span class="section-badge" id="section-badge-cs">0/55</span>
+            </button>
+        </div>
+
+        <!-- Main Examination Container -->
+        <main class="exam-main-container">
+            <!-- Left / Center Question Area -->
+            <section class="exam-question-area">
+                <!-- Question Meta bar -->
+                <div class="question-meta-bar">
+                    <div class="question-meta-left">
+                        <span class="q-number-title" id="q-number-title">Question No. 1</span>
+                        <span class="q-type-badge" id="q-type-badge">MCQ</span>
+                        <span class="q-subject-badge" id="q-subject-badge">General Aptitude</span>
+                    </div>
+                    <div class="question-marks-badge" id="q-marks-info">
+                        Marks: <strong>+1</strong> | Negative: <span class="neg-mark">-0.33</span>
+                    </div>
+                </div>
+
+                <!-- Question Scroll Content -->
+                <div class="question-content-scroll">
+                    <div class="question-stem" id="q-stem-content">
+                        Loading question...
+                    </div>
+                    <div id="q-options-container">
+                        <!-- Options or NAT virtual keypad dynamically inserted here -->
+                    </div>
+                </div>
+
+                <!-- Bottom Action Dock -->
+                <footer class="exam-bottom-bar">
+                    <div class="bottom-bar-left">
+                        <button class="btn-gate btn-gate-review" id="btn-mark-review-next">Mark for Review & Next</button>
+                        <button class="btn-gate btn-gate-clear" id="btn-clear-response">Clear Response</button>
+                    </div>
+                    <div class="bottom-bar-right">
+                        <button class="btn-gate btn-gate-default" id="btn-prev">&larr; Previous</button>
+                        <button class="btn-gate btn-gate-primary" id="btn-save-next">Save & Next</button>
+                        <button class="btn-gate btn-gate-submit" id="btn-submit-exam">Submit Test</button>
+                    </div>
+                </footer>
+            </section>
+
+            <!-- Right Sidebar / Question Palette -->
+            <aside class="exam-palette-area">
+                <!-- Candidate Info Card -->
+                <div class="candidate-profile-box">
+                    <div class="cand-avatar-small">CS</div>
+                    <div>
+                        <div class="cand-name-title cand-name-text">Candidate Name</div>
+                        <div class="cand-roll-sub cand-roll-text">GATE2027-CS-C001</div>
+                    </div>
+                </div>
+
+                <!-- Status Legend Box -->
+                <div class="palette-legend-container">
+                    <div class="palette-legend-grid">
+                        <div class="legend-stat-item">
+                            <div class="palette-shape shape-answered" id="legend-count-answered">0</div>
+                            <span>Answered</span>
+                        </div>
+                        <div class="legend-stat-item">
+                            <div class="palette-shape shape-not-answered" id="legend-count-not-answered">0</div>
+                            <span>Not Answered</span>
+                        </div>
+                        <div class="legend-stat-item">
+                            <div class="palette-shape shape-not-visited" id="legend-count-not-visited">65</div>
+                            <span>Not Visited</span>
+                        </div>
+                        <div class="legend-stat-item">
+                            <div class="palette-shape shape-marked" id="legend-count-marked">0</div>
+                            <span>Marked for Review</span>
+                        </div>
+                        <div class="legend-stat-item" style="grid-column: span 2;">
+                            <div class="palette-shape shape-ans-marked" id="legend-count-ans-marked">0</div>
+                            <span>Answered & Marked for Review</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Questions Palette Matrix -->
+                <div class="palette-matrix-container">
+                    <div class="palette-section-header">Section 1: General Aptitude (Q1 - Q10)</div>
+                    <div class="palette-grid" id="palette-grid-ga"></div>
+
+                    <div class="palette-section-header">Section 2: CS & Math (Q11 - Q65)</div>
+                    <div class="palette-grid" id="palette-grid-cs"></div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- ================= SUBMIT CONFIRMATION MODAL ================= -->
+    <div id="submit-summary-modal" class="gate-modal-backdrop">
+        <div class="gate-modal-box">
+            <div class="gate-modal-header">
+                <span>Examination Summary</span>
+                <button class="btn-close-modal" style="background:transparent; border:none; color:#fff; font-size:20px; cursor:pointer;">&times;</button>
+            </div>
+            <div class="gate-modal-body">
+                <p style="margin-bottom: 12px; font-weight: bold; color: #1e293b;">
+                    Please review your attempt summary across both examination sections:
+                </p>
+                <table class="submit-summary-table">
+                    <thead>
+                        <tr>
+                            <th>Section</th>
+                            <th>Total Qs</th>
+                            <th>Answered</th>
+                            <th>Not Answered</th>
+                            <th>Marked</th>
+                            <th>Ans & Marked</th>
+                            <th>Not Visited</th>
+                        </tr>
+                    </thead>
+                    <tbody id="submit-summary-tbody">
+                        <!-- Populated dynamically -->
+                    </tbody>
+                </table>
+                <div style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 10px 14px; font-size: 13px; color: #856404; margin-top: 14px;">
+                    <strong>Are you sure you want to submit your mock test?</strong><br/>
+                    Once submitted, your answers will be locked, and your official scorecard with worked step-by-step solutions will be generated.
+                </div>
+            </div>
+            <div class="gate-modal-footer">
+                <button class="btn-gate btn-gate-default btn-close-modal">Cancel & Resume Test</button>
+                <button class="btn-gate btn-gate-submit" id="btn-confirm-submit-test">Confirm & Submit Test</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= FULL QUESTION PAPER MODAL ================= -->
+    <div id="question-paper-modal" class="gate-modal-backdrop">
+        <div class="gate-modal-box" style="max-width: 900px;">
+            <div class="gate-modal-header">
+                <span>Full Question Paper Preview</span>
+                <button class="btn-close-modal" style="background:transparent; border:none; color:#fff; font-size:20px; cursor:pointer;">&times;</button>
+            </div>
+            <div class="gate-modal-body" id="qp-modal-content">
+                <!-- Questions preview populated dynamically -->
+            </div>
+            <div class="gate-modal-footer">
+                <button class="btn-gate btn-gate-default btn-close-modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= INSTRUCTIONS MODAL ================= -->
+    <div id="instructions-modal" class="gate-modal-backdrop">
+        <div class="gate-modal-box">
+            <div class="gate-modal-header">
+                <span>GATE 2027 Examination Instructions</span>
+                <button class="btn-close-modal" style="background:transparent; border:none; color:#fff; font-size:20px; cursor:pointer;">&times;</button>
+            </div>
+            <div class="gate-modal-body">
+                <p><strong>1. Duration:</strong> 180 Minutes. Automatic submission upon timer expiry.</p>
+                <p><strong>2. Navigation:</strong> Click any question number on the right palette or use Save & Next / Previous buttons.</p>
+                <p><strong>3. Saving Answers:</strong> To save your answer, click <strong>Save & Next</strong>. Answering and clicking <strong>Mark for Review & Next</strong> will also be considered for evaluation in GATE!</p>
+                <p><strong>4. Negative Marking:</strong></p>
+                <ul style="margin-left: 20px;">
+                    <li>MCQ 1 Mark: −0.33 deduction for incorrect response</li>
+                    <li>MCQ 2 Mark: −0.67 deduction for incorrect response</li>
+                    <li>MSQ (1 & 2 Mark): NO negative marking. Must select all correct options with no wrong options to receive marks.</li>
+                    <li>NAT (1 & 2 Mark): NO negative marking. Enter numerical answer within precision.</li>
+                </ul>
+                <p style="margin-top: 10px;"><strong>5. Scientific Calculator:</strong> Click the "Calculator" button in the top bar to open the virtual calculator.</p>
+            </div>
+            <div class="gate-modal-footer">
+                <button class="btn-gate btn-gate-default btn-close-modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/calculator.js"></script>
+    <script src="/static/js/exam.js"></script>
+</body>
+</html>
+

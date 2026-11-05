@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "CS27-M001-Q036",
+    "paper": 1,
+    "number": 36,
+    "subject": "Algorithms",
+    "subtopic": "Asymptotic time and space complexity",
+    "type": "NAT",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "For n = 128, consider the following pseudocode, where all bounds are integers. The operation `touch` takes one unit of time. How many times is `touch` executed?\n```text\nwidth = 1\nwhile width < n:\n    base = 0\n    while base < n:\n        for offset = 0 to width-1 inclusive:\n            touch(base + offset)\n        base = base + 2*width\n    width = 2*width\n```\n",
+    "options": [],
+    "answer": 448,
+    "nat": {
+      "min": 448,
+      "max": 448,
+      "precision": 0
+    },
+    "solution": "At a fixed width w, the base loop has n/(2w) iterations because w is a power of two smaller than n. Each iteration calls touch w times, so each width contributes n/2 = 64 calls. The widths are 1, 2, 4, 8, 16, 32, 64: seven levels. Hence the exact count is 64 × 7 = 448. The work is Θ(n log n), even though individual inner-loop lengths vary.",
+    "option_explanations": [],
+    "misconception": "Multiplying the largest bounds of all loops ignores the inverse relationship between the number of blocks and block width.",
+    "family": "alternating-block-dyadic-scan",
+    "reasoning_pattern": "count-work-per-level-then-number-of-levels",
+    "structure_signature": "dyadic widths; half of indices touched at every level",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q037",
+    "paper": 1,
+    "number": 37,
+    "subject": "Theory of Computation",
+    "subtopic": "Regular and context-free languages",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "A stack log uses symbol a for a push and b for a pop. A valid log starts with an empty stack, never pops an empty stack, and ends with an empty stack. Let L contain exactly the valid logs in which neither aaa nor bbb occurs as a substring; the empty log belongs to L. Which statement about L is correct?",
+    "options": [
+      "L is regular because no run has more than two identical operations.",
+      "L is not regular, but a deterministic pushdown automaton can recognize it.",
+      "L is context-free, but no deterministic pushdown automaton can recognize it.",
+      "L is not context-free because the run restriction and the stack restriction must both be checked."
+    ],
+    "answer": [
+      "B"
+    ],
+    "nat": null,
+    "solution": "A deterministic pushdown automaton can push a stack symbol on a and pop one on b, rejecting underflow. Its finite control also remembers the preceding symbol and whether its current run has length one or two; it rejects a third repetition. It accepts at end of input exactly when the stack is empty. Thus L is deterministic context-free.\n\nTo show nonregularity, consider the prefixes u_n=(aab)^n for n≥0. For distinct m,n, append v_n=(abb)^n. The string u_n v_n has no triple repetition, never underflows, and has net stack change n−n=0, so it lies in L. But u_m v_n has net stack change m−n≠0, so it cannot lie in L. Hence infinitely many prefixes are pairwise distinguishable by suffixes, and no finite automaton recognizes L. In particular, banning long runs does not bound stack depth: repeated aab blocks keep increasing it.",
+    "option_explanations": [
+      "False: (aab)^n raises the stack height without creating aaa or bbb; suffixes distinguish infinitely many such prefixes.",
+      "True: finite control checks the run restriction while the deterministic stack checks balanced legal operations; the suffix argument proves nonregularity.",
+      "False: the explicit deterministic push/pop construction handles both restrictions without guessing.",
+      "False: a pushdown stack together with finite control can impose both restrictions simultaneously."
+    ],
+    "misconception": "Bounding consecutive pushes does not bound total nesting depth when pushes can be interspersed with fewer pops.",
+    "family": "bounded-operation-runs-with-unbounded-stack-depth",
+    "reasoning_pattern": "construct-product-of-stack-and-finite-control; distinguish-prefixes-by-balancing-suffixes",
+    "structure_signature": "Dyck logs avoiding triple runs; aab growth blocks versus abb drain blocks",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "revised author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q038",
+    "paper": 1,
+    "number": 38,
+    "subject": "Compiler Design",
+    "subtopic": "Syntax-directed translation",
+    "type": "NAT",
+    "marks": 2,
+    "difficulty": "Medium",
+    "stem": "A syntax-directed translator emits postfix code for fully parenthesized binary expressions. It recursively emits the entire left operand, then the entire right operand, and finally the binary operator. The generated code is evaluated on an initially empty stack: an operand pushes one value, and an operator pops two values and pushes their result. No temporary storage other than this stack is used. What is the maximum stack depth reached when evaluating the translation of `(a+b)*(c+(d*e))`?",
+    "options": [],
+    "answer": 4,
+    "nat": {
+      "min": 4,
+      "max": 4,
+      "precision": 0
+    },
+    "solution": "The postfix code is `a b + c d e * + *`. Stack depths after successive tokens are 1, 2, 1, 2, 3, 4, 3, 2, 1. The maximum is 4. Equivalently assign a leaf peak 1 and a binary node peak max(left.peak, 1 + right.peak): the left result must remain on the stack throughout evaluation of the right subtree.",
+    "option_explanations": [],
+    "misconception": "Expression-tree height alone does not give stack depth without the operand evaluation order.",
+    "family": "postfix-stack-peak-via-synthesized-attribute",
+    "reasoning_pattern": "derive-postfix-order; account-for-retained-left-results",
+    "structure_signature": "left binary subtree times right deeply nested subtree",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q041",
+    "paper": 1,
+    "number": 41,
+    "subject": "Programming and Data Structures",
+    "subtopic": "Arrays",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "A 5×5 matrix is stored in row-major order in a one-dimensional C array: row r, column c is a[5*r+c], for 0≤r,c<5. Consider this complete program. All arithmetic fits in int.\n```c\n#include <stdio.h>\nstatic void swap(int *p, int *q) {\n    int t = *p; *p = *q; *q = t;\n}\nint main(void) {\n    int a[25];\n    for (int i = 0; i < 25; ++i) a[i] = i;\n    for (int k = 0; k < 2027; ++k) {\n        for (int r = 0; r < 5; ++r)\n            for (int c = r + 1; c < 5; ++c)\n                swap(&a[5*r+c], &a[5*c+r]);\n        for (int r = 0; r < 5; ++r)\n            for (int c = 0; c < 2; ++c)\n                swap(&a[5*r+c], &a[5*r+4-c]);\n    }\n    printf(\"%d %d\", a[7], a[17]);\n    return 0;\n}\n```\nWhat is printed?",
+    "options": [
+      "13 11",
+      "11 13",
+      "7 17",
+      "17 7"
+    ],
+    "answer": [
+      "A"
+    ],
+    "nat": null,
+    "solution": "The first nested loop swaps each pair of entries on opposite sides of the main diagonal exactly once, so it transposes the matrix. The second nested loop reverses each row. The composition is a clockwise 90-degree rotation. Four iterations restore the original array, and 2027 has remainder 3 modulo 4, so the net transformation is a counterclockwise 90-degree rotation. Under that net transformation, new[r,c]=old[c,4−r]. Index 7 is (r,c)=(1,2), so its value is old[2,3]=5×2+3=13. Index 17 is (3,2), so its value is old[2,1]=11. Hence the program prints `13 11`. Every pointer is inside the single a array and every swap uses distinct entries.",
+    "option_explanations": [
+      "True: three clockwise quarter-turns map the queried positions to original positions (2,3) and (2,1).",
+      "False: these are the values after one clockwise quarter-turn, not after 2027 iterations.",
+      "False: these are the unchanged initial values; 2027 is not divisible by four.",
+      "False: these are the values after two quarter-turns, not three."
+    ],
+    "misconception": "The order of transpose and row reversal determines the rotation direction; repeated index permutations should be reduced by their period.",
+    "family": "composed-inplace-array-permutation-periodic-matrix-rotation",
+    "reasoning_pattern": "infer-two-index-transformations; compose; reduce-exponent; invert-position-map",
+    "structure_signature": "flat five-by-five row-major array; upper-triangle transpose; row reversal; quarter-turn cycle",
+    "reasoning_steps": 5,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "revised author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q042",
+    "paper": 1,
+    "number": 42,
+    "subject": "Digital Logic",
+    "subtopic": "Combinational circuits",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium",
+    "stem": "A four-input Boolean function F(a,b,c,d) equals 1 exactly when at least three inputs are 1. It is implemented using a 4-to-1 multiplexer whose select bits are b (more significant) and c (less significant). Data inputs I0, I1, I2, I3 correspond respectively to bc = 00, 01, 10, 11. Which tuple of data-input functions implements F? Here juxtaposition means AND and + means OR.",
+    "options": [
+      "(0, ad, ad, a+d)",
+      "(0, a+d, a+d, ad)",
+      "(ad, ad, ad, 1)",
+      "(0, 0, 0, a+d)"
+    ],
+    "answer": [
+      "A"
+    ],
+    "nat": null,
+    "solution": "Fixing bc=00 leaves at most two ones, so I0=0. Fixing bc=01 or 10 supplies one one, so both a and d must be one: I1=I2=ad. Fixing bc=11 supplies two ones, so either a or d suffices: I3=a+d. This is Shannon decomposition with respect to the select variables.",
+    "option_explanations": [
+      "True: the four cofactors are 0, ad, ad, a+d.",
+      "False: for bc=01, a=1,d=0 it outputs 1 with only two ones; for bc=11,a=1,d=0 it also misses a required 1.",
+      "False: for bc=00,a=d=1 it outputs 1 despite only two ones; bc=11,a=d=0 is another false positive.",
+      "False: bc=01,a=d=1 has three ones and must yield 1."
+    ],
+    "misconception": "MUX data inputs are cofactors, not the select variables themselves.",
+    "family": "threshold-function-shannon-mux",
+    "reasoning_pattern": "fix-select-count; derive-remaining-threshold",
+    "structure_signature": "four-input-at-least-three threshold with middle selects",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q043",
+    "paper": 1,
+    "number": 43,
+    "subject": "Compiler Design",
+    "subtopic": "Runtime environments",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "The following pseudocode uses static (lexical) scoping and ordinary stack activation records. Main contains A; A contains the sibling procedures B and C. Each call has fresh local variables, assignments to a variable found in an enclosing activation modify that variable, and the two assignments in the recursive case of B execute in their displayed order.\n```text\nprocedure Main():\n    local x = 20\n    procedure A():\n        local x = 4\n        procedure C():\n            x = x + 1\n            return x\n        procedure B(n):\n            local x = 100 + n\n            if n == 0:\n                return C()\n            t = B(n-1)\n            u = C()\n            return t + u\n        return B(2)\n    print A()\n```\nHere t and u are local temporaries of each B activation. What is printed?",
+    "options": [
+      "18",
+      "306",
+      "15",
+      "66"
+    ],
+    "answer": [
+      "A"
+    ],
+    "nat": null,
+    "solution": "C is declared directly inside A, so every C activation reaches the same active A through its static link. Its references to x therefore name A's x, initially 4, even when a B activation containing its own x is C's caller. B(2) first calls B(1), which first calls B(0). B(0) calls C: A.x becomes 5 and 5 is returned. B(1) next calls C, obtaining 6, and returns 5+6=11. B(2) next calls C, obtaining 7, and returns 11+7=18. Main prints 18. The recursive B locals would matter under dynamic lookup, but not under the specified lexical lookup.",
+    "option_explanations": [
+      "True: the calls to C update the single enclosing A.x to 5,6,7 and their returned values sum to 18.",
+      "False: 101+102+103=306 uses each calling B activation as the variable environment, which would be dynamic rather than static scoping.",
+      "False: 15 assumes all three C calls start from a fresh copy of A.x=4; the enclosing activation persists and is modified.",
+      "False: 21+22+23=66 uses Main.x, but the nearer enclosing declaration in A shadows it."
+    ],
+    "misconception": "A static link follows lexical nesting, so recursion in a sibling procedure does not create fresh copies of the sibling's enclosing variables.",
+    "family": "recursive-sibling-calls-mutating-shared-lexical-environment",
+    "reasoning_pattern": "resolve-static-binding; trace-recursive-unwinding; accumulate-stateful-return-values",
+    "structure_signature": "Main/A/{B,C}; recursive B local shadows x; C increments A.x on unwind",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "revised author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q044",
+    "paper": 1,
+    "number": 44,
+    "subject": "Digital Logic",
+    "subtopic": "Sequential circuits",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium",
+    "stem": "Two positive-edge-triggered D flip-flops store bits (q1,q0). At every active clock edge both are updated simultaneously according to q1(next) = q0 XOR q1 and q0(next) = NOT q1. The initial state is (0,0). What is the state after 2027 active clock edges?",
+    "options": [
+      "(0,0)",
+      "(0,1)",
+      "(1,1)",
+      "(1,0)"
+    ],
+    "answer": [
+      "C"
+    ],
+    "nat": null,
+    "solution": "Using only old-state values, the sequence is 00 → 01 → 11 → 00, a period-three cycle. Thus the state after t edges depends on t modulo 3. Since 2027 = 3×675+2, the state is 11. The unused state 10 maps to 10, but is unreachable from the specified initial state.",
+    "option_explanations": [
+      "False: 00 occurs only at edge counts divisible by 3.",
+      "False: 01 occurs when the edge count is 1 modulo 3.",
+      "True: 2027 is 2 modulo 3, giving 11.",
+      "False: 10 is a separate fixed point and is never reached from 00."
+    ],
+    "misconception": "Flip-flops update simultaneously; substituting an already updated bit gives a wrong transition graph.",
+    "family": "reachable-cycle-with-unreachable-fixed-point",
+    "reasoning_pattern": "construct-simultaneous-transition; reduce-clock-index",
+    "structure_signature": "two-bit nonlinear state map; 3-cycle plus fixed point",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q045",
+    "paper": 1,
+    "number": 45,
+    "subject": "Operating Systems",
+    "subtopic": "Interprocess communication",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Hard",
+    "stem": "Three processes P, Q and R use two initially empty pipes X and Y. Initially P owns X's write end and Y's read end; Q owns X's read end and Y's write end; R owns an additional copy of X's write end. No other descriptors for these pipes exist. A read-until-EOF operation returns only after all data has been consumed and every write descriptor for that pipe is closed. Pipe capacities exceed all data written here. All processes are eventually scheduled; there are no errors or signals.\n\n- P writes one byte to X, closes its X writer, then reads Y until EOF, then terminates.\n- Q reads X until EOF, then writes one byte to Y, closes its Y writer and terminates.\n- R waits for P to terminate, then closes its X writer and terminates.\n\nWhich single change, with all other operations unchanged, is sufficient to ensure that all three processes terminate?",
+    "options": [
+      "Increase the capacity of X.",
+      "Have P wait for R to terminate immediately before P reads Y.",
+      "Move R's close of the X writer to immediately before R waits for P.",
+      "Have Q close its Y writer only after P terminates."
+    ],
+    "answer": [
+      "C"
+    ],
+    "nat": null,
+    "solution": "Q cannot observe EOF on X while R keeps its writer open, even though R never writes. Hence Q cannot close Y, P cannot finish its read on Y, and R cannot finish waiting for P. Closing R's X writer before its wait breaks this cycle: P closes the remaining X writer; Q consumes X and sees EOF, writes/closes Y and terminates; P consumes Y and sees EOF and terminates; R's wait returns and R terminates. Buffer capacity cannot repair the original dependency cycle.",
+    "option_explanations": [
+      "False: descriptor ownership, not capacity, prevents EOF.",
+      "False: it introduces or preserves a wait cycle.",
+      "True: closing the otherwise unused writer permits Q to see EOF, after which Q, P, and finally R can terminate.",
+      "False: it adds a termination dependency."
+    ],
+    "misconception": "EOF depends on all open writers, including writers held by processes that never send data.",
+    "family": "pipe-eof-leaked-writer-process-wait-cycle",
+    "reasoning_pattern": "track-descriptor-lifetime; build-wait-dependency-graph",
+    "structure_signature": "two pipes plus inherited writer and process wait",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q046",
+    "paper": 1,
+    "number": 46,
+    "subject": "Operating Systems",
+    "subtopic": "Concurrency and synchronization",
+    "type": "NAT",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "The shared integer x is initially 0. Three threads execute exactly once:\n```text\nA: rA = x;  x = 2*rA + 1;\nB: rB = x;  x = rB + 3;\nC: rC = x;  x = rC + 5;\n```\nEach displayed read and each displayed write is separately atomic. Local registers are private. Execution is sequentially consistent, and a thread's read precedes its write. After all six operations have completed, how many distinct final values of x are possible?",
+    "options": [],
+    "answer": 12,
+    "nat": {
+      "min": 12,
+      "max": 12,
+      "precision": 0
+    },
+    "solution": "There are 6!/(2×2×2) = 90 interleavings preserving each read-before-write order. Enumerate them while retaining a private register for each thread; the final values are [1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14, 17], giving 12 distinct outcomes. A direct derivation partitions by the last writer: if A is last, its read can see 0,3,5,8, giving 1,7,11,17; if B is last, its read can see 0,1,5,6,11, giving 3,4,8,9,14; if C is last, its read can see 0,1,3,4,7, giving 5,6,8,9,12. The union of these sets gives the stated answer. The values before a last writer's read come only from the other two threads, which may themselves overlap.",
+    "option_explanations": [],
+    "misconception": "Atomic reads and writes do not make a read-modify-write pair atomic.",
+    "family": "three-affine-updates-interleaving-value-set",
+    "reasoning_pattern": "partition-by-last-writer; track-read-from-values",
+    "structure_signature": "one affine doubling and two additive read/write pairs",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q047",
+    "paper": 1,
+    "number": 47,
+    "subject": "Computer Networks",
+    "subtopic": "Error detection",
+    "type": "MSQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "A CRC uses generator g(x) = x³ + x + 1 over GF(2). An error polynomial e(x) is undetected exactly when g(x) divides e(x). The transmitted block is long enough to contain each error pattern mentioned below. Which statements are correct? A burst of length L has nonzero first and last bits separated by L−1 positions.",
+    "options": [
+      "Every single-bit error is detected.",
+      "Every burst of length at most 3 is detected.",
+      "A two-bit error whose nonzero bits are seven positions apart can be undetected.",
+      "Every error affecting an odd number of bits is detected."
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "nat": null,
+    "solution": "Because g has nonzero constant term and degree 3, it cannot divide a monomial, establishing A. A burst of length at most 3 has the form x^k b(x), with nonzero constant term and degree(b)≤2. Since gcd(g,x)=1 and degree(b)<3, it cannot be divisible by g, establishing B. Polynomial division gives x^7+1 = (x^3+x+1)(x^4+x²+x+1), so a two-bit error seven positions apart is undetected, establishing C. The polynomial g itself is an undetected three-bit error, refuting D. Equivalently g(1)=1, so x+1 is not a factor and the universal odd-error guarantee does not hold.",
+    "option_explanations": [
+      "True: a generator with constant term 1 and positive degree cannot divide a single monomial.",
+      "True: after removing the x^k shift, a burst of length ≤3 has degree below that of g.",
+      "True: g divides x^7+1, and multiplying by x^k only shifts the same error.",
+      "False: e(x)=g(x) has three nonzero coefficients and is undetected."
+    ],
+    "misconception": "The degree guarantee for short bursts does not imply the odd-number-of-errors guarantee.",
+    "family": "crc-burst-guarantees-and-generator-order",
+    "reasoning_pattern": "factor-shift; compare-degree; exhibit-divisible-error",
+    "structure_signature": "irreducible cubic; two-bit period seven; odd-weight generator",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q048",
+    "paper": 1,
+    "number": 48,
+    "subject": "Databases",
+    "subtopic": "Tuple calculus",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Hard",
+    "stem": "Relations Employee(e,d), Required(d,p) and Done(e,p) contain the following tuples (set semantics):\n```text\nEmployee = {(u,A), (v,A), (w,B), (z,C)}\nRequired = {(A,p), (A,q), (B,q)}\nDone     = {(u,p), (u,q), (u,r), (v,p), (v,q), (w,q), (z,r)}\n```\nLet E be the set of employee identifiers e for which there exists an Employee tuple (e,d) satisfying\n`for every project identifier t: Done(e,t) if and only if Required(d,t)`.\nQuantification is over all project identifiers, and no tuples other than those listed exist. Which set is E?",
+    "options": [
+      "{u,v,w}",
+      "{v,w}",
+      "{v,w,z}",
+      "{u,v,w,z}"
+    ],
+    "answer": [
+      "B"
+    ],
+    "nat": null,
+    "solution": "The biconditional requires the employee's completed-project set to equal, rather than merely contain, the department's required-project set. Department A requires {p,q}. Employee u has an extra r and fails; v has exactly {p,q} and passes. Department B requires {q}, exactly w's set, so w passes. Department C requires the empty set, but z has completed r, so z fails. Thus E={v,w}. The universal statement for C does not become automatically true: Required(C,t) is always false, so Done(z,t) must also always be false.",
+    "option_explanations": [
+      "False: u has an extra completed project r and violates the reverse implication.",
+      "True: v and w alone have exactly the required sets.",
+      "False: z has a nonempty completion set for a department with no required projects.",
+      "False: both u and z violate set equality."
+    ],
+    "misconception": "Relational division tests containment; a universal biconditional tests exact set equality, including the empty-set case.",
+    "family": "tuple-calculus-biconditional-with-empty-requirement",
+    "reasoning_pattern": "translate-quantifiers-to-set-equality; test-extras-and-empty-case",
+    "structure_signature": "department-specific exact coverage with an extra-project counterexample",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q049",
+    "paper": 1,
+    "number": 49,
+    "subject": "Compiler Design",
+    "subtopic": "Intermediate code generation",
+    "type": "MSQ",
+    "marks": 2,
+    "difficulty": "Hard",
+    "stem": "A language evaluates Boolean operands left to right with short-circuit evaluation. Integer division truncates toward zero. In the expression\n```text\n(x != 0 AND y/x > 2) OR (z++ > 0)\n```\n`z++` yields the old value of z and then increments z. Integers are unbounded, and x, y, z refer to distinct locations. Which statements about correct intermediate-code generation are true?",
+    "options": [
+      "The increment of z is executed exactly when x = 0 or (x ≠ 0 and y/x ≤ 2).",
+      "When x > 0, replacing y/x > 2 by y > 2*x preserves the expression's result and side effects for all y and z.",
+      "The division may always be moved before the test x != 0 because it has no side effect.",
+      "When x = 0, the result is whether the old z is positive, and z is incremented exactly once."
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "nat": null,
+    "solution": "The OR evaluates its right operand exactly when its left operand is false. The left operand is false when x=0 or when x is nonzero and the quotient is at most 2, so A holds. For B use x=2,y=5,z=0: the original quotient is 2, so the original evaluates z++ and returns false, leaving z=1; the proposed comparison 5>4 is true, so it returns true without incrementing z. C is unsafe because x=0 would cause division by zero, an operation the original never evaluates. If x=0 the AND is false without division, so the right operand is evaluated and D follows. Side-effect freedom alone never justifies speculating an operation that can fail.",
+    "option_explanations": [
+      "True: these are precisely the paths on which the left side of OR is false.",
+      "False: x=2,y=5,z=0 is a counterexample due to integer truncation and short-circuit effects.",
+      "False: the transformation introduces division by zero when x=0.",
+      "True: no division occurs, and the postfix increment is evaluated once."
+    ],
+    "misconception": "Boolean algebra transformations must preserve evaluation order, exceptions and side effects, not only real-number algebra.",
+    "family": "short-circuit-code-motion-truncation-side-effects",
+    "reasoning_pattern": "derive-control-flow; find-rounding-counterexample; check-speculation",
+    "structure_signature": "guarded quotient OR postincrement",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q050",
+    "paper": 1,
+    "number": 50,
+    "subject": "Theory of Computation",
+    "subtopic": "Pumping lemma",
+    "type": "MSQ",
+    "marks": 2,
+    "difficulty": "Hard",
+    "stem": "Consider a context-free pumping-lemma proof attempt for L = {a^n b^n c^n : n ≥ 0}. For an arbitrary pumping length p ≥ 1, choose s = a^p b^p c^p. A legal decomposition is s = uvxyz, with |vxy| ≤ p and |vy| > 0, and pumping produces uv^i xy^i z. Which claims are correct?",
+    "options": [
+      "The substring vxy cannot contain both an a and a c.",
+      "For every legal decomposition, pumping with i=0 produces a string outside L.",
+      "It is sufficient to exhibit one legal decomposition for which pumping with i=0 produces a string outside L.",
+      "A proof may assume, without treating other cases, that v and y each contain only a symbols."
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "nat": null,
+    "solution": "A substring containing an a and a c must include all p b's between them, plus at least one a and one c, requiring length at least p+2. This contradicts |vxy|≤p, proving A. Consequently deletion of v and y changes the counts of at most two symbol types. At least one symbol is deleted since |vy|>0, while at least one type retains count p. Thus all three counts cannot remain equal; deletions preserve block order, and i=0 is outside L for every legal decomposition. This proves B. To contradict the pumping lemma, every permitted decomposition must fail for some pumping index; choosing only a convenient one, or assuming where its pieces lie, is invalid.",
+    "option_explanations": [
+      "True: spanning an a and a c needs at least p+2 symbols.",
+      "True: at least one count decreases and at least one remains p.",
+      "False: the lemma asserts existence of a successful decomposition, so every legal choice must be ruled out.",
+      "False: v and y may lie in other blocks or cross a boundary; the proof must cover those choices."
+    ],
+    "misconception": "Pumping-lemma proofs require the right quantifier order; the prover does not choose the decomposition.",
+    "family": "cfl-pumping-universal-decomposition-count-invariant",
+    "reasoning_pattern": "bound-span; preserve-one-count; quantify-all-decompositions",
+    "structure_signature": "equal three blocks; delete nonempty material spanning at most two blocks",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q051",
+    "paper": 1,
+    "number": 51,
+    "subject": "Programming and Data Structures",
+    "subtopic": "Linked lists",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "A singly linked list initially consists of six distinct nodes with values 1,2,3,4,5,6 in that order, followed by NULL. The following pointer operations are executed. Node fields are modified in place; no nodes are allocated or freed.\n```text\np = head\nq = NULL\nwhile p != NULL and p.next != NULL:\n    r = p.next\n    p.next = r.next\n    r.next = q\n    q = r\n    p = p.next\n```\nWhich pair gives the lists reached from (head, q) after termination?",
+    "options": [
+      "(1→3→5, 2→4→6)",
+      "(1→3→5, 6→4→2)",
+      "(1→5, 6→4→3→2)",
+      "(1→2→3, 6→5→4)"
+    ],
+    "answer": [
+      "B"
+    ],
+    "nat": null,
+    "solution": "The first iteration detaches node 2 and prepends it to q, leaving head 1→3→4→5→6, q 2, and p at 3. The second detaches 4, leaving head 1→3→5→6, q 4→2, p at 5. The third detaches 6, leaving head 1→3→5, q 6→4→2, p NULL. Every detached successor is prepended, so its list is reversed. All terminal next pointers are NULL.",
+    "option_explanations": [
+      "False: prepending each removed node reverses their order.",
+      "True: odd-position nodes remain, and removed even-position nodes are reversed.",
+      "False: p advances to the next surviving node, so node 3 is never detached.",
+      "False: removal is based on alternating successors, not splitting the original list in half."
+    ],
+    "misconception": "Updating next links changes what the subsequent advance follows; removed nodes are prepended rather than appended.",
+    "family": "alternate-node-extraction-reversed-secondary-list",
+    "reasoning_pattern": "track-aliases-and-detach; distinguish-prepend-from-append",
+    "structure_signature": "singly-linked-list alternate extraction with surviving-pointer advance",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q052",
+    "paper": 1,
+    "number": 52,
+    "subject": "Digital Logic",
+    "subtopic": "Fixed-point arithmetic",
+    "type": "NAT",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "Two signed fixed-point numbers are stored in 8-bit two's-complement form with four fractional bits. Their raw hexadecimal encodings are E7 and 39. Multiply their exact represented values, then round the result to the nearest representable value in the same format (ties to even). The result is in range. What is the unsigned decimal interpretation, from 0 to 255, of the resulting 8-bit encoding?",
+    "options": [],
+    "answer": 167,
+    "nat": {
+      "min": 167,
+      "max": 167,
+      "precision": 0
+    },
+    "solution": "E7 has unsigned value 231 and signed raw value 231−256=−25, representing −25/16. Hexadecimal 39 is 57, representing 57/16. Their product is −1425/256. To encode with four fractional bits, multiply by 16, obtaining raw value −1425/16 = −89.0625. The nearest integer is −89; there is no tie. Its 8-bit two's-complement encoding is 256−89=167. The represented rounded value is −89/16.",
+    "option_explanations": [],
+    "misconception": "Multiplication doubles the fractional-bit count; rounding must follow rescaling before two's-complement encoding.",
+    "family": "fixed-product-rescale-round-reencode",
+    "reasoning_pattern": "decode-signed; multiply-scales; round; encode-unsigned",
+    "structure_signature": "negative fractional product with nonzero discarded bits",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q053",
+    "paper": 1,
+    "number": 53,
+    "subject": "Programming and Data Structures",
+    "subtopic": "Stacks and queues",
+    "type": "NAT",
+    "marks": 2,
+    "difficulty": "Hard",
+    "stem": "The values 1,2,3,4,5,6 arrive in that order. A single initially empty stack has capacity three. At each step the next unread input may be pushed if space is available, or the top may be popped to an output sequence. Each value must be pushed and popped exactly once. The output is required to begin with 3,2. How many distinct complete output sequences satisfy these conditions?",
+    "options": [],
+    "answer": 13,
+    "nat": {
+      "min": 13,
+      "max": 13,
+      "precision": 0
+    },
+    "solution": "The prefix forces pushes 1,2,3 followed by pops 3,2. The remaining situation has 1 on the stack and unread inputs 4,5,6. If capacity were unrestricted, completions correspond to all stack permutations of four ordered items [1,4,5,6], with the first push already done; there are Catalan(4)=14. Exactly one of those operation patterns reaches depth 4: pushing all four before any pop, whose output is 6,5,4,1. It is prohibited by capacity three. Therefore there are 14−1=13 completions. Distinct input labels make the push/pop pattern recoverable from the output, so this counts output sequences, not merely schedules. One can also compute F(k,h)=F(k−1,h+1)+F(k,h−1) where the push term is allowed for k>0,h<3 and the pop term for h>0, with F(0,h)=1; the desired F(3,1)=13.",
+    "option_explanations": [],
+    "misconception": "After a fixed output prefix, the residual stack contents and capacity still constrain completions.",
+    "family": "bounded-stack-completions-after-forced-output-prefix",
+    "reasoning_pattern": "force-prefix; count-residual-dyck-paths; exclude-capacity-violation",
+    "structure_signature": "capacity-three; one-existing-item; three-unread-items",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q054",
+    "paper": 1,
+    "number": 54,
+    "subject": "Computer Organization and Architecture",
+    "subtopic": "Hardwired and microprogrammed control",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "A microprogrammed control unit uses a fixed-width microinstruction. One field jointly encodes the following bus-transfer commands:\n\n- An idle command, in which no source drives the bus and no destination is loaded.\n- A non-idle command chooses exactly one of eight sources and a nonempty subset of five destination registers. Every such source/subset pair is allowed.\n\nThere are no other bus-transfer commands. Each allowed command needs a distinct binary code, and unused codes are permitted. The other independently encoded fields select one of six ALU operations (including no-operation), one of 128 next addresses, and one of four sequencing conditions (including unconditional sequencing). Codes cannot be shared across these four fields. What is the minimum microinstruction width?",
+    "options": [
+      "19 bits",
+      "20 bits",
+      "21 bits",
+      "25 bits"
+    ],
+    "answer": [
+      "B"
+    ],
+    "nat": null,
+    "solution": "Five destinations have 2^5−1=31 nonempty subsets. There are 8×31=248 non-idle bus commands and one idle command, giving 249 commands. Since 128<249≤256, the joint bus field needs 8 bits. Independently, six ALU choices need 3 bits, 128 addresses need 7 bits, and four sequencing conditions need 2 bits. The total is 8+3+7+2=20 bits. A separate source field plus five literal destination-enable bits would consume more bits, but the question explicitly permits a joint binary command encoding.",
+    "option_explanations": [
+      "False: the other fields need 12 bits, leaving only seven bus-command bits, which cannot encode 249 commands.",
+      "True: 8 bits for the 249 bus commands plus 3+7+2 bits for the other fields gives 20.",
+      "False: 21 bits suffice but are not minimal; joint encoding uses eight bus bits instead of separately encoding source and destination enables.",
+      "False: the command choices can be binary encoded; 20 bits already suffice."
+    ],
+    "misconception": "When controls may be encoded jointly, count legal combined commands rather than blindly adding separate control-signal widths.",
+    "family": "joint-microinstruction-field-encoding-with-restricted-command-space",
+    "reasoning_pattern": "count-nonempty-destination-subsets; count-source-subset-products; encode-fields",
+    "structure_signature": "one idle plus eight times thirty-one legal bus commands; separate 6/128/4 fields",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "revised author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q056",
+    "paper": 1,
+    "number": 56,
+    "subject": "Theory of Computation",
+    "subtopic": "Turing machines and undecidability",
+    "type": "NAT",
+    "marks": 2,
+    "difficulty": "Hard",
+    "stem": "For a Turing machine M over binary input strings, consider these four sets of valid machine encodings:\n\n1. M accepts the string 01.\n2. Every string accepted by M is equal to 01.\n3. M halts on every binary input string.\n4. There exists a binary input string on which M eventually enters a designated state q (the state q is part of the machine description and is distinct from its initial state).\n\nA set is recognizable if some Turing machine accepts exactly its members and may fail to halt on nonmembers. How many of the four sets are recognizable?",
+    "options": [],
+    "answer": 2,
+    "nat": {
+      "min": 2,
+      "max": 2,
+      "precision": 0
+    },
+    "solution": "Set 1 is recognizable by simulating M on 01 and accepting if M accepts. Set 4 is recognizable by dovetailing simulations of M on all binary strings and accepting as soon as one enters q.\n\nSet 2 is not recognizable: given a machine N and input w, construct M which, on any input other than 01, simulates N(w) and accepts exactly if that simulation halts; on 01 it rejects. Then M belongs to set 2 exactly when N(w) does not halt. A recognizer for set 2 would recognize the complement of the halting problem, which is impossible.\n\nSet 3 is also not recognizable. Given N,w, let M on input x simulate N(w) for |x| steps. If that bounded simulation has not halted, M halts; if it has halted, M loops forever. If N(w) never halts, M halts on every input. If N(w) halts after t steps, M loops on every sufficiently long input. Thus membership again recognizes nonhalting if set 3 were recognizable. Exactly sets 1 and 4 are recognizable, giving 2. The designated-state construction uses a computably inserted fresh q, so no accidental visit is required.",
+    "option_explanations": [],
+    "misconception": "A finite existential witness can be dovetailed; universal termination and absence of accepted counterexamples cannot in general be recognized.",
+    "family": "recognizability-witness-versus-universal-machine-properties",
+    "reasoning_pattern": "dovetail-existentials; reduce-nonhalting-to-two-universal-properties",
+    "structure_signature": "four machine properties; acceptance singleton; language subset; totality; state reachability",
+    "reasoning_steps": 5,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q057",
+    "paper": 1,
+    "number": 57,
+    "subject": "Computer Organization and Architecture",
+    "subtopic": "Memory interfacing",
+    "type": "MSQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "A byte-addressed processor has address lines A15 through A0. A memory board uses four 4K×8 RAM chips to provide one contiguous 16 KiB region starting at address 0x8000. Each selected chip supplies one byte. Chip address pins use A11 through A0; a decoder chooses one chip. Assume the decoder is enabled exactly for addresses in the intended region. Which statements are correct?",
+    "options": [
+      "A13 and A12 can select the chip, while A15=1 and A14=0 enable the board.",
+      "Address 0xB123 selects chip index 3 (indices 0–3 in increasing address order) at local offset 0x123.",
+      "If the board enable checks only A15=1 and ignores A14, each physical byte is mapped at two processor addresses.",
+      "Connecting chip address pins to A12 through A1, while otherwise retaining the stated decoder, still gives one-to-one addressing of the 16 KiB region."
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "nat": null,
+    "solution": "The region is 0x8000–0xBFFF, so its upper two address bits are 10. A13:A12 enumerate the four 4 KiB subregions, and A11:A0 choose one of 4096 bytes in each chip. Hence A and B hold. Ignoring A14 enables both 0x8000–0xBFFF and 0xC000–0xFFFF; the chip and offset bits are unchanged when A14 flips, so each byte has two aliases, establishing C. In D, A0 is unused, so adjacent byte addresses have the same chip and local address. A12 also redundantly enters the chip's address and decoder, leaving parts inaccessible; one-to-one addressing fails.",
+    "option_explanations": [
+      "True: the upper bits 10 identify the 16 KiB window and the next two choose its four chips.",
+      "True: B123−8000=3123 hexadecimal, giving bank 3 and offset 123.",
+      "True: toggling the ignored A14 yields another enabled address for the same storage cell.",
+      "False: ignoring A0 aliases every adjacent address pair."
+    ],
+    "misconception": "Partial address decoding causes aliasing; chip capacity alone does not guarantee unique processor addresses.",
+    "family": "memory-bank-decode-and-address-alias",
+    "reasoning_pattern": "split-window-bank-offset; trace-address; remove-decode-bit",
+    "structure_signature": "four-byte-wide-chips; upper-window-decode; alias under ignored bit",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q058",
+    "paper": 1,
+    "number": 58,
+    "subject": "Databases",
+    "subtopic": "SQL",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "Table T(k,v) contains exactly these rows; NULL denotes the SQL null value, and duplicates are retained:\n```text\n(1,10), (1,NULL), (1,10), (2,NULL), (2,NULL), (3,5)\n```\nWhat rows, in any order, does the following standard SQL query return?\n```sql\nSELECT k, COUNT(*) AS n, COUNT(v) AS c\nFROM T\nGROUP BY k\nHAVING COUNT(v) < COUNT(*) AND SUM(v) >= 10;\n```",
+    "options": [
+      "(1,3,2) only",
+      "(1,3,2) and (2,2,0)",
+      "(1,2,1) only",
+      "No rows"
+    ],
+    "answer": [
+      "A"
+    ],
+    "nat": null,
+    "solution": "For k=1, COUNT(*)=3, COUNT(v)=2 and SUM(v)=20, so both predicates are true. For k=2, counts are 2 and 0, but SUM(v) is NULL; NULL>=10 evaluates UNKNOWN and HAVING does not retain the group. For k=3, both counts are 1 and SUM(v)=5, so the group fails. SQL aggregates retain duplicate non-null values unless DISTINCT is requested. The single output row is (1,3,2).",
+    "option_explanations": [
+      "True: only group 1 satisfies both HAVING conditions.",
+      "False: group 2 has an unknown second predicate and is discarded.",
+      "False: COUNT does not deduplicate rows or values without DISTINCT.",
+      "False: group 1 has counts 3 and 2 and sum 20, and therefore passes."
+    ],
+    "misconception": "SUM over an all-null group is NULL rather than zero, and HAVING keeps only TRUE.",
+    "family": "sql-null-aggregate-having-with-duplicates",
+    "reasoning_pattern": "aggregate-per-group; apply-three-valued-filter",
+    "structure_signature": "duplicate values; partly-null group; all-null group; nonnull group",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q059",
+    "paper": 1,
+    "number": 59,
+    "subject": "Operating Systems",
+    "subtopic": "Deadlock",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium",
+    "stem": "A system has two resource types A and B. It uses the Banker's safety test. Current allocation and maximum claims are:\n\n| Process | Allocation (A,B) | Maximum (A,B) |\n|---|---|---|\n| P0 | (1,0) | (2,2) |\n| P1 | (0,1) | (1,2) |\n| P2 | (1,1) | (3,1) |\n\nThe available vector is (1,1). P0 requests (0,1). The request is within its remaining claim and the available resources. Which conclusion is correct?",
+    "options": [
+      "Grant it: P0,P1,P2 is a safe sequence afterward.",
+      "Grant it: P2,P1,P0 is a safe sequence afterward.",
+      "Defer it: the present state is safe, but the tentative grant is unsafe.",
+      "Defer it: the present state is already unsafe."
+    ],
+    "answer": [
+      "C"
+    ],
+    "nat": null,
+    "solution": "Original needs are P0=(1,2), P1=(1,1), P2=(2,0). With available (1,1), P1 can finish, releasing (0,1), so work becomes (1,2). P0 can then finish, releasing (1,0), making (2,2); P2 then finishes. Thus the original state is safe. Tentatively grant (0,1) to P0: available becomes (1,0), and P0's need becomes (1,1). P1 still needs (1,1) and P2 needs (2,0). No process can finish with (1,0), so the tentative state is unsafe and the request must be deferred. Unsafe does not by itself assert that deadlock has already occurred.",
+    "option_explanations": [
+      "False: after the grant P0 needs one B, but no B is available.",
+      "False: P2 needs two A, but only one A is available.",
+      "True: the original safe sequence exists, while no process can start the tentative safety reduction.",
+      "False: P1,P0,P2 is a safe sequence in the original state."
+    ],
+    "misconception": "A request within availability and maximum claim can still destroy safety.",
+    "family": "banker-request-destroys-last-feasible-completion",
+    "reasoning_pattern": "compute-needs; find-original-sequence; redo-after-request",
+    "structure_signature": "three-process two-resource safety transition",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q060",
+    "paper": 1,
+    "number": 60,
+    "subject": "Computer Organization and Architecture",
+    "subtopic": "Memory hierarchy and performance",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "A processor first checks L1. Every L1 access takes 1 ns. On an L1 miss it next checks L2, taking an additional 6 ns; on an L2 miss it additionally accesses memory, taking 60 ns. There is no overlap. Initially the L1 miss probability is 0.10 and the L2 local miss probability conditional on an L1 miss is 0.20. An L1 redesign reduces its miss probability to 0.05 but changes its access time to t ns. L2 timing and its conditional miss probability remain unchanged. For strictly lower average access time, which condition on t is necessary and sufficient?",
+    "options": [
+      "t < 1.9 ns",
+      "t < 2.8 ns",
+      "t < 1.3 ns",
+      "t < 3.6 ns"
+    ],
+    "answer": [
+      "A"
+    ],
+    "nat": null,
+    "solution": "The expected additional cost of an L1 miss is 6+0.20×60=18 ns. The initial mean is 1+0.10×18=2.8 ns. The redesigned mean is t+0.05×18=t+0.9 ns. Strict improvement requires t+0.9<2.8, or t<1.9 ns. The L2 miss probability is local, so only the fraction 0.10×0.20 (or 0.05×0.20) of all accesses reaches memory.",
+    "option_explanations": [
+      "True: the redesign saves 0.9 ns of expected miss cost, so L1 can rise by less than that.",
+      "False: it ignores the redesigned system's remaining 0.9 ns expected miss cost.",
+      "False: this is sufficient but not necessary; for example t=1.8 ns also improves performance.",
+      "False: values such as t=3 ns satisfy it but are slower than the original."
+    ],
+    "misconception": "Local miss rates must be multiplied along the hierarchy, and a hit-time increase affects every access.",
+    "family": "cache-redesign-break-even-with-local-miss-rate",
+    "reasoning_pattern": "derive-conditional-penalty; compare-affine-average-times",
+    "structure_signature": "three-level serial hierarchy; miss reduction traded for hit latency",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q061",
+    "paper": 1,
+    "number": 61,
+    "subject": "Algorithms",
+    "subtopic": "Greedy algorithms",
+    "type": "MCQ",
+    "marks": 2,
+    "difficulty": "Medium",
+    "stem": "Eight nonpreemptive activities have the following half-open time intervals; an activity may begin exactly when another finishes.\n\n| Activity | Interval |\n|---|---|\n| A | [0,3) |\n| B | [1,2) |\n| C | [2,4) |\n| D | [3,5) |\n| E | [4,6) |\n| F | [5,7) |\n| G | [6,8) |\n| H | [7,9) |\n\nLet m be the maximum number of mutually nonoverlapping activities that can be selected, and let r be the number of distinct activity subsets attaining this maximum. What is (m,r)?",
+    "options": [
+      "(3,4)",
+      "(4,4)",
+      "(4,5)",
+      "(5,1)"
+    ],
+    "answer": [
+      "C"
+    ],
+    "nat": null,
+    "solution": "Earliest-finish selection gives B,C,E,G, a feasible four-activity schedule. The earliest-finish exchange argument guarantees that its cardinality is maximum, so m=4. To count all maximum subsets, partition by the first activity. Starting with A forces D,F,H to fit three more, yielding {A,D,F,H}. Starting with B, the next activity can be C or D. If it is C, the final pair can be (E,G), (E,H), or (F,H). If it is D, the final pair must be (F,H). Starting with C or any later activity permits at most three activities total, so adds no maximum subset. The five maximum subsets are {A,D,F,H}, {B,C,E,G}, {B,C,E,H}, {B,C,F,H}, and {B,D,F,H}. Hence (m,r)=(4,5).",
+    "option_explanations": [
+      "False: B,C,E,G is already a feasible set of four activities.",
+      "False: it omits one of the five listed optimal subsets, often the one beginning with the later-finishing A.",
+      "True: earliest-finish greedy establishes m=4, and partitioning by the first two choices gives five optimal subsets.",
+      "False: earliest-finish greedy reaches four and is optimal; five compatible activities cannot be selected."
+    ],
+    "misconception": "An earliest-finish greedy algorithm finds one optimum, but it does not enumerate every optimal schedule.",
+    "family": "count-all-optimal-interval-schedules-after-greedy-bound",
+    "reasoning_pattern": "establish-optimal-cardinality-with-greedy; enumerate-tied-optima-by-first-choice",
+    "structure_signature": "eight staggered intervals; four-slot optimum; five distinct maximum subsets",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "revised author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q062",
+    "paper": 1,
+    "number": 62,
+    "subject": "Algorithms",
+    "subtopic": "Dynamic programming",
+    "type": "MSQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "For a 0/1 knapsack with nonnegative integer capacity W and items of positive integer weights wi and positive values vi, let D[j] initially be zero for every 0 ≤ j ≤ W. Each item may be used at most once. Consider the update `D[j] = max(D[j], D[j-wi] + vi)` for j ≥ wi. Which statements are correct?",
+    "options": [
+      "Processing each item once and scanning j downward from W to wi computes the maximum value for capacity W.",
+      "Processing each item once and scanning j upward from wi to W always computes the same 0/1 optimum.",
+      "With one item of weight 2 and value 3 and capacity 4, an upward scan produces D[4]=6.",
+      "For a downward scan, immediately before updating D[j] for an item, D[j-wi] still excludes that item."
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "nat": null,
+    "solution": "In a downward scan, j−wi<j has not yet been updated for the current item. Thus the right-hand side combines the previous-item optimum with at most one copy of the new item, preserving the 0/1 recurrence. This proves A and D. In an upward scan, the lower entry may already contain this item: for the single item (2,3), update D[2]=3 and then D[4]=D[2]+3=6, although the true 0/1 optimum is 3. Hence C is true and B is false. The descending order is a dependency discipline that allows two DP rows to share storage.",
+    "option_explanations": [
+      "True: descending capacity order preserves the previous-row dependency for every item.",
+      "False: upward order can reuse the current item repeatedly.",
+      "True: the update at capacity 4 reads the newly changed D[2]=3.",
+      "True: positive weight makes j−wi smaller than j, so the downward scan has not visited it yet."
+    ],
+    "misconception": "A correct recurrence can become a different optimization problem when in-place update order changes.",
+    "family": "inplace-knapsack-dependency-order",
+    "reasoning_pattern": "map-two-row-recurrence-to-one-array; find-self-reuse-counterexample",
+    "structure_signature": "descending-versus-ascending positive-weight capacity scan",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q063",
+    "paper": 1,
+    "number": 63,
+    "subject": "Databases",
+    "subtopic": "Integrity constraints",
+    "type": "MSQ",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "The following schema uses immediate constraint checking after each SQL statement. The database initially contains Parent ids 1 and 2, and Child rows (10,1), (11,2), (12,NULL).\n```sql\nCREATE TABLE Parent (id INTEGER PRIMARY KEY);\nCREATE TABLE Child (\n    id INTEGER PRIMARY KEY,\n    pid INTEGER,\n    FOREIGN KEY (pid) REFERENCES Parent(id)\n        ON DELETE SET NULL ON UPDATE CASCADE\n);\n```\nEach proposed operation below is considered independently from this initial state. Which statements are correct?",
+    "options": [
+      "Deleting Parent row id=1 succeeds and leaves Child row id=10 with pid=NULL.",
+      "Updating Parent id=2 to id=3 succeeds and changes Child row id=11 to pid=3.",
+      "Inserting Child row (13,NULL) violates the foreign-key constraint because no Parent id is NULL.",
+      "Updating Parent id=1 to id=2 fails even though ON UPDATE CASCADE is specified."
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "nat": null,
+    "solution": "ON DELETE SET NULL changes each referencing pid to NULL, which is permitted because pid is nullable; so A holds. Updating 2 to the unused key 3 preserves the parent primary key and cascades the new value to Child, so B holds. A single-column foreign key with NULL does not require a matching referenced row, so the insertion in C succeeds. The update in D would duplicate existing parent primary key 2 and violates the primary-key constraint. Cascading describes changes to referencing rows; it does not waive uniqueness of referenced keys.",
+    "option_explanations": [
+      "True: nullable pid permits the specified SET NULL action.",
+      "True: the new parent key is unused and the child reference follows the update.",
+      "False: NULL in this nullable single-column foreign key does not require a parent match.",
+      "True: primary-key uniqueness independently forbids changing 1 to the existing key 2."
+    ],
+    "misconception": "Referential actions do not override primary-key uniqueness, and nullable foreign keys have special NULL semantics.",
+    "family": "referential-actions-versus-primary-key-and-nullability",
+    "reasoning_pattern": "separate-referenced-uniqueness; apply-cascade; apply-null-foreign-key-rule",
+    "structure_signature": "independent delete/update/insert operations with nullable child references",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  },
+  {
+    "id": "CS27-M001-Q065",
+    "paper": 1,
+    "number": 65,
+    "subject": "Computer Networks",
+    "subtopic": "MAC and Ethernet",
+    "type": "NAT",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "stem": "An idealized half-duplex CSMA/CD link connects two stations 2400 m apart. Propagation speed is 2×10^8 m/s and the bit rate is 100 Mb/s, where 1 Mb/s = 10^6 bits/s. Detection circuitry adds 2 microseconds after the collision disturbance reaches a transmitting station. Ignore all other delays and framing overhead. A sender must still be transmitting when a worst-case collision is detected. Under the model, what is the minimum integer frame length in bytes? Treat the worst-case round-trip propagation bound as inclusive.",
+    "options": [],
+    "answer": 325,
+    "nat": {
+      "min": 325,
+      "max": 325,
+      "precision": 0
+    },
+    "solution": "One-way propagation is 2400/(2×10^8)=12 microseconds. A far-end station can begin just before the first bit arrives, so the collision disturbance takes almost another 12 microseconds to return. The stated inclusive bound is 24 microseconds, and detector delay adds 2, giving 26 microseconds. At 100×10^6 bits/s the sender must transmit at least 2600 bits. Dividing by eight gives 325 bytes exactly. These are parameters of the idealized link, not a claim about a standard Ethernet minimum frame size.",
+    "option_explanations": [],
+    "misconception": "Collision detection requires round-trip propagation plus the specified detector delay, not just one-way propagation or a memorized Ethernet frame size.",
+    "family": "csma-cd-minimum-frame-with-detector-latency",
+    "reasoning_pattern": "derive-roundtrip; add-detection-delay; convert-bits-to-whole-bytes",
+    "structure_signature": "long-halfduplex-link inclusive collision detection bound",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": []
+  }
+]

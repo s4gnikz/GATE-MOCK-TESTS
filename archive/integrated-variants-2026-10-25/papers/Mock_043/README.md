@@ -1,0 +1,637 @@
+# GATE CS 2027 — Full-Length Mock Test 043
+
+**Paper Code:** CS  
+**Duration:** 180 Minutes  
+**Maximum Marks:** 100  
+**Total Questions:** 65  
+**Difficulty:** Medium to Hard (target)
+
+## General Instructions
+
+- Attempt the paper within 180 minutes.
+- Q1–Q5 and Q11–Q35 carry one mark each; Q6–Q10 and Q36–Q65 carry two marks each.
+- General Aptitude contributes 15 marks, Engineering Mathematics 13 marks, and core Computer Science 72 marks.
+- MCQ: choose exactly one option. Incorrect one-mark MCQs lose 1/3 mark; incorrect two-mark MCQs lose 2/3 mark.
+- MSQ: select all and only the correct options. There is no partial credit and no negative marking.
+- NAT: enter the numerical answer at the stated precision. There is no negative marking.
+- Unattempted questions receive zero. The answer key follows Question 65.
+
+---
+
+## Section A — General Aptitude
+
+### Q1. [1 Mark] [MCQ]
+
+Read the statement: “When the library extended its hours, evening visits increased. Total daily visits stayed unchanged because morning visits fell by the same amount. The data alone do not establish whether additional people began using the library.” Which inference is supported?
+
+A. Every new evening visitor was previously a morning visitor.
+B. The number of distinct users increased.
+C. The distribution of visits across the day changed.
+D. Extending hours caused no benefit to any visitor.
+
+### Q2. [1 Mark] [NAT]
+
+Four people each leave an identical-looking umbrella in a stand. The umbrellas have different owners. At departure, each person takes one umbrella. How many assignments give exactly two people their own umbrellas?
+
+**Answer format:** Integer.
+
+### Q3. [1 Mark] [NAT]
+
+A store's revenue is 120 units on each of two days, but it sells 30 items on day one and 20 on day two. What is the average revenue per item across both days?
+
+**Answer format:** Exact finite decimal.
+
+### Q4. [1 Mark] [MCQ]
+
+A point initially at (2,0) is reflected first across the line y=x and then across the line x=1. What are its final coordinates?
+
+A. (2,2)
+B. (0,0)
+C. (0,2)
+D. (2,−2)
+
+### Q5. [1 Mark] [MCQ]
+
+Arrange the sentences into the most coherent account. No other comparison, restoration or verification is implied.
+
+P. The comparison showed that the missing entries were present in the backup.
+Q. The librarian noticed gaps in the catalogue and compared it with a backup.
+R. A final check then confirmed that the restored catalogue contained every entry.
+S. Using that evidence, she restored the missing entries from the backup.
+
+A. Q, P, S, R
+B. P, Q, S, R
+C. Q, S, P, R
+D. Q, P, R, S
+
+### Q6. [2 Marks] [MCQ]
+
+A fair coin selects one of two bags. Bag I contains 4 red and 2 blue balls; Bag II contains 2 red and 3 blue balls. Two balls are then drawn uniformly without replacement from the selected bag. Given that the two balls have the same colour, what is the probability that both are red?
+
+A. 1/2  
+B. 15/26  
+C. 7/13  
+D. 3/5
+
+### Q7. [2 Marks] [MCQ]
+
+“The panel sought a disinterested assessor: the assessor needed to examine the evidence carefully but have no financial stake in the outcome.” Which replacement best preserves the intended meaning of “disinterested” here?
+
+A. indifferent to the evidence
+B. impartial regarding the outcome
+C. inexperienced in assessment
+D. certain that the proposal would fail
+
+### Q8. [2 Marks] [NAT]
+
+Machine A produces four units on day one and doubles its daily output each following day. Machine B produces one unit on day one and triples its daily output each following day. What is the first positive integer n for which B's cumulative output over days 1 through n exceeds A's cumulative output over those days?
+
+**Answer format:** Integer.
+
+### Q9. [2 Marks] [MCQ]
+
+Town A introduced a road-safety campaign and its accident count fell by 20%. During the same period a similar town without the campaign also had a 20% fall. Which conclusion is most defensible from these facts alone?
+
+A. The campaign certainly caused all of A's reduction.
+B. The campaign certainly had no effect whatsoever.
+C. A common external change could explain both reductions; these counts alone do not isolate the campaign's effect.
+D. Accident counts in different towns must always move together.
+
+### Q10. [2 Marks] [NAT]
+
+A solid cube of side3 is assembled from27 unit cubes. The central unit cube of each of the six faces and the unit cube at the centre of the large cube are removed. All remaining unit cubes stay in place. What is the total area of the remaining solid's exposed surfaces, including surfaces inside the resulting passages?
+
+**Answer format:** Integer square units.
+
+---
+
+## Section B — Computer Science and Engineering Mathematics
+
+### Q11. [1 Mark] [MCQ]
+
+A lexer has tokens `>` and `>=` and uses longest match. How does it tokenize `>=>`?
+
+A. `>=` followed by `>`.
+B. `>` followed by `=>`, where `=>` is not a declared token.
+C. One token `>=>` even though none is declared.
+D. It must discard the final character.
+
+### Q12. [1 Mark] [NAT]
+
+A compiler lays out local objects in declaration order at increasing offsets from zero: char c, int i, double d, char e. Sizes and required alignments are respectively (1,1),(4,4),(8,8),(1,1) bytes. Each object's start is rounded up to its required alignment, and total local storage is rounded up to a multiple of eight. How many bytes are allocated?
+
+**Answer format:** Integer.
+
+### Q13. [1 Mark] [NAT]
+
+An IPv4 fragment has fragment offset75 and carries240 bytes of payload. What is the offset, in bytes from the original datagram payload's beginning, of its final payload byte? Offset fields are in eight-byte units.
+
+**Answer format:** Integer.
+
+### Q14. [1 Mark] [MCQ]
+
+At a scheduling decision, nonpreemptive highest-response-ratio-next uses score(waiting time+service time)/service time. Ready jobs P,Q,R have(waiting,service) pairs(6,3),(8,4),(5,1). Which job is selected?
+
+A. P
+B. Q
+C. R
+D. All have equal score.
+
+### Q15. [1 Mark] [MSQ]
+
+A CPU can mask ordinary maskable interrupts while executing a short critical section. Which statements are correct?
+
+A. Masking prevents delivery of those maskable interrupts during the masked interval.
+B. Masking interrupts on one CPU automatically stops every other CPU from accessing shared memory.
+C. Excessively long masked intervals can increase interrupt response latency.
+D. Masking converts every ordinary load/store into a multi-CPU atomic read-modify-write operation.
+
+### Q16. [1 Mark] [MSQ]
+
+Grammar S→aA | aB, A→b, B→c is rewritten as S→aX, X→A | B, A→b, B→c. Which statements are correct?
+
+A. Both grammars generate exactly {ab,ac}.
+B. The rewritten grammar can choose between X→A and X→B using one lookahead token.
+C. The original grammar's two S alternatives have disjoint FIRST sets.
+D. Left factoring necessarily removes ambiguity from every ambiguous grammar.
+
+### Q17. [1 Mark] [MCQ]
+
+A disk scheduler always chooses a pending request closest to the current head, breaking ties by lower cylinder number. New requests can arrive indefinitely. A request far from the current head is pending. Which statement is correct without an arrival-rate bound?
+
+A. The pending request must be served after at most the current queue length requests.  
+B. An unending stream of nearer requests can postpone it indefinitely.  
+C. Shortest seek distance guarantees fairness.  
+D. Tie-breaking alone prevents starvation.
+
+### Q18. [1 Mark] [MCQ]
+
+Relation R(A,B,C) has exactly the functional dependencies implied by AB→C and C→B. Assuming atomic attribute values, which classification is correct?
+
+A. R is in BCNF because every attribute belongs to a key.
+B. R is in3NF but not BCNF.
+C. R violates2NF because C→B has a single-attribute determinant.
+D. A alone is a candidate key.
+
+### Q19. [1 Mark] [NAT]
+
+Let f be integrable on[0,1] and satisfy f(x)+f(1−x)=6 for every x. What is its integral over[0,1]?
+
+**Answer format:** Exact number.
+
+### Q20. [1 Mark] [NAT]
+
+A graph has edges AB=1, BC=2, AC=2, AD=3 and CD=3, with no others. By how much does the minimum spanning-tree weight increase if edge AB is deleted?
+
+**Answer format:** Integer.
+
+### Q21. [1 Mark] [MCQ]
+
+A binary max-heap is stored as [9,8,7,6,5,4,3]. Delete the maximum by moving the last element to the root, then repeatedly swapping it with the larger child until heap order is restored. Which array results?
+
+A. [8,7,6,5,4,3]  
+B. [8,6,7,3,5,4]  
+C. [7,8,4,6,5,3]  
+D. [8,6,7,5,3,4]
+
+### Q22. [1 Mark] [NAT]
+
+A directed graph has edges s→a of weight2, s→b of weight5, b→a of weight−4 and a→t of weight2. There are no other edges. A flawed Dijkstra implementation permanently settles vertices and refuses to update a settled vertex. Starting at s, by how much does its reported distance to t exceed the true shortest-path distance?
+
+**Answer format:** Integer.
+
+### Q23. [1 Mark] [NAT]
+
+A 16-bit instruction format uses eight bits for an opcode and four bits for each of two register operands. Exactly 200 opcode patterns are assigned to these two-register instructions. All remaining opcode patterns are used as prefixes for instructions with no operands, with their remaining eight bits extending the opcode. What is the maximum number of distinct no-operand instructions?
+
+**Answer format:** Integer.
+
+### Q24. [1 Mark] [NAT]
+
+Dataset A contains 3 observations with mean 2 and population variance 2. Dataset B contains 2 observations with mean 7 and population variance 1. What is the population variance of their combined five observations? Use division by the population size, not by one less than that size.
+
+**Answer format:** Numeric value; 1 decimal place.
+
+### Q25. [1 Mark] [NAT]
+
+All functions from the set {a,b,c} to itself form a monoid under composition. How many functions f in this monoid satisfy f composed with f=f and have an image containing exactly two elements?
+
+**Answer format:** Exact integer.
+
+### Q26. [1 Mark] [NAT]
+
+The set {1,2,3,4,5,6} is partially ordered by divisibility. What is the largest possible size of an antichain, a subset in which no two distinct elements divide one another?
+
+**Answer format:** Integer.
+
+### Q27. [1 Mark] [MCQ]
+
+A full adder receives inputs x,y and carry-in c. Its sum output is x XOR y XOR c. If x=y=1, what are its sum and carry-out as functions of c?
+
+A. (c,1)
+B. (NOT c,1)
+C. (c,c)
+D. (0,c)
+
+### Q28. [1 Mark] [NAT]
+
+How many triples of nonnegative integers(x,y,z) satisfy x+y+z=8, x≤2, and y odd?
+
+**Answer format:** Integer.
+
+### Q29. [1 Mark] [NAT]
+
+A DFA over {0,1} must accept exactly the nonempty strings whose binary numerical value is divisible by 3. Leading zeros are allowed; the empty string must be rejected. How many states does a minimal complete DFA need?
+
+**Answer format:** Integer.
+
+### Q30. [1 Mark] [NAT]
+
+An unordered file has 1,000 fixed-size records, 25 records per disk block, and no index. A successful equality search scans blocks in a fixed order and stops on the block containing the target record. Each record is equally likely to be the target. What is the expected number of block reads?
+
+**Answer format:** Exact finite decimal.
+
+### Q31. [1 Mark] [NAT]
+
+A word-addressed machine executes an indirect indexed load defined as R2←M[M[R1+8]]. Initially R1=100, M[108]=200 and M[200]=17. What value is loaded into R2?
+
+**Answer format:** Integer.
+
+### Q32. [1 Mark] [MCQ]
+
+Which address is inside subnet 192.0.2.128/26?
+
+A. 192.0.2.127
+B. 192.0.2.160
+C. 192.0.2.192
+D. 192.0.3.1
+
+### Q33. [1 Mark] [NAT]
+
+A signed fixed-point format stores a six-bit two's-complement integer divided by8. What real value results if the stored code011111 is incremented by1 with six-bit wraparound?
+
+**Answer format:** Exact number.
+
+### Q34. [1 Mark] [NAT]
+
+A directed simple graph has edges a→b,b→a,b→c,c→d,d→c,a→d. If M is its zero-one adjacency matrix, what is trace(M²), using ordinary integer matrix multiplication?
+
+**Answer format:** Integer.
+
+### Q35. [1 Mark] [MCQ]
+
+An eight-bit two's-complement negation computes the low eight bits of NOT x plus 1. For which input is the signed result equal to the signed input even though the mathematical negation is not representable?
+
+A. 00000000
+B. 01111111
+C. 11111111
+D. 10000000
+
+### Q36. [2 Marks] [MSQ]
+
+A NAT translates TCP connections using a single public IPv4 address and external ports. Two internal hosts use the same local source port. Which statements are correct?
+
+A. If both connect to the same remote IP and port simultaneously, their translated source ports must differ to keep the external TCP connections distinct.
+B. Changing the source IP address never affects the TCP checksum.
+C. A suitable NAT policy may reuse the same external port for connections to different remote endpoints when its reverse lookup includes the remote endpoint.
+D. The local source port alone always uniquely identifies the internal host for an incoming reply.
+
+### Q37. [2 Marks] [NAT]
+
+A process uses a 32-bit virtual address with 4 KiB pages. Two-level paging divides the address into a 10-bit directory index, a 10-bit second-level index, and a 12-bit offset. Every directory and second-level table occupies exactly one 4 KiB physical page. A second-level table is allocated only if it contains at least one valid mapping. Exactly virtual page numbers 0,1023,1024 and 1048575 are mapped. No page-table pages are shared. Including the directory but excluding mapped data pages, how many KiB of physical memory do the page tables occupy?
+
+**Answer format:** Numeric value; integer.
+
+### Q38. [2 Marks] [MCQ]
+
+Five variables a,b,c,d,e have an interference graph that is exactly the cycle a–b–c–d–e–a. Two variables connected by an edge cannot share a register; there are no preassigned registers, spills, or other constraints. Which pair gives the size of the largest clique and the minimum number of registers?
+
+A. (2,2)
+B. (2,3)
+C. (3,3)
+D. (3,5)
+
+### Q39. [2 Marks] [NAT]
+
+Let en count ordered compositions of n into parts 1 and 3 with an even number of parts equal to 3; the empty composition contributes e0=1. Odd numbers of 3-parts are excluded. What is the coefficient of x10 in E(x)=Σ(n≥0) en x^n?
+
+**Answer format:** Exact integer.
+
+### Q40. [2 Marks] [MCQ]
+
+What does this C program print? All pointer accesses are valid.
+
+```c
+#include <stdio.h>
+int main(void) {
+    int u[] = {1, 3, 5}, v[] = {2, 4, 6};
+    int *p[] = {u, v};
+    int **q = p;
+    int *tmp = q[0];
+    q[0] = q[1];
+    q[1] = tmp;
+    q[0]++;
+    *q[0] += *q[1];
+    printf("%d %d\n", v[1], u[0]);
+    return 0;
+}
+```
+
+A. 4 2
+B. 5 1
+C. 4 1
+D. 5 2
+
+### Q41. [2 Marks] [NAT]
+
+Consider the grammar S→aSbS | bSaS | ε. How many distinct leftmost derivations produce the word abab? Count derivations differing in production choices or in which substrings are generated by the two occurrences of S separately.
+
+**Answer format:** Exact integer.
+
+### Q42. [2 Marks] [NAT]
+
+For a Boolean function F(x,y,z), define its Boolean difference with respect to a variable as the XOR of its restrictions when that variable is zero and one. How many functions satisfy all of the following: the difference with respect to x equals y for every y,z; the difference with respect to z equals one for every x,y; and F(0,0,0)=0?
+
+**Answer format:** Integer.
+
+### Q43. [2 Marks] [NAT]
+
+The function below uses a single shared counter c, initially0. Evaluation order is exactly as written.
+
+```text
+F(n):
+    if n == 0: return c
+    c = c + 1
+    x = F(n-1)
+    c = c + 1
+    return x + c
+```
+
+What does F(3) return?
+
+**Answer format:** Integer.
+
+### Q44. [2 Marks] [MCQ]
+
+An NPDA recognizes strings ww^R over {a,b} by nondeterministically choosing a midpoint, pushing before the midpoint and matching/popping afterward. It accepts only when the input is exhausted and the stack is empty. Which statement correctly explains the midpoint choice?
+
+A. Every midpoint guess must accept for the input to be accepted.
+B. A successful branch must choose a midpoint leaving equally long push and pop portions; wrong guesses may reject.
+C. The machine needs two stacks to compare the reverse.
+D. Nondeterminism allows acceptance with unread symbols.
+
+### Q45. [2 Marks] [MSQ]
+
+For propositions p,q,r, suppose p implies q and q implies r. Which statements follow?
+
+A. p implies r.
+B. NOT r implies NOT p.
+C. r implies p.
+D. p AND NOT r is unsatisfiable together with the premises.
+
+### Q46. [2 Marks] [NAT]
+
+A sender has transmitted bytes100 through699 inclusive. It receives a cumulative TCP ACK with acknowledgment number400 and a selective acknowledgment block[500,700). Ignoring retransmission policy, how many transmitted bytes remain neither cumulatively acknowledged nor covered by that SACK block?
+
+**Answer format:** Integer.
+
+### Q47. [2 Marks] [NAT]
+
+A B+ tree leaf can hold at most four keys and must hold at least two unless it is the root. The root currently has three leaf children with keys [2,4], [6,8], and [10,12,14]. Delete key6. Prefer borrowing from the right sibling if it has more than its minimum; otherwise borrow from the left if possible; otherwise merge with the right. How many leaf children does the root have afterward?
+
+**Answer format:** Exact integer.
+
+### Q48. [2 Marks] [NAT]
+
+An unsigned four-bit adder adds inputs11 and9 with carry-in0. Let S be the low four-bit unsigned result and C the carry-out bit. What is S+16C?
+
+**Answer format:** Integer.
+
+### Q49. [2 Marks] [MCQ]
+
+A lexically scoped language has procedure P with local x=10. Procedures Q and S are declared directly inside P. Q has its own local x=20 and declares R inside Q. S increments its lexically nearest x and returns that x. During one activation of P, Q calls R, and R calls S twice in sequence. What is the sum of S's returned values?
+
+A. 21
+B. 23
+C. 43
+D. 40
+
+### Q50. [2 Marks] [MCQ]
+
+A microprogrammed control unit uses a fixed-width microinstruction. One field jointly encodes the following bus-transfer commands:
+
+- An idle command, in which no source drives the bus and no destination is loaded.
+- A non-idle command chooses exactly one of eight sources and a nonempty subset of five destination registers. Every such source/subset pair is allowed.
+
+There are no other bus-transfer commands. Each allowed command needs a distinct binary code, and unused codes are permitted. The other independently encoded fields select one of six ALU operations (including no-operation), one of 128 next addresses, and one of four sequencing conditions (including unconditional sequencing). Codes cannot be shared across these four fields. What is the minimum microinstruction width?
+
+A. 19 bits  
+B. 20 bits  
+C. 21 bits  
+D. 25 bits
+
+### Q51. [2 Marks] [MSQ]
+
+A contiguous row-major array A has3 rows and5 columns of four-byte elements, without padding. A transpose view B has5 rows and3 columns and maps B[i,j] to A[j,i], without copying data. Which statements are correct?
+
+A. Increasing i by1 at fixed j advances the element address by4 bytes.
+B. Increasing j by1 at fixed i advances the element address by20 bytes.
+C. B is contiguous in its own row-major traversal order.
+D. Writing B[2,1] changes the same stored element as A[1,2].
+
+### Q52. [2 Marks] [NAT]
+
+A stable sorting procedure performs two passes on records (key1,key2,id): first ascending by key2, then ascending by key1. Initially the records are
+
+```text
+(2,1,A), (1,2,B), (2,1,C), (1,1,D), (2,0,E)
+```
+
+Number final positions from 1. What is the sum of the final positions of records A and C?
+
+**Answer format:** Exact integer.
+
+### Q53. [2 Marks] [MSQ]
+
+An application sends two messages over one TCP connection, adding no lengths, delimiters or other framing. The receiver knows neither message length. Which statements are correct?
+
+A. TCP's ordered delivery alone identifies the boundary between the messages.
+B. The same received byte string may correspond to more than one split into two messages.
+C. A protocol-level length field can make boundaries recoverable.
+D. One send call necessarily corresponds to one recv call.
+
+### Q54. [2 Marks] [MCQ]
+
+A double-hashing table has 12 slots. Probing from h1 uses (h1+jh2) mod 12 for j=0,1,2,…. The second hash is chosen uniformly from {1,2,…,11}. What is the probability that the probe sequence visits every slot before repeating, regardless of h1?
+
+A. 1/3  
+B. 4/11  
+C. 6/11  
+D. 1
+
+### Q55. [2 Marks] [MSQ]
+
+For F(a,b,c)=Σm(0,1,2,5,6,7), with a the most significant bit in the minterm index, which products are prime implicants? A prime implicant is an implicant from which no literal can be removed while remaining an implicant.
+
+A. a′b′
+B. bc′
+C. ac
+D. b′
+
+### Q56. [2 Marks] [NAT]
+
+For a real parameter t, consider
+
+```text
+x + y + z = 1
+x + t*y + z = 2
+x + y + t*z = 2
+```
+
+For every t for which a unique solution exists, let s(t)=x+y+z of that solution. How many real values of t make the system inconsistent?
+
+**Answer format:** Exact integer.
+
+### Q57. [2 Marks] [NAT]
+
+A prime-implicant chart has six required columns 1–6 and four available implicants. Their coverage is P:{1,2,3}, Q:{3,4}, R:{4,5,6}, S:{1,5,6}. All implicants have equal cost. How many distinct minimum-cardinality covers of all columns exist?
+
+**Answer format:** Integer.
+
+### Q58. [2 Marks] [MSQ]
+
+Let f(0)=0 and f(x)=x² sin(1/x) for x≠0. Which statements are correct?
+
+A. f is continuous at0.
+B. f is differentiable at0 with derivative0.
+C. f' is continuous at0.
+D. The limit of f(x)/x as x approaches0 is0.
+
+### Q59. [2 Marks] [MSQ]
+
+R(A,B,C) has exactly the dependencies implied by A→B and BC→A. Decompose it into R1(A,B) and R2(A,C). Which statements are correct?
+
+A. The decomposition is lossless under the stated dependencies.
+B. Both components are in BCNF under their projected dependencies.
+C. Enforcing only the projected dependencies on the components need not enforce BC→A on their join.
+D. A is a candidate key of the original R.
+
+### Q60. [2 Marks] [MCQ]
+
+Two transactions each increment the same data item x by reading it and later writing the incremented value. Both initially hold compatible shared locks on x and then request an upgrade to an exclusive lock without releasing their shared locks. A transaction retains every lock until commit. Which statement is correct?
+
+A. The upgrades can deadlock even though retaining locks until commit prevents another transaction from reading an uncommitted write.  
+B. The second upgrade must succeed because shared locks are compatible.  
+C. Releasing each shared lock before requesting its exclusive lock always preserves two-phase locking.  
+D. If both transactions instead request an exclusive lock before reading x and hold it until commit, a lost update remains possible in a completed execution.
+
+### Q61. [2 Marks] [MCQ]
+
+Build a max-heap in place from the one-indexed array [1,2,3,4,5,6,7] using bottom-up heap construction: process indices 3,2,1, and at each index repeatedly swap the current element with its larger child while heap order is violated. Count only swaps of two array elements. How many swaps are performed in total?
+
+A. 2
+B. 4
+C. 3
+D. 5
+
+### Q62. [2 Marks] [MCQ]
+
+An ordinary file has two hard links and is open through one file descriptor. Both directory entries are unlinked, but the descriptor remains open. Under a file system that preserves unlinked files while open, which event permits reclaiming the file's storage, assuming no new references arise?
+
+A. Removing only the first hard link.
+B. Closing the final open descriptor after both links have been removed.
+C. Reading the first byte through the descriptor.
+D. Merely changing the current directory.
+
+### Q63. [2 Marks] [NAT]
+
+A stream encodes records as one unsigned length byte L followed by L payload bytes. A zero length marks the end and contributes no payload. The stream is read in arbitrary chunks. Successful reads return the byte sequences [3,65,66], then [67,2], then [68,69,0], in that order. Between the first two successful reads, a call returns −1 with EINTR and consumes no bytes; the program retries. A correct parser retains incomplete records across reads. How many payload bytes belong to complete records before the end marker?
+
+**Answer format:** Integer.
+
+### Q64. [2 Marks] [MCQ]
+
+Let L be the binary strings containing equally many 0s and 1s. Define K={w: there exists z in 0* such that wz is in L}. Which description of K is correct? Counts refer to w.
+
+A. Number of 0s equals number of 1s.  
+B. Number of 0s is at most number of 1s.  
+C. Number of 0s is at least number of 1s.  
+D. Every binary string belongs to K.
+
+### Q65. [2 Marks] [NAT]
+
+A processor can execute one multiplication at a time on a multiplier and one addition at a time on a separate adder. Multiplications take 3 cycles and additions 1 cycle. Operations are nonpreemptive and a dependent operation starts no earlier than its predecessors' completion. Compute independent products P=a*b and Q=c*d, then R=P+e, and finally S=R+Q. All operands a,b,c,d,e are ready at time 0. What is the earliest completion time of S?
+
+**Answer format:** Integer cycles from time 0.
+
+---
+
+## ANSWER KEY — MOCK TEST 043
+
+| Question | Type | Marks | Correct Answer |
+|---|---|---|---|
+| 1 | MCQ | 1 | C |
+| 2 | NAT | 1 | 6 |
+| 3 | NAT | 1 | 4.8 |
+| 4 | MCQ | 1 | A |
+| 5 | MCQ | 1 | A |
+| 6 | MCQ | 2 | B |
+| 7 | MCQ | 2 | B |
+| 8 | NAT | 2 | 6 |
+| 9 | MCQ | 2 | C |
+| 10 | NAT | 2 | 72 |
+| 11 | MCQ | 1 | A |
+| 12 | NAT | 1 | 24 |
+| 13 | NAT | 1 | 839 |
+| 14 | MCQ | 1 | C |
+| 15 | MSQ | 1 | A, C |
+| 16 | MSQ | 1 | A, B |
+| 17 | MCQ | 1 | B |
+| 18 | MCQ | 1 | B |
+| 19 | NAT | 1 | 3 |
+| 20 | NAT | 1 | 1 (exact) |
+| 21 | MCQ | 1 | B |
+| 22 | NAT | 1 | 1 |
+| 23 | NAT | 1 | 14336 |
+| 24 | NAT | 1 | 7.6 (exact) |
+| 25 | NAT | 1 | 6 |
+| 26 | NAT | 1 | 3 |
+| 27 | MCQ | 1 | A |
+| 28 | NAT | 1 | 11 |
+| 29 | NAT | 1 | 4 (exact) |
+| 30 | NAT | 1 | 20.5 |
+| 31 | NAT | 1 | 17 |
+| 32 | MCQ | 1 | B |
+| 33 | NAT | 1 | -4 |
+| 34 | NAT | 1 | 4 |
+| 35 | MCQ | 1 | D |
+| 36 | MSQ | 2 | A, C |
+| 37 | NAT | 2 | 16 (exact) |
+| 38 | MCQ | 2 | B |
+| 39 | NAT | 2 | 16 |
+| 40 | MCQ | 2 | B |
+| 41 | NAT | 2 | 2 |
+| 42 | NAT | 2 | 2 |
+| 43 | NAT | 2 | 18 |
+| 44 | MCQ | 2 | B |
+| 45 | MSQ | 2 | A, B, D |
+| 46 | NAT | 2 | 100 |
+| 47 | NAT | 2 | 3 |
+| 48 | NAT | 2 | 20 |
+| 49 | MCQ | 2 | B |
+| 50 | MCQ | 2 | B |
+| 51 | MSQ | 2 | A, B, D |
+| 52 | NAT | 2 | 9 |
+| 53 | MSQ | 2 | B, C |
+| 54 | MCQ | 2 | B |
+| 55 | MSQ | 2 | A, B, C |
+| 56 | NAT | 2 | 1 |
+| 57 | NAT | 2 | 1 |
+| 58 | MSQ | 2 | A, B, D |
+| 59 | MSQ | 2 | A, B, C |
+| 60 | MCQ | 2 | A |
+| 61 | MCQ | 2 | B |
+| 62 | MCQ | 2 | B |
+| 63 | NAT | 2 | 5 |
+| 64 | MCQ | 2 | B |
+| 65 | NAT | 2 | 7 |

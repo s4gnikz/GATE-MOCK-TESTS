@@ -1,0 +1,1648 @@
+[
+  {
+    "number": 1,
+    "subject": "General Aptitude",
+    "subtopic": "Verbal grammar",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M001-Q001",
+    "paper": 1,
+    "stem": "Choose the pair that completes the sentence grammatically.\n\nEach of the instruments that ___ damaged during transport ___ now been recalibrated.",
+    "options": [
+      "were; has",
+      "was; have",
+      "were; have",
+      "was; has"
+    ],
+    "answer": [
+      "A"
+    ],
+    "solution": "1. The relative clause “that were damaged” modifies the plural noun instruments.\n2. The main clause has the singular subject Each, so its verb is has.\nThe complete sentence therefore uses were; has.",
+    "option_explanations": [
+      "Both agreements are correct.",
+      "Both verbs have the wrong number.",
+      "The main verb must agree with Each, not instruments.",
+      "The relative-clause verb must agree with instruments."
+    ],
+    "misconception": "A noun near a verb need not be that verb's grammatical subject.",
+    "family": "ga_relative_clause_vs_main_agreement",
+    "reasoning_pattern": "ga_relative_clause_vs_main_agreement",
+    "structure_signature": "ga_relative_clause_vs_main_agreement",
+    "reasoning_steps": 2,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 2,
+    "subject": "General Aptitude",
+    "subtopic": "Ratios and percentages",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M001-Q002",
+    "paper": 1,
+    "stem": "A service receives orders of two kinds, X and Y. Initially, 40% of the orders are X. Exactly 25% of X orders and 10% of Y orders are cancelled; all remaining orders are completed. What percentage of completed orders are X? Round to two decimal places.",
+    "options": [],
+    "answer": 35.71,
+    "solution": "1. Normalize the initial number of orders to 100. There are 40 X and 60 Y orders.\n2. Completed X orders = 40(0.75) = 30; completed Y orders = 60(0.90) = 54.\n3. The required percentage is 100(30/84) = 250/7 = 35.714285..., which rounds to 35.71.",
+    "option_explanations": [],
+    "misconception": "The denominator is completed orders, not original orders.",
+    "family": "ga_conditional_percentage_after_asymmetric_cancellation",
+    "reasoning_pattern": "ga_conditional_percentage_after_asymmetric_cancellation",
+    "structure_signature": "ga_conditional_percentage_after_asymmetric_cancellation",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 35.71,
+      "max": 35.71,
+      "precision": 2
+    }
+  },
+  {
+    "number": 3,
+    "subject": "General Aptitude",
+    "subtopic": "Deductive logic",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M001-Q003",
+    "paper": 1,
+    "stem": "Exactly two of A, B, C and D must be on duty. If A is on duty, B must be on duty. In addition, C is on duty if and only if D is not on duty. How many different pairs can be on duty?",
+    "options": [],
+    "answer": 2,
+    "solution": "1. The biconditional requires exactly one of C and D to be selected.\n2. The other selected person must be A or B. Selecting A would also require B, producing three people, which is forbidden.\n3. Hence the possible pairs are {B,C} and {B,D}: two pairs.",
+    "option_explanations": [],
+    "misconception": "An implication does not require its antecedent to be true.",
+    "family": "ga_exact_cardinality_implication_biconditional",
+    "reasoning_pattern": "ga_exact_cardinality_implication_biconditional",
+    "structure_signature": "ga_exact_cardinality_implication_biconditional",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 2,
+      "max": 2,
+      "precision": 0
+    }
+  },
+  {
+    "number": 4,
+    "subject": "General Aptitude",
+    "subtopic": "Spatial transformations",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M001-Q004",
+    "paper": 1,
+    "stem": "A triangular tile has labelled vertices P=(1,1), Q=(3,1), R=(1,2) in a Cartesian plane. First reflect the tile in the x-axis. Then rotate the result clockwise by 90 degrees about the origin. Which ordered triple gives the final positions of P, Q and R?",
+    "options": [
+      "((-1,-1),(-1,-3),(-2,-1))",
+      "((1,1),(1,3),(2,1))",
+      "((1,-1),(1,-3),(2,-1))",
+      "((-1,1),(-1,3),(-2,1))"
+    ],
+    "answer": [
+      "A"
+    ],
+    "solution": "1. Reflection maps (x,y) to (x,-y).\n2. Clockwise quarter-turn maps (u,v) to (v,-u). The combined map is (x,y) to (-y,-x).\n3. Applying it separately to the labelled vertices gives (-1,-1), (-1,-3), (-2,-1).",
+    "option_explanations": [
+      "All three vertices obey (-y,-x).",
+      "This is the combined map for a counterclockwise rotation after reflection.",
+      "This applies clockwise rotation without the preceding reflection.",
+      "This applies counterclockwise rotation without reflection."
+    ],
+    "misconception": "Reflection and rotation must be composed in the stated order.",
+    "family": "ga_labelled_triangle_reflection_rotation",
+    "reasoning_pattern": "ga_labelled_triangle_reflection_rotation",
+    "structure_signature": "ga_labelled_triangle_reflection_rotation",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 5,
+    "subject": "General Aptitude",
+    "subtopic": "Reading comprehension",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M001-Q005",
+    "paper": 1,
+    "stem": "Read the passage.\n\n“A library extended its evening opening hours in June. Evening visits increased, while total daily visits remained unchanged. The library did not record whether evening visitors had previously visited at other times.”\n\nWhich conclusion is best supported by the passage?",
+    "options": [
+      "The extended hours attracted no new visitors.",
+      "Some visits may have shifted from earlier hours to the evening.",
+      "Every evening visitor formerly visited in the morning.",
+      "The extension reduced the total number of visits."
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. The data establish increased evening visits and unchanged daily totals.\n2. A shift in visit timing is compatible with those observations, but individual histories were not recorded.\n3. Therefore the cautious possibility in B is supported; definitive claims about individual visitors are not.",
+    "option_explanations": [
+      "New visitors could have been offset by losses elsewhere.",
+      "A timing shift is possible and fits both reported totals.",
+      "No individual histories establish this universal claim.",
+      "The passage explicitly says daily totals were unchanged."
+    ],
+    "misconception": "Aggregate counts do not identify the behaviour of each individual.",
+    "family": "ga_aggregate_observation_vs_individual_inference",
+    "reasoning_pattern": "ga_aggregate_observation_vs_individual_inference",
+    "structure_signature": "ga_aggregate_observation_vs_individual_inference",
+    "reasoning_steps": 2,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 6,
+    "subject": "General Aptitude",
+    "subtopic": "Permutations and combinations",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "type": "MCQ",
+    "id": "CS27-M001-Q006",
+    "paper": 1,
+    "stem": "Seven distinct people A, B, C, D, E, F and G sit around a circular table. A and B must sit next to each other. Neither C and D nor E and F may sit next to each other. Rotations of an arrangement are identical; reflections are different. How many arrangements are possible?",
+    "options": [
+      "96",
+      "120",
+      "144",
+      "240"
+    ],
+    "answer": [
+      "A"
+    ],
+    "solution": "1. With A and B adjacent, treat them as a block with two orders. There are 2(5!)=240 circular arrangements.\n2. If C and D are also adjacent, there are 4(4!)=96 arrangements. The same count applies when E and F are adjacent.\n3. When both forbidden adjacencies occur, three two-person blocks and G form four circular units. There are 2^3(3!)=48 arrangements.\n4. Inclusion-exclusion gives 240-96-96+48=96.",
+    "option_explanations": [
+      "This subtracts both forbidden events and restores their intersection.",
+      "This is 5!: it fixes the A-B order and ignores both forbidden adjacencies.",
+      "This enforces only one of the two forbidden adjacencies: 240-96.",
+      "This ignores both forbidden adjacencies."
+    ],
+    "misconception": "Circular blocks reduce the number of rotationally distinct units before factorial counting.",
+    "family": "ga_circular_required_block_two_forbidden_blocks_inclusion_exclusion",
+    "reasoning_pattern": "ga_circular_required_block_two_forbidden_blocks_inclusion_exclusion",
+    "structure_signature": "ga_circular_required_block_two_forbidden_blocks_inclusion_exclusion",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 7,
+    "subject": "General Aptitude",
+    "subtopic": "Data interpretation",
+    "marks": 2,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M001-Q007",
+    "paper": 1,
+    "stem": "Two teams produce identical items. The table lists working hours and completed items in two months. Overall productivity means total completed items divided by total working hours.\n\n| Team | Month 1 hours | Month 1 items | Month 2 hours | Month 2 items |\n|---|---:|---:|---:|---:|\n| A | 40 | 400 | 60 | 660 |\n| B | 60 | 900 | 40 | 640 |\n\nWhat is the percentage change in overall productivity from Month 1 to Month 2?",
+    "options": [
+      "0%",
+      "8% increase",
+      "10% increase",
+      "12% increase"
+    ],
+    "answer": [
+      "A"
+    ],
+    "solution": "1. Month 1 productivity is (400+900)/(40+60) = 13 items/hour.\n2. Month 2 productivity is (660+640)/(60+40) = 13 items/hour.\n3. The percentage change is zero, even though each team's own rate improved. More hours were allocated to the slower team.",
+    "option_explanations": [
+      "Both aggregate rates are 13.",
+      "A simple or weighted average of team percentage gains cannot replace aggregation with the new hour mix.",
+      "This is only A's rate improvement.",
+      "Neither the total output nor the total hours implies this increase."
+    ],
+    "misconception": "A changed mixture can offset improvements in every component rate.",
+    "family": "ga_productivity_mix_shift",
+    "reasoning_pattern": "ga_productivity_mix_shift",
+    "structure_signature": "ga_productivity_mix_shift",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 8,
+    "subject": "General Aptitude",
+    "subtopic": "Paper folding and cutting",
+    "marks": 2,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M001-Q008",
+    "paper": 1,
+    "stem": "A square sheet occupies 0 <= x <= 8 and 0 <= y <= 8. Fold its left half onto its right half along x=4. Next fold its bottom half onto its top half along y=4. Punch small point-like holes through all layers at (5,6) and (6,5) in the folded sheet. After fully unfolding, how many distinct holes lie on the line y=x+1? Ignore hole diameter and sheet thickness.",
+    "options": [],
+    "answer": 2,
+    "solution": "1. Unfolding a point (x,y) produces (x,y), (8-x,y), (x,8-y), (8-x,8-y).\n2. The first punch produces (5,6),(3,6),(5,2),(3,2). Only (5,6) lies on y=x+1.\n3. The second produces (6,5),(2,5),(6,3),(2,3). Only (2,3) lies on that line. The sets are disjoint, so the answer is 2.",
+    "option_explanations": [],
+    "misconception": "Both folds must be reversed; points from different punches need not lie on the same symmetry line.",
+    "family": "ga_double_fold_two_punch_line_incidence",
+    "reasoning_pattern": "ga_double_fold_two_punch_line_incidence",
+    "structure_signature": "ga_double_fold_two_punch_line_incidence",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 2,
+      "max": 2,
+      "precision": 0
+    }
+  },
+  {
+    "number": 9,
+    "subject": "General Aptitude",
+    "subtopic": "Narrative sequencing",
+    "marks": 2,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M001-Q009",
+    "paper": 1,
+    "stem": "Arrange the following sentences into a coherent chronological account. Treat the explicitly stated causal and time relations as binding.\n\nP. Based on the successful repeat trial, the final report recommended a full rollout.\nQ. Both gauges were calibrated before the first trial began.\nR. During that first trial, the two readings diverged as temperature rose.\nS. Replacing one gauge eliminated this divergence in a repeat trial.\nT. After receiving the final report, the committee accepted its recommendation.\n\nWhich sequence is correct?",
+    "options": [
+      "Q-R-P-S-T",
+      "R-Q-S-P-T",
+      "Q-R-S-P-T",
+      "Q-S-R-T-P"
+    ],
+    "answer": [
+      "C"
+    ],
+    "solution": "1. Calibration precedes the first trial: Q precedes R.\n2. “This divergence” in S refers to R, and the successful repeat trial is the basis of P: R precedes S precedes P.\n3. T follows receipt of the final report: P precedes T. Combining the constraints gives Q-R-S-P-T.",
+    "option_explanations": [
+      "P cannot precede the repeat trial on which it is based.",
+      "Q explicitly precedes the first trial described in R.",
+      "This satisfies all four precedence links.",
+      "S cannot precede the divergence, and T cannot precede the report."
+    ],
+    "misconception": "A grammatically plausible adjacent pair can still violate the account's causal order.",
+    "family": "ga_causal_narrative_constraint_chain",
+    "reasoning_pattern": "ga_causal_narrative_constraint_chain",
+    "structure_signature": "ga_causal_narrative_constraint_chain",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 10,
+    "subject": "General Aptitude",
+    "subtopic": "Elementary probability and statistics",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "type": "MCQ",
+    "id": "CS27-M001-Q010",
+    "paper": 1,
+    "stem": "A fair coin selects one of two bags. Bag I contains 4 red and 2 blue balls; Bag II contains 2 red and 3 blue balls. Two balls are then drawn uniformly without replacement from the selected bag. Given that the two balls have the same colour, what is the probability that both are red?",
+    "options": [
+      "1/2",
+      "15/26",
+      "7/13",
+      "3/5"
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. In Bag I, P(RR)=6/15 and P(same)=7/15. In Bag II, P(RR)=1/10 and P(same)=4/10.\n2. Before conditioning, P(RR)=(1/2)(6/15+1/10)=1/4, and P(same)=(1/2)(7/15+4/10)=13/30.\n3. Since RR is a subset of same, P(RR | same)=(1/4)/(13/30)=15/26.",
+    "option_explanations": [
+      "Conditioning on same does not leave red and blue equally likely.",
+      "The ratio of the mixture probabilities is 15/26.",
+      "This is not the ratio P(RR)/P(same).",
+      "Conditioning cannot be replaced by the initial proportion in a bag."
+    ],
+    "misconception": "Conditional probabilities from different bags cannot be averaged without updating their weights.",
+    "family": "ga_mixture_without_replacement_colour_condition",
+    "reasoning_pattern": "ga_mixture_without_replacement_colour_condition",
+    "structure_signature": "ga_mixture_without_replacement_colour_condition",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 11,
+    "subject": "Digital Logic",
+    "subtopic": "Boolean algebra",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M001-Q011",
+    "paper": 1,
+    "stem": "For Boolean variables x, y and z, let F=(x OR y) AND ((NOT x) OR z). Which expression is equivalent to F for every input?",
+    "options": [
+      "(x AND z) OR ((NOT x) AND y)",
+      "(x AND y) OR ((NOT x) AND z)",
+      "y OR z",
+      "x XOR y XOR z"
+    ],
+    "answer": [
+      "A"
+    ],
+    "solution": "1. If x=0, the original expression reduces to y. If x=1, it reduces to z.\n2. A selects exactly these two cofactors. Equivalently, expansion gives xz + x'y + yz, and the consensus term yz is redundant.",
+    "option_explanations": [
+      "Its x=0 and x=1 cofactors are y and z.",
+      "This swaps the selected cofactors; x=0,y=1,z=0 is a counterexample.",
+      "For x=1,y=1,z=0 it gives 1, whereas F=0.",
+      "For x=y=z=0 it agrees, but x=1,y=z=0 gives 1 while F=0."
+    ],
+    "misconception": "The consensus term need not appear in a minimal equivalent expression.",
+    "family": "dl_mux_cofactor_consensus",
+    "reasoning_pattern": "dl_mux_cofactor_consensus",
+    "structure_signature": "dl_mux_cofactor_consensus",
+    "reasoning_steps": 2,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 12,
+    "subject": "Operating Systems",
+    "subtopic": "System calls",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M001-Q012",
+    "paper": 1,
+    "stem": "A process opens a regular file for reading, obtaining descriptor p with file offset 0, and then executes q=dup(p). It performs the following successful operations in order: read 2 bytes through p; read 3 bytes through q; seek through p to absolute byte offset 1; read 1 byte through q. The file is long enough for every read. What is the resulting shared file offset? Offsets are zero-based.",
+    "options": [],
+    "answer": 2,
+    "solution": "1. dup creates a second descriptor referring to the same open-file description, so the offset is shared.\n2. The two reads move the offset to 2 and then 5.\n3. The absolute seek resets it to 1. The final one-byte read moves it to 2.",
+    "option_explanations": [],
+    "misconception": "Duplicated descriptors share an offset; reopening the path would create an independent offset.",
+    "family": "os_dup_seek_shared_open_description",
+    "reasoning_pattern": "os_dup_seek_shared_open_description",
+    "structure_signature": "os_dup_seek_shared_open_description",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 2,
+      "max": 2,
+      "precision": 0
+    }
+  },
+  {
+    "number": 13,
+    "subject": "Digital Logic",
+    "subtopic": "Karnaugh maps",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M001-Q013",
+    "paper": 1,
+    "stem": "A four-variable Boolean function F(A,B,C,D), with A as the most significant bit of the minterm index, is 1 at minterms 1,3,9,11. Minterms 0,2,8,10 are don't-cares, and all remaining minterms are 0. Which is a minimum-literal sum-of-products implementation?",
+    "options": [
+      "NOT B",
+      "NOT D",
+      "A OR C",
+      "(NOT B) AND D"
+    ],
+    "answer": [
+      "A"
+    ],
+    "solution": "1. The required ones and don't-cares together are exactly the eight inputs with B=0.\n2. Assign those don't-cares to 1 and group all eight cells. This yields NOT B with one literal.\n3. A zero-literal constant is impossible because both required zeros and required ones exist.",
+    "option_explanations": [
+      "It covers all required ones and no required zero with one literal.",
+      "It misses every required one, each of which has D=1.",
+      "For A=B=1,C=0,D=0 it produces a forbidden 1.",
+      "It is valid but has two literals, so it is not minimum-literal."
+    ],
+    "misconception": "A valid implementation may still be nonminimal when don't-cares are available.",
+    "family": "dl_dontcare_eightcell_literal_lower_bound",
+    "reasoning_pattern": "dl_dontcare_eightcell_literal_lower_bound",
+    "structure_signature": "dl_dontcare_eightcell_literal_lower_bound",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 14,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Propositional and predicate logic",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "MCQ",
+    "id": "CS27-M001-Q014",
+    "paper": 1,
+    "stem": "Let R be a binary relation on a nonempty domain. Which formula is the logical negation of\n\n`forall x exists y [R(x,y) AND forall z (R(x,z) -> z=y)]`?\n\nAll variables in the options are bound as displayed.",
+    "options": [
+      "exists x forall y [NOT R(x,y) OR exists z (R(x,z) AND z!=y)]",
+      "exists x exists y [NOT R(x,y) OR exists z (R(x,z) AND z!=y)]",
+      "forall x forall y [NOT R(x,y) AND exists z (R(x,z) AND z!=y)]",
+      "exists x forall y [NOT R(x,y) OR forall z (R(x,z) AND z!=y)]"
+    ],
+    "answer": [
+      "A"
+    ],
+    "solution": "1. Negating the outer quantifiers changes forall x exists y into exists x forall y.\n2. Negating the conjunction gives NOT R(x,y) OR NOT forall z (R(x,z) -> z=y).\n3. The inner negation is exists z [R(x,z) AND z!=y]. Substitution gives A. The original formula says each x has exactly one R-successor; its negation allows an x with none or more than one.",
+    "option_explanations": [
+      "It follows all three quantifier and connective changes.",
+      "For a two-element identity relation the original is true, but this option is also true by choosing x!=y.",
+      "For a singleton empty relation the original is false, but this conjunction is false.",
+      "For a universal relation on two elements the original is false; this option is false because z=y defeats its universal conjunct."
+    ],
+    "misconception": "Negating unique existence requires accounting for both zero and multiple witnesses.",
+    "family": "em_nested_unique_successor_negation",
+    "reasoning_pattern": "em_nested_unique_successor_negation",
+    "structure_signature": "em_nested_unique_successor_negation",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 15,
+    "subject": "Computer Organization and Architecture",
+    "subtopic": "Instruction sets and addressing modes",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "NAT",
+    "id": "CS27-M001-Q015",
+    "paper": 1,
+    "stem": "A byte-addressed machine executes a 4-byte load instruction beginning at address 100. Its indirect PC-relative mode first sign-extends an 8-bit displacement, multiplies that signed displacement by 4, and adds it to the address immediately after the instruction. The 32-bit word at this intermediate address is the effective address of the operand. The displacement bits are 11111010. Memory words M[80]=120 and M[120]=7 are given. What is the effective address of the operand? All addresses are decimal; the machine uses two's-complement displacements.",
+    "options": [],
+    "answer": 120,
+    "solution": "1. The displacement is -6, not 250. The post-instruction PC is 104.\n2. The intermediate address is 104+4(-6)=80.\n3. Indirection reads M[80]=120, so the operand address is 120. M[120]=7 is the value loaded, not the address asked for.",
+    "option_explanations": [],
+    "misconception": "PC base, scale, indirection and loaded value are distinct stages.",
+    "family": "coa_signed_scaled_pc_relative_indirection",
+    "reasoning_pattern": "coa_signed_scaled_pc_relative_indirection",
+    "structure_signature": "coa_signed_scaled_pc_relative_indirection",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 120,
+      "max": 120,
+      "precision": 0
+    }
+  },
+  {
+    "number": 16,
+    "subject": "Computer Organization and Architecture",
+    "subtopic": "ALU design",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "MCQ",
+    "id": "CS27-M001-Q016",
+    "paper": 1,
+    "stem": "A 4-bit adder-subtractor computes A+(B XOR ssss)+s and keeps the low four result bits. Its carry-out is C and its two's-complement signed overflow flag is V. For A=0111, B=1010 and s=1, which triple (result,C,V) is correct?",
+    "options": [
+      "(1101,1,0)",
+      "(1101,0,0)",
+      "(0011,1,1)",
+      "(1101,0,1)"
+    ],
+    "answer": [
+      "D"
+    ],
+    "solution": "1. With s=1, invert B to 0101 and add 1: 0111+0101+1=1101, with no fifth bit. Thus C=0.\n2. Signed interpretation gives 7-(-6)=13, outside [-8,7], so V=1 even though the unsigned carry-out is zero.",
+    "option_explanations": [
+      "Carry-out is zero and signed overflow is present.",
+      "It gets result and carry right but misses signed overflow.",
+      "The stated bit addition does not yield 0011.",
+      "Both the bit arithmetic and signed range test agree."
+    ],
+    "misconception": "Carry-out and signed overflow are different conditions.",
+    "family": "coa_subtractor_carry_vs_signed_overflow",
+    "reasoning_pattern": "coa_subtractor_carry_vs_signed_overflow",
+    "structure_signature": "coa_subtractor_carry_vs_signed_overflow",
+    "reasoning_steps": 2,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 17,
+    "subject": "Databases",
+    "subtopic": "ER model",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M001-Q017",
+    "paper": 1,
+    "stem": "In an ER model, Department is a strong entity with key dept_id. Project is weak and identified by its owning Department and partial key project_code. Task is weak and identified by its owning Project and partial key task_no. Project codes may repeat across departments; task numbers may repeat across projects. No surrogate keys or additional uniqueness constraints are introduced. How many attributes are needed in the minimal primary key of the mapped Task relation?",
+    "options": [],
+    "answer": 3,
+    "solution": "1. Project is identified by (dept_id, project_code), because project_code alone may repeat.\n2. Task adds its own partial key, giving (dept_id, project_code, task_no).\n3. Dropping any attribute can merge allowed distinct tasks, so all three are necessary.",
+    "option_explanations": [],
+    "misconception": "A weak owner can itself have a composite identifying key.",
+    "family": "db_nested_weak_entity_key_inheritance",
+    "reasoning_pattern": "db_nested_weak_entity_key_inheritance",
+    "structure_signature": "db_nested_weak_entity_key_inheritance",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 3,
+      "max": 3,
+      "precision": 0
+    }
+  },
+  {
+    "number": 18,
+    "subject": "Compiler Design",
+    "subtopic": "Lexical analysis",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M001-Q018",
+    "paper": 1,
+    "stem": "A lexer recognizes identifiers by `[a-z][a-z0-9]*`, the keyword `if`, and operators `==`, `=`, `++`, `+`. It uses maximal munch; an identifier lexeme exactly equal to `if` is classified as a keyword. Whitespace is ignored. What token-lexeme sequence is produced for `ifx==if+++x`?",
+    "options": [
+      "if, x, ==, if, ++, +, x",
+      "ifx, ==, if, ++, +, x",
+      "ifx, =, =, if, +, ++, x",
+      "ifx, ==, if, +++, x"
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. The longest identifier prefix is ifx; a keyword prefix does not split it.\n2. Maximal munch chooses == rather than two = operators.\n3. The next identifier is exactly if, followed by ++ and +, because +++ is not a token. The final token is x.",
+    "option_explanations": [
+      "A keyword prefix cannot split the longer valid identifier ifx.",
+      "Every boundary follows maximal munch.",
+      "It splits == and fails to take ++ at the first plus.",
+      "+++ is not among the recognized operators."
+    ],
+    "misconception": "Token priority breaks equal-length ties; it does not override longest match.",
+    "family": "compiler_maximal_munch_keyword_prefix",
+    "reasoning_pattern": "compiler_maximal_munch_keyword_prefix",
+    "structure_signature": "compiler_maximal_munch_keyword_prefix",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 19,
+    "subject": "Computer Networks",
+    "subtopic": "Layering",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MSQ",
+    "id": "CS27-M001-Q019",
+    "paper": 1,
+    "stem": "An IPv4 packet carrying a TCP segment crosses one router between two Ethernet LANs. The router performs ordinary forwarding, with no NAT, fragmentation or tunnelling. Its incoming TTL is greater than 1. Which statements are correct about the outgoing packet/frame?",
+    "options": [
+      "The destination IPv4 address is unchanged.",
+      "The destination Ethernet address must be unchanged.",
+      "The IPv4 TTL is one less than on arrival.",
+      "The TCP destination port is replaced by the router's port number."
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "solution": "1. Ordinary routing keeps the end-to-end IPv4 destination and TCP port unchanged.\n2. Forwarding decrements TTL and constructs an Ethernet frame for the outgoing LAN's next hop.\n3. Therefore A and C hold; the incoming and outgoing link-layer destinations need not match.",
+    "option_explanations": [
+      "No address translation occurs.",
+      "The outgoing frame addresses the next hop on a different LAN, not necessarily the incoming destination MAC.",
+      "The stated assumptions ensure ordinary forwarding with a one-hop decrement.",
+      "TCP ports identify endpoints; a transit router does not replace them."
+    ],
+    "misconception": "Link-layer next-hop addressing must be distinguished from end-to-end addressing.",
+    "family": "cn_router_layer_specific_field_changes",
+    "reasoning_pattern": "cn_router_layer_specific_field_changes",
+    "structure_signature": "cn_router_layer_specific_field_changes",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 20,
+    "subject": "Algorithms",
+    "subtopic": "Searching and sorting",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "NAT",
+    "id": "CS27-M001-Q020",
+    "paper": 1,
+    "stem": "Insertion sort is run on keys `[3a, 1, 3b, 2, 3c]`, where 3a, 3b and 3c have equal numeric key 3 and the suffixes only identify records. The usual inner loop shifts a preceding record while its key is strictly greater than the key being inserted. A modified version shifts while it is greater than or equal. Count only shifts of preceding records one position to the right, not final placements of the inserted record. How many additional shifts does the modified version perform?",
+    "options": [],
+    "answer": 3,
+    "solution": "1. Strictly unequal inversions cause the same shifts in both versions: 3a past 1 and 2, and 3b past 2.\n2. Only the modified version also shifts equal preceding records: one when inserting 3b and two when inserting 3c.\n3. The additional count is 1+2=3; totals are 3 and 6 respectively.",
+    "option_explanations": [],
+    "misconception": "Equality in the comparison changes stability and adds one shift per equal-key pair.",
+    "family": "alg_insertion_stability_equal_pair_shift_delta",
+    "reasoning_pattern": "alg_insertion_stability_equal_pair_shift_delta",
+    "structure_signature": "alg_insertion_stability_equal_pair_shift_delta",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 3,
+      "max": 3,
+      "precision": 0
+    }
+  },
+  {
+    "number": 21,
+    "subject": "Databases",
+    "subtopic": "Relational algebra",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MSQ",
+    "id": "CS27-M001-Q021",
+    "paper": 1,
+    "stem": "Use set semantics. R(A,B)={(1,x),(1,y),(2,x)} and S(B)={(x),(y)}. Define\n\n`E = projection_A(R) - projection_A((projection_A(R) x S) - R)`\n\nwhere x is Cartesian product and - is set difference. Which statements are correct? Each proposed change is applied independently to the original relations.",
+    "options": [
+      "For the original relations, E={(1)}.",
+      "If S is empty, E={(1),(2)}.",
+      "If (2,y) is added to R, E remains {(1)}.",
+      "If (z) is added to S, E is empty."
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "solution": "1. The product creates every candidate A paired with every required B. Subtracting R identifies a missing required pair; its A is excluded.\n2. Originally only A=2 misses y, leaving 1. With empty S there are no missing pairs, so all candidate A values remain.\n3. Adding (2,y) makes both candidates qualify. Adding z to S makes both fail because neither has a z pair.",
+    "option_explanations": [
+      "Only 1 is paired with every B in S.",
+      "Universal coverage of an empty required set is vacuously true.",
+      "The result becomes {(1),(2)}, not {(1)}.",
+      "Both candidates lack z."
+    ],
+    "misconception": "Division-like expressions include vacuous truth and candidate-domain restrictions.",
+    "family": "db_division_expression_empty_divisor_counterfactuals",
+    "reasoning_pattern": "db_division_expression_empty_divisor_counterfactuals",
+    "structure_signature": "db_division_expression_empty_divisor_counterfactuals",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 22,
+    "subject": "Compiler Design",
+    "subtopic": "Parsing",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "NAT",
+    "id": "CS27-M001-Q022",
+    "paper": 1,
+    "stem": "For the grammar below, construct the standard LL(1) predictive parsing table using FIRST and FOLLOW sets. A conflicting entry means a single table cell containing two or more distinct productions. Count conflicting cells, not pairs of productions. The start symbol is S and the end marker is $.\n\n```text\nS -> A a | b\nA -> a A | B\nB -> b B | epsilon\n```\n\nHow many table cells conflict?",
+    "options": [],
+    "answer": 2,
+    "solution": "1. FIRST(B)={b,epsilon} and FIRST(A)={a,b,epsilon}. FOLLOW(A)={a}, propagated to FOLLOW(B)={a}. FOLLOW(S)={$}.\n2. S -> A a enters columns a and b, while S -> b enters b. Thus M[S,b] conflicts. A -> a A enters a; A -> B enters b and, because B is nullable, FOLLOW(A)'s a. Thus M[A,a] conflicts.\n3. B -> b B enters b; B -> epsilon enters a. These do not conflict. Exactly two table cells conflict.",
+    "option_explanations": [],
+    "misconception": "Nullable productions can create conflicts through FOLLOW, separately from overlapping FIRST sets.",
+    "family": "compiler_predictive_table_two_distinct_sources_of_conflict",
+    "reasoning_pattern": "compiler_predictive_table_two_distinct_sources_of_conflict",
+    "structure_signature": "compiler_predictive_table_two_distinct_sources_of_conflict",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 2,
+      "max": 2,
+      "precision": 0
+    }
+  },
+  {
+    "number": 23,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Matrices determinants and linear systems",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M001-Q023",
+    "paper": 1,
+    "stem": "For real t, consider the homogeneous system M(t)v=0, where\n\n```text\nM(t) = [1  1  1]\n       [1  t  2]\n       [1  2  t]\n```\n\nWhat is the sum of all distinct real values of t for which the system has infinitely many solutions?",
+    "options": [],
+    "answer": 2,
+    "solution": "1. Subtract row 1 from rows 2 and 3. The determinant becomes (t-1)^2-1=t(t-2).\n2. A real homogeneous square system has infinitely many solutions precisely when it is singular.\n3. The distinct singular values are t=0 and t=2, whose sum is 2.",
+    "option_explanations": [],
+    "misconception": "A homogeneous singular system is always consistent and has a nontrivial null space.",
+    "family": "em_parameter_singular_homogeneous_system",
+    "reasoning_pattern": "em_parameter_singular_homogeneous_system",
+    "structure_signature": "em_parameter_singular_homogeneous_system",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 2,
+      "max": 2,
+      "precision": 0
+    }
+  },
+  {
+    "number": 24,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Limits continuity and differentiability",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "MCQ",
+    "id": "CS27-M001-Q024",
+    "paper": 1,
+    "stem": "For every real x, define f(x)=|x-1|+|x+1| and g(x)=f(f(x)-3). At exactly which points is g not differentiable?",
+    "options": [
+      "x=-1 and x=1 only",
+      "x=-2,-1,1,2",
+      "x=-2 and x=2 only",
+      "At no real point"
+    ],
+    "answer": [
+      "C"
+    ],
+    "solution": "1. Set r=|x|. Then f(x)=2 for r<=1 and f(x)=2r for r>1; equivalently f(x)=2 max(1,r).\n2. When r<=1, the outer argument is -1 and g=2. When 1<r<=2, the outer argument 2r-3 lies in (-1,1], so g remains 2. When r>2, that argument exceeds 1 and g=4r-6.\n3. Thus g is constant on [-2,2], linear with slope -4 on x<-2 and slope 4 on x>2. Only -2 and 2 have unequal one-sided derivatives. The original corners at +/-1 disappear under the composition.",
+    "option_explanations": [
+      "The outer function is constant across the relevant images around +/-1, so g has no corners there.",
+      "This retains the original f corners incorrectly; g is constant around +/-1.",
+      "At each of +/-2, the slope changes between zero and a nonzero value.",
+      "The slopes on the two sides of +/-2 differ."
+    ],
+    "misconception": "A composition can remove a corner of the inner function; the chain rule cannot simply be applied at nondifferentiable points.",
+    "family": "em_absolute_value_composition_hides_inner_corners",
+    "reasoning_pattern": "em_absolute_value_composition_hides_inner_corners",
+    "structure_signature": "em_absolute_value_composition_hides_inner_corners",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 25,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Random variables and distributions",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M001-Q025",
+    "paper": 1,
+    "stem": "X has a Poisson distribution with parameter lambda>0. It is known that P(X=0)=P(X=1). What is E[X^2]?",
+    "options": [],
+    "answer": 2,
+    "solution": "1. P(X=0)=exp(-lambda) and P(X=1)=lambda exp(-lambda), so lambda=1.\n2. A Poisson variable has variance lambda and mean lambda. Thus E[X^2]=Var(X)+(E[X])^2=lambda+lambda^2=2.",
+    "option_explanations": [],
+    "misconception": "The second moment is not the variance alone.",
+    "family": "em_poisson_probability_identity_second_moment",
+    "reasoning_pattern": "em_poisson_probability_identity_second_moment",
+    "structure_signature": "em_poisson_probability_identity_second_moment",
+    "reasoning_steps": 2,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 2,
+      "max": 2,
+      "precision": 0
+    }
+  },
+  {
+    "number": 26,
+    "subject": "Digital Logic",
+    "subtopic": "Tabular minimization",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "NAT",
+    "id": "CS27-M001-Q026",
+    "paper": 1,
+    "stem": "A three-variable Boolean function F(A,B,C), with A as the most significant index bit, is 1 exactly at minterms 0,1,2,5,6,7 and has no don't-cares. How many distinct minimum-product-term sum-of-products covers can be formed using only prime implicants? Ignore the order of terms.",
+    "options": [],
+    "answer": 2,
+    "solution": "1. No four-cell cube avoids both zero minterms 3 and 4. The prime implicants therefore cover the six adjacent pairs (0,1),(0,2),(1,5),(2,6),(5,7),(6,7).\n2. Each covers two minterms, so at least three are necessary. These pairs form a cycle on six vertices: 0-1-5-7-6-2-0.\n3. A three-edge cover of six vertices must be a perfect matching. The cycle has exactly two alternating perfect matchings, giving two minimum covers.",
+    "option_explanations": [],
+    "misconception": "Finding the minimum number of terms is different from counting all minimum covers.",
+    "family": "dl_prime_implicant_cycle_minimum_cover_count",
+    "reasoning_pattern": "dl_prime_implicant_cycle_minimum_cover_count",
+    "structure_signature": "dl_prime_implicant_cycle_minimum_cover_count",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 2,
+      "max": 2,
+      "precision": 0
+    }
+  },
+  {
+    "number": 27,
+    "subject": "Programming and Data Structures",
+    "subtopic": "C programming and pointers",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "MCQ",
+    "id": "CS27-M001-Q027",
+    "paper": 1,
+    "stem": "What does this C program print? Assume a conforming C implementation.\n\n```c\n#include <stdio.h>\nint main(void) {\n    int a[2][3] = {{2,4,6},{1,3,5}};\n    int (*p)[3] = a;\n    int *q = p[1];\n    p[0][2] += q[1];\n    int *r = p[0] + 1;\n    *r++ = q[0];\n    q[2] = *r;\n    printf(\"%d\\n\", a[0][1] + a[1][2]);\n    return 0;\n}\n```",
+    "options": [
+      "7",
+      "10",
+      "13",
+      "The program has undefined behaviour."
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. p points to the first row, and q points to the start of row 1. The addition changes a[0][2] from 6 to 9.\n2. r initially points to a[0][1]. Because postfix ++ binds before unary *, *r++ stores q[0]=1 at that element, then advances r to a[0][2].\n3. q[2]=*r sets a[1][2]=9. The printed sum is 1+9=10. All pointer arithmetic stays inside its row array, and side effects are sequenced across statements.",
+    "option_explanations": [
+      "This misses the earlier update of a[0][2].",
+      "The final values are 1 and 9.",
+      "This retains the old value 4 in a[0][1].",
+      "No access is out of bounds and no scalar has unsequenced conflicting accesses."
+    ],
+    "misconception": "Post-increment advances the pointer, not the pointed-to value.",
+    "family": "pds_pointer_to_row_postincrement_alias_trace",
+    "reasoning_pattern": "pds_pointer_to_row_postincrement_alias_trace",
+    "structure_signature": "pds_pointer_to_row_postincrement_alias_trace",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 28,
+    "subject": "Algorithms",
+    "subtopic": "Hashing",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MSQ",
+    "id": "CS27-M001-Q028",
+    "paper": 1,
+    "stem": "An open-addressed hash table has seven slots and uses h1(k)=k mod 7 and h2(k)=1+(k mod 5), probing (h1(k)+j*h2(k)) mod 7 for j=0,1,... . Keys 10,17,24 are inserted in that order into an empty table. Key 10 is then deleted and its slot marked with a tombstone. Which statements are correct?",
+    "options": [
+      "Searching for 24 must continue past the tombstone.",
+      "Replacing that tombstone with a never-used marker preserves all successful searches.",
+      "A subsequent insertion of absent key 31 may reuse the tombstone slot.",
+      "The deletion permanently reduces the maximum number of keys the table can hold to six."
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "solution": "1. Key 10 occupies slot 3. Key 17 probes 3 then 6; key 24 probes 3 then 1. Deleting 10 leaves a tombstone at 3.\n2. Search for 24 visits 3 and then 1; stopping at 3 would miss it.\n3. Tombstones are reusable on insertion. Key 31 starts at 3, so that slot is a possible insertion location after confirming absence. Capacity is not permanently lost.",
+    "option_explanations": [
+      "Its probe sequence reaches slot 1 only after slot 3.",
+      "A never-used marker would incorrectly terminate search for 24.",
+      "Tombstones retain search chains while remaining available for reuse.",
+      "The tombstone may hold a later key, restoring all seven slots as potential capacity."
+    ],
+    "misconception": "A tombstone is neither an occupied record nor an ordinary empty stopping point.",
+    "family": "alg_doublehash_delete_search_reuse",
+    "reasoning_pattern": "alg_doublehash_delete_search_reuse",
+    "structure_signature": "alg_doublehash_delete_search_reuse",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 29,
+    "subject": "Operating Systems",
+    "subtopic": "Processes and threads",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M001-Q029",
+    "paper": 1,
+    "stem": "A process executes the following pseudocode. Every fork succeeds, fork returns 0 only in the child, and all processes eventually execute print once. There is no buffered output before a fork.\n\n```text\ni = 0\nwhile i < 3:\n    if fork() == 0:\n        break\n    i = i + 1\nprint(i)\n```\n\nIgnoring output order, which multiset of values is printed?",
+    "options": [
+      "{0,1,2,3}",
+      "{0,1,1,2,2,2,3,3}",
+      "{3,3,3,3}",
+      "{0,0,0,3}"
+    ],
+    "answer": [
+      "A"
+    ],
+    "solution": "1. At i=0, the first child breaks and prints 0; only the parent increments and continues.\n2. The continuing parent similarly creates children that print 1 and 2.\n3. The original parent increments to 3 and exits the loop. Thus exactly four values, 0,1,2,3, are printed.",
+    "option_explanations": [
+      "One child stops in each iteration and the original parent finishes.",
+      "Children break; they do not take part in later forks.",
+      "A child preserves its copied value of i when it breaks.",
+      "Later children inherit i=1 and i=2, not the initial value."
+    ],
+    "misconception": "A fork inside a loop is not automatically exponential when children stop iterating.",
+    "family": "os_fork_child_break_parent_continuation",
+    "reasoning_pattern": "os_fork_child_break_parent_continuation",
+    "structure_signature": "os_fork_child_break_parent_continuation",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 30,
+    "subject": "Theory of Computation",
+    "subtopic": "Regular expressions and finite automata",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M001-Q030",
+    "paper": 1,
+    "stem": "Over the alphabet {a,b}, let L contain exactly the strings that end in a and contain an even number of b symbols. The empty string is not in L. What is the number of states in a smallest complete DFA for L?",
+    "options": [],
+    "answer": 3,
+    "solution": "1. Track E0: even b count but not currently accepting; E1: even b count and last symbol a; O: odd b count. In O the last symbol does not affect future acceptance, so one state suffices.\n2. Transitions are E0 --a--> E1, E1 --a--> E1, both E states --b--> O; O --a--> O and O --b--> E0. E0 is initial and E1 alone accepts.\n3. E1 is distinguished from the others by the empty suffix; E0 and O are distinguished by suffix a. All three are reachable, proving minimality.",
+    "option_explanations": [],
+    "misconception": "The naive product construction can contain equivalent states.",
+    "family": "toc_parity_lastsymbol_product_quotient",
+    "reasoning_pattern": "toc_parity_lastsymbol_product_quotient",
+    "structure_signature": "toc_parity_lastsymbol_product_quotient",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 3,
+      "max": 3,
+      "precision": 0
+    }
+  },
+  {
+    "number": 31,
+    "subject": "Computer Networks",
+    "subtopic": "Switching and performance",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "NAT",
+    "id": "CS27-M001-Q031",
+    "paper": 1,
+    "stem": "Two packets of 1000 bits each are ready at time 0 and travel through three store-and-forward links in order. Their rates are 2 Mbit/s, 1 Mbit/s and 2 Mbit/s, respectively; 1 Mbit=10^6 bits. Each link transmits only one packet at a time, buffers are sufficient, and propagation and processing delays are zero. Packets retain their order. Each link begins transmitting as soon as both the packet and that link are available. At what time, in milliseconds, does the last bit of the second packet reach the destination?",
+    "options": [],
+    "answer": 3,
+    "solution": "1. Transmission times per link are 0.5, 1 and 0.5 ms. Packet 1 finishes the links at 0.5,1.5,2 ms.\n2. Packet 2 finishes link 1 at 1 ms but waits until 1.5 ms for link 2. It finishes link 2 at 2.5 ms.\n3. Link 3 is free by then, so its final transmission ends at 3 ms.",
+    "option_explanations": [],
+    "misconception": "Pipeline overlap does not remove serialization at the slowest link.",
+    "family": "cn_heterogeneous_storeforward_two_packet_schedule",
+    "reasoning_pattern": "cn_heterogeneous_storeforward_two_packet_schedule",
+    "structure_signature": "cn_heterogeneous_storeforward_two_packet_schedule",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 3,
+      "max": 3,
+      "precision": 0
+    }
+  },
+  {
+    "number": 32,
+    "subject": "Theory of Computation",
+    "subtopic": "Context-free grammars",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "MCQ",
+    "id": "CS27-M001-Q032",
+    "paper": 1,
+    "stem": "Consider the grammar S -> SS | aSb | epsilon. Count finite ordered parse trees, distinguishing different tree shapes even when they yield the same string. How many parse trees yield the string ab?",
+    "options": [
+      "Exactly one",
+      "Exactly two",
+      "A finite number greater than two",
+      "Infinitely many"
+    ],
+    "answer": [
+      "D"
+    ],
+    "solution": "1. A base tree uses S -> aSb with the inner S -> epsilon.\n2. Replace the root with S -> SS, placing the previous tree on one child and S -> epsilon on the other. The yield remains ab.\n3. Repeating this operation creates arbitrarily large finite trees with the same yield, so their count is infinite.",
+    "option_explanations": [
+      "The base tree is not unique; an empty sibling adds a second shape.",
+      "The construction can be repeated after two trees have been obtained.",
+      "There is no finite size bound on added empty siblings.",
+      "The unbounded family consists of distinct finite trees."
+    ],
+    "misconception": "A fixed finite string can have infinitely many parse trees in an epsilon-generating recursive grammar.",
+    "family": "toc_nullable_binary_recursion_infinite_parse_ambiguity",
+    "reasoning_pattern": "toc_nullable_binary_recursion_infinite_parse_ambiguity",
+    "structure_signature": "toc_nullable_binary_recursion_infinite_parse_ambiguity",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 33,
+    "subject": "Programming and Data Structures",
+    "subtopic": "Recursion",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M001-Q033",
+    "paper": 1,
+    "stem": "Consider this recursive function on a positive integer n. Arithmetic is exact.\n\n```text\nf(n):\n    if n == 1: return 1\n    r = f(floor(n/2))\n    if n is even: return 2*r\n    else: return 2*r + 1\n```\n\nWhich pair gives f(45) and the number of simultaneous active calls at maximum recursion depth, including the initial and base calls?",
+    "options": [
+      "(45,6)",
+      "(45,5)",
+      "(32,6)",
+      "(63,6)"
+    ],
+    "answer": [
+      "A"
+    ],
+    "solution": "1. Induction gives f(n)=n: the even case restores 2(n/2), and the odd case restores 2 floor(n/2)+1.\n2. The call chain is 45,22,11,5,2,1, which contains six active calls at its deepest point.",
+    "option_explanations": [
+      "Both the induction and explicit chain give this pair.",
+      "It counts five recursive edges instead of six calls.",
+      "The odd branches preserve the discarded low-order bits.",
+      "The branches do not append 1 at even n."
+    ],
+    "misconception": "Recursion depth counts frames, which is one greater than the number of recursive edges.",
+    "family": "pds_binary_reconstruction_induction_depth",
+    "reasoning_pattern": "pds_binary_reconstruction_induction_depth",
+    "structure_signature": "pds_binary_reconstruction_induction_depth",
+    "reasoning_steps": 2,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 34,
+    "subject": "Theory of Computation",
+    "subtopic": "Pushdown automata",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MSQ",
+    "id": "CS27-M001-Q034",
+    "paper": 1,
+    "stem": "Let L={w#reverse(w) : w is a string over {0,1}}, where # is a separator not in {0,1}. A pushdown recognizer reads input left to right and may reject immediately on a mismatch. Which statements are correct?",
+    "options": [
+      "A deterministic pushdown recognizer can push before # and compare/pop after #.",
+      "The recognizer can accept after input exhaustion even if unmatched symbols remain on its stack.",
+      "The same push-then-pop equality test recognizes {w#w : w over {0,1}}.",
+      "The one-symbol input # belongs to L."
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "solution": "1. The separator deterministically identifies the midpoint. Push each pre-separator bit, then match each later bit to the stack top and pop; accept only after the input ends with the data stack empty.\n2. LIFO order compares against reverse(w), not w in its original order.\n3. Choosing w=epsilon gives #, which is accepted with an empty data stack.",
+    "option_explanations": [
+      "The separator removes the need to guess when to switch phases.",
+      "Remaining symbols mean the second half was too short.",
+      "For w=01, input 01#01 fails this test, while 01#10 passes it.",
+      "The definition allows the empty string for w."
+    ],
+    "misconception": "A stack reverses order; the separator solves midpoint detection, not copying in forward order.",
+    "family": "toc_marked_reverse_deterministic_stack_invariant",
+    "reasoning_pattern": "toc_marked_reverse_deterministic_stack_invariant",
+    "structure_signature": "toc_marked_reverse_deterministic_stack_invariant",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 35,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Sets relations and functions",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M001-Q035",
+    "paper": 1,
+    "stem": "How many functions f:{1,2,3}->{1,2,3} satisfy f(f(x))=f(x) for every x and have exactly two fixed points? A fixed point is an x for which f(x)=x.",
+    "options": [],
+    "answer": 6,
+    "solution": "1. Idempotence implies every value in the image is fixed: if y=f(x), then f(y)=y.\n2. Choose the two fixed elements in 3 ways. The remaining element must map to one of them, in 2 ways.\n3. Each of these 3*2=6 functions satisfies idempotence and has exactly two fixed points.",
+    "option_explanations": [],
+    "misconception": "The nonfixed element cannot map to itself or to another nonfixed image under idempotence.",
+    "family": "em_idempotent_map_exact_fixedpoint_count",
+    "reasoning_pattern": "em_idempotent_map_exact_fixedpoint_count",
+    "structure_signature": "em_idempotent_map_exact_fixedpoint_count",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 6,
+      "max": 6,
+      "precision": 0
+    }
+  },
+  {
+    "number": 39,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Eigenvalues and eigenvectors",
+    "marks": 2,
+    "difficulty": "Hard",
+    "type": "MSQ",
+    "id": "CS27-M001-Q039",
+    "paper": 1,
+    "stem": "A is a real 3x3 matrix with distinct eigenvalues 1, 2 and 4. Let u be a nonzero column vector satisfying Au=2u, and let v be a real column vector satisfying v^T u=-2. Define B=A+u v^T. Which statements hold for every such A,u,v?",
+    "options": [
+      "Zero is an eigenvalue of B.",
+      "B is diagonalizable over the real numbers.",
+      "A and B necessarily commute.",
+      "rank(B)=2."
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "solution": "1. Bu=Au+u(v^T u)=2u-2u=0, so zero is an eigenvalue.\n2. Choose a basis (u,w1,w4) in which Aw1=w1 and Aw4=4w4. Distinct eigenvalues ensure this is a basis. In this basis A is diag(2,1,4), and u v^T has nonzero entries only in its first row, whose first entry is -2.\n3. Therefore B is upper triangular with diagonal (0,1,4). These distinct real eigenvalues make B diagonalizable, and exactly two are nonzero, so rank(B)=2.\n4. Commutation need not hold. In this basis choose v^T=(-2,1,0). Then B has first row (0,1,0); AB has entry (1,2)=2, whereas BA has that entry 1. A and B do not commute.",
+    "option_explanations": [
+      "u is a nonzero vector in the null space of B.",
+      "The three eigenvalues are 0,1,4, all distinct and real.",
+      "The explicit choice A=diag(2,1,4), u=(1,0,0)^T, v=(-2,1,0)^T is a counterexample.",
+      "Similarity to a diagonal matrix with exactly two nonzero entries gives rank two."
+    ],
+    "misconception": "A rank-one change need not commute with the original matrix, even when its image is an eigenspace.",
+    "family": "em_rank_one_update_eigenspace_triangularization_commutation",
+    "reasoning_pattern": "em_rank_one_update_eigenspace_triangularization_commutation",
+    "structure_signature": "em_rank_one_update_eigenspace_triangularization_commutation",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 40,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Extrema and mean value theorem",
+    "marks": 2,
+    "difficulty": "Hard",
+    "type": "NAT",
+    "id": "CS27-M001-Q040",
+    "paper": 1,
+    "stem": "For real a, define f_a(x)=x^4-2a*x^2+4x on the whole real line. What is the smallest integer a for which f_a has two distinct strict local minima?",
+    "options": [],
+    "answer": 2,
+    "solution": "1. f_a'(x)=4g(x), where g(x)=x^3-a*x+1. Two strict minima of this quartic require three distinct real roots of g, with alternating derivative signs -,+,-,+.\n2. For a<=0, g is increasing and has only one root. For a>0 its turning points are at +/-sqrt(a/3). Its local maximum is 1+2(a/3)^(3/2)>0, and its local minimum is 1-2(a/3)^(3/2).\n3. Three distinct roots exist exactly when 1-2(a/3)^(3/2)<0, equivalently a^3>27/4. The threshold is approximately 1.88988, so the smallest integer is 2. At equality a repeated stationary point does not give a second strict minimum.",
+    "option_explanations": [],
+    "misconception": "Stationary points must be classified; a repeated derivative root need not be an extremum.",
+    "family": "em_quartic_parameter_two_strict_minima_threshold",
+    "reasoning_pattern": "em_quartic_parameter_two_strict_minima_threshold",
+    "structure_signature": "em_quartic_parameter_two_strict_minima_threshold",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 2,
+      "max": 2,
+      "precision": 0
+    }
+  },
+  {
+    "number": 55,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Conditional probability and Bayes theorem",
+    "marks": 2,
+    "difficulty": "Hard",
+    "type": "MSQ",
+    "id": "CS27-M001-Q055",
+    "paper": 1,
+    "stem": "A component is faulty with probability 1/4. Each test is positive with probability 4/5 for a faulty component and 1/10 for a sound component. Repeated results are conditionally independent given the component's status. Testing stops at the first negative result or after three tests, whichever occurs first. N is the number of tests performed. Which statements are correct?",
+    "options": [
+      "E[N]=577/400.",
+      "P(faulty | N=3)=512/515.",
+      "Given that exactly two positive results were observed before a negative result, the probability of a faulty component is 128/155.",
+      "Given that the first result was positive and the stopping result was negative, the probability of a faulty component is 32/65."
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "solution": "1. P(N>=2)=P(first positive)=11/40. Reaching test 3 requires the first two positives, whose probability is (1/4)(4/5)^2+(3/4)(1/10)^2=67/400. Thus E[N]=1+11/40+67/400=577/400.\n2. N=3 does not disclose the third result. P(faulty | N=3)=[(1/4)(4/5)^2]/(67/400)=64/67. The value 512/515 would instead condition on three positives.\n3. Exactly two positives before a negative is the path ++-. Faulty and sound weights are (1/4)(4/5)^2(1/5)=128/4000 and (3/4)(1/10)^2(9/10)=27/4000, giving posterior 128/155.\n4. Positive first and negative stopping includes paths +- and ++-. With conditional positive probability p, their total probability is p(1-p)+p^2(1-p)=p-p^3. Faulty and sound weighted probabilities are 288/4000 and 297/4000. Their posterior ratio is 288/585=32/65.",
+    "option_explanations": [
+      "The tail-sum formula uses the probabilities of reaching the second and third tests.",
+      "Reaching three tests means only that the first two were positive; the third may be negative.",
+      "This conditions on the specific path ++-, with weights 128 and 27.",
+      "The two possible terminating paths give weights 288 and 297, whose normalized faulty weight is 32/65."
+    ],
+    "misconception": "The number of tests performed and the number of positives are different observations under a stopping rule.",
+    "family": "em_latent_status_stopped_test_paths_expectation_posteriors",
+    "reasoning_pattern": "em_latent_status_stopped_test_paths_expectation_posteriors",
+    "structure_signature": "em_latent_status_stopped_test_paths_expectation_posteriors",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 64,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Partial orders and lattices",
+    "marks": 2,
+    "difficulty": "Hard",
+    "type": "MSQ",
+    "id": "CS27-M001-Q064",
+    "paper": 1,
+    "stem": "Let L={empty set, {a}, {b}, {c}, {a,c}, {b,c}, {a,b,c}}, ordered by inclusion. Notice that {a,b} is absent. Meets and joins are taken within L. A complement of x is a y with meet(x,y)=empty set and join(x,y)={a,b,c}. An order automorphism is a bijection L->L preserving the order in both directions. Which statements are correct?",
+    "options": [
+      "L is a distributive lattice.",
+      "Exactly six elements of L have at least one complement.",
+      "L has exactly two order automorphisms.",
+      "The join of {a} and {b} is {a,b,c}."
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "solution": "1. Intersections remain in L, so they are meets. All unions are in L except {a} union {b}; for that pair the least available upper bound is {a,b,c}. Hence L is a lattice, but joins need not equal unions.\n2. Distributivity fails: {c} meet ({a} join {b})={c}, whereas ({c} meet {a}) join ({c} meet {b})=empty set.\n3. Bottom and top complement one another. {a} has complements {b} and {b,c}; {b} has complements {a} and {a,c}; {a,c} and {b,c} are consequently complemented too. The remaining element {c} has no complement: the only nonempty elements disjoint from it are {a} and {b}, and their individual joins with {c} are below top. Thus six elements have complements.\n4. Among the three atoms, {c} uniquely has two immediate upper covers; {a} and {b} each have one. Any automorphism must fix {c} and may only fix or swap {a},{b}. The two choices determine all other images, and both are valid. Thus there are exactly two automorphisms.",
+    "option_explanations": [
+      "The explicit distributive-law calculation yields {c} on one side and empty set on the other.",
+      "Only {c} lacks any complement.",
+      "An automorphism fixes {c}; its only freedom is the swap of a and b.",
+      "Because {a,b} is absent, the only common upper bound for the two atoms is top."
+    ],
+    "misconception": "An inclusion-ordered family can have joins different from set union, so it need not inherit Boolean distributivity.",
+    "family": "em_missing_union_lattice_complements_order_automorphisms",
+    "reasoning_pattern": "em_missing_union_lattice_complements_order_automorphisms",
+    "structure_signature": "em_missing_union_lattice_complements_order_automorphisms",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  }
+]

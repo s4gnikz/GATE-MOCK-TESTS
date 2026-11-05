@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "mode": "INCREMENTAL",
+  "total_records": 65,
+  "unique_ids": 65,
+  "global_issues": [],
+  "papers": {
+    "1": {
+      "questions": 65,
+      "status": "PASS",
+      "errors": [],
+      "difficulty": {
+        "Medium": 28,
+        "Medium-Hard": 27,
+        "Hard": 10
+      },
+      "subject_marks": {
+        "Operating Systems": 8,
+        "Databases": 8,
+        "Compiler Design": 8,
+        "Programming and Data Structures": 8,
+        "General Aptitude": 15,
+        "Digital Logic": 9,
+        "Computer Organization and Architecture": 8,
+        "Computer Networks": 6,
+        "Algorithms": 8,
+        "Theory of Computation": 9,
+        "Engineering Mathematics": 13
+      }
+    }
+  },
+  "duplicate_warnings": [],
+  "review_limitations": [
+    "Programmatic checks inspect supplied evidence and structure; they cannot establish mathematical truth from status flags.",
+    "Independent model review must be recorded explicitly; no human review is claimed.",
+    "Semantic embedding comparison unavailable; originality still requires independent reasoning-pattern review.",
+    "Markdown canonical consistency is checked. Visual export/render inspection is separately required."
+  ]
+}

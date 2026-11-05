@@ -1,0 +1,152 @@
+{
+  "questions": 1000,
+  "unique_ids": 1000,
+  "text_distinct_variants": 1000,
+  "distinct_source_questions": 1000,
+  "adaptations": [
+    {
+      "Name": "correct-pair",
+      "Count": 354
+    },
+    {
+      "Name": "incorrect-answer-selection",
+      "Count": 646
+    }
+  ],
+  "types": [
+    {
+      "Name": "MCQ",
+      "Count": 511
+    },
+    {
+      "Name": "MSQ",
+      "Count": 489
+    }
+  ],
+  "original_paper_files_unchanged": 200,
+  "errors": [],
+  "sets": [
+    {
+      "set": 1,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 2,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 3,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 4,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 5,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 6,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 7,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 8,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 9,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 10,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 11,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 12,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 13,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 14,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 15,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 16,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 17,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 18,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 19,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    },
+    {
+      "set": 20,
+      "questions": 50,
+      "keys": 50,
+      "solutions": 50
+    }
+  ],
+  "independent_source_answer_review": "Not performed by this adaptation pass",
+  "semantic_originality": "Not claimed: source reasoning reused"
+}

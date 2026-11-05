@@ -1,0 +1,8 @@
+{
+  "official_2027_pattern_confirmed": true,
+  "official_2027_cs_syllabus_confirmed": true,
+  "official_2027_ga_syllabus_confirmed": true,
+  "historical_years_sampled_from_full_papers": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+  "unresolved_required_research": ["Retrieve and study full official CS papers for 2015, 2016 and 2017; search snippets are insufficient."],
+  "scope_note": "Historical study is sample-based, not a question-by-question census or independent audit of official solutions."
+}

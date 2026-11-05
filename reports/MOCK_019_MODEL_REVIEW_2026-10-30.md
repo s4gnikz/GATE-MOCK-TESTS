@@ -1,0 +1,7 @@
+# Mock 019 — model review, 30 October 2026
+
+Reviewed the complete paper and all 65 worked solutions against the answer key. No answer mismatch or material ambiguity was found. Targeted derivations checked Q2's divisible-by-four permutations (4), Q4's fold preimages and mean coordinate (5), Q6's conditional subset probability (1/3), Q8's cumulative-output crossover (day 6), Q10's painted-face fraction (5/9), Q13's modulo-eight ticket wrap (9 outstanding including owner), Q15's link-state flood transmissions (7 directed sends), Q16's SOP literal increase (3), Q19's greedy interval loss (1), Q24's fragment gap (16 bytes), Q28's write-allocate transfer count (5), Q35's least pumping length (3), Q40's primitive rotation classes (3), Q41's encoding-width difference (1), Q42's six-state DFA, Q43's sparse indirect-block allocation (5), Q48's undetected two-bit CRC patterns (9), Q49's restricted compositions (19), Q53's tournament second-maximum count (7), and Q56's propagation-distance bound (432 m).
+
+Further re-derivations covered the SQL NULL cases, PDA drain behavior, longest-prefix routing, subnormal rounding, basic-block graph, Banker safety sequence, heap-independent counting and all remaining answer calculations. No paper, key or canonical record changed.
+
+This is model review only, not human review or full technical acceptance. Difficulty percentages, the required multi-step share and rendered-export quality remain uncertified; some two-mark questions merit later difficulty strengthening.

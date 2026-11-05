@@ -1,0 +1,310 @@
+{
+  "CS27-M001-Q036": {
+    "answer": 448,
+    "independent_solution": "At width w=1,2,...,64, n/(2w) blocks each contribute w operations. Each of the seven levels costs 64; 7*64=448. Bounds are exact since n is a power of two.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Direct pseudocode loop simulation: 448 touch operations.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "5ffa2e8e976c916122c54883cc25b875f07681100e5f777a76bad5900c1755b1",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q037": {
+    "answer": [
+      "B"
+    ],
+    "independent_solution": "Use a DPDA stack to enforce balance/nonunderflow and finite control to reject runs of length3. To prove nonregularity, choose prefixes u_n=(aab)^n and suffixes v_n=(abb)^n. Each u_n v_n is valid without triple runs, but u_m v_n has nonzero net balance when m!=n. Infinitely many distinguishable prefixes exclude a DFA. A is false because bounded runs do not bound stack depth; C contradicts the explicit deterministic construction; D contradicts its CFL recognition. B holds.",
+    "method": "Independent model reviewer re-derivation with proof/option counterexamples",
+    "evidence": "Use a DPDA stack to enforce balance/nonunderflow and finite control to reject runs of length3. To prove nonregularity, choose prefixes u_n=(aab)^n and suffixes v_n=(abb)^n. Each u_n v_n is valid without triple runs, but u_m v_n has nonzero net balance when m!=n. Infinitely many distinguishable prefixes exclude a DFA. A is false because bounded runs do not bound stack depth; C contradicts the explicit deterministic construction; D contradicts its CFL recognition. B holds.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "4a3cfd426362f0d25784b516612179765e9fbc913375275499b110b7f0ccf849",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q038": {
+    "answer": 4,
+    "independent_solution": "Postfix emission yields ab+cde*+*. Occupancies 1,2,1,2,3,4,3,2,1 establish peak four. Left-before-right order is explicit and removes evaluation-order ambiguity.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Postfix stack simulation depths: [1, 2, 1, 2, 3, 4, 3, 2, 1].",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "244d9fd527060a3921a00f1fb1cf567cd332a752dcf015e9a415e4573e622d9e",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q041": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "The first swap nest transposes and the second reverses rows, a clockwise quarter turn. Period4 gives three clockwise turns for2027, equivalent to counterclockwise. New[r,c]=old[c,4-r]; indices7=(1,2) and17=(3,2) therefore retrieve original13 and11. B is the one-clockwise-turn result; C is the unchanged array; D is the half-turn result. All pointer indices stay within0..24 and swaps are sequenced. A holds.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Full 2027-iteration array simulation: queried values 13, 11. Native GCC C11 compile/run independently returned: 13 11.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "eb81661790f5af2128a2303e8f8c4f6e70bb1044614132172eedecd8be84f28a",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q042": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "Zero selected ones leave at most two total ones, so I0=0. One selected one requires a=d=1, so I1=I2=ad. Two selected ones require a OR d, so I3=a+d. B fails for bc=01,a=1,d=0; C fails for bc=00,a=d=1; D fails for bc=01,a=d=1. A is correct.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Exhausted all 16 inputs for each of four option circuits; matches: ['A'].",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "cb172cc79e43c3c480c528c4e09d7439fd5a1837ab1eadb3ca3492c90daf1871",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q043": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "Lexical lookup in C resolves x to A's single active local, irrespective of the caller B's shadowing declaration. B0 calls C and returns5. B1 then obtains6, returning11. B2 next obtains7, returning18. B's306 follows dynamic lookup incorrectly; C's15 ignores persistent mutation of A.x; D's66 skips A's nearer shadowing declaration and uses Main.x. A holds.",
+    "method": "Independent model reviewer re-derivation with proof/option counterexamples",
+    "evidence": "Lexical lookup in C resolves x to A's single active local, irrespective of the caller B's shadowing declaration. B0 calls C and returns5. B1 then obtains6, returning11. B2 next obtains7, returning18. B's306 follows dynamic lookup incorrectly; C's15 ignores persistent mutation of A.x; D's66 skips A's nearer shadowing declaration and uses Main.x. A holds.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "8d64d0e0a0a69554e26c9ab38335357367d515b54e794f5c7c46c04abd02b9ff",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q044": {
+    "answer": [
+      "C"
+    ],
+    "independent_solution": "Simultaneous old-state transitions are 00->01->11->00, while 10 is fixed. The initial state remains in the three-cycle. 2027 mod3=2 selects 11. A applies at mod0, B at mod1, D is unreachable; C is correct.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Simulated 2027 simultaneous state updates: (1, 1).",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "06dc18d9e285084d3501daf5708d30fe91a37c2989359b1d76f70607d1649faa",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q045": {
+    "answer": [
+      "C"
+    ],
+    "independent_solution": "Original dependencies form Q waiting for R to close X, R waiting for P, P waiting for Q to close Y. Moving R's close before its wait removes the retained writer and permits Q, then P, then R to complete. A changes no dependency. B creates direct mutual process waits. D retains the original cycle and adds a Y-close dependency on P. C alone resolves the cycle.",
+    "method": "Independent model reviewer re-derivation with proof/option counterexamples",
+    "evidence": "Original dependencies form Q waiting for R to close X, R waiting for P, P waiting for Q to close Y. Moving R's close before its wait removes the retained writer and permits Q, then P, then R to complete. A changes no dependency. B creates direct mutual process waits. D retains the original cycle and adds a Y-close dependency on P. C alone resolves the cycle.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "5a197dd302600e90791dffa95e70ba0c087b5d4cf9c1d18f36cd3e0fa285df07",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q046": {
+    "answer": 12,
+    "independent_solution": "Every legal execution is an order of six operations with each read preceding its paired write. Enumerating all 90 orders, updating each private read register separately, yields twelve distinct final integers: 1,3,4,5,6,7,8,9,11,12,14,17. This is an interleaving problem, not undefined C data-race semantics, because the model explicitly defines atomicity and sequential consistency.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "All 90 read-before-write schedules enumerated; final values [1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14, 17].",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "7c69e6a28a1a94f65b09e0c23cea5de9b56804956d430cc32e018fcf574de00d",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q047": {
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "independent_solution": "A is true because a polynomial with nonzero constant term and degree>0 cannot divide a monomial. B is true because a burst of span<=3, after removing an x power, has degree<3. C is true since x^7+1 is divisible by g. D is false: the polynomial g itself has three flipped positions and is undetected. Thus ABC.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "GF(2) polynomial division: remainder(x^7+1)=0; remainder(g)=0, and g has odd Hamming weight 3. All bursts up to degree 2 are nonzero remainders. Single-bit correctness additionally follows from gcd(g,x)=1.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "13f37cd04abbeb27a4487428fcda5f5a81129986985a5256d218249abbdc0320",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q048": {
+    "answer": [
+      "B"
+    ],
+    "independent_solution": "The biconditional means equality of done and required sets. u has extra r and fails; v has exactly p,q and passes; w has exactly q and passes; z has r despite an empty requirement and fails. A includes u; C includes z; D includes both. B alone equals {v,w}.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Set-equality computation: ['v', 'w'].",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "3e46aed660e181c4040e2e4b1aee2ee6d88742fa573efade60647bbecf9abd50",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q049": {
+    "answer": [
+      "A",
+      "D"
+    ],
+    "independent_solution": "The right OR operand is evaluated iff the left conjunction fails: x=0 or x!=0 with the quotient<=2. Thus A and D hold. B fails at x=2,y=5: truncation gives quotient2 but y>2*x is true; side effects can differ. C introduces division by zero at x=0. Distinct locations and unbounded integers remove alias/overflow complications.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Counterexample to B: x=2,y=5,z=0. Original increments z and is false; replacement skips increment and is true. C fails at x=0 (division undefined).",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "7f3c5dcc453b8355e4c430ee86c22e5c0af693c3ea0a81a6d0fe68fb18aa4992",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q050": {
+    "answer": [
+      "A",
+      "B"
+    ],
+    "independent_solution": "A substring spanning an a and a c must contain all p b's plus at least two endpoint symbols, contradicting length<=p; hence A. Deleting v,y removes at least one symbol from at most two blocks and leaves one block at p, so equal counts cannot remain: B. The adversarial decomposition requires all cases, not one, so C is false. No legal justification restricts both pumped pieces to a's, so D is false.",
+    "method": "Independent model reviewer re-derivation with proof/option counterexamples",
+    "evidence": "A substring spanning an a and a c must contain all p b's plus at least two endpoint symbols, contradicting length<=p; hence A. Deleting v,y removes at least one symbol from at most two blocks and leaves one block at p, so equal counts cannot remain: B. The adversarial decomposition requires all cases, not one, so C is false. No legal justification restricts both pumped pieces to a's, so D is false.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "be48df6e2135c1da32fae47ae1e36fa88f08e9249f1e0cdf2389a69ae18e0712",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q051": {
+    "answer": [
+      "B"
+    ],
+    "independent_solution": "Each iteration bypasses the next even-position node and prepends it to q. The successive extracted nodes are 2,4,6, hence head retains 1,3,5 and q is 6,4,2. A neglects prepend reversal. C spuriously moves odd nodes. D describes a different partition. B is correct.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Node-identity pointer simulation: head=[1, 3, 5], q=[6, 4, 2].",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "6a704d3127f7b77b092c61398cbef96091462231544fe9826a84b825e9c3593f",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q052": {
+    "answer": 167,
+    "independent_solution": "E7 represents raw -25 and 39 raw57. Their physical product is -1425/256; the target fixed-point raw value is -1425/16=-89.0625. Nearest integer is -89, with no tie. The eight-bit two's-complement code is 256-89=167. Answer is the unsigned raw byte, not the represented negative value.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Exact Fraction arithmetic: desired signed raw value -1425/16; ties-to-even rounds to -89, byte 167.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "76e040346fbb18e7448b83a5637d0dbd89cf2d27bfacbf340229fad9d41f25de",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q053": {
+    "answer": 13,
+    "independent_solution": "The prefix 3,2 forces initial pushes1,2,3 then pops3,2, leaving stack[1] and unread4,5,6. Recursively exploring every legal subsequent push/pop under capacity3, collecting output sequences rather than action sequences, gives 13 distinct completions. Evidence lists every sequence.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Exhaustive legal push/pop recursion with capacity 3 and required prefix: 13 sequences, [(3, 2, 1, 4, 5, 6), (3, 2, 1, 4, 6, 5), (3, 2, 1, 5, 4, 6), (3, 2, 1, 5, 6, 4), (3, 2, 1, 6, 5, 4), (3, 2, 4, 1, 5, 6), (3, 2, 4, 1, 6, 5), (3, 2, 4, 5, 1, 6), (3, 2, 4, 5, 6, 1), (3, 2, 4, 6, 5, 1), (3, 2, 5, 4, 1, 6), (3, 2, 5, 4, 6, 1), (3, 2, 5, 6, 4, 1)].",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "e1908b6b4a561209ac7c9bafccf7b83b800e96b2123ec6b3bccf2b40a5e1b698",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q054": {
+    "answer": [
+      "B"
+    ],
+    "independent_solution": "There are31 nonempty destination subsets, each compatible with8 sources, and one idle command:249 distinct codes. Thus bus encoding needs8 bits. Separate ALU6 choices needs3, address128 needs7, condition4 needs2. Total20. A19 leaves7 bus bits and cannot represent249; C21 and D25 suffice but exceed minimum. B holds.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Enumerative command count:1+8*(32-1)=249, needing8 bits. Other independent fields3+7+2 yield20 bits.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "66047e5bccb9e5722fed11e05ef02ca0d678c6922bec0ac04dacc22dcdfae9d7",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q056": {
+    "answer": 2,
+    "independent_solution": "Set1 is recognizable by direct simulation on01. Set4 is recognizable by dovetailing all binary inputs until any run reaches q. Set2 is not recognizable: construct a machine accepting string00 iff an arbitrary M(w) halts; its language is contained in{01} iff M(w) never halts, reducing nonhalting to set2. Set3 is not recognizable: on input x simulate M(w) for |x| steps; halt iff it has not halted, otherwise loop. The constructed machine is total iff M(w) never halts. Thus exactly sets1 and4 are recognizable.",
+    "method": "Independent model reviewer re-derivation with proof/option counterexamples",
+    "evidence": "Set1 is recognizable by direct simulation on01. Set4 is recognizable by dovetailing all binary inputs until any run reaches q. Set2 is not recognizable: construct a machine accepting string00 iff an arbitrary M(w) halts; its language is contained in{01} iff M(w) never halts, reducing nonhalting to set2. Set3 is not recognizable: on input x simulate M(w) for |x| steps; halt iff it has not halted, otherwise loop. The constructed machine is total iff M(w) never halts. Thus exactly sets1 and4 are recognizable.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "adbbfabdd6fe63a327154b86d81d24160da6e29d3fa1b287dbaeca0d9555212c",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q057": {
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "independent_solution": "Four 4KiB banks occupy 8000-BFFF; upper pattern10 enables, A13:A12 choose bank, lower12 bits offset. B123 therefore has bank3, offset123. Ignoring A14 duplicates each location at address xor4000. Rewiring local address to A12:A1 ignores A0, so adjacent addresses alias; D fails. ABC hold.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Exhaustive address mapping with only A15 decoded: 16384 physical locations, each with exactly two aliases. B123 maps to bank3/offset123. Under D, 8000 and 8001 share chip and local address.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "8ccdf9d6ffc9cc75220a2374d7f80afc69aa9ee1263701210875246ee5d77064",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q058": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "Group1 has counts3,2 and sum20 and passes. Group2 has counts2,0 but NULL sum, so its comparison is UNKNOWN and HAVING drops it. Group3 has counts1,1 and fails the first condition. A is the only result; B includes a dropped group, C invents deduplication, D omits a passing group.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "SQLite executed query with supplied rows: [(1, 3, 2)]; relevant aggregate NULL semantics agree with stated SQL rules.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "8c13dff262949f74547b13b60803d771107adc2956857a97800539cb8528db84",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q059": {
+    "answer": [
+      "C"
+    ],
+    "independent_solution": "Original needs are (1,2),(1,1),(2,0). Available(1,1) permits P1, after whose release P0 then P2 can complete. Tentative grant leaves available(1,0), needs(1,1),(1,1),(2,0), so no process can complete. A cannot start P0; B cannot start P2; D wrongly declares the original state unsafe. C holds.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Exhausted 6 process orders: before request [(1, 0, 2)]; after grant [].",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "c667dfa6b56fc68f906cee25c8b8b9c75d2dd7405147e997fb21e4a5b2961913",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q060": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "Conditional miss cost=6+.2*60=18. Original average=1+.1*18=2.8; redesigned=t+.05*18=t+.9. Strict improvement iff t<1.9. B and D allow slower cases; C is only sufficient, not necessary (t=1.8 improves). A is necessary and sufficient.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Exact arithmetic: initial AMAT 14/5, new residual miss cost 9/10, strict t threshold 19/10.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "64c0aae511e806dc8f84de1f77956e33b8c089d72a2c364ebc88185752511996",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q061": {
+    "answer": [
+      "C"
+    ],
+    "independent_solution": "Earliest-finish greedy produces B,C,E,G of size4; its exchange invariant proves optimal cardinality. Counting maximum subsets gives A,D,F,H; B,C,E,G; B,C,E,H; B,C,F,H; B,D,F,H. Exhaustion independently confirms all five. A understates cardinality, B undercounts maximum subsets, D overstates cardinality. C=(4,5) holds. This revision adds a substantive counting task beyond feasibility inspection.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "All 256 subsets checked: maximum 4, five optimum subsets [['B', 'D', 'F', 'H'], ['B', 'C', 'F', 'H'], ['B', 'C', 'E', 'H'], ['B', 'C', 'E', 'G'], ['A', 'D', 'F', 'H']].",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "3844d28e4cc5e1c1cf25ad900758f35b250be63574e77524e8476a363c3b465f",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q062": {
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "independent_solution": "Positive wi implies j-wi<j. Descending scan has not yet updated that lower entry for this item, maintaining previous-item recurrence: A,D true. Ascending scan can read a just-updated entry; item(2,3) yields D2=3 and D4=6 at W4: C true, B false. Zero initialization represents at-most capacity, as stated.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Executed upward/downward single-item counterexample: 6 vs 3; general correctness proved using j-w<j and descending update invariant.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "214b18e5b5d2763f3efbc27b6d1dcea3a2fb51b6b109628ee734bb2c8e72eaa8",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q063": {
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "independent_solution": "A follows nullable SET NULL. B updates to unused key3 and propagates. C is false since a nullable single-column FK accepts NULL without matching a parent. D is true because parent primary-key uniqueness forbids merging1 into existing2; cascade does not waive it. Independent initial states are explicitly provided.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Separate SQLite databases with FK enforcement for each operation: [{'success': True, 'children': [(10, None), (11, 2), (12, None)]}, {'success': True, 'children': [(10, 1), (11, 3), (12, None)]}, {'success': True, 'children': [(10, 1), (11, 2), (12, None), (13, None)]}, {'success': False}].",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "305d77ad795f368941767313258ad629fff50890e8a8f68ce34d5315aad686ac",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  },
+  "CS27-M001-Q065": {
+    "answer": 325,
+    "independent_solution": "One-way propagation=12us. Worst-case return disturbance bound=24us; specified detection adds2us. At100 million bits/s,26us spans2600 bits=325 bytes. Inclusive boundary explicitly allows equality; standard Ethernet minimum sizes are irrelevant to this idealized model.",
+    "method": "Independent model reviewer re-derivation plus reproducible Python computation",
+    "evidence": "Exact delay-rate calculation: 2600 bits, 325 bytes.",
+    "verdict": "VERIFIED",
+    "issues": [],
+    "reviewed_content_hash": "13cb95a93b0722e048fa36272ebf7e20dadd72f11721cb1a09da3832f3a84215",
+    "review_provenance": "Separate model reviewer; no human review. Initial source inspection exposed many author answers; not a blind review. Revisions37/41/43/54/61 were separately solved from stems/options before viewing revised answers."
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "2": {
+    "answer": 35.71,
+    "evidence": "Exact completed-X proportion 5/14; percentage 250/7."
+  },
+  "3": {
+    "answer": 2,
+    "evidence": "[('B', 'C'), ('B', 'D')]"
+  },
+  "4": {
+    "answer": [
+      "A"
+    ],
+    "evidence": "[(-1, -1), (-1, -3), (-2, -1)]"
+  },
+  "6": {
+    "answer": [
+      "A"
+    ],
+    "evidence": "96 arrangements with A fixed; all 720 rotations representatives enumerated."
+  },
+  "7": {
+    "answer": [
+      "A"
+    ],
+    "evidence": "(Fraction(13, 1), Fraction(13, 1))"
+  },
+  "8": {
+    "answer": 2,
+    "evidence": "[(2, 3), (2, 5), (3, 2), (3, 6), (5, 2), (5, 6), (6, 3), (6, 5)]"
+  },
+  "10": {
+    "answer": [
+      "B"
+    ],
+    "evidence": "P(red pair)=1/4; P(same)=13/30; ratio=15/26"
+  },
+  "11": {
+    "answer": [
+      "A"
+    ],
+    "evidence": "[True, False, False, False]"
+  },
+  "12": {
+    "answer": 2,
+    "evidence": "Sequential shared-offset state: 0,2,5,1,2."
+  },
+  "13": {
+    "answer": [
+      "A"
+    ],
+    "evidence": "Option implementation validity [True, False, False, True]; A one literal; D two literals; no constant can satisfy required 0 and 1 rows."
+  },
+  "14": {
+    "answer": [
+      "A"
+    ],
+    "evidence": "530 finite relations checked; inequivalence witnesses A-D: [None, {'domain_size': 2, 'R': [[0, 1], [1, 1]]}, {'domain_size': 1, 'R': []}, {'domain_size': 2, 'R': [[0, 1], [1, 0], [1, 1]]}]. General proof uses quantifier/De Morgan laws."
+  },
+  "15": {
+    "answer": 120,
+    "evidence": "displacement -6; intermediate address 80; M[80]=120 effective address."
+  },
+  "16": {
+    "answer": [
+      "D"
+    ],
+    "evidence": "unsigned sum 13, low 1101, C=0; signed 7-(-6)=13 outside [-8,7], V=1."
+  },
+  "17": {
+    "answer": 3,
+    "evidence": "Key comprises dept_id, project_code, task_no; repeat permissions rule out dropping any component."
+  },
+  "18": {
+    "answer": [
+      "B"
+    ],
+    "evidence": "['ifx', '==', 'if', '++', '+', 'x']"
+  },
+  "20": {
+    "answer": 3,
+    "evidence": "strict shifts=3; modified shifts=6"
+  },
+  "21": {
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "evidence": "[[1], [1, 2], [1, 2], []]"
+  },
+  "23": {
+    "answer": 2,
+    "evidence": "Subtract row 1: determinant=(t-1)^2-1=t(t-2); singular parameters 0,2."
+  },
+  "25": {
+    "answer": 2,
+    "evidence": "P1/P0=lambda=1; second moment lambda+lambda^2=2."
+  },
+  "26": {
+    "answer": 2,
+    "evidence": "Prime cubes [((None, 0, 1), [1, 5]), ((None, 1, 0), [2, 6]), ((0, None, 0), [0, 2]), ((0, 0, None), [0, 1]), ((1, None, 1), [5, 7]), ((1, 1, None), [6, 7])]; minimum terms 3; covers [(0, 2, 5), (1, 3, 4)]"
+  },
+  "27": {
+    "answer": [
+      "B"
+    ],
+    "evidence": {
+      "original": {
+        "compile_exit": 0,
+        "diagnostic": "",
+        "stdout": "10\n"
+      },
+      "corrected": {
+        "compile_exit": 0,
+        "diagnostic": "",
+        "stdout": "10\n"
+      },
+      "intended_answer": [
+        "B"
+      ]
+    }
+  },
+  "28": {
+    "answer": [
+      "A",
+      "C"
+    ],
+    "evidence": "Insertion table [None, 24, None, 10, None, None, 17]; all begin probing slot 3; deleting it must retain chain continuation; 31 also starts at slot 3."
+  },
+  "29": {
+    "answer": [
+      "A"
+    ],
+    "evidence": "Only parent continues; children break at i=0,1,2; parent exits at i=3."
+  },
+  "30": {
+    "answer": 3,
+    "evidence": "Classes: even-b ending a (accept), even-b not ending a (reject), odd-b (reject). First two epsilon-distinguished; the two rejecting classes distinguished by suffix a."
+  },
+  "31": {
+    "answer": 3.0,
+    "evidence": "[[Fraction(1, 2), Fraction(3, 2), Fraction(2, 1)], [Fraction(1, 1), Fraction(5, 2), Fraction(3, 1)]]"
+  },
+  "33": {
+    "answer": [
+      "A"
+    ],
+    "evidence": "(45, 6)"
+  },
+  "35": {
+    "answer": 6,
+    "evidence": "[(0, 0, 2), (0, 1, 0), (0, 1, 1), (0, 2, 2), (1, 1, 2), (2, 1, 2)]"
+  },
+  "22": {
+    "answer": 2,
+    "evidence": "LL1 cells: S,a={S->Aa}; S,b={S->Aa,S->b}; A,a={A->aA,A->B}; A,b={A->B}; B,a={B->epsilon}; B,b={B->bB}. Conflicts exactly (S,b),(A,a)."
+  },
+  "24": {
+    "answer": [
+      "C"
+    ],
+    "evidence": "Piecewise g=2 on [-2,2], 4*abs(x)-6 elsewhere; sampled exact rational values [('-3', Fraction(6, 1)), ('-2', Fraction(2, 1)), ('-3/2', Fraction(2, 1)), ('-1', Fraction(2, 1)), ('0', Fraction(2, 1)), ('1', Fraction(2, 1)), ('3/2', Fraction(2, 1)), ('2', Fraction(2, 1)), ('3', Fraction(6, 1))]. One-sided slopes differ only at +/-2."
+  },
+  "39": {
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "evidence": "In eigenbasis with second vector u, rank-one update changes only second row to (alpha,0,beta), leaving diagonal1,0,4. Characteristic roots0,1,4 imply real diagonalizability and rank2. Counterexample A=diag(1,2,4), u=e2, v=(1,-2,0): AB[2,1]=2 while BA[2,1]=1 (one-based)."
+  },
+  "40": {
+    "answer": 2,
+    "evidence": "Derivative /4=x^3-a*x+1; cubic discriminant4*a^3-27 positive iff three simple roots; threshold a>cube_root(27/4)."
+  },
+  "55": {
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "evidence": "Paths ['-', '+-', '++-', '+++']; E[N]=577/400; faulty given N3=64/67; faulty given ++-=128/155; faulty given + then terminal -=32/65."
+  },
+  "64": {
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "evidence": "All7! permutations checked; automorphisms [(0, 1, 2, 3, 4, 5, 6), (0, 2, 1, 3, 5, 4, 6)]; complemented elements=[[], ['a'], ['b'], ['a', 'c'], ['b', 'c'], ['a', 'b', 'c']]; distributive=False; join(a,b)=['a', 'b', 'c']."
+  }
+}

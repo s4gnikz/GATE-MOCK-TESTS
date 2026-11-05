@@ -1,0 +1,813 @@
+[
+  {
+    "number": 1,
+    "subject": "General Aptitude",
+    "subtopic": "Vocabulary in context",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M002-Q001",
+    "paper": 2,
+    "stem": "The reviewer gave the proposal a “qualified endorsement”: she supported its objective but required a smaller pilot before implementation. In this context, “qualified” most nearly means:",
+    "options": [
+      "supported without any reservations",
+      "conditional on stated reservations",
+      "written by a certified professional",
+      "withdrawn after reconsideration"
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. The reviewer supports the objective, so the endorsement is not withdrawn.\n2. The requirement of a smaller pilot places a condition on that support. Here “qualified” means limited by reservations, rather than describing professional credentials.",
+    "option_explanations": [
+      "This contradicts the explicit condition.",
+      "This captures support with a limitation.",
+      "The context gives no information about credentials.",
+      "Support remains; it has not been withdrawn."
+    ],
+    "misconception": "A familiar word can have a contextual meaning unrelated to its usual professional use.",
+    "family": "ga_contextual_qualified_endorsement",
+    "reasoning_pattern": "ga_contextual_qualified_endorsement",
+    "structure_signature": "ga_contextual_qualified_endorsement",
+    "reasoning_steps": 2,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 2,
+    "subject": "General Aptitude",
+    "subtopic": "Powers and logarithms",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M002-Q002",
+    "paper": 2,
+    "stem": "A culture grows exponentially at a constant rate. Its population becomes eight times its initial value in 12 hours. Starting from the same initial population, after how many hours will it become 32 times its initial value?",
+    "options": [],
+    "answer": 20,
+    "solution": "1. Eight is 2^3, so three doublings take 12 hours and one doubling takes 4 hours.\n2. Thirty-two is 2^5, requiring five doublings. The time is 5*4=20 hours.",
+    "option_explanations": [],
+    "misconception": "Exponential growth relates elapsed time to the logarithm of the multiplication factor.",
+    "family": "ga_exponential_growth_compare_doubling_counts",
+    "reasoning_pattern": "ga_exponential_growth_compare_doubling_counts",
+    "structure_signature": "ga_exponential_growth_compare_doubling_counts",
+    "reasoning_steps": 2,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 20,
+      "max": 20,
+      "precision": 0
+    }
+  },
+  {
+    "number": 3,
+    "subject": "General Aptitude",
+    "subtopic": "Inductive reasoning and analogies",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M002-Q003",
+    "paper": 2,
+    "stem": "An inspector accepts or rejects cards using one of the four candidate rules below. Each card has one colour, one shape, and is either filled or hollow. Observations are:\n\n| Colour | Shape | Appearance | Decision |\n|---|---|---|---|\n| Red | Circle | Filled | Reject |\n| Red | Circle | Hollow | Accept |\n| Red | Square | Filled | Accept |\n| Blue | Circle | Filled | Reject |\n| Blue | Circle | Hollow | Reject |\n\nWhich candidate rule agrees with every observation?",
+    "options": [
+      "Accept if the card is red and is either circular or filled, including when both hold.",
+      "Accept if the card is red and exactly one of “circular” and “filled” holds.",
+      "Accept if exactly one of “circular” and “filled” holds, regardless of colour.",
+      "Accept if the card is red or circular, including when both hold."
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. The rejected red, circular, filled card excludes rules that accept both properties together: A and D.\n2. The rejected blue, circular, hollow card excludes a colour-independent exclusive-or rule C.\n3. B accepts precisely the two listed red cards with one of the two properties and rejects all three other rows. This selects among the stated candidates; it does not claim uniqueness among all imaginable rules.",
+    "option_explanations": [
+      "It would accept the first row.",
+      "It matches all five rows.",
+      "It would accept the final blue card.",
+      "It would accept the first, fourth and fifth rows."
+    ],
+    "misconception": "Observed examples select a rule only relative to a specified candidate set.",
+    "family": "ga_candidate_rule_elimination_three_attributes",
+    "reasoning_pattern": "ga_candidate_rule_elimination_three_attributes",
+    "structure_signature": "ga_candidate_rule_elimination_three_attributes",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 4,
+    "subject": "General Aptitude",
+    "subtopic": "Two- and three-dimensional patterns",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M002-Q004",
+    "paper": 2,
+    "stem": "A cube has six distinct face labels A,B,C,D,E,F. Three valid orientations are listed as (top, front, right): (A,B,C), (A,D,E), and (F,B,E). Which face is opposite B? Rotating the cube does not change its labels.",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "answer": [
+      "C"
+    ],
+    "solution": "1. With A on top, the clockwise side-face order consistent with front B and right C begins B,C. The other view with the same top places D immediately before E in that order.\n2. The four side labels are distinct, so their cyclic order is B,C,D,E. Opposite side pairs are B-D and C-E.\n3. The third view is consistent with F opposite A and confirms the orientation without changing B's opposite.",
+    "option_explanations": [
+      "A is adjacent to B in the first view.",
+      "C is adjacent to B in the first view.",
+      "D lies two positions from B around the four side faces.",
+      "E is adjacent to B in the third view."
+    ],
+    "misconception": "Face adjacency and cyclic orientation together determine opposite faces.",
+    "family": "ga_cube_three_views_opposite_face",
+    "reasoning_pattern": "ga_cube_three_views_opposite_face",
+    "structure_signature": "ga_cube_three_views_opposite_face",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 5,
+    "subject": "General Aptitude",
+    "subtopic": "Numerical series",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M002-Q005",
+    "paper": 2,
+    "stem": "A numerical sequence begins a1=2 and a2=5. For every integer n>=3, its rule is a_n=2*a_(n-1)-a_(n-2)+n. What is a5-a4?",
+    "options": [],
+    "answer": 15,
+    "solution": "1. Let d_n=a_n-a_(n-1). Subtracting a_(n-1) from the recurrence gives d_n=d_(n-1)+n.\n2. Starting from d2=3, obtain d3=6, d4=10 and d5=15.\n3. Therefore a5-a4=15. Direct terms 2,5,11,21,36 give the same result.",
+    "option_explanations": [],
+    "misconception": "A second-order sequence can become a simpler first-difference pattern.",
+    "family": "ga_explicit_second_difference_increment_series",
+    "reasoning_pattern": "ga_explicit_second_difference_increment_series",
+    "structure_signature": "ga_explicit_second_difference_increment_series",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 15,
+      "max": 15,
+      "precision": 0
+    }
+  },
+  {
+    "number": 6,
+    "subject": "General Aptitude",
+    "subtopic": "Geometry and mensuration",
+    "marks": 2,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M002-Q006",
+    "paper": 2,
+    "stem": "A rectangular garden is 16 m long and 10 m wide. A path of uniform width is laid inside all four edges, leaving a smaller rectangular planted region. The path occupies 88 square metres. What is the width of the path?",
+    "options": [
+      "1 m",
+      "2 m",
+      "3 m",
+      "4 m"
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. If the width is x, the planted dimensions are 16-2x and 10-2x. The planted area is 160-88=72.\n2. Expanding (16-2x)(10-2x)=72 gives x^2-13x+22=0, with roots 2 and 11.\n3. Geometry requires 0<x<5, so only x=2 is admissible.",
+    "option_explanations": [
+      "Width 1 leaves 14*8=112 square metres planted, so the path area is 48.",
+      "Width 2 leaves 12*6=72, giving path area 88.",
+      "Width 3 leaves 10*4=40, giving path area 120.",
+      "Width 4 leaves 8*2=16, giving path area 144."
+    ],
+    "misconception": "A border removes its width from both ends of each dimension, and algebraic roots must meet geometric bounds.",
+    "family": "ga_inner_border_area_root_admissibility",
+    "reasoning_pattern": "ga_inner_border_area_root_admissibility",
+    "structure_signature": "ga_inner_border_area_root_admissibility",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 7,
+    "subject": "General Aptitude",
+    "subtopic": "Verbal grammar",
+    "marks": 2,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M002-Q007",
+    "paper": 2,
+    "stem": "Choose the revision that is grammatically correct and preserves both intended meanings: Mira did not leave earlier, so she missed the train; Mira, not the meeting, reached the office late.\n\nOriginal: “If Mira had left earlier, she will catch the train. Having reached the office late, the meeting had already begun.”",
+    "options": [
+      "If Mira left earlier, she will catch the train. Having reached the office late, the meeting began.",
+      "If Mira had left earlier, she would have caught the train. When Mira reached the office late, the meeting had already begun.",
+      "If Mira had left earlier, she would catch the train. Having reached the office late, the meeting had begun.",
+      "If Mira would have left earlier, she caught the train. When the meeting reached the office late, Mira had begun."
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. An unreal past condition uses “had left” with the result “would have caught”.\n2. A participial clause cannot attach Mira's late arrival to the grammatical subject “the meeting”. Naming Mira in a when-clause resolves that dangling modifier.\n3. Only B satisfies both requirements and retains the original time relationship.",
+    "option_explanations": [
+      "It changes the past counterfactual and still assigns the late arrival to the meeting.",
+      "The past counterfactual and arrival subject are both correct.",
+      "The result should be would have caught; the dangling modifier also remains.",
+      "The conditional form is wrong and the subjects no longer express the intended facts."
+    ],
+    "misconception": "Fixing one tense error does not repair a separate dangling modifier.",
+    "family": "ga_past_counterfactual_and_dangling_modifier_repair",
+    "reasoning_pattern": "ga_past_counterfactual_and_dangling_modifier_repair",
+    "structure_signature": "ga_past_counterfactual_and_dangling_modifier_repair",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 8,
+    "subject": "General Aptitude",
+    "subtopic": "Ratios and percentages",
+    "marks": 2,
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "id": "CS27-M002-Q008",
+    "paper": 2,
+    "stem": "A tank contains 120 litres of a well-mixed milk-water mixture in the ratio 3:2. First, 30 litres are removed and replaced with water. After thorough mixing, 20 litres are removed and replaced with pure milk. What is the final ratio of milk to water? Volumes are additive.",
+    "options": [
+      "11:13",
+      "13:11",
+      "3:2",
+      "7:5"
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. Initially milk=72 and water=48 litres. The first withdrawal removes one-quarter of each, leaving 54 milk and 36 water; the refill makes water 66.\n2. The next withdrawal removes one-sixth of each: the remaining amounts are milk=45 and water=55.\n3. Adding 20 litres of milk gives 65:55=13:11.",
+    "option_explanations": [
+      "This reverses the final milk and water quantities.",
+      "The final quantities are 65 and 55 litres.",
+      "The two different replacement fluids do not preserve the starting ratio.",
+      "This would require 70 litres milk rather than 65."
+    ],
+    "misconception": "Each withdrawal uses the composition after the preceding mixing step.",
+    "family": "ga_sequential_replacement_different_refill_fluids",
+    "reasoning_pattern": "ga_sequential_replacement_different_refill_fluids",
+    "structure_signature": "ga_sequential_replacement_different_refill_fluids",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 9,
+    "subject": "General Aptitude",
+    "subtopic": "Deductive logic",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "type": "MSQ",
+    "id": "CS27-M002-Q009",
+    "paper": 2,
+    "stem": "Five distinct talks A,B,C,D,E are scheduled in positions 1 through 5. C is last. A occurs before C. Exactly one talk lies between B and D. E is neither first nor last. Which statements are true over schedules satisfying all these conditions?",
+    "options": [
+      "A can be fourth.",
+      "A must occur before E.",
+      "E can be third.",
+      "B and D must both occupy odd-numbered positions."
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "solution": "1. Since C is fifth, the positions of B and D must be {1,3} or {2,4}.\n2. With B,D in {1,3}, A,E occupy {2,4} in either order; hence A can be fourth and need not precede E.\n3. With B,D in {2,4}, E must be third and A first. Thus C is possible and D's claim of odd positions is false.",
+    "option_explanations": [
+      "For example B,E,D,A,C is valid.",
+      "The same schedule places E before A.",
+      "For example A,B,E,D,C is valid.",
+      "The latter schedule has both B and D in even positions."
+    ],
+    "misconception": "A claim of possibility needs one witness; a claim of necessity must survive every valid schedule.",
+    "family": "ga_position_constraints_possible_vs_necessary",
+    "reasoning_pattern": "ga_position_constraints_possible_vs_necessary",
+    "structure_signature": "ga_position_constraints_possible_vs_necessary",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 10,
+    "subject": "General Aptitude",
+    "subtopic": "Two- and three-dimensional patterns",
+    "marks": 2,
+    "difficulty": "Medium-Hard",
+    "type": "MCQ",
+    "id": "CS27-M002-Q010",
+    "paper": 2,
+    "stem": "Solid stacks of unit cubes stand in a 2-by-3 grid. Each stack has a nonnegative integer height and has no gaps. Looking along the two-row direction, the maximum heights in the three columns are 2,3,1 respectively. Looking along the three-column direction, the maximum heights in the two rows are 3,2 respectively. What pair gives the minimum and maximum possible total number of cubes?",
+    "options": [
+      "(7,11)",
+      "(6,11)",
+      "(6,12)",
+      "(8,12)"
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. Each stack at row i, column j is at most min(row maximum i, column maximum j). The componentwise largest arrangement is rows [2,3,1] and [2,2,1], with 11 cubes; it meets every projection.\n2. Each column must attain its maximum, so at least 2+3+1=6 cubes are needed.\n3. Rows [0,3,1] and [2,0,0] attain all required row and column maxima with exactly 6 cubes. Thus both bounds are achievable.",
+    "option_explanations": [
+      "The displayed 6-cube construction disproves a minimum of 7.",
+      "It gives the two attainable bounds.",
+      "The per-stack upper bounds sum to only 11.",
+      "Both numbers exceed attainable tight bounds."
+    ],
+    "misconception": "Projection heights are maxima, not sums; each visible peak can serve both a row and a column constraint.",
+    "family": "ga_voxel_projections_tight_volume_bounds",
+    "reasoning_pattern": "ga_voxel_projections_tight_volume_bounds",
+    "structure_signature": "ga_voxel_projections_tight_volume_bounds",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 22,
+    "subject": "Engineering Mathematics",
+    "subtopic": "LU decomposition",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "MSQ",
+    "id": "CS27-M002-Q022",
+    "paper": 2,
+    "stem": "For real t let\n\n```text\nA(t) = [1  2  1]\n       [2  t  3]\n       [1  3  1].\n```\n\nUse Doolittle elimination, with unit diagonal in L and no row exchanges unless an option explicitly permits one. Which statements are correct?",
+    "options": [
+      "det(A(t))=-1 for every real t.",
+      "An unpivoted factorization A=LU with unit lower-triangular L exists for every real t.",
+      "At t=4, exchanging rows 2 and 3 after eliminating column 1 allows elimination to finish without a zero pivot.",
+      "At t=5, the final diagonal entry U33 is 1."
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "solution": "1. Eliminate column 1 to obtain rows [1,2,1], [0,t-4,1], [0,1,0]. Expanding along column 1 gives determinant -1 for every t.\n2. At t=4 the second pivot is zero while the entry below it is 1. In any unit-lower LU decomposition the forced leading U block would have U22=0, making the required A32 residual impossible. Row exchange fixes this, giving trailing block diag(1,1).\n3. At t=5, the second pivot is 1 and eliminating the last row gives U33=-1, not 1.",
+    "option_explanations": [
+      "The trailing 2-by-2 determinant is (t-4)*0-1=-1.",
+      "Nonsingularity does not ensure all unpivoted pivots exist; t=4 is a counterexample.",
+      "The swapped trailing rows are [1,0] and [0,1].",
+      "The last elimination subtracts the second trailing row and produces -1."
+    ],
+    "misconception": "An invertible matrix may still require pivoting for a particular elimination order.",
+    "family": "em_nonsingular_parameter_matrix_lu_pivot_failure",
+    "reasoning_pattern": "em_nonsingular_parameter_matrix_lu_pivot_failure",
+    "structure_signature": "em_nonsingular_parameter_matrix_lu_pivot_failure",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 24,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Integration",
+    "marks": 1,
+    "difficulty": "Medium",
+    "type": "NAT",
+    "id": "CS27-M002-Q024",
+    "paper": 2,
+    "stem": "Evaluate the integral from 0 to 1 of max(x,1-2x) with respect to x. Round the result to three decimal places.",
+    "options": [],
+    "answer": 0.667,
+    "solution": "1. The two expressions cross at x=1/3. The maximum is 1-2x to its left and x to its right.\n2. The two integrals are [x-x^2] from 0 to 1/3 = 2/9 and [x^2/2] from 1/3 to 1 = 4/9.\n3. Their sum is 2/3, which rounds to 0.667.",
+    "option_explanations": [],
+    "misconception": "Integrate the upper expression separately on each side of its crossover.",
+    "family": "em_integral_upper_envelope_linear_crossover",
+    "reasoning_pattern": "em_integral_upper_envelope_linear_crossover",
+    "structure_signature": "em_integral_upper_envelope_linear_crossover",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 0.667,
+      "max": 0.667,
+      "precision": 3
+    }
+  },
+  {
+    "number": 29,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Descriptive statistics",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "NAT",
+    "id": "CS27-M002-Q029",
+    "paper": 2,
+    "stem": "Dataset A contains 3 observations with mean 2 and population variance 2. Dataset B contains 2 observations with mean 7 and population variance 1. What is the population variance of their combined five observations? Use division by the population size, not by one less than that size.",
+    "options": [],
+    "answer": 7.6,
+    "solution": "1. The combined mean is (3*2+2*7)/5=4.\n2. The mean square in A is 2+2^2=6, and that in B is 1+7^2=50. The combined mean square is (3*6+2*50)/5=118/5.\n3. Subtract the square of the combined mean: 118/5-16=38/5=7.6.",
+    "option_explanations": [],
+    "misconception": "Pooling variances requires accounting for different group means as well as group sizes.",
+    "family": "em_pooled_variance_with_between_group_shift",
+    "reasoning_pattern": "em_pooled_variance_with_between_group_shift",
+    "structure_signature": "em_pooled_variance_with_between_group_shift",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 7.6,
+      "max": 7.6,
+      "precision": 1
+    }
+  },
+  {
+    "number": 33,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Monoids and groups",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "MCQ",
+    "id": "CS27-M002-Q033",
+    "paper": 2,
+    "stem": "On the set of residues {0,1,2,3,4} modulo 5, define permutations f(x)=2x mod 5 and g(x)=(x+1) mod 5. Let h=f composed with g composed with f-inverse composed with g-inverse; the rightmost map acts first. What is the smallest positive integer k for which h applied k times is the identity?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "answer": [
+      "D"
+    ],
+    "solution": "1. The inverses are f-inverse(x)=3x mod 5 and g-inverse(x)=x-1 mod 5.\n2. Apply the maps right to left: x becomes x-1, then 3x-3, then 3x-2, then 6x-4, which is x+1 modulo 5.\n3. Thus h is a translation by 1; its k-fold application is x+k, equal to x for every residue exactly when k is a multiple of 5.",
+    "option_explanations": [
+      "h is not identity; it maps 0 to 1.",
+      "Two applications map 0 to 2.",
+      "The order of f alone is 4, but h is a different permutation.",
+      "Five is the least positive translation count returning every residue."
+    ],
+    "misconception": "Composition order matters when the permutations do not commute.",
+    "family": "em_affine_permutation_commutator_order",
+    "reasoning_pattern": "em_affine_permutation_commutator_order",
+    "structure_signature": "em_affine_permutation_commutator_order",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 35,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Graph connectivity matching and colouring",
+    "marks": 1,
+    "difficulty": "Medium-Hard",
+    "type": "MSQ",
+    "id": "CS27-M002-Q035",
+    "paper": 2,
+    "stem": "G is a connected simple undirected graph with degree multiset {3,3,2,2,2,2}. Which statements must hold?",
+    "options": [
+      "G has exactly 7 edges.",
+      "G has an Euler trail that uses every edge exactly once.",
+      "G is bipartite.",
+      "G has a Hamiltonian cycle."
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "solution": "1. The degree sum is 14, so the handshake lemma gives 7 edges.\n2. G is connected and has exactly two odd-degree vertices. It therefore has an open Euler trail.\n3. For a counterexample to both remaining assertions, take two disjoint triangles and connect one vertex of each by one bridge. The bridge endpoints have degree 3 and all others degree 2. The triangles exclude bipartiteness; the bridge excludes a Hamiltonian cycle.",
+    "option_explanations": [
+      "Each undirected edge contributes twice to the degree sum.",
+      "Connectedness and exactly two odd vertices are sufficient.",
+      "The two-triangle bridge construction has an odd cycle.",
+      "A Hamiltonian cycle cannot cross a bridge and return without reusing it."
+    ],
+    "misconception": "A degree sequence can force an Euler trail without forcing bipartiteness or a Hamiltonian cycle.",
+    "family": "em_degree_multiset_euler_guarantee_shared_counterexample",
+    "reasoning_pattern": "em_degree_multiset_euler_guarantee_shared_counterexample",
+    "structure_signature": "em_degree_multiset_euler_guarantee_shared_counterexample",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 39,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Counting",
+    "marks": 2,
+    "difficulty": "Hard",
+    "type": "NAT",
+    "id": "CS27-M002-Q039",
+    "paper": 2,
+    "stem": "Six positions around a circle are filled with two red, two blue and two green beads. Beads of the same colour are indistinguishable. Adjacent positions, including the last and first, must have different colours. Arrangements related by rotation are identified; reflections are counted separately unless a rotation already identifies them. How many arrangements are there?",
+    "options": [],
+    "answer": 5,
+    "solution": "1. First label the six positions. Without adjacency restrictions there are 6!/(2!2!2!)=90 colourings. For a given colour to occupy adjacent positions, choose its edge in 6 ways and place the other two pairs in 6 ways: 36 colourings.\n2. For two specified colours both to be adjacent, choose the first edge in 6 ways and a disjoint edge in 3 ways: 18. For all three pairs to be adjacent, choose one of the two perfect matchings of the 6-cycle, then assign the colours in 3!=6 ways: 12. Inclusion-exclusion gives 90-3*36+3*18-12=24 valid labelled colourings.\n3. Six of these have the form XYZXYZ, where X,Y,Z are different. They have rotation orbits of size 3, giving two arrangements. Every other valid colouring has six distinct rotations: periods 1 and 2 are incompatible with two of each colour. The other 18 colourings give three arrangements.\n4. Total arrangements = 2+3=5.",
+    "option_explanations": [],
+    "misconception": "Dividing by six blindly fails when some colourings have rotational symmetry.",
+    "family": "em_balanced_cycle_colouring_inclusion_exclusion_variable_orbits",
+    "reasoning_pattern": "em_balanced_cycle_colouring_inclusion_exclusion_variable_orbits",
+    "structure_signature": "em_balanced_cycle_colouring_inclusion_exclusion_variable_orbits",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 5,
+      "max": 5,
+      "precision": 0
+    }
+  },
+  {
+    "number": 40,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Recurrences and generating functions",
+    "marks": 2,
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "id": "CS27-M002-Q040",
+    "paper": 2,
+    "stem": "Let e_n be the number of binary strings of length n that have no consecutive 1s and contain an even number of 1s. The empty string is counted, so e_0=1. Which formal ordinary generating function E(x)=sum over n>=0 of e_n*x^n is correct?",
+    "options": [
+      "(1+x)/(1-x-x^2)",
+      "(1-x+x^3)/(1-2x+x^2-x^4)",
+      "1/(1-x-x^2)",
+      "(1-x)/(1-2x+x^2-x^4)"
+    ],
+    "answer": [
+      "B"
+    ],
+    "solution": "1. Mark each 1 by y. If F(x,y) counts all strings with no consecutive 1s, the last-bit recurrence for n>=2 is F_n(y)=F_(n-1)(y)+y*F_(n-2)(y), with F_0=1 and F_1=1+y. Thus F(x,y)=(1+xy)/(1-x-x^2*y).\n2. Keeping only even powers of y gives E(x)=(F(x,1)+F(x,-1))/2.\n3. Combining the fractions gives numerator 1-x+x^3 and denominator (1-x)^2-x^4=1-2x+x^2-x^4. This is B; it begins 1+x+x^2+2x^3+4x^4+... .",
+    "option_explanations": [
+      "This counts all allowed strings without the parity restriction; its coefficient of x is 2 instead of 1.",
+      "It is the even-parity projection of the bivariate generating function.",
+      "Its coefficient of x^2 is 2, but the only even-parity valid length-2 string is 00.",
+      "It misses the x^3 numerator contribution and gives coefficient 1 at x^3 instead of 2."
+    ],
+    "misconception": "Parity restrictions require tracking a marked statistic, not merely forbidding local patterns.",
+    "family": "em_binary_no_adjacent_ones_even_parity_generating_function",
+    "reasoning_pattern": "em_binary_no_adjacent_ones_even_parity_generating_function",
+    "structure_signature": "em_binary_no_adjacent_ones_even_parity_generating_function",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 44,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Propositional and predicate logic",
+    "marks": 2,
+    "difficulty": "Hard",
+    "type": "MSQ",
+    "id": "CS27-M002-Q044",
+    "paper": 2,
+    "stem": "R is a binary relation on a finite nonempty domain. Use the following properties:\n\n- E: for every x there exists y such that R(x,y).\n- T: R is transitive.\n- I: R is irreflexive.\n- S: R is symmetric.\n- F: for each x, at most one y satisfies R(x,y).\n\nWhich listed combinations admit a model on some finite nonempty domain? Properties not listed in an option impose no condition.",
+    "options": [
+      "E, T, I",
+      "E, S, I, F",
+      "E, T, I, F",
+      "E, T, S"
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solution": "1. E lets us follow an R-edge indefinitely from any vertex. Finiteness forces a repeated vertex, hence a directed cycle. Under T, a directed cycle yields a self-loop, contradicting I. Thus A and C have no finite nonempty model, irrespective of F.\n2. B has a two-element model {u,v} with only R(u,v) and R(v,u). Every element has one successor; the relation is symmetric and irreflexive.\n3. D has a singleton model {u} with R(u,u). It satisfies E, T and S; irreflexivity was not required.",
+    "option_explanations": [
+      "A finite successor chain repeats, and transitivity then violates irreflexivity.",
+      "The two-element swap relation is a witness.",
+      "Adding functionality cannot repair the E,T,I contradiction.",
+      "The singleton reflexive relation is a witness."
+    ],
+    "misconception": "Finiteness changes satisfiability: an irreflexive transitive relation can have successors everywhere on an infinite ordered domain.",
+    "family": "em_finite_relation_model_existence_cycle_transitivity",
+    "reasoning_pattern": "em_finite_relation_model_existence_cycle_transitivity",
+    "structure_signature": "em_finite_relation_model_existence_cycle_transitivity",
+    "reasoning_steps": 3,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": null
+  },
+  {
+    "number": 54,
+    "subject": "Engineering Mathematics",
+    "subtopic": "Matrices determinants and linear systems",
+    "marks": 2,
+    "difficulty": "Hard",
+    "type": "NAT",
+    "id": "CS27-M002-Q054",
+    "paper": 2,
+    "stem": "Let A be the real 4x4 matrix\n\n```text\nA = [0 1 0 0]\n    [0 0 1 0]\n    [0 0 0 1]\n    [1 0 0 0].\n```\n\nHow many real matrices X simultaneously satisfy X=X^T, AX=XA, X^2=X, and X*(1,1,1,1)^T=0?",
+    "options": [],
+    "answer": 4,
+    "solution": "1. AX=XA means the entries repeat under a simultaneous cyclic shift of row and column indices. Symmetry therefore forces X to have rows [a,b,c,b], [b,a,b,c], [c,b,a,b], [b,c,b,a].\n2. The zero-row-sum requirement gives a+c+2b=0. The vector (1,-1,1,-1) has eigenvalue mu=a+c-2b=-4b. Every vector (p,q,-p,-q) has eigenvalue nu=a-c; this is a two-dimensional eigenspace. Together with the all-ones vector, these spaces span R^4.\n3. X^2=X holds exactly when mu and nu each belong to {0,1}, since the remaining eigenvalue is already zero.\n4. Every ordered pair (mu,nu) determines one matrix: b=-mu/4, a=mu/4+nu/2, c=mu/4-nu/2. There are 2*2=4 pairs and hence four matrices.",
+    "option_explanations": [],
+    "misconception": "The commuting and symmetry constraints couple entries before idempotence is imposed; an arbitrary projection is not allowed.",
+    "family": "em_symmetric_cyclic_commuting_zero_sum_projection_count",
+    "reasoning_pattern": "em_symmetric_cyclic_commuting_zero_sum_projection_count",
+    "structure_signature": "em_symmetric_cyclic_commuting_zero_sum_projection_count",
+    "reasoning_steps": 4,
+    "references": [
+      "research/SYLLABUS_2027.md",
+      "research/GATE_PATTERN_ANALYSIS.md"
+    ],
+    "verification": {
+      "status": "REVIEW_REQUIRED",
+      "method": "author derivation",
+      "independent_solution": "",
+      "evidence": ""
+    },
+    "validation_status": "REVIEW_REQUIRED",
+    "assets": [],
+    "nat": {
+      "min": 4,
+      "max": 4,
+      "precision": 0
+    }
+  }
+]

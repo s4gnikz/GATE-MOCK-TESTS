@@ -1,0 +1,11 @@
+{
+  "round": 2,
+  "replacements": 1000,
+  "unique_variants": 1000,
+  "unique_sources": 1000,
+  "numeric_choices_checked": 4000,
+  "first_batch_preserved": true,
+  "errors": [],
+  "underlying_source_answer_verification": "Inherited; not newly independently solved",
+  "semantic_originality": "Not claimed; numerical problems converted to multiple-choice variants"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/CS_GATE2027_Syllabus.pdf",
+    "checked_date": "2026-10-12",
+    "timezone": "Asia/Calcutta",
+    "status": "SAVED",
+    "file": "research\\official_2027\\CS_GATE2027_Syllabus.pdf",
+    "sha256": "81b23f40417bc1c2069782db7ad5ea0182175c9acb4766ebfdeefbe071a70bc0"
+  },
+  {
+    "url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/GA_GATE2027_Syllabus.pdf",
+    "checked_date": "2026-10-12",
+    "timezone": "Asia/Calcutta",
+    "status": "SAVED",
+    "file": "research\\official_2027\\GA_GATE2027_Syllabus.pdf",
+    "sha256": "3708769a165e5019d4fa0d2af95786dee8fbf239976d7d403d810bd54b9d7603"
+  }
+]

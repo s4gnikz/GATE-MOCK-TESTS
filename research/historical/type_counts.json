@@ -1,0 +1,62 @@
+[
+  {
+    "file": "2024_CS1FinalAnswerKey.txt",
+    "rows": 65,
+    "counts": {
+      "MCQ": 29,
+      "MSQ": 20,
+      "NAT": 16
+    },
+    "marks": 100
+  },
+  {
+    "file": "2024_CS2FinalAnswerKey.txt",
+    "rows": 65,
+    "counts": {
+      "MCQ": 32,
+      "MSQ": 18,
+      "NAT": 15
+    },
+    "marks": 100
+  },
+  {
+    "file": "2026_Keys_CS1_Keys.txt",
+    "rows": 65,
+    "counts": {
+      "MCQ": 28,
+      "MSQ": 24,
+      "NAT": 13
+    },
+    "marks": 100
+  },
+  {
+    "file": "2026_Keys_CS2_Keys.txt",
+    "rows": 65,
+    "counts": {
+      "MCQ": 35,
+      "MSQ": 11,
+      "NAT": 19
+    },
+    "marks": 100
+  },
+  {
+    "file": "Answer_keys2022_cs_2022.txt",
+    "rows": 65,
+    "counts": {
+      "MCQ": 32,
+      "MSQ": 15,
+      "NAT": 18
+    },
+    "marks": 100
+  },
+  {
+    "file": "Answer_keys2023_CS_ANS_GATE2023.txt",
+    "rows": 65,
+    "counts": {
+      "MCQ": 34,
+      "MSQ": 15,
+      "NAT": 16
+    },
+    "marks": 100
+  }
+]

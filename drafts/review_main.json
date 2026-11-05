@@ -1,0 +1,699 @@
+{
+  "CS27-M001-Q001": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "There are two subjects: plural instruments controls the relative clause, singular Each controls the main predicate. Thus were and has. Option audit: A both correct; B both disagree; C main predicate disagrees; D relative predicate disagrees.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Reviewer mathematical/conceptual derivation above.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "3bf43311528e016654cdac7bda8833cdde8ce812e0a17f039ed9283456831199"
+  },
+  "CS27-M001-Q002": {
+    "answer": 35.71,
+    "independent_solution": "For 100 initial orders, 30 X and 54 Y survive. X share is 30/84; multiplying by 100 gives 250/7 percent, rounded 35.71. Option audit: NAT exact to two decimals agrees with singleton acceptance.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Exact completed-X proportion 5/14; percentage 250/7.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "58764dd8521a9f7416a12c2de867123aa77b9a83d99cc074bc5eff606d14e3ac"
+  },
+  "CS27-M001-Q003": {
+    "answer": 2,
+    "independent_solution": "Exactly one of C,D holds by the equivalence. A cannot be selected because it forces B, using both places before C/D. Select B with either C or D. Option audit: All six pairs enumerated; only BC and BD survive.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "[('B', 'C'), ('B', 'D')]",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "2de7143f5ca39a4af7c09e074ef20bbe5663e662d097b4b4150ff994ed26d85b"
+  },
+  "CS27-M001-Q004": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "Compose matrices in the prescribed order: reflect (x,y)->(x,-y), then clockwise (u,v)->(v,-u). Composite is (-y,-x). Option audit: A correct; B gives (y,x); C gives (y,-x); D gives (-y,x), each differs already at P.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "[(-1, -1), (-1, -3), (-2, -1)]",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "69b816a2928aa82842e418a65c77efb9425c93ff21120b5bc34dac4053c0d5a1"
+  },
+  "CS27-M001-Q005": {
+    "answer": [
+      "B"
+    ],
+    "independent_solution": "Constant total with increased evening usage permits redistribution of existing visits but does not identify people. A compatible construction suffices for the cautious may statement. Option audit: A not forced: new visitors may offset departures. B supported possibility. C universal individual history unsupported. D contradicts unchanged total.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Reviewer mathematical/conceptual derivation above.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "ae71acfa2e64a41e877b0c4c90097c3bca82e1d88c4e5d5cf2c4f3f7645748d2"
+  },
+  "CS27-M001-Q006": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "Fix A and enumerate all 720 circular representatives. AB must be adjacent while CD and EF are nonadjacent. Independently, inclusion-exclusion gives 2*5!-2*(4*4!)+8*3!=96. Option audit: A96 correct; B120 counts a fixed internal AB ordering without exclusions; C144 excludes only one forbidden adjacency; D240 excludes neither. All four values distinct.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "96 arrangements with A fixed; all 720 rotations representatives enumerated.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "61aae6a5e5d689a9cb7c1866acff472b30a1dd79fc8b1c91b542bd7b0fa213c2"
+  },
+  "CS27-M001-Q007": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "Total hours are 100 in each month, and total items are 1300 each month. Both aggregate rates are 13, hence 0 percent. Option audit: A correct. B,C,D contradict identical aggregate rates; C reflects only team A improvement.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "(Fraction(13, 1), Fraction(13, 1))",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "ba785ab091a425d471b23906694841d188c4274101b4eaa942e5b6fdcc63700a"
+  },
+  "CS27-M001-Q008": {
+    "answer": 2,
+    "independent_solution": "Reverse each fold by independently replacing coordinate t with 8-t. Eight distinct holes result. Only (5,6) and (2,3) satisfy y-x=1. Option audit: NAT count 2; no tolerance or diagram needed because folds/punches completely specified.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "[(2, 3), (2, 5), (3, 2), (3, 6), (5, 2), (5, 6), (6, 3), (6, 5)]",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "b43e9182eb1c3f9482c4b87ea1bec7a5fcfc7bf49753c688bf49dd669b704bfc"
+  },
+  "CS27-M001-Q009": {
+    "answer": [
+      "C"
+    ],
+    "independent_solution": "Binding relations form total order Q before R before S before P before T. Option audit: A places report before repeat; B puts first trial before calibration; C correct; D puts repair before divergence and acceptance before report.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Reviewer mathematical/conceptual derivation above.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "aa6d5b89b219ecd3f04e0c2f16c808c06bf53dc878c805256575662a66a7ac75"
+  },
+  "CS27-M001-Q010": {
+    "answer": [
+      "B"
+    ],
+    "independent_solution": "Mixture probability of RR is .5*(6/15+1/10)=1/4; of same colour is .5*(7/15+4/10)=13/30. Divide to obtain 15/26. Option audit: B is exact. A,C,D are different fractions (1/2,7/13,3/5). Fair bag selection is specified and draws are without replacement.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "P(red pair)=1/4; P(same)=13/30; ratio=15/26",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "3a3b257d93d0c388828a9c37813a92614f40cb25f58f05b8f6926bbed3f9efc5"
+  },
+  "CS27-M001-Q011": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "When x=0 F=y, and when x=1 F=z. Shannon decomposition gives (!x)y+xz. Option audit: A equivalent for all eight triples. B differs at 001; C differs at 001; D differs at 001. Exhaustive check confirms only A.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "[True, False, False, False]",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "4113d379a91919c168f0ea9c737d07ed04ba99e7e2c8621153291ef4d276d9a7"
+  },
+  "CS27-M001-Q012": {
+    "answer": 2,
+    "independent_solution": "dup refers to the same open-file description, so all operations move one offset: 0->2->5->1->2. Option audit: Exact byte offset 2. Successful operations and sufficient file length remove read-shortness ambiguity.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Sequential shared-offset state: 0,2,5,1,2.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "35d82617b1cfdd3cbe0e5221c38d07513bd94bb17e1f7e67990cc7f608a133b2"
+  },
+  "CS27-M001-Q013": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "All required ones have B=0; the other B=0 cases are dont-cares. Hence !B suffices; zero literals cannot realize both forced output values. Option audit: A valid with one literal; B invalid at required minterm1; C invalid at minterm1; D valid but uses two literals, so not minimum.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Option implementation validity [True, False, False, True]; A one literal; D two literals; no constant can satisfy required 0 and 1 rows.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "4fa6ddfe586bc6c6de552b34c313901e34e7208b04abb20bba5af404148c51e6"
+  },
+  "CS27-M001-Q014": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "Negate outer forall to exists and exists y to forall y, negate conjunction to disjunction, then negate forall z implication to exists z R(x,z) and z!=y. Option audit: A exact law-derived negation. B too weak (unique successors can coexist with nonedges). C fails empty relation on singleton domain. D detects empty rows but misses a nonempty row with two successors.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "530 finite relations checked; inequivalence witnesses A-D: [None, {'domain_size': 2, 'R': [[0, 1], [1, 1]]}, {'domain_size': 1, 'R': []}, {'domain_size': 2, 'R': [[0, 1], [1, 0], [1, 1]]}]. General proof uses quantifier/De Morgan laws.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "931ecfec8fc175c079af91e00ce7c7e0cb285f06573e5d56de8750bd1353c75e"
+  },
+  "CS27-M001-Q015": {
+    "answer": 120,
+    "independent_solution": "Eight-bit 11111010 is -6. Post-instruction PC is 104; scaled displacement -24 gives pointer address80. Indirection returns M[80]=120; M[120]=7 would be loaded data, not EA. Option audit: NAT 120; all displacement and addressing conventions explicit.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "displacement -6; intermediate address 80; M[80]=120 effective address.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "516e2fa0111ad9df724aaaee218a4cf344a6613e807ae8dacdd8e9d88af72ecd"
+  },
+  "CS27-M001-Q016": {
+    "answer": [
+      "D"
+    ],
+    "independent_solution": "For s=1 complement 1010 to 0101 and add 0111+0101+1=1101, carry0. Signed operation is 7-(-6)=13, outside four-bit signed range, so overflow1. Option audit: A wrong carry and overflow; B wrong overflow; C wrong result and carry; D correct.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "unsigned sum 13, low 1101, C=0; signed 7-(-6)=13 outside [-8,7], V=1.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "ac4ae850f6e2bb74de8e7db12bb8566a782239e6cc2008085d1b8904dfa12783"
+  },
+  "CS27-M001-Q017": {
+    "answer": 3,
+    "independent_solution": "Task identity needs local task_no plus full Project owner key, which itself is dept_id plus project_code. Each attribute is necessary because allowed repeats prevent dropping one. Option audit: NAT3. No surrogate or extra uniqueness assumptions needed.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Key comprises dept_id, project_code, task_no; repeat permissions rule out dropping any component.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "8da6244bec3df1db78e090f7d2dcb3bc056c58fcd55c7ea0e7bbb838d2cd1e35"
+  },
+  "CS27-M001-Q018": {
+    "answer": [
+      "B"
+    ],
+    "independent_solution": "Maximal munch consumes ifx as one identifier, == as one operator, if keyword, then ++ before +, then x. Option audit: A splits identifier illegally; B correct; C misses maximal matching twice; D invents unavailable +++ token.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "['ifx', '==', 'if', '++', '+', 'x']",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "e2aaa9cb03d0e15354d589babad2bee565667789b1d0e4e3d85e23d9b8e2b409"
+  },
+  "CS27-M001-Q019": {
+    "answer": [
+      "A",
+      "C"
+    ],
+    "independent_solution": "Ordinary IPv4 forwarding preserves IP destination and transport endpoint, decrements TTL, and constructs an outgoing Ethernet header for the next hop. Option audit: A true; B not guaranteed and normally different next-hop MAC; C true; D false because transport port does not become a router port.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Reviewer mathematical/conceptual derivation above.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "14549c4687321cb84075d3d8f6ff7bc9b4c8663ff84bc5f9dcd919f0ae0b76ba"
+  },
+  "CS27-M001-Q020": {
+    "answer": 3,
+    "independent_solution": "Ordinary inversions produce three shifts. The >= variant adds one shift for each pair of the three equal-key records, binomial(3,2)=3; total shifts6. Option audit: NAT3, verified by separate insertion-sort simulation.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "strict shifts=3; modified shifts=6",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "7af0a98fc7e78ab43ed9e298d1c6068a645b5238a745287152d16ad1cc050ca7"
+  },
+  "CS27-M001-Q021": {
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "independent_solution": "E contains A values related to every current S value. Initial only1 qualifies; empty S makes condition vacuous for both existing A values; adding missing (2,y) qualifies2; adding z disqualifies all. Option audit: A true; B true; C false because E becomes {1,2}; D true.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "[[1], [1, 2], [1, 2], []]",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "8b4b7366bfe49610904ae56b7612cfe7420c4031339e08d5b2dc0c07bd464e1a"
+  },
+  "CS27-M001-Q022": {
+    "answer": 2,
+    "independent_solution": "FOLLOW(A)=FOLLOW(B)={a}; FIRST(A)={a,b,epsilon}, FIRST(B)={b,epsilon}. S->Aa and S->b share column b. A->aA and A->B share column a. B epsilon production goes only to a while bB goes only to b. Option audit: NAT2: conflicting cells are (S,b) and (A,a); every other filled cell has one production. Nullable propagation is required.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "LL1 cells: S,a={S->Aa}; S,b={S->Aa,S->b}; A,a={A->aA,A->B}; A,b={A->B}; B,a={B->epsilon}; B,b={B->bB}. Conflicts exactly (S,b),(A,a).",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "17e6c04d146fbfa0043f5bc5f270f0a662a11ce97fb47876a7ac564c28c21ada"
+  },
+  "CS27-M001-Q023": {
+    "answer": 2,
+    "independent_solution": "Subtract first row from remaining rows. Determinant is (t-1)^2-1=t(t-2). A real homogeneous system has infinitely many vectors iff singular, giving t=0,2 and sum2. Option audit: NAT2; zero solution always exists, so singularity is sufficient for infinitely many solutions over reals.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Subtract row 1: determinant=(t-1)^2-1=t(t-2); singular parameters 0,2.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "ca2a64657d91d47d288adf168fc13d77c33e78696e0bd4549ae30bc903d57c23"
+  },
+  "CS27-M001-Q024": {
+    "answer": [
+      "C"
+    ],
+    "independent_solution": "Write r=|x|. Inner f(x)=2max(1,r); its shifted value is at least -1. The outer f maps every argument in [-1,1] to2. Hence g=2 for r<=2 and g=4r-6 for r>2. Only +/-2 have unequal one-sided slopes. Option audit: A false: +/-1 corners flatten; B includes those vanished corners; C correct; D false: outer transitions survive at +/-2. Exact rational grid supports formula; one-sided derivative argument establishes all real points.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Piecewise g=2 on [-2,2], 4*abs(x)-6 elsewhere; sampled exact rational values [('-3', Fraction(6, 1)), ('-2', Fraction(2, 1)), ('-3/2', Fraction(2, 1)), ('-1', Fraction(2, 1)), ('0', Fraction(2, 1)), ('1', Fraction(2, 1)), ('3/2', Fraction(2, 1)), ('2', Fraction(2, 1)), ('3', Fraction(6, 1))]. One-sided slopes differ only at +/-2.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "1a4a8e209da35d05064b94709076678c3dd8bf5e94dae1eb8ba6d76d97ae8483"
+  },
+  "CS27-M001-Q025": {
+    "answer": 2,
+    "independent_solution": "Poisson ratio P1/P0=lambda. Equality yields lambda1; E[X²]=Var(X)+E[X]²=1+1=2. Option audit: NAT2; lambda>0 and P0>0 validate division.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "P1/P0=lambda=1; second moment lambda+lambda^2=2.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "0a87fbc8b57e18e1fdc47c86dbb32f7decda594e55182fa465df2e9dd8add729"
+  },
+  "CS27-M001-Q026": {
+    "answer": 2,
+    "independent_solution": "Enumerate all ternary cubes and retain prime ones wholly inside the six on-minterms. Six two-cell prime implicants form a cycle. Covering six minterms needs at least3; exactly two alternating three-prime covers exist. Option audit: NAT2; script enumerates all prime subsets and confirms minimum term count3 and count2.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Prime cubes [((None, 0, 1), [1, 5]), ((None, 1, 0), [2, 6]), ((0, None, 0), [0, 2]), ((0, 0, None), [0, 1]), ((1, None, 1), [5, 7]), ((1, 1, None), [6, 7])]; minimum terms 3; covers [(0, 2, 5), (1, 3, 4)]",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "699a854239d552adf9775f6282fdfbf88c4b1afaa10068ea5aa68051757f0855"
+  },
+  "CS27-M001-Q027": {
+    "answer": [
+      "B"
+    ],
+    "independent_solution": "q points into row1. First statement makes a[0][2]=9; r points at a[0][1]. *r++ stores q[0]=1 then moves r to a[0][2]. Assign q[2]=9. Printed sum is1+9=10. Option audit: A7 false, B10 true, C13 false, D false: every pointer is in its own valid row and increment/store are well-defined. Actual revised source compiled and printed10.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": {
+        "original": {
+          "compile_exit": 0,
+          "diagnostic": "",
+          "stdout": "10\n"
+        },
+        "corrected": {
+          "compile_exit": 0,
+          "diagnostic": "",
+          "stdout": "10\n"
+        },
+        "intended_answer": [
+          "B"
+        ]
+      },
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "402adb53956505b554c180a3a9223afa40cea580c9241f2050799131e5e8d6e9"
+  },
+  "CS27-M001-Q028": {
+    "answer": [
+      "A",
+      "C"
+    ],
+    "independent_solution": "All three initial keys first probe3. Collision steps place17 at6 and24 at1. Removing key10 must preserve continuation from3. New31 starts at3 and may reuse tombstone. Option audit: A true; B false because search24 would stop at3; C true; D false as deletion leaves slot reusable.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Insertion table [None, 24, None, 10, None, None, 17]; all begin probing slot 3; deleting it must retain chain continuation; 31 also starts at slot 3.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "1fde7a9e9c0361e03d48fa6eca04764050fe8d94cef6835eb8fe5d7743e5b1e6"
+  },
+  "CS27-M001-Q029": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "Every new child leaves the while immediately, with birth-time i. Only original parent increments i and forks again. Children print0,1,2, parent prints3. Option audit: A correct; B incorrectly allows child branches to continue; C ignores child break; D ignores parent increments before later child creation.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Only parent continues; children break at i=0,1,2; parent exits at i=3.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "5ededd841185535cad8e7d3f2b7422afaae518527cd76f2f88c3749daa180e1e"
+  },
+  "CS27-M001-Q030": {
+    "answer": 3,
+    "independent_solution": "Track odd b parity as one rejecting class regardless of last symbol; even parity splits into ending-a accept versus other reject. These three classes are reachable. Epsilon distinguishes accept class; suffix a distinguishes rejecting classes. Option audit: NAT3; complete transitions: E0 on a E1,b O; E1 on a E1,b O; O on a O,b E0.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Classes: even-b ending a (accept), even-b not ending a (reject), odd-b (reject). First two epsilon-distinguished; the two rejecting classes distinguished by suffix a.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "4913d3b5e36e32cdea681beda6440344791b86ee072fa9dfd2c95a0d79b1cb6e"
+  },
+  "CS27-M001-Q031": {
+    "answer": 3,
+    "independent_solution": "Work-conserving link scheduling yields packet1 completion .5,1.5,2ms, packet2 completion1,2.5,3ms. Slow middle link delays second packet start until1.5ms. Option audit: NAT3ms. Added immediate-transmission assumption closes the previous unspecified-idling issue.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "[[Fraction(1, 2), Fraction(3, 2), Fraction(2, 1)], [Fraction(1, 1), Fraction(5, 2), Fraction(3, 1)]]",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "44dff31a80c5113bb2daea28d5122c1fd41c981000ad090df663b87ef07ed5fc"
+  },
+  "CS27-M001-Q032": {
+    "answer": [
+      "D"
+    ],
+    "independent_solution": "Start with finite tree yielding ab. Wrap it as left child of S->SS with right child epsilon. Repeating gives unbounded distinct finite trees for identical yield. Option audit: A,B,C all finite counts contradicted by arbitrary wrapper number; D true.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Reviewer mathematical/conceptual derivation above.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium-Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "189b4b298d7a2d994249c04dfb862df992e87b28426046224c3f020001598aa7"
+  },
+  "CS27-M001-Q033": {
+    "answer": [
+      "A"
+    ],
+    "independent_solution": "Induction f(n)=n follows because each return reconstructs parity and half. Explicit call chain45,22,11,5,2,1 has six frames. Option audit: A correct; B counts edges instead of calls; C loses retained odd bits; D forces low bits1.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "(45, 6)",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "aef9364e5edec44fe29c6dee59da468e69dca0980d4ff9d2ef76708e647c4336"
+  },
+  "CS27-M001-Q034": {
+    "answer": [
+      "A",
+      "D"
+    ],
+    "independent_solution": "Known separator sets a deterministic push/pop phase. Equal-length reverse comparison requires all pushed bits matched at end. Epsilon before/after separator permits #. Option audit: A true; B false if unmatched DATA symbols remain; C false on 01#01; D true. Bottom-of-stack marker is not an unmatched input symbol.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Reviewer mathematical/conceptual derivation above.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "2a34524dd9826a8cb312dbd890715e750afba57396754123e3f2df68ddc181b6"
+  },
+  "CS27-M001-Q035": {
+    "answer": 6,
+    "independent_solution": "Fix any two elements, then send remaining element to either fixed point. Three choices of pair times2 destinations gives6; all 27 maps independently enumerated. Option audit: NAT6. Image-fixed condition follows from idempotence.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "[(0, 0, 2), (0, 1, 0), (0, 1, 1), (0, 2, 2), (1, 1, 2), (2, 1, 2)]",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Medium",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "9bd24cc4f8bf90c53cba7372c3135423cbe62c6417af55b3b1aba040ff466c04"
+  },
+  "CS27-M001-Q039": {
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "independent_solution": "Since Bu=(2+vTu)u=0, zero eigenvalue is certain. Use eigenbasis with u second: update modifies only row2, resulting rows (1,0,0), (alpha,0,beta), (0,0,4). Determinant of tI-B is t(t-1)(t-4); three distinct real eigenvalues ensure diagonalizability and rank2. Option audit: A true, B true, D true. C false: A=diag(1,2,4),u=e2,v=(1,-2,0) meets conditions; AB entry(2,1)=2 but BA entry(2,1)=1. Coupled spectrum/rank/counterexample task supports Hard.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "In eigenbasis with second vector u, rank-one update changes only second row to (alpha,0,beta), leaving diagonal1,0,4. Characteristic roots0,1,4 imply real diagonalizability and rank2. Counterexample A=diag(1,2,4), u=e2, v=(1,-2,0): AB[2,1]=2 while BA[2,1]=1 (one-based).",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "1ab1f2ea5f6f623535c3df552f712d31db75f1d6816558b0f278be395550a24a"
+  },
+  "CS27-M001-Q040": {
+    "answer": 2,
+    "independent_solution": "Derivative4(x³-ax+1). Two strict minima require three distinct real derivative roots. Cubic local min becomes negative exactly when a³>27/4; smallest integer2. Outer stationary roots cross from negative to positive. Option audit: NAT2. Equality gives repeated derivative root without sign crossing, so does not qualify. Hard label defensible.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Derivative /4=x^3-a*x+1; cubic discriminant4*a^3-27 positive iff three simple roots; threshold a>cube_root(27/4).",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "299e356986c159f78210e009edf56887be4a001587e059e5a550db81c65c65e6"
+  },
+  "CS27-M001-Q055": {
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "independent_solution": "The only terminal paths are -, +-, ++-, +++. Their fault/sound probabilities sum to1. Tail sum gives E[N]=1+11/40+67/400=577/400. N3 means first two positive irrespective of third, giving64/67. Path++- fault/sound weights128/4000 and27/4000 give128/155. Paths+- or++- weights288/4000 and297/4000 give32/65. Option audit: A true; B false because512/515 conditions on +++ rather than N3; C true; D true. Explicit disjoint path enumeration and rational arithmetic verify every option. Multiple stopping/conditioning distinctions support Hard.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "Paths ['-', '+-', '++-', '+++']; E[N]=577/400; faulty given N3=64/67; faulty given ++-=128/155; faulty given + then terminal -=32/65.",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "30fdcf64432a3d526591db67966ff3a748669aab64f36c14ab78a7d512f18c31"
+  },
+  "CS27-M001-Q064": {
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "independent_solution": "Meets are intersections but join(a,b)=top because ab absent. c meet (a join b)=c whereas distributive expansion is empty, so not distributive. Bottom,top,a,b,ac,bc have complements; c has none. Every automorphism fixes c, the only atom under both coatoms; it may swap a,b, forcing corresponding coatom swap. Option audit: A false by counterexample; B true (six); C true (identity and a/b swap); D true. Exhaustive all5040 permutations confirms exactly2 automorphisms, complement enumeration gives6. Reconstructing joins and coupling lattice properties with automorphism constraints supports Hard.",
+    "method": "Independent model reviewer re-derivation, with executable checks where recorded; not blinded and not human review.",
+    "evidence": {
+      "details": "All7! permutations checked; automorphisms [(0, 1, 2, 3, 4, 5, 6), (0, 2, 1, 3, 5, 4, 6)]; complemented elements=[[], ['a'], ['b'], ['a', 'c'], ['b', 'c'], ['a', 'b', 'c']]; distributive=False; join(a,b)=['a', 'b', 'c'].",
+      "script": "scripts/verify_pilot_main.py",
+      "run_output": "drafts/review_main_evidence.json"
+    },
+    "verdict": "PASS",
+    "issues": [],
+    "recommended_difficulty": "Hard",
+    "syllabus_review": "Within stated 2027 subject/topic; operational subject placement checked against project syllabus authority.",
+    "originality_review": "No identical task identified in inspected historical sample; not an exhaustive comparison against all published questions.",
+    "reviewed_content_hash": "82ef59da45eeb17598b69c671ab88c3c52b73609ba66247839015b3519633a7e"
+  }
+}

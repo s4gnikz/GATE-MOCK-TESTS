@@ -1,0 +1,108 @@
+{
+  "1": {
+    "answer": [
+      "B"
+    ],
+    "evidence": "Context contrasts endorsement with required pilot: conditional/reserved support, not credentials or withdrawal."
+  },
+  "2": {
+    "answer": 20,
+    "evidence": "8=2^3 in12h gives4h doubling time;32=2^5 takes20h."
+  },
+  "3": {
+    "answer": [
+      "B"
+    ],
+    "evidence": "Candidate consistency A-D: [False, True, False, False]"
+  },
+  "4": {
+    "answer": [
+      "C"
+    ],
+    "evidence": "With first orientation fixed, unique labelling [{'A': (0, 0, 1), 'B': (0, -1, 0), 'C': (1, 0, 0), 'D': (0, 1, 0), 'E': (-1, 0, 0), 'F': (0, 0, -1)}]; opposite B is D."
+  },
+  "5": {
+    "answer": 15,
+    "evidence": "Sequence a1..a5=[2, 5, 11, 21, 36]"
+  },
+  "6": {
+    "answer": [
+      "B"
+    ],
+    "evidence": "(16-2w)(10-2w)=72 implies w2-13w+22=0; roots2,11; w<=5 selects2m."
+  },
+  "7": {
+    "answer": [
+      "B"
+    ],
+    "evidence": "Past unreal conditional requires would have caught; explicit Mira subject repairs dangling participial modifier."
+  },
+  "8": {
+    "answer": [
+      "B"
+    ],
+    "evidence": "Final milk=65,water=55; ratio=13/11"
+  },
+  "9": {
+    "answer": [
+      "A",
+      "C"
+    ],
+    "evidence": "Schedules [('A', 'B', 'E', 'D', 'C'), ('A', 'D', 'E', 'B', 'C'), ('B', 'A', 'D', 'E', 'C'), ('B', 'E', 'D', 'A', 'C'), ('D', 'A', 'B', 'E', 'C'), ('D', 'E', 'B', 'A', 'C')]; A-D truths [True, False, True, False]"
+  },
+  "10": {
+    "answer": [
+      "B"
+    ],
+    "evidence": "Feasible stack configurations 33; total min=6,max=11"
+  },
+  "22": {
+    "answer": [
+      "A",
+      "C"
+    ],
+    "evidence": "After column1 elimination lower-right block is [[t-4,1],[1,0]]. Det=-1; t4 prevents unpivoted unit-L factorization, but row swap yields nonzero pivots1,1. t5 final pivot=-1."
+  },
+  "24": {
+    "answer": 0.667,
+    "evidence": "Integral = [x-x\u00b2]0..1/3 + [x\u00b2/2]1/3..1 = 2/3"
+  },
+  "29": {
+    "answer": 7.6,
+    "evidence": "Combined mean=4; variance from second moments=38/5"
+  },
+  "33": {
+    "answer": [
+      "D"
+    ],
+    "evidence": "h=[1, 2, 3, 4, 0]; order=5"
+  },
+  "35": {
+    "answer": [
+      "A",
+      "B"
+    ],
+    "evidence": "Counterexample edges=[(0, 1), (0, 2), (1, 2), (2, 3), (3, 4), (3, 5), (4, 5)],degrees=[2, 2, 3, 3, 2, 2]; bridge excludes Hamiltonian cycle and triangle excludes bipartiteness. Handshake7edges and exactly2 odd vertices prove A,B."
+  },
+  "39": {
+    "answer": 5,
+    "evidence": "Labelled legal words=24; rotation representatives=['BGBRGR', 'BGRBGR', 'BGRBRG', 'BGRGBR', 'BRGBRG']; reflections not identified."
+  },
+  "40": {
+    "answer": [
+      "B"
+    ],
+    "evidence": "Enumerated e0..12=[1, 1, 1, 2, 4, 7, 11, 17, 27, 44, 72, 117, 189]; matches A-D=[False, True, False, False]. General proof even filter half[(1+x)/(1-x-x\u00b2)+(1-x)/(1-x+x\u00b2)] gives optionB."
+  },
+  "44": {
+    "answer": [
+      "B",
+      "D"
+    ],
+    "evidence": "Finite small witnesses={'D': {'n': 1, 'edges': [[0, 0]]}, 'B': {'n': 2, 'edges': [[0, 1], [1, 0]]}}. For all finite sizes, E yields infinite successor walk, repetition forms cycle; T then produces loop contradicting I, excluding A,C."
+  },
+  "54": {
+    "answer": 4,
+    "evidence": "All four matrices=[[['0', '0', '0', '0'], ['0', '0', '0', '0'], ['0', '0', '0', '0'], ['0', '0', '0', '0']], [['1/2', '0', '-1/2', '0'], ['0', '1/2', '0', '-1/2'], ['-1/2', '0', '1/2', '0'], ['0', '-1/2', '0', '1/2']], [['1/4', '-1/4', '1/4', '-1/4'], ['-1/4', '1/4', '-1/4', '1/4'], ['1/4', '-1/4', '1/4', '-1/4'], ['-1/4', '1/4', '-1/4', '1/4']], [['3/4', '-1/4', '-1/4', '-1/4'], ['-1/4', '3/4', '-1/4', '-1/4'], ['-1/4', '-1/4', '3/4', '-1/4'], ['-1/4', '-1/4', '-1/4', '3/4']]]. Completeness: AX=XA implies circulant, symmetry reduces it to(a,b,c,b); row sum0 and idempotence leave independent eigenvalues alt,plane in0/1."
+  }
+}

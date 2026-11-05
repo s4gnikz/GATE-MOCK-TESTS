@@ -1,0 +1,1986 @@
+FAIL: 65 records, 100 papers checked
+Required historical research remains incomplete; see research/release_readiness.json
+Final release requires 6500 records; found 65
+Final release requires every paper 1–100
+Final release requires 100 student-facing README files; found 1
+Final release requires 6500 accepted verified records; found 65
+Mock 002: Exactly 65 questions required
+Mock 002: Numbering must be Q1–Q65 without gaps or repeats
+Mock 002: Expected 30 one-mark and 35 two-mark questions
+Mock 002: Total marks must equal 100
+Mock 002: GA allocation must be 10 questions / 15 marks
+Mock 002: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 002: Core CS must total 72 marks
+Mock 002: Core subject absent: Digital Logic
+Mock 002: Core subject absent: Computer Organization and Architecture
+Mock 002: Core subject absent: Programming and Data Structures
+Mock 002: Core subject absent: Algorithms
+Mock 002: Core subject absent: Theory of Computation
+Mock 002: Core subject absent: Compiler Design
+Mock 002: Core subject absent: Operating Systems
+Mock 002: Core subject absent: Databases
+Mock 002: Core subject absent: Computer Networks
+Mock 002: At least 28 technical questions must require two meaningful reasoning steps
+Mock 002: Difficulty Medium outside configured bounds 24–28
+Mock 002: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 002: Difficulty Hard outside configured bounds 8–12
+Mock 003: Exactly 65 questions required
+Mock 003: Numbering must be Q1–Q65 without gaps or repeats
+Mock 003: Expected 30 one-mark and 35 two-mark questions
+Mock 003: Total marks must equal 100
+Mock 003: GA allocation must be 10 questions / 15 marks
+Mock 003: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 003: Core CS must total 72 marks
+Mock 003: Core subject absent: Digital Logic
+Mock 003: Core subject absent: Computer Organization and Architecture
+Mock 003: Core subject absent: Programming and Data Structures
+Mock 003: Core subject absent: Algorithms
+Mock 003: Core subject absent: Theory of Computation
+Mock 003: Core subject absent: Compiler Design
+Mock 003: Core subject absent: Operating Systems
+Mock 003: Core subject absent: Databases
+Mock 003: Core subject absent: Computer Networks
+Mock 003: At least 28 technical questions must require two meaningful reasoning steps
+Mock 003: Difficulty Medium outside configured bounds 24–28
+Mock 003: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 003: Difficulty Hard outside configured bounds 8–12
+Mock 004: Exactly 65 questions required
+Mock 004: Numbering must be Q1–Q65 without gaps or repeats
+Mock 004: Expected 30 one-mark and 35 two-mark questions
+Mock 004: Total marks must equal 100
+Mock 004: GA allocation must be 10 questions / 15 marks
+Mock 004: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 004: Core CS must total 72 marks
+Mock 004: Core subject absent: Digital Logic
+Mock 004: Core subject absent: Computer Organization and Architecture
+Mock 004: Core subject absent: Programming and Data Structures
+Mock 004: Core subject absent: Algorithms
+Mock 004: Core subject absent: Theory of Computation
+Mock 004: Core subject absent: Compiler Design
+Mock 004: Core subject absent: Operating Systems
+Mock 004: Core subject absent: Databases
+Mock 004: Core subject absent: Computer Networks
+Mock 004: At least 28 technical questions must require two meaningful reasoning steps
+Mock 004: Difficulty Medium outside configured bounds 24–28
+Mock 004: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 004: Difficulty Hard outside configured bounds 8–12
+Mock 005: Exactly 65 questions required
+Mock 005: Numbering must be Q1–Q65 without gaps or repeats
+Mock 005: Expected 30 one-mark and 35 two-mark questions
+Mock 005: Total marks must equal 100
+Mock 005: GA allocation must be 10 questions / 15 marks
+Mock 005: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 005: Core CS must total 72 marks
+Mock 005: Core subject absent: Digital Logic
+Mock 005: Core subject absent: Computer Organization and Architecture
+Mock 005: Core subject absent: Programming and Data Structures
+Mock 005: Core subject absent: Algorithms
+Mock 005: Core subject absent: Theory of Computation
+Mock 005: Core subject absent: Compiler Design
+Mock 005: Core subject absent: Operating Systems
+Mock 005: Core subject absent: Databases
+Mock 005: Core subject absent: Computer Networks
+Mock 005: At least 28 technical questions must require two meaningful reasoning steps
+Mock 005: Difficulty Medium outside configured bounds 24–28
+Mock 005: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 005: Difficulty Hard outside configured bounds 8–12
+Mock 006: Exactly 65 questions required
+Mock 006: Numbering must be Q1–Q65 without gaps or repeats
+Mock 006: Expected 30 one-mark and 35 two-mark questions
+Mock 006: Total marks must equal 100
+Mock 006: GA allocation must be 10 questions / 15 marks
+Mock 006: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 006: Core CS must total 72 marks
+Mock 006: Core subject absent: Digital Logic
+Mock 006: Core subject absent: Computer Organization and Architecture
+Mock 006: Core subject absent: Programming and Data Structures
+Mock 006: Core subject absent: Algorithms
+Mock 006: Core subject absent: Theory of Computation
+Mock 006: Core subject absent: Compiler Design
+Mock 006: Core subject absent: Operating Systems
+Mock 006: Core subject absent: Databases
+Mock 006: Core subject absent: Computer Networks
+Mock 006: At least 28 technical questions must require two meaningful reasoning steps
+Mock 006: Difficulty Medium outside configured bounds 24–28
+Mock 006: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 006: Difficulty Hard outside configured bounds 8–12
+Mock 007: Exactly 65 questions required
+Mock 007: Numbering must be Q1–Q65 without gaps or repeats
+Mock 007: Expected 30 one-mark and 35 two-mark questions
+Mock 007: Total marks must equal 100
+Mock 007: GA allocation must be 10 questions / 15 marks
+Mock 007: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 007: Core CS must total 72 marks
+Mock 007: Core subject absent: Digital Logic
+Mock 007: Core subject absent: Computer Organization and Architecture
+Mock 007: Core subject absent: Programming and Data Structures
+Mock 007: Core subject absent: Algorithms
+Mock 007: Core subject absent: Theory of Computation
+Mock 007: Core subject absent: Compiler Design
+Mock 007: Core subject absent: Operating Systems
+Mock 007: Core subject absent: Databases
+Mock 007: Core subject absent: Computer Networks
+Mock 007: At least 28 technical questions must require two meaningful reasoning steps
+Mock 007: Difficulty Medium outside configured bounds 24–28
+Mock 007: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 007: Difficulty Hard outside configured bounds 8–12
+Mock 008: Exactly 65 questions required
+Mock 008: Numbering must be Q1–Q65 without gaps or repeats
+Mock 008: Expected 30 one-mark and 35 two-mark questions
+Mock 008: Total marks must equal 100
+Mock 008: GA allocation must be 10 questions / 15 marks
+Mock 008: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 008: Core CS must total 72 marks
+Mock 008: Core subject absent: Digital Logic
+Mock 008: Core subject absent: Computer Organization and Architecture
+Mock 008: Core subject absent: Programming and Data Structures
+Mock 008: Core subject absent: Algorithms
+Mock 008: Core subject absent: Theory of Computation
+Mock 008: Core subject absent: Compiler Design
+Mock 008: Core subject absent: Operating Systems
+Mock 008: Core subject absent: Databases
+Mock 008: Core subject absent: Computer Networks
+Mock 008: At least 28 technical questions must require two meaningful reasoning steps
+Mock 008: Difficulty Medium outside configured bounds 24–28
+Mock 008: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 008: Difficulty Hard outside configured bounds 8–12
+Mock 009: Exactly 65 questions required
+Mock 009: Numbering must be Q1–Q65 without gaps or repeats
+Mock 009: Expected 30 one-mark and 35 two-mark questions
+Mock 009: Total marks must equal 100
+Mock 009: GA allocation must be 10 questions / 15 marks
+Mock 009: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 009: Core CS must total 72 marks
+Mock 009: Core subject absent: Digital Logic
+Mock 009: Core subject absent: Computer Organization and Architecture
+Mock 009: Core subject absent: Programming and Data Structures
+Mock 009: Core subject absent: Algorithms
+Mock 009: Core subject absent: Theory of Computation
+Mock 009: Core subject absent: Compiler Design
+Mock 009: Core subject absent: Operating Systems
+Mock 009: Core subject absent: Databases
+Mock 009: Core subject absent: Computer Networks
+Mock 009: At least 28 technical questions must require two meaningful reasoning steps
+Mock 009: Difficulty Medium outside configured bounds 24–28
+Mock 009: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 009: Difficulty Hard outside configured bounds 8–12
+Mock 010: Exactly 65 questions required
+Mock 010: Numbering must be Q1–Q65 without gaps or repeats
+Mock 010: Expected 30 one-mark and 35 two-mark questions
+Mock 010: Total marks must equal 100
+Mock 010: GA allocation must be 10 questions / 15 marks
+Mock 010: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 010: Core CS must total 72 marks
+Mock 010: Core subject absent: Digital Logic
+Mock 010: Core subject absent: Computer Organization and Architecture
+Mock 010: Core subject absent: Programming and Data Structures
+Mock 010: Core subject absent: Algorithms
+Mock 010: Core subject absent: Theory of Computation
+Mock 010: Core subject absent: Compiler Design
+Mock 010: Core subject absent: Operating Systems
+Mock 010: Core subject absent: Databases
+Mock 010: Core subject absent: Computer Networks
+Mock 010: At least 28 technical questions must require two meaningful reasoning steps
+Mock 010: Difficulty Medium outside configured bounds 24–28
+Mock 010: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 010: Difficulty Hard outside configured bounds 8–12
+Mock 011: Exactly 65 questions required
+Mock 011: Numbering must be Q1–Q65 without gaps or repeats
+Mock 011: Expected 30 one-mark and 35 two-mark questions
+Mock 011: Total marks must equal 100
+Mock 011: GA allocation must be 10 questions / 15 marks
+Mock 011: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 011: Core CS must total 72 marks
+Mock 011: Core subject absent: Digital Logic
+Mock 011: Core subject absent: Computer Organization and Architecture
+Mock 011: Core subject absent: Programming and Data Structures
+Mock 011: Core subject absent: Algorithms
+Mock 011: Core subject absent: Theory of Computation
+Mock 011: Core subject absent: Compiler Design
+Mock 011: Core subject absent: Operating Systems
+Mock 011: Core subject absent: Databases
+Mock 011: Core subject absent: Computer Networks
+Mock 011: At least 28 technical questions must require two meaningful reasoning steps
+Mock 011: Difficulty Medium outside configured bounds 24–28
+Mock 011: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 011: Difficulty Hard outside configured bounds 8–12
+Mock 012: Exactly 65 questions required
+Mock 012: Numbering must be Q1–Q65 without gaps or repeats
+Mock 012: Expected 30 one-mark and 35 two-mark questions
+Mock 012: Total marks must equal 100
+Mock 012: GA allocation must be 10 questions / 15 marks
+Mock 012: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 012: Core CS must total 72 marks
+Mock 012: Core subject absent: Digital Logic
+Mock 012: Core subject absent: Computer Organization and Architecture
+Mock 012: Core subject absent: Programming and Data Structures
+Mock 012: Core subject absent: Algorithms
+Mock 012: Core subject absent: Theory of Computation
+Mock 012: Core subject absent: Compiler Design
+Mock 012: Core subject absent: Operating Systems
+Mock 012: Core subject absent: Databases
+Mock 012: Core subject absent: Computer Networks
+Mock 012: At least 28 technical questions must require two meaningful reasoning steps
+Mock 012: Difficulty Medium outside configured bounds 24–28
+Mock 012: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 012: Difficulty Hard outside configured bounds 8–12
+Mock 013: Exactly 65 questions required
+Mock 013: Numbering must be Q1–Q65 without gaps or repeats
+Mock 013: Expected 30 one-mark and 35 two-mark questions
+Mock 013: Total marks must equal 100
+Mock 013: GA allocation must be 10 questions / 15 marks
+Mock 013: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 013: Core CS must total 72 marks
+Mock 013: Core subject absent: Digital Logic
+Mock 013: Core subject absent: Computer Organization and Architecture
+Mock 013: Core subject absent: Programming and Data Structures
+Mock 013: Core subject absent: Algorithms
+Mock 013: Core subject absent: Theory of Computation
+Mock 013: Core subject absent: Compiler Design
+Mock 013: Core subject absent: Operating Systems
+Mock 013: Core subject absent: Databases
+Mock 013: Core subject absent: Computer Networks
+Mock 013: At least 28 technical questions must require two meaningful reasoning steps
+Mock 013: Difficulty Medium outside configured bounds 24–28
+Mock 013: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 013: Difficulty Hard outside configured bounds 8–12
+Mock 014: Exactly 65 questions required
+Mock 014: Numbering must be Q1–Q65 without gaps or repeats
+Mock 014: Expected 30 one-mark and 35 two-mark questions
+Mock 014: Total marks must equal 100
+Mock 014: GA allocation must be 10 questions / 15 marks
+Mock 014: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 014: Core CS must total 72 marks
+Mock 014: Core subject absent: Digital Logic
+Mock 014: Core subject absent: Computer Organization and Architecture
+Mock 014: Core subject absent: Programming and Data Structures
+Mock 014: Core subject absent: Algorithms
+Mock 014: Core subject absent: Theory of Computation
+Mock 014: Core subject absent: Compiler Design
+Mock 014: Core subject absent: Operating Systems
+Mock 014: Core subject absent: Databases
+Mock 014: Core subject absent: Computer Networks
+Mock 014: At least 28 technical questions must require two meaningful reasoning steps
+Mock 014: Difficulty Medium outside configured bounds 24–28
+Mock 014: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 014: Difficulty Hard outside configured bounds 8–12
+Mock 015: Exactly 65 questions required
+Mock 015: Numbering must be Q1–Q65 without gaps or repeats
+Mock 015: Expected 30 one-mark and 35 two-mark questions
+Mock 015: Total marks must equal 100
+Mock 015: GA allocation must be 10 questions / 15 marks
+Mock 015: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 015: Core CS must total 72 marks
+Mock 015: Core subject absent: Digital Logic
+Mock 015: Core subject absent: Computer Organization and Architecture
+Mock 015: Core subject absent: Programming and Data Structures
+Mock 015: Core subject absent: Algorithms
+Mock 015: Core subject absent: Theory of Computation
+Mock 015: Core subject absent: Compiler Design
+Mock 015: Core subject absent: Operating Systems
+Mock 015: Core subject absent: Databases
+Mock 015: Core subject absent: Computer Networks
+Mock 015: At least 28 technical questions must require two meaningful reasoning steps
+Mock 015: Difficulty Medium outside configured bounds 24–28
+Mock 015: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 015: Difficulty Hard outside configured bounds 8–12
+Mock 016: Exactly 65 questions required
+Mock 016: Numbering must be Q1–Q65 without gaps or repeats
+Mock 016: Expected 30 one-mark and 35 two-mark questions
+Mock 016: Total marks must equal 100
+Mock 016: GA allocation must be 10 questions / 15 marks
+Mock 016: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 016: Core CS must total 72 marks
+Mock 016: Core subject absent: Digital Logic
+Mock 016: Core subject absent: Computer Organization and Architecture
+Mock 016: Core subject absent: Programming and Data Structures
+Mock 016: Core subject absent: Algorithms
+Mock 016: Core subject absent: Theory of Computation
+Mock 016: Core subject absent: Compiler Design
+Mock 016: Core subject absent: Operating Systems
+Mock 016: Core subject absent: Databases
+Mock 016: Core subject absent: Computer Networks
+Mock 016: At least 28 technical questions must require two meaningful reasoning steps
+Mock 016: Difficulty Medium outside configured bounds 24–28
+Mock 016: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 016: Difficulty Hard outside configured bounds 8–12
+Mock 017: Exactly 65 questions required
+Mock 017: Numbering must be Q1–Q65 without gaps or repeats
+Mock 017: Expected 30 one-mark and 35 two-mark questions
+Mock 017: Total marks must equal 100
+Mock 017: GA allocation must be 10 questions / 15 marks
+Mock 017: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 017: Core CS must total 72 marks
+Mock 017: Core subject absent: Digital Logic
+Mock 017: Core subject absent: Computer Organization and Architecture
+Mock 017: Core subject absent: Programming and Data Structures
+Mock 017: Core subject absent: Algorithms
+Mock 017: Core subject absent: Theory of Computation
+Mock 017: Core subject absent: Compiler Design
+Mock 017: Core subject absent: Operating Systems
+Mock 017: Core subject absent: Databases
+Mock 017: Core subject absent: Computer Networks
+Mock 017: At least 28 technical questions must require two meaningful reasoning steps
+Mock 017: Difficulty Medium outside configured bounds 24–28
+Mock 017: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 017: Difficulty Hard outside configured bounds 8–12
+Mock 018: Exactly 65 questions required
+Mock 018: Numbering must be Q1–Q65 without gaps or repeats
+Mock 018: Expected 30 one-mark and 35 two-mark questions
+Mock 018: Total marks must equal 100
+Mock 018: GA allocation must be 10 questions / 15 marks
+Mock 018: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 018: Core CS must total 72 marks
+Mock 018: Core subject absent: Digital Logic
+Mock 018: Core subject absent: Computer Organization and Architecture
+Mock 018: Core subject absent: Programming and Data Structures
+Mock 018: Core subject absent: Algorithms
+Mock 018: Core subject absent: Theory of Computation
+Mock 018: Core subject absent: Compiler Design
+Mock 018: Core subject absent: Operating Systems
+Mock 018: Core subject absent: Databases
+Mock 018: Core subject absent: Computer Networks
+Mock 018: At least 28 technical questions must require two meaningful reasoning steps
+Mock 018: Difficulty Medium outside configured bounds 24–28
+Mock 018: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 018: Difficulty Hard outside configured bounds 8–12
+Mock 019: Exactly 65 questions required
+Mock 019: Numbering must be Q1–Q65 without gaps or repeats
+Mock 019: Expected 30 one-mark and 35 two-mark questions
+Mock 019: Total marks must equal 100
+Mock 019: GA allocation must be 10 questions / 15 marks
+Mock 019: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 019: Core CS must total 72 marks
+Mock 019: Core subject absent: Digital Logic
+Mock 019: Core subject absent: Computer Organization and Architecture
+Mock 019: Core subject absent: Programming and Data Structures
+Mock 019: Core subject absent: Algorithms
+Mock 019: Core subject absent: Theory of Computation
+Mock 019: Core subject absent: Compiler Design
+Mock 019: Core subject absent: Operating Systems
+Mock 019: Core subject absent: Databases
+Mock 019: Core subject absent: Computer Networks
+Mock 019: At least 28 technical questions must require two meaningful reasoning steps
+Mock 019: Difficulty Medium outside configured bounds 24–28
+Mock 019: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 019: Difficulty Hard outside configured bounds 8–12
+Mock 020: Exactly 65 questions required
+Mock 020: Numbering must be Q1–Q65 without gaps or repeats
+Mock 020: Expected 30 one-mark and 35 two-mark questions
+Mock 020: Total marks must equal 100
+Mock 020: GA allocation must be 10 questions / 15 marks
+Mock 020: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 020: Core CS must total 72 marks
+Mock 020: Core subject absent: Digital Logic
+Mock 020: Core subject absent: Computer Organization and Architecture
+Mock 020: Core subject absent: Programming and Data Structures
+Mock 020: Core subject absent: Algorithms
+Mock 020: Core subject absent: Theory of Computation
+Mock 020: Core subject absent: Compiler Design
+Mock 020: Core subject absent: Operating Systems
+Mock 020: Core subject absent: Databases
+Mock 020: Core subject absent: Computer Networks
+Mock 020: At least 28 technical questions must require two meaningful reasoning steps
+Mock 020: Difficulty Medium outside configured bounds 24–28
+Mock 020: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 020: Difficulty Hard outside configured bounds 8–12
+Mock 021: Exactly 65 questions required
+Mock 021: Numbering must be Q1–Q65 without gaps or repeats
+Mock 021: Expected 30 one-mark and 35 two-mark questions
+Mock 021: Total marks must equal 100
+Mock 021: GA allocation must be 10 questions / 15 marks
+Mock 021: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 021: Core CS must total 72 marks
+Mock 021: Core subject absent: Digital Logic
+Mock 021: Core subject absent: Computer Organization and Architecture
+Mock 021: Core subject absent: Programming and Data Structures
+Mock 021: Core subject absent: Algorithms
+Mock 021: Core subject absent: Theory of Computation
+Mock 021: Core subject absent: Compiler Design
+Mock 021: Core subject absent: Operating Systems
+Mock 021: Core subject absent: Databases
+Mock 021: Core subject absent: Computer Networks
+Mock 021: At least 28 technical questions must require two meaningful reasoning steps
+Mock 021: Difficulty Medium outside configured bounds 24–28
+Mock 021: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 021: Difficulty Hard outside configured bounds 8–12
+Mock 022: Exactly 65 questions required
+Mock 022: Numbering must be Q1–Q65 without gaps or repeats
+Mock 022: Expected 30 one-mark and 35 two-mark questions
+Mock 022: Total marks must equal 100
+Mock 022: GA allocation must be 10 questions / 15 marks
+Mock 022: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 022: Core CS must total 72 marks
+Mock 022: Core subject absent: Digital Logic
+Mock 022: Core subject absent: Computer Organization and Architecture
+Mock 022: Core subject absent: Programming and Data Structures
+Mock 022: Core subject absent: Algorithms
+Mock 022: Core subject absent: Theory of Computation
+Mock 022: Core subject absent: Compiler Design
+Mock 022: Core subject absent: Operating Systems
+Mock 022: Core subject absent: Databases
+Mock 022: Core subject absent: Computer Networks
+Mock 022: At least 28 technical questions must require two meaningful reasoning steps
+Mock 022: Difficulty Medium outside configured bounds 24–28
+Mock 022: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 022: Difficulty Hard outside configured bounds 8–12
+Mock 023: Exactly 65 questions required
+Mock 023: Numbering must be Q1–Q65 without gaps or repeats
+Mock 023: Expected 30 one-mark and 35 two-mark questions
+Mock 023: Total marks must equal 100
+Mock 023: GA allocation must be 10 questions / 15 marks
+Mock 023: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 023: Core CS must total 72 marks
+Mock 023: Core subject absent: Digital Logic
+Mock 023: Core subject absent: Computer Organization and Architecture
+Mock 023: Core subject absent: Programming and Data Structures
+Mock 023: Core subject absent: Algorithms
+Mock 023: Core subject absent: Theory of Computation
+Mock 023: Core subject absent: Compiler Design
+Mock 023: Core subject absent: Operating Systems
+Mock 023: Core subject absent: Databases
+Mock 023: Core subject absent: Computer Networks
+Mock 023: At least 28 technical questions must require two meaningful reasoning steps
+Mock 023: Difficulty Medium outside configured bounds 24–28
+Mock 023: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 023: Difficulty Hard outside configured bounds 8–12
+Mock 024: Exactly 65 questions required
+Mock 024: Numbering must be Q1–Q65 without gaps or repeats
+Mock 024: Expected 30 one-mark and 35 two-mark questions
+Mock 024: Total marks must equal 100
+Mock 024: GA allocation must be 10 questions / 15 marks
+Mock 024: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 024: Core CS must total 72 marks
+Mock 024: Core subject absent: Digital Logic
+Mock 024: Core subject absent: Computer Organization and Architecture
+Mock 024: Core subject absent: Programming and Data Structures
+Mock 024: Core subject absent: Algorithms
+Mock 024: Core subject absent: Theory of Computation
+Mock 024: Core subject absent: Compiler Design
+Mock 024: Core subject absent: Operating Systems
+Mock 024: Core subject absent: Databases
+Mock 024: Core subject absent: Computer Networks
+Mock 024: At least 28 technical questions must require two meaningful reasoning steps
+Mock 024: Difficulty Medium outside configured bounds 24–28
+Mock 024: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 024: Difficulty Hard outside configured bounds 8–12
+Mock 025: Exactly 65 questions required
+Mock 025: Numbering must be Q1–Q65 without gaps or repeats
+Mock 025: Expected 30 one-mark and 35 two-mark questions
+Mock 025: Total marks must equal 100
+Mock 025: GA allocation must be 10 questions / 15 marks
+Mock 025: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 025: Core CS must total 72 marks
+Mock 025: Core subject absent: Digital Logic
+Mock 025: Core subject absent: Computer Organization and Architecture
+Mock 025: Core subject absent: Programming and Data Structures
+Mock 025: Core subject absent: Algorithms
+Mock 025: Core subject absent: Theory of Computation
+Mock 025: Core subject absent: Compiler Design
+Mock 025: Core subject absent: Operating Systems
+Mock 025: Core subject absent: Databases
+Mock 025: Core subject absent: Computer Networks
+Mock 025: At least 28 technical questions must require two meaningful reasoning steps
+Mock 025: Difficulty Medium outside configured bounds 24–28
+Mock 025: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 025: Difficulty Hard outside configured bounds 8–12
+Mock 026: Exactly 65 questions required
+Mock 026: Numbering must be Q1–Q65 without gaps or repeats
+Mock 026: Expected 30 one-mark and 35 two-mark questions
+Mock 026: Total marks must equal 100
+Mock 026: GA allocation must be 10 questions / 15 marks
+Mock 026: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 026: Core CS must total 72 marks
+Mock 026: Core subject absent: Digital Logic
+Mock 026: Core subject absent: Computer Organization and Architecture
+Mock 026: Core subject absent: Programming and Data Structures
+Mock 026: Core subject absent: Algorithms
+Mock 026: Core subject absent: Theory of Computation
+Mock 026: Core subject absent: Compiler Design
+Mock 026: Core subject absent: Operating Systems
+Mock 026: Core subject absent: Databases
+Mock 026: Core subject absent: Computer Networks
+Mock 026: At least 28 technical questions must require two meaningful reasoning steps
+Mock 026: Difficulty Medium outside configured bounds 24–28
+Mock 026: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 026: Difficulty Hard outside configured bounds 8–12
+Mock 027: Exactly 65 questions required
+Mock 027: Numbering must be Q1–Q65 without gaps or repeats
+Mock 027: Expected 30 one-mark and 35 two-mark questions
+Mock 027: Total marks must equal 100
+Mock 027: GA allocation must be 10 questions / 15 marks
+Mock 027: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 027: Core CS must total 72 marks
+Mock 027: Core subject absent: Digital Logic
+Mock 027: Core subject absent: Computer Organization and Architecture
+Mock 027: Core subject absent: Programming and Data Structures
+Mock 027: Core subject absent: Algorithms
+Mock 027: Core subject absent: Theory of Computation
+Mock 027: Core subject absent: Compiler Design
+Mock 027: Core subject absent: Operating Systems
+Mock 027: Core subject absent: Databases
+Mock 027: Core subject absent: Computer Networks
+Mock 027: At least 28 technical questions must require two meaningful reasoning steps
+Mock 027: Difficulty Medium outside configured bounds 24–28
+Mock 027: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 027: Difficulty Hard outside configured bounds 8–12
+Mock 028: Exactly 65 questions required
+Mock 028: Numbering must be Q1–Q65 without gaps or repeats
+Mock 028: Expected 30 one-mark and 35 two-mark questions
+Mock 028: Total marks must equal 100
+Mock 028: GA allocation must be 10 questions / 15 marks
+Mock 028: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 028: Core CS must total 72 marks
+Mock 028: Core subject absent: Digital Logic
+Mock 028: Core subject absent: Computer Organization and Architecture
+Mock 028: Core subject absent: Programming and Data Structures
+Mock 028: Core subject absent: Algorithms
+Mock 028: Core subject absent: Theory of Computation
+Mock 028: Core subject absent: Compiler Design
+Mock 028: Core subject absent: Operating Systems
+Mock 028: Core subject absent: Databases
+Mock 028: Core subject absent: Computer Networks
+Mock 028: At least 28 technical questions must require two meaningful reasoning steps
+Mock 028: Difficulty Medium outside configured bounds 24–28
+Mock 028: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 028: Difficulty Hard outside configured bounds 8–12
+Mock 029: Exactly 65 questions required
+Mock 029: Numbering must be Q1–Q65 without gaps or repeats
+Mock 029: Expected 30 one-mark and 35 two-mark questions
+Mock 029: Total marks must equal 100
+Mock 029: GA allocation must be 10 questions / 15 marks
+Mock 029: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 029: Core CS must total 72 marks
+Mock 029: Core subject absent: Digital Logic
+Mock 029: Core subject absent: Computer Organization and Architecture
+Mock 029: Core subject absent: Programming and Data Structures
+Mock 029: Core subject absent: Algorithms
+Mock 029: Core subject absent: Theory of Computation
+Mock 029: Core subject absent: Compiler Design
+Mock 029: Core subject absent: Operating Systems
+Mock 029: Core subject absent: Databases
+Mock 029: Core subject absent: Computer Networks
+Mock 029: At least 28 technical questions must require two meaningful reasoning steps
+Mock 029: Difficulty Medium outside configured bounds 24–28
+Mock 029: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 029: Difficulty Hard outside configured bounds 8–12
+Mock 030: Exactly 65 questions required
+Mock 030: Numbering must be Q1–Q65 without gaps or repeats
+Mock 030: Expected 30 one-mark and 35 two-mark questions
+Mock 030: Total marks must equal 100
+Mock 030: GA allocation must be 10 questions / 15 marks
+Mock 030: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 030: Core CS must total 72 marks
+Mock 030: Core subject absent: Digital Logic
+Mock 030: Core subject absent: Computer Organization and Architecture
+Mock 030: Core subject absent: Programming and Data Structures
+Mock 030: Core subject absent: Algorithms
+Mock 030: Core subject absent: Theory of Computation
+Mock 030: Core subject absent: Compiler Design
+Mock 030: Core subject absent: Operating Systems
+Mock 030: Core subject absent: Databases
+Mock 030: Core subject absent: Computer Networks
+Mock 030: At least 28 technical questions must require two meaningful reasoning steps
+Mock 030: Difficulty Medium outside configured bounds 24–28
+Mock 030: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 030: Difficulty Hard outside configured bounds 8–12
+Mock 031: Exactly 65 questions required
+Mock 031: Numbering must be Q1–Q65 without gaps or repeats
+Mock 031: Expected 30 one-mark and 35 two-mark questions
+Mock 031: Total marks must equal 100
+Mock 031: GA allocation must be 10 questions / 15 marks
+Mock 031: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 031: Core CS must total 72 marks
+Mock 031: Core subject absent: Digital Logic
+Mock 031: Core subject absent: Computer Organization and Architecture
+Mock 031: Core subject absent: Programming and Data Structures
+Mock 031: Core subject absent: Algorithms
+Mock 031: Core subject absent: Theory of Computation
+Mock 031: Core subject absent: Compiler Design
+Mock 031: Core subject absent: Operating Systems
+Mock 031: Core subject absent: Databases
+Mock 031: Core subject absent: Computer Networks
+Mock 031: At least 28 technical questions must require two meaningful reasoning steps
+Mock 031: Difficulty Medium outside configured bounds 24–28
+Mock 031: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 031: Difficulty Hard outside configured bounds 8–12
+Mock 032: Exactly 65 questions required
+Mock 032: Numbering must be Q1–Q65 without gaps or repeats
+Mock 032: Expected 30 one-mark and 35 two-mark questions
+Mock 032: Total marks must equal 100
+Mock 032: GA allocation must be 10 questions / 15 marks
+Mock 032: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 032: Core CS must total 72 marks
+Mock 032: Core subject absent: Digital Logic
+Mock 032: Core subject absent: Computer Organization and Architecture
+Mock 032: Core subject absent: Programming and Data Structures
+Mock 032: Core subject absent: Algorithms
+Mock 032: Core subject absent: Theory of Computation
+Mock 032: Core subject absent: Compiler Design
+Mock 032: Core subject absent: Operating Systems
+Mock 032: Core subject absent: Databases
+Mock 032: Core subject absent: Computer Networks
+Mock 032: At least 28 technical questions must require two meaningful reasoning steps
+Mock 032: Difficulty Medium outside configured bounds 24–28
+Mock 032: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 032: Difficulty Hard outside configured bounds 8–12
+Mock 033: Exactly 65 questions required
+Mock 033: Numbering must be Q1–Q65 without gaps or repeats
+Mock 033: Expected 30 one-mark and 35 two-mark questions
+Mock 033: Total marks must equal 100
+Mock 033: GA allocation must be 10 questions / 15 marks
+Mock 033: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 033: Core CS must total 72 marks
+Mock 033: Core subject absent: Digital Logic
+Mock 033: Core subject absent: Computer Organization and Architecture
+Mock 033: Core subject absent: Programming and Data Structures
+Mock 033: Core subject absent: Algorithms
+Mock 033: Core subject absent: Theory of Computation
+Mock 033: Core subject absent: Compiler Design
+Mock 033: Core subject absent: Operating Systems
+Mock 033: Core subject absent: Databases
+Mock 033: Core subject absent: Computer Networks
+Mock 033: At least 28 technical questions must require two meaningful reasoning steps
+Mock 033: Difficulty Medium outside configured bounds 24–28
+Mock 033: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 033: Difficulty Hard outside configured bounds 8–12
+Mock 034: Exactly 65 questions required
+Mock 034: Numbering must be Q1–Q65 without gaps or repeats
+Mock 034: Expected 30 one-mark and 35 two-mark questions
+Mock 034: Total marks must equal 100
+Mock 034: GA allocation must be 10 questions / 15 marks
+Mock 034: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 034: Core CS must total 72 marks
+Mock 034: Core subject absent: Digital Logic
+Mock 034: Core subject absent: Computer Organization and Architecture
+Mock 034: Core subject absent: Programming and Data Structures
+Mock 034: Core subject absent: Algorithms
+Mock 034: Core subject absent: Theory of Computation
+Mock 034: Core subject absent: Compiler Design
+Mock 034: Core subject absent: Operating Systems
+Mock 034: Core subject absent: Databases
+Mock 034: Core subject absent: Computer Networks
+Mock 034: At least 28 technical questions must require two meaningful reasoning steps
+Mock 034: Difficulty Medium outside configured bounds 24–28
+Mock 034: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 034: Difficulty Hard outside configured bounds 8–12
+Mock 035: Exactly 65 questions required
+Mock 035: Numbering must be Q1–Q65 without gaps or repeats
+Mock 035: Expected 30 one-mark and 35 two-mark questions
+Mock 035: Total marks must equal 100
+Mock 035: GA allocation must be 10 questions / 15 marks
+Mock 035: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 035: Core CS must total 72 marks
+Mock 035: Core subject absent: Digital Logic
+Mock 035: Core subject absent: Computer Organization and Architecture
+Mock 035: Core subject absent: Programming and Data Structures
+Mock 035: Core subject absent: Algorithms
+Mock 035: Core subject absent: Theory of Computation
+Mock 035: Core subject absent: Compiler Design
+Mock 035: Core subject absent: Operating Systems
+Mock 035: Core subject absent: Databases
+Mock 035: Core subject absent: Computer Networks
+Mock 035: At least 28 technical questions must require two meaningful reasoning steps
+Mock 035: Difficulty Medium outside configured bounds 24–28
+Mock 035: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 035: Difficulty Hard outside configured bounds 8–12
+Mock 036: Exactly 65 questions required
+Mock 036: Numbering must be Q1–Q65 without gaps or repeats
+Mock 036: Expected 30 one-mark and 35 two-mark questions
+Mock 036: Total marks must equal 100
+Mock 036: GA allocation must be 10 questions / 15 marks
+Mock 036: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 036: Core CS must total 72 marks
+Mock 036: Core subject absent: Digital Logic
+Mock 036: Core subject absent: Computer Organization and Architecture
+Mock 036: Core subject absent: Programming and Data Structures
+Mock 036: Core subject absent: Algorithms
+Mock 036: Core subject absent: Theory of Computation
+Mock 036: Core subject absent: Compiler Design
+Mock 036: Core subject absent: Operating Systems
+Mock 036: Core subject absent: Databases
+Mock 036: Core subject absent: Computer Networks
+Mock 036: At least 28 technical questions must require two meaningful reasoning steps
+Mock 036: Difficulty Medium outside configured bounds 24–28
+Mock 036: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 036: Difficulty Hard outside configured bounds 8–12
+Mock 037: Exactly 65 questions required
+Mock 037: Numbering must be Q1–Q65 without gaps or repeats
+Mock 037: Expected 30 one-mark and 35 two-mark questions
+Mock 037: Total marks must equal 100
+Mock 037: GA allocation must be 10 questions / 15 marks
+Mock 037: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 037: Core CS must total 72 marks
+Mock 037: Core subject absent: Digital Logic
+Mock 037: Core subject absent: Computer Organization and Architecture
+Mock 037: Core subject absent: Programming and Data Structures
+Mock 037: Core subject absent: Algorithms
+Mock 037: Core subject absent: Theory of Computation
+Mock 037: Core subject absent: Compiler Design
+Mock 037: Core subject absent: Operating Systems
+Mock 037: Core subject absent: Databases
+Mock 037: Core subject absent: Computer Networks
+Mock 037: At least 28 technical questions must require two meaningful reasoning steps
+Mock 037: Difficulty Medium outside configured bounds 24–28
+Mock 037: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 037: Difficulty Hard outside configured bounds 8–12
+Mock 038: Exactly 65 questions required
+Mock 038: Numbering must be Q1–Q65 without gaps or repeats
+Mock 038: Expected 30 one-mark and 35 two-mark questions
+Mock 038: Total marks must equal 100
+Mock 038: GA allocation must be 10 questions / 15 marks
+Mock 038: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 038: Core CS must total 72 marks
+Mock 038: Core subject absent: Digital Logic
+Mock 038: Core subject absent: Computer Organization and Architecture
+Mock 038: Core subject absent: Programming and Data Structures
+Mock 038: Core subject absent: Algorithms
+Mock 038: Core subject absent: Theory of Computation
+Mock 038: Core subject absent: Compiler Design
+Mock 038: Core subject absent: Operating Systems
+Mock 038: Core subject absent: Databases
+Mock 038: Core subject absent: Computer Networks
+Mock 038: At least 28 technical questions must require two meaningful reasoning steps
+Mock 038: Difficulty Medium outside configured bounds 24–28
+Mock 038: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 038: Difficulty Hard outside configured bounds 8–12
+Mock 039: Exactly 65 questions required
+Mock 039: Numbering must be Q1–Q65 without gaps or repeats
+Mock 039: Expected 30 one-mark and 35 two-mark questions
+Mock 039: Total marks must equal 100
+Mock 039: GA allocation must be 10 questions / 15 marks
+Mock 039: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 039: Core CS must total 72 marks
+Mock 039: Core subject absent: Digital Logic
+Mock 039: Core subject absent: Computer Organization and Architecture
+Mock 039: Core subject absent: Programming and Data Structures
+Mock 039: Core subject absent: Algorithms
+Mock 039: Core subject absent: Theory of Computation
+Mock 039: Core subject absent: Compiler Design
+Mock 039: Core subject absent: Operating Systems
+Mock 039: Core subject absent: Databases
+Mock 039: Core subject absent: Computer Networks
+Mock 039: At least 28 technical questions must require two meaningful reasoning steps
+Mock 039: Difficulty Medium outside configured bounds 24–28
+Mock 039: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 039: Difficulty Hard outside configured bounds 8–12
+Mock 040: Exactly 65 questions required
+Mock 040: Numbering must be Q1–Q65 without gaps or repeats
+Mock 040: Expected 30 one-mark and 35 two-mark questions
+Mock 040: Total marks must equal 100
+Mock 040: GA allocation must be 10 questions / 15 marks
+Mock 040: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 040: Core CS must total 72 marks
+Mock 040: Core subject absent: Digital Logic
+Mock 040: Core subject absent: Computer Organization and Architecture
+Mock 040: Core subject absent: Programming and Data Structures
+Mock 040: Core subject absent: Algorithms
+Mock 040: Core subject absent: Theory of Computation
+Mock 040: Core subject absent: Compiler Design
+Mock 040: Core subject absent: Operating Systems
+Mock 040: Core subject absent: Databases
+Mock 040: Core subject absent: Computer Networks
+Mock 040: At least 28 technical questions must require two meaningful reasoning steps
+Mock 040: Difficulty Medium outside configured bounds 24–28
+Mock 040: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 040: Difficulty Hard outside configured bounds 8–12
+Mock 041: Exactly 65 questions required
+Mock 041: Numbering must be Q1–Q65 without gaps or repeats
+Mock 041: Expected 30 one-mark and 35 two-mark questions
+Mock 041: Total marks must equal 100
+Mock 041: GA allocation must be 10 questions / 15 marks
+Mock 041: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 041: Core CS must total 72 marks
+Mock 041: Core subject absent: Digital Logic
+Mock 041: Core subject absent: Computer Organization and Architecture
+Mock 041: Core subject absent: Programming and Data Structures
+Mock 041: Core subject absent: Algorithms
+Mock 041: Core subject absent: Theory of Computation
+Mock 041: Core subject absent: Compiler Design
+Mock 041: Core subject absent: Operating Systems
+Mock 041: Core subject absent: Databases
+Mock 041: Core subject absent: Computer Networks
+Mock 041: At least 28 technical questions must require two meaningful reasoning steps
+Mock 041: Difficulty Medium outside configured bounds 24–28
+Mock 041: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 041: Difficulty Hard outside configured bounds 8–12
+Mock 042: Exactly 65 questions required
+Mock 042: Numbering must be Q1–Q65 without gaps or repeats
+Mock 042: Expected 30 one-mark and 35 two-mark questions
+Mock 042: Total marks must equal 100
+Mock 042: GA allocation must be 10 questions / 15 marks
+Mock 042: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 042: Core CS must total 72 marks
+Mock 042: Core subject absent: Digital Logic
+Mock 042: Core subject absent: Computer Organization and Architecture
+Mock 042: Core subject absent: Programming and Data Structures
+Mock 042: Core subject absent: Algorithms
+Mock 042: Core subject absent: Theory of Computation
+Mock 042: Core subject absent: Compiler Design
+Mock 042: Core subject absent: Operating Systems
+Mock 042: Core subject absent: Databases
+Mock 042: Core subject absent: Computer Networks
+Mock 042: At least 28 technical questions must require two meaningful reasoning steps
+Mock 042: Difficulty Medium outside configured bounds 24–28
+Mock 042: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 042: Difficulty Hard outside configured bounds 8–12
+Mock 043: Exactly 65 questions required
+Mock 043: Numbering must be Q1–Q65 without gaps or repeats
+Mock 043: Expected 30 one-mark and 35 two-mark questions
+Mock 043: Total marks must equal 100
+Mock 043: GA allocation must be 10 questions / 15 marks
+Mock 043: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 043: Core CS must total 72 marks
+Mock 043: Core subject absent: Digital Logic
+Mock 043: Core subject absent: Computer Organization and Architecture
+Mock 043: Core subject absent: Programming and Data Structures
+Mock 043: Core subject absent: Algorithms
+Mock 043: Core subject absent: Theory of Computation
+Mock 043: Core subject absent: Compiler Design
+Mock 043: Core subject absent: Operating Systems
+Mock 043: Core subject absent: Databases
+Mock 043: Core subject absent: Computer Networks
+Mock 043: At least 28 technical questions must require two meaningful reasoning steps
+Mock 043: Difficulty Medium outside configured bounds 24–28
+Mock 043: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 043: Difficulty Hard outside configured bounds 8–12
+Mock 044: Exactly 65 questions required
+Mock 044: Numbering must be Q1–Q65 without gaps or repeats
+Mock 044: Expected 30 one-mark and 35 two-mark questions
+Mock 044: Total marks must equal 100
+Mock 044: GA allocation must be 10 questions / 15 marks
+Mock 044: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 044: Core CS must total 72 marks
+Mock 044: Core subject absent: Digital Logic
+Mock 044: Core subject absent: Computer Organization and Architecture
+Mock 044: Core subject absent: Programming and Data Structures
+Mock 044: Core subject absent: Algorithms
+Mock 044: Core subject absent: Theory of Computation
+Mock 044: Core subject absent: Compiler Design
+Mock 044: Core subject absent: Operating Systems
+Mock 044: Core subject absent: Databases
+Mock 044: Core subject absent: Computer Networks
+Mock 044: At least 28 technical questions must require two meaningful reasoning steps
+Mock 044: Difficulty Medium outside configured bounds 24–28
+Mock 044: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 044: Difficulty Hard outside configured bounds 8–12
+Mock 045: Exactly 65 questions required
+Mock 045: Numbering must be Q1–Q65 without gaps or repeats
+Mock 045: Expected 30 one-mark and 35 two-mark questions
+Mock 045: Total marks must equal 100
+Mock 045: GA allocation must be 10 questions / 15 marks
+Mock 045: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 045: Core CS must total 72 marks
+Mock 045: Core subject absent: Digital Logic
+Mock 045: Core subject absent: Computer Organization and Architecture
+Mock 045: Core subject absent: Programming and Data Structures
+Mock 045: Core subject absent: Algorithms
+Mock 045: Core subject absent: Theory of Computation
+Mock 045: Core subject absent: Compiler Design
+Mock 045: Core subject absent: Operating Systems
+Mock 045: Core subject absent: Databases
+Mock 045: Core subject absent: Computer Networks
+Mock 045: At least 28 technical questions must require two meaningful reasoning steps
+Mock 045: Difficulty Medium outside configured bounds 24–28
+Mock 045: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 045: Difficulty Hard outside configured bounds 8–12
+Mock 046: Exactly 65 questions required
+Mock 046: Numbering must be Q1–Q65 without gaps or repeats
+Mock 046: Expected 30 one-mark and 35 two-mark questions
+Mock 046: Total marks must equal 100
+Mock 046: GA allocation must be 10 questions / 15 marks
+Mock 046: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 046: Core CS must total 72 marks
+Mock 046: Core subject absent: Digital Logic
+Mock 046: Core subject absent: Computer Organization and Architecture
+Mock 046: Core subject absent: Programming and Data Structures
+Mock 046: Core subject absent: Algorithms
+Mock 046: Core subject absent: Theory of Computation
+Mock 046: Core subject absent: Compiler Design
+Mock 046: Core subject absent: Operating Systems
+Mock 046: Core subject absent: Databases
+Mock 046: Core subject absent: Computer Networks
+Mock 046: At least 28 technical questions must require two meaningful reasoning steps
+Mock 046: Difficulty Medium outside configured bounds 24–28
+Mock 046: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 046: Difficulty Hard outside configured bounds 8–12
+Mock 047: Exactly 65 questions required
+Mock 047: Numbering must be Q1–Q65 without gaps or repeats
+Mock 047: Expected 30 one-mark and 35 two-mark questions
+Mock 047: Total marks must equal 100
+Mock 047: GA allocation must be 10 questions / 15 marks
+Mock 047: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 047: Core CS must total 72 marks
+Mock 047: Core subject absent: Digital Logic
+Mock 047: Core subject absent: Computer Organization and Architecture
+Mock 047: Core subject absent: Programming and Data Structures
+Mock 047: Core subject absent: Algorithms
+Mock 047: Core subject absent: Theory of Computation
+Mock 047: Core subject absent: Compiler Design
+Mock 047: Core subject absent: Operating Systems
+Mock 047: Core subject absent: Databases
+Mock 047: Core subject absent: Computer Networks
+Mock 047: At least 28 technical questions must require two meaningful reasoning steps
+Mock 047: Difficulty Medium outside configured bounds 24–28
+Mock 047: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 047: Difficulty Hard outside configured bounds 8–12
+Mock 048: Exactly 65 questions required
+Mock 048: Numbering must be Q1–Q65 without gaps or repeats
+Mock 048: Expected 30 one-mark and 35 two-mark questions
+Mock 048: Total marks must equal 100
+Mock 048: GA allocation must be 10 questions / 15 marks
+Mock 048: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 048: Core CS must total 72 marks
+Mock 048: Core subject absent: Digital Logic
+Mock 048: Core subject absent: Computer Organization and Architecture
+Mock 048: Core subject absent: Programming and Data Structures
+Mock 048: Core subject absent: Algorithms
+Mock 048: Core subject absent: Theory of Computation
+Mock 048: Core subject absent: Compiler Design
+Mock 048: Core subject absent: Operating Systems
+Mock 048: Core subject absent: Databases
+Mock 048: Core subject absent: Computer Networks
+Mock 048: At least 28 technical questions must require two meaningful reasoning steps
+Mock 048: Difficulty Medium outside configured bounds 24–28
+Mock 048: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 048: Difficulty Hard outside configured bounds 8–12
+Mock 049: Exactly 65 questions required
+Mock 049: Numbering must be Q1–Q65 without gaps or repeats
+Mock 049: Expected 30 one-mark and 35 two-mark questions
+Mock 049: Total marks must equal 100
+Mock 049: GA allocation must be 10 questions / 15 marks
+Mock 049: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 049: Core CS must total 72 marks
+Mock 049: Core subject absent: Digital Logic
+Mock 049: Core subject absent: Computer Organization and Architecture
+Mock 049: Core subject absent: Programming and Data Structures
+Mock 049: Core subject absent: Algorithms
+Mock 049: Core subject absent: Theory of Computation
+Mock 049: Core subject absent: Compiler Design
+Mock 049: Core subject absent: Operating Systems
+Mock 049: Core subject absent: Databases
+Mock 049: Core subject absent: Computer Networks
+Mock 049: At least 28 technical questions must require two meaningful reasoning steps
+Mock 049: Difficulty Medium outside configured bounds 24–28
+Mock 049: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 049: Difficulty Hard outside configured bounds 8–12
+Mock 050: Exactly 65 questions required
+Mock 050: Numbering must be Q1–Q65 without gaps or repeats
+Mock 050: Expected 30 one-mark and 35 two-mark questions
+Mock 050: Total marks must equal 100
+Mock 050: GA allocation must be 10 questions / 15 marks
+Mock 050: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 050: Core CS must total 72 marks
+Mock 050: Core subject absent: Digital Logic
+Mock 050: Core subject absent: Computer Organization and Architecture
+Mock 050: Core subject absent: Programming and Data Structures
+Mock 050: Core subject absent: Algorithms
+Mock 050: Core subject absent: Theory of Computation
+Mock 050: Core subject absent: Compiler Design
+Mock 050: Core subject absent: Operating Systems
+Mock 050: Core subject absent: Databases
+Mock 050: Core subject absent: Computer Networks
+Mock 050: At least 28 technical questions must require two meaningful reasoning steps
+Mock 050: Difficulty Medium outside configured bounds 24–28
+Mock 050: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 050: Difficulty Hard outside configured bounds 8–12
+Mock 051: Exactly 65 questions required
+Mock 051: Numbering must be Q1–Q65 without gaps or repeats
+Mock 051: Expected 30 one-mark and 35 two-mark questions
+Mock 051: Total marks must equal 100
+Mock 051: GA allocation must be 10 questions / 15 marks
+Mock 051: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 051: Core CS must total 72 marks
+Mock 051: Core subject absent: Digital Logic
+Mock 051: Core subject absent: Computer Organization and Architecture
+Mock 051: Core subject absent: Programming and Data Structures
+Mock 051: Core subject absent: Algorithms
+Mock 051: Core subject absent: Theory of Computation
+Mock 051: Core subject absent: Compiler Design
+Mock 051: Core subject absent: Operating Systems
+Mock 051: Core subject absent: Databases
+Mock 051: Core subject absent: Computer Networks
+Mock 051: At least 28 technical questions must require two meaningful reasoning steps
+Mock 051: Difficulty Medium outside configured bounds 24–28
+Mock 051: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 051: Difficulty Hard outside configured bounds 8–12
+Mock 052: Exactly 65 questions required
+Mock 052: Numbering must be Q1–Q65 without gaps or repeats
+Mock 052: Expected 30 one-mark and 35 two-mark questions
+Mock 052: Total marks must equal 100
+Mock 052: GA allocation must be 10 questions / 15 marks
+Mock 052: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 052: Core CS must total 72 marks
+Mock 052: Core subject absent: Digital Logic
+Mock 052: Core subject absent: Computer Organization and Architecture
+Mock 052: Core subject absent: Programming and Data Structures
+Mock 052: Core subject absent: Algorithms
+Mock 052: Core subject absent: Theory of Computation
+Mock 052: Core subject absent: Compiler Design
+Mock 052: Core subject absent: Operating Systems
+Mock 052: Core subject absent: Databases
+Mock 052: Core subject absent: Computer Networks
+Mock 052: At least 28 technical questions must require two meaningful reasoning steps
+Mock 052: Difficulty Medium outside configured bounds 24–28
+Mock 052: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 052: Difficulty Hard outside configured bounds 8–12
+Mock 053: Exactly 65 questions required
+Mock 053: Numbering must be Q1–Q65 without gaps or repeats
+Mock 053: Expected 30 one-mark and 35 two-mark questions
+Mock 053: Total marks must equal 100
+Mock 053: GA allocation must be 10 questions / 15 marks
+Mock 053: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 053: Core CS must total 72 marks
+Mock 053: Core subject absent: Digital Logic
+Mock 053: Core subject absent: Computer Organization and Architecture
+Mock 053: Core subject absent: Programming and Data Structures
+Mock 053: Core subject absent: Algorithms
+Mock 053: Core subject absent: Theory of Computation
+Mock 053: Core subject absent: Compiler Design
+Mock 053: Core subject absent: Operating Systems
+Mock 053: Core subject absent: Databases
+Mock 053: Core subject absent: Computer Networks
+Mock 053: At least 28 technical questions must require two meaningful reasoning steps
+Mock 053: Difficulty Medium outside configured bounds 24–28
+Mock 053: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 053: Difficulty Hard outside configured bounds 8–12
+Mock 054: Exactly 65 questions required
+Mock 054: Numbering must be Q1–Q65 without gaps or repeats
+Mock 054: Expected 30 one-mark and 35 two-mark questions
+Mock 054: Total marks must equal 100
+Mock 054: GA allocation must be 10 questions / 15 marks
+Mock 054: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 054: Core CS must total 72 marks
+Mock 054: Core subject absent: Digital Logic
+Mock 054: Core subject absent: Computer Organization and Architecture
+Mock 054: Core subject absent: Programming and Data Structures
+Mock 054: Core subject absent: Algorithms
+Mock 054: Core subject absent: Theory of Computation
+Mock 054: Core subject absent: Compiler Design
+Mock 054: Core subject absent: Operating Systems
+Mock 054: Core subject absent: Databases
+Mock 054: Core subject absent: Computer Networks
+Mock 054: At least 28 technical questions must require two meaningful reasoning steps
+Mock 054: Difficulty Medium outside configured bounds 24–28
+Mock 054: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 054: Difficulty Hard outside configured bounds 8–12
+Mock 055: Exactly 65 questions required
+Mock 055: Numbering must be Q1–Q65 without gaps or repeats
+Mock 055: Expected 30 one-mark and 35 two-mark questions
+Mock 055: Total marks must equal 100
+Mock 055: GA allocation must be 10 questions / 15 marks
+Mock 055: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 055: Core CS must total 72 marks
+Mock 055: Core subject absent: Digital Logic
+Mock 055: Core subject absent: Computer Organization and Architecture
+Mock 055: Core subject absent: Programming and Data Structures
+Mock 055: Core subject absent: Algorithms
+Mock 055: Core subject absent: Theory of Computation
+Mock 055: Core subject absent: Compiler Design
+Mock 055: Core subject absent: Operating Systems
+Mock 055: Core subject absent: Databases
+Mock 055: Core subject absent: Computer Networks
+Mock 055: At least 28 technical questions must require two meaningful reasoning steps
+Mock 055: Difficulty Medium outside configured bounds 24–28
+Mock 055: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 055: Difficulty Hard outside configured bounds 8–12
+Mock 056: Exactly 65 questions required
+Mock 056: Numbering must be Q1–Q65 without gaps or repeats
+Mock 056: Expected 30 one-mark and 35 two-mark questions
+Mock 056: Total marks must equal 100
+Mock 056: GA allocation must be 10 questions / 15 marks
+Mock 056: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 056: Core CS must total 72 marks
+Mock 056: Core subject absent: Digital Logic
+Mock 056: Core subject absent: Computer Organization and Architecture
+Mock 056: Core subject absent: Programming and Data Structures
+Mock 056: Core subject absent: Algorithms
+Mock 056: Core subject absent: Theory of Computation
+Mock 056: Core subject absent: Compiler Design
+Mock 056: Core subject absent: Operating Systems
+Mock 056: Core subject absent: Databases
+Mock 056: Core subject absent: Computer Networks
+Mock 056: At least 28 technical questions must require two meaningful reasoning steps
+Mock 056: Difficulty Medium outside configured bounds 24–28
+Mock 056: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 056: Difficulty Hard outside configured bounds 8–12
+Mock 057: Exactly 65 questions required
+Mock 057: Numbering must be Q1–Q65 without gaps or repeats
+Mock 057: Expected 30 one-mark and 35 two-mark questions
+Mock 057: Total marks must equal 100
+Mock 057: GA allocation must be 10 questions / 15 marks
+Mock 057: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 057: Core CS must total 72 marks
+Mock 057: Core subject absent: Digital Logic
+Mock 057: Core subject absent: Computer Organization and Architecture
+Mock 057: Core subject absent: Programming and Data Structures
+Mock 057: Core subject absent: Algorithms
+Mock 057: Core subject absent: Theory of Computation
+Mock 057: Core subject absent: Compiler Design
+Mock 057: Core subject absent: Operating Systems
+Mock 057: Core subject absent: Databases
+Mock 057: Core subject absent: Computer Networks
+Mock 057: At least 28 technical questions must require two meaningful reasoning steps
+Mock 057: Difficulty Medium outside configured bounds 24–28
+Mock 057: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 057: Difficulty Hard outside configured bounds 8–12
+Mock 058: Exactly 65 questions required
+Mock 058: Numbering must be Q1–Q65 without gaps or repeats
+Mock 058: Expected 30 one-mark and 35 two-mark questions
+Mock 058: Total marks must equal 100
+Mock 058: GA allocation must be 10 questions / 15 marks
+Mock 058: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 058: Core CS must total 72 marks
+Mock 058: Core subject absent: Digital Logic
+Mock 058: Core subject absent: Computer Organization and Architecture
+Mock 058: Core subject absent: Programming and Data Structures
+Mock 058: Core subject absent: Algorithms
+Mock 058: Core subject absent: Theory of Computation
+Mock 058: Core subject absent: Compiler Design
+Mock 058: Core subject absent: Operating Systems
+Mock 058: Core subject absent: Databases
+Mock 058: Core subject absent: Computer Networks
+Mock 058: At least 28 technical questions must require two meaningful reasoning steps
+Mock 058: Difficulty Medium outside configured bounds 24–28
+Mock 058: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 058: Difficulty Hard outside configured bounds 8–12
+Mock 059: Exactly 65 questions required
+Mock 059: Numbering must be Q1–Q65 without gaps or repeats
+Mock 059: Expected 30 one-mark and 35 two-mark questions
+Mock 059: Total marks must equal 100
+Mock 059: GA allocation must be 10 questions / 15 marks
+Mock 059: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 059: Core CS must total 72 marks
+Mock 059: Core subject absent: Digital Logic
+Mock 059: Core subject absent: Computer Organization and Architecture
+Mock 059: Core subject absent: Programming and Data Structures
+Mock 059: Core subject absent: Algorithms
+Mock 059: Core subject absent: Theory of Computation
+Mock 059: Core subject absent: Compiler Design
+Mock 059: Core subject absent: Operating Systems
+Mock 059: Core subject absent: Databases
+Mock 059: Core subject absent: Computer Networks
+Mock 059: At least 28 technical questions must require two meaningful reasoning steps
+Mock 059: Difficulty Medium outside configured bounds 24–28
+Mock 059: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 059: Difficulty Hard outside configured bounds 8–12
+Mock 060: Exactly 65 questions required
+Mock 060: Numbering must be Q1–Q65 without gaps or repeats
+Mock 060: Expected 30 one-mark and 35 two-mark questions
+Mock 060: Total marks must equal 100
+Mock 060: GA allocation must be 10 questions / 15 marks
+Mock 060: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 060: Core CS must total 72 marks
+Mock 060: Core subject absent: Digital Logic
+Mock 060: Core subject absent: Computer Organization and Architecture
+Mock 060: Core subject absent: Programming and Data Structures
+Mock 060: Core subject absent: Algorithms
+Mock 060: Core subject absent: Theory of Computation
+Mock 060: Core subject absent: Compiler Design
+Mock 060: Core subject absent: Operating Systems
+Mock 060: Core subject absent: Databases
+Mock 060: Core subject absent: Computer Networks
+Mock 060: At least 28 technical questions must require two meaningful reasoning steps
+Mock 060: Difficulty Medium outside configured bounds 24–28
+Mock 060: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 060: Difficulty Hard outside configured bounds 8–12
+Mock 061: Exactly 65 questions required
+Mock 061: Numbering must be Q1–Q65 without gaps or repeats
+Mock 061: Expected 30 one-mark and 35 two-mark questions
+Mock 061: Total marks must equal 100
+Mock 061: GA allocation must be 10 questions / 15 marks
+Mock 061: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 061: Core CS must total 72 marks
+Mock 061: Core subject absent: Digital Logic
+Mock 061: Core subject absent: Computer Organization and Architecture
+Mock 061: Core subject absent: Programming and Data Structures
+Mock 061: Core subject absent: Algorithms
+Mock 061: Core subject absent: Theory of Computation
+Mock 061: Core subject absent: Compiler Design
+Mock 061: Core subject absent: Operating Systems
+Mock 061: Core subject absent: Databases
+Mock 061: Core subject absent: Computer Networks
+Mock 061: At least 28 technical questions must require two meaningful reasoning steps
+Mock 061: Difficulty Medium outside configured bounds 24–28
+Mock 061: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 061: Difficulty Hard outside configured bounds 8–12
+Mock 062: Exactly 65 questions required
+Mock 062: Numbering must be Q1–Q65 without gaps or repeats
+Mock 062: Expected 30 one-mark and 35 two-mark questions
+Mock 062: Total marks must equal 100
+Mock 062: GA allocation must be 10 questions / 15 marks
+Mock 062: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 062: Core CS must total 72 marks
+Mock 062: Core subject absent: Digital Logic
+Mock 062: Core subject absent: Computer Organization and Architecture
+Mock 062: Core subject absent: Programming and Data Structures
+Mock 062: Core subject absent: Algorithms
+Mock 062: Core subject absent: Theory of Computation
+Mock 062: Core subject absent: Compiler Design
+Mock 062: Core subject absent: Operating Systems
+Mock 062: Core subject absent: Databases
+Mock 062: Core subject absent: Computer Networks
+Mock 062: At least 28 technical questions must require two meaningful reasoning steps
+Mock 062: Difficulty Medium outside configured bounds 24–28
+Mock 062: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 062: Difficulty Hard outside configured bounds 8–12
+Mock 063: Exactly 65 questions required
+Mock 063: Numbering must be Q1–Q65 without gaps or repeats
+Mock 063: Expected 30 one-mark and 35 two-mark questions
+Mock 063: Total marks must equal 100
+Mock 063: GA allocation must be 10 questions / 15 marks
+Mock 063: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 063: Core CS must total 72 marks
+Mock 063: Core subject absent: Digital Logic
+Mock 063: Core subject absent: Computer Organization and Architecture
+Mock 063: Core subject absent: Programming and Data Structures
+Mock 063: Core subject absent: Algorithms
+Mock 063: Core subject absent: Theory of Computation
+Mock 063: Core subject absent: Compiler Design
+Mock 063: Core subject absent: Operating Systems
+Mock 063: Core subject absent: Databases
+Mock 063: Core subject absent: Computer Networks
+Mock 063: At least 28 technical questions must require two meaningful reasoning steps
+Mock 063: Difficulty Medium outside configured bounds 24–28
+Mock 063: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 063: Difficulty Hard outside configured bounds 8–12
+Mock 064: Exactly 65 questions required
+Mock 064: Numbering must be Q1–Q65 without gaps or repeats
+Mock 064: Expected 30 one-mark and 35 two-mark questions
+Mock 064: Total marks must equal 100
+Mock 064: GA allocation must be 10 questions / 15 marks
+Mock 064: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 064: Core CS must total 72 marks
+Mock 064: Core subject absent: Digital Logic
+Mock 064: Core subject absent: Computer Organization and Architecture
+Mock 064: Core subject absent: Programming and Data Structures
+Mock 064: Core subject absent: Algorithms
+Mock 064: Core subject absent: Theory of Computation
+Mock 064: Core subject absent: Compiler Design
+Mock 064: Core subject absent: Operating Systems
+Mock 064: Core subject absent: Databases
+Mock 064: Core subject absent: Computer Networks
+Mock 064: At least 28 technical questions must require two meaningful reasoning steps
+Mock 064: Difficulty Medium outside configured bounds 24–28
+Mock 064: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 064: Difficulty Hard outside configured bounds 8–12
+Mock 065: Exactly 65 questions required
+Mock 065: Numbering must be Q1–Q65 without gaps or repeats
+Mock 065: Expected 30 one-mark and 35 two-mark questions
+Mock 065: Total marks must equal 100
+Mock 065: GA allocation must be 10 questions / 15 marks
+Mock 065: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 065: Core CS must total 72 marks
+Mock 065: Core subject absent: Digital Logic
+Mock 065: Core subject absent: Computer Organization and Architecture
+Mock 065: Core subject absent: Programming and Data Structures
+Mock 065: Core subject absent: Algorithms
+Mock 065: Core subject absent: Theory of Computation
+Mock 065: Core subject absent: Compiler Design
+Mock 065: Core subject absent: Operating Systems
+Mock 065: Core subject absent: Databases
+Mock 065: Core subject absent: Computer Networks
+Mock 065: At least 28 technical questions must require two meaningful reasoning steps
+Mock 065: Difficulty Medium outside configured bounds 24–28
+Mock 065: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 065: Difficulty Hard outside configured bounds 8–12
+Mock 066: Exactly 65 questions required
+Mock 066: Numbering must be Q1–Q65 without gaps or repeats
+Mock 066: Expected 30 one-mark and 35 two-mark questions
+Mock 066: Total marks must equal 100
+Mock 066: GA allocation must be 10 questions / 15 marks
+Mock 066: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 066: Core CS must total 72 marks
+Mock 066: Core subject absent: Digital Logic
+Mock 066: Core subject absent: Computer Organization and Architecture
+Mock 066: Core subject absent: Programming and Data Structures
+Mock 066: Core subject absent: Algorithms
+Mock 066: Core subject absent: Theory of Computation
+Mock 066: Core subject absent: Compiler Design
+Mock 066: Core subject absent: Operating Systems
+Mock 066: Core subject absent: Databases
+Mock 066: Core subject absent: Computer Networks
+Mock 066: At least 28 technical questions must require two meaningful reasoning steps
+Mock 066: Difficulty Medium outside configured bounds 24–28
+Mock 066: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 066: Difficulty Hard outside configured bounds 8–12
+Mock 067: Exactly 65 questions required
+Mock 067: Numbering must be Q1–Q65 without gaps or repeats
+Mock 067: Expected 30 one-mark and 35 two-mark questions
+Mock 067: Total marks must equal 100
+Mock 067: GA allocation must be 10 questions / 15 marks
+Mock 067: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 067: Core CS must total 72 marks
+Mock 067: Core subject absent: Digital Logic
+Mock 067: Core subject absent: Computer Organization and Architecture
+Mock 067: Core subject absent: Programming and Data Structures
+Mock 067: Core subject absent: Algorithms
+Mock 067: Core subject absent: Theory of Computation
+Mock 067: Core subject absent: Compiler Design
+Mock 067: Core subject absent: Operating Systems
+Mock 067: Core subject absent: Databases
+Mock 067: Core subject absent: Computer Networks
+Mock 067: At least 28 technical questions must require two meaningful reasoning steps
+Mock 067: Difficulty Medium outside configured bounds 24–28
+Mock 067: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 067: Difficulty Hard outside configured bounds 8–12
+Mock 068: Exactly 65 questions required
+Mock 068: Numbering must be Q1–Q65 without gaps or repeats
+Mock 068: Expected 30 one-mark and 35 two-mark questions
+Mock 068: Total marks must equal 100
+Mock 068: GA allocation must be 10 questions / 15 marks
+Mock 068: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 068: Core CS must total 72 marks
+Mock 068: Core subject absent: Digital Logic
+Mock 068: Core subject absent: Computer Organization and Architecture
+Mock 068: Core subject absent: Programming and Data Structures
+Mock 068: Core subject absent: Algorithms
+Mock 068: Core subject absent: Theory of Computation
+Mock 068: Core subject absent: Compiler Design
+Mock 068: Core subject absent: Operating Systems
+Mock 068: Core subject absent: Databases
+Mock 068: Core subject absent: Computer Networks
+Mock 068: At least 28 technical questions must require two meaningful reasoning steps
+Mock 068: Difficulty Medium outside configured bounds 24–28
+Mock 068: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 068: Difficulty Hard outside configured bounds 8–12
+Mock 069: Exactly 65 questions required
+Mock 069: Numbering must be Q1–Q65 without gaps or repeats
+Mock 069: Expected 30 one-mark and 35 two-mark questions
+Mock 069: Total marks must equal 100
+Mock 069: GA allocation must be 10 questions / 15 marks
+Mock 069: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 069: Core CS must total 72 marks
+Mock 069: Core subject absent: Digital Logic
+Mock 069: Core subject absent: Computer Organization and Architecture
+Mock 069: Core subject absent: Programming and Data Structures
+Mock 069: Core subject absent: Algorithms
+Mock 069: Core subject absent: Theory of Computation
+Mock 069: Core subject absent: Compiler Design
+Mock 069: Core subject absent: Operating Systems
+Mock 069: Core subject absent: Databases
+Mock 069: Core subject absent: Computer Networks
+Mock 069: At least 28 technical questions must require two meaningful reasoning steps
+Mock 069: Difficulty Medium outside configured bounds 24–28
+Mock 069: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 069: Difficulty Hard outside configured bounds 8–12
+Mock 070: Exactly 65 questions required
+Mock 070: Numbering must be Q1–Q65 without gaps or repeats
+Mock 070: Expected 30 one-mark and 35 two-mark questions
+Mock 070: Total marks must equal 100
+Mock 070: GA allocation must be 10 questions / 15 marks
+Mock 070: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 070: Core CS must total 72 marks
+Mock 070: Core subject absent: Digital Logic
+Mock 070: Core subject absent: Computer Organization and Architecture
+Mock 070: Core subject absent: Programming and Data Structures
+Mock 070: Core subject absent: Algorithms
+Mock 070: Core subject absent: Theory of Computation
+Mock 070: Core subject absent: Compiler Design
+Mock 070: Core subject absent: Operating Systems
+Mock 070: Core subject absent: Databases
+Mock 070: Core subject absent: Computer Networks
+Mock 070: At least 28 technical questions must require two meaningful reasoning steps
+Mock 070: Difficulty Medium outside configured bounds 24–28
+Mock 070: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 070: Difficulty Hard outside configured bounds 8–12
+Mock 071: Exactly 65 questions required
+Mock 071: Numbering must be Q1–Q65 without gaps or repeats
+Mock 071: Expected 30 one-mark and 35 two-mark questions
+Mock 071: Total marks must equal 100
+Mock 071: GA allocation must be 10 questions / 15 marks
+Mock 071: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 071: Core CS must total 72 marks
+Mock 071: Core subject absent: Digital Logic
+Mock 071: Core subject absent: Computer Organization and Architecture
+Mock 071: Core subject absent: Programming and Data Structures
+Mock 071: Core subject absent: Algorithms
+Mock 071: Core subject absent: Theory of Computation
+Mock 071: Core subject absent: Compiler Design
+Mock 071: Core subject absent: Operating Systems
+Mock 071: Core subject absent: Databases
+Mock 071: Core subject absent: Computer Networks
+Mock 071: At least 28 technical questions must require two meaningful reasoning steps
+Mock 071: Difficulty Medium outside configured bounds 24–28
+Mock 071: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 071: Difficulty Hard outside configured bounds 8–12
+Mock 072: Exactly 65 questions required
+Mock 072: Numbering must be Q1–Q65 without gaps or repeats
+Mock 072: Expected 30 one-mark and 35 two-mark questions
+Mock 072: Total marks must equal 100
+Mock 072: GA allocation must be 10 questions / 15 marks
+Mock 072: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 072: Core CS must total 72 marks
+Mock 072: Core subject absent: Digital Logic
+Mock 072: Core subject absent: Computer Organization and Architecture
+Mock 072: Core subject absent: Programming and Data Structures
+Mock 072: Core subject absent: Algorithms
+Mock 072: Core subject absent: Theory of Computation
+Mock 072: Core subject absent: Compiler Design
+Mock 072: Core subject absent: Operating Systems
+Mock 072: Core subject absent: Databases
+Mock 072: Core subject absent: Computer Networks
+Mock 072: At least 28 technical questions must require two meaningful reasoning steps
+Mock 072: Difficulty Medium outside configured bounds 24–28
+Mock 072: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 072: Difficulty Hard outside configured bounds 8–12
+Mock 073: Exactly 65 questions required
+Mock 073: Numbering must be Q1–Q65 without gaps or repeats
+Mock 073: Expected 30 one-mark and 35 two-mark questions
+Mock 073: Total marks must equal 100
+Mock 073: GA allocation must be 10 questions / 15 marks
+Mock 073: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 073: Core CS must total 72 marks
+Mock 073: Core subject absent: Digital Logic
+Mock 073: Core subject absent: Computer Organization and Architecture
+Mock 073: Core subject absent: Programming and Data Structures
+Mock 073: Core subject absent: Algorithms
+Mock 073: Core subject absent: Theory of Computation
+Mock 073: Core subject absent: Compiler Design
+Mock 073: Core subject absent: Operating Systems
+Mock 073: Core subject absent: Databases
+Mock 073: Core subject absent: Computer Networks
+Mock 073: At least 28 technical questions must require two meaningful reasoning steps
+Mock 073: Difficulty Medium outside configured bounds 24–28
+Mock 073: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 073: Difficulty Hard outside configured bounds 8–12
+Mock 074: Exactly 65 questions required
+Mock 074: Numbering must be Q1–Q65 without gaps or repeats
+Mock 074: Expected 30 one-mark and 35 two-mark questions
+Mock 074: Total marks must equal 100
+Mock 074: GA allocation must be 10 questions / 15 marks
+Mock 074: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 074: Core CS must total 72 marks
+Mock 074: Core subject absent: Digital Logic
+Mock 074: Core subject absent: Computer Organization and Architecture
+Mock 074: Core subject absent: Programming and Data Structures
+Mock 074: Core subject absent: Algorithms
+Mock 074: Core subject absent: Theory of Computation
+Mock 074: Core subject absent: Compiler Design
+Mock 074: Core subject absent: Operating Systems
+Mock 074: Core subject absent: Databases
+Mock 074: Core subject absent: Computer Networks
+Mock 074: At least 28 technical questions must require two meaningful reasoning steps
+Mock 074: Difficulty Medium outside configured bounds 24–28
+Mock 074: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 074: Difficulty Hard outside configured bounds 8–12
+Mock 075: Exactly 65 questions required
+Mock 075: Numbering must be Q1–Q65 without gaps or repeats
+Mock 075: Expected 30 one-mark and 35 two-mark questions
+Mock 075: Total marks must equal 100
+Mock 075: GA allocation must be 10 questions / 15 marks
+Mock 075: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 075: Core CS must total 72 marks
+Mock 075: Core subject absent: Digital Logic
+Mock 075: Core subject absent: Computer Organization and Architecture
+Mock 075: Core subject absent: Programming and Data Structures
+Mock 075: Core subject absent: Algorithms
+Mock 075: Core subject absent: Theory of Computation
+Mock 075: Core subject absent: Compiler Design
+Mock 075: Core subject absent: Operating Systems
+Mock 075: Core subject absent: Databases
+Mock 075: Core subject absent: Computer Networks
+Mock 075: At least 28 technical questions must require two meaningful reasoning steps
+Mock 075: Difficulty Medium outside configured bounds 24–28
+Mock 075: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 075: Difficulty Hard outside configured bounds 8–12
+Mock 076: Exactly 65 questions required
+Mock 076: Numbering must be Q1–Q65 without gaps or repeats
+Mock 076: Expected 30 one-mark and 35 two-mark questions
+Mock 076: Total marks must equal 100
+Mock 076: GA allocation must be 10 questions / 15 marks
+Mock 076: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 076: Core CS must total 72 marks
+Mock 076: Core subject absent: Digital Logic
+Mock 076: Core subject absent: Computer Organization and Architecture
+Mock 076: Core subject absent: Programming and Data Structures
+Mock 076: Core subject absent: Algorithms
+Mock 076: Core subject absent: Theory of Computation
+Mock 076: Core subject absent: Compiler Design
+Mock 076: Core subject absent: Operating Systems
+Mock 076: Core subject absent: Databases
+Mock 076: Core subject absent: Computer Networks
+Mock 076: At least 28 technical questions must require two meaningful reasoning steps
+Mock 076: Difficulty Medium outside configured bounds 24–28
+Mock 076: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 076: Difficulty Hard outside configured bounds 8–12
+Mock 077: Exactly 65 questions required
+Mock 077: Numbering must be Q1–Q65 without gaps or repeats
+Mock 077: Expected 30 one-mark and 35 two-mark questions
+Mock 077: Total marks must equal 100
+Mock 077: GA allocation must be 10 questions / 15 marks
+Mock 077: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 077: Core CS must total 72 marks
+Mock 077: Core subject absent: Digital Logic
+Mock 077: Core subject absent: Computer Organization and Architecture
+Mock 077: Core subject absent: Programming and Data Structures
+Mock 077: Core subject absent: Algorithms
+Mock 077: Core subject absent: Theory of Computation
+Mock 077: Core subject absent: Compiler Design
+Mock 077: Core subject absent: Operating Systems
+Mock 077: Core subject absent: Databases
+Mock 077: Core subject absent: Computer Networks
+Mock 077: At least 28 technical questions must require two meaningful reasoning steps
+Mock 077: Difficulty Medium outside configured bounds 24–28
+Mock 077: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 077: Difficulty Hard outside configured bounds 8–12
+Mock 078: Exactly 65 questions required
+Mock 078: Numbering must be Q1–Q65 without gaps or repeats
+Mock 078: Expected 30 one-mark and 35 two-mark questions
+Mock 078: Total marks must equal 100
+Mock 078: GA allocation must be 10 questions / 15 marks
+Mock 078: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 078: Core CS must total 72 marks
+Mock 078: Core subject absent: Digital Logic
+Mock 078: Core subject absent: Computer Organization and Architecture
+Mock 078: Core subject absent: Programming and Data Structures
+Mock 078: Core subject absent: Algorithms
+Mock 078: Core subject absent: Theory of Computation
+Mock 078: Core subject absent: Compiler Design
+Mock 078: Core subject absent: Operating Systems
+Mock 078: Core subject absent: Databases
+Mock 078: Core subject absent: Computer Networks
+Mock 078: At least 28 technical questions must require two meaningful reasoning steps
+Mock 078: Difficulty Medium outside configured bounds 24–28
+Mock 078: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 078: Difficulty Hard outside configured bounds 8–12
+Mock 079: Exactly 65 questions required
+Mock 079: Numbering must be Q1–Q65 without gaps or repeats
+Mock 079: Expected 30 one-mark and 35 two-mark questions
+Mock 079: Total marks must equal 100
+Mock 079: GA allocation must be 10 questions / 15 marks
+Mock 079: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 079: Core CS must total 72 marks
+Mock 079: Core subject absent: Digital Logic
+Mock 079: Core subject absent: Computer Organization and Architecture
+Mock 079: Core subject absent: Programming and Data Structures
+Mock 079: Core subject absent: Algorithms
+Mock 079: Core subject absent: Theory of Computation
+Mock 079: Core subject absent: Compiler Design
+Mock 079: Core subject absent: Operating Systems
+Mock 079: Core subject absent: Databases
+Mock 079: Core subject absent: Computer Networks
+Mock 079: At least 28 technical questions must require two meaningful reasoning steps
+Mock 079: Difficulty Medium outside configured bounds 24–28
+Mock 079: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 079: Difficulty Hard outside configured bounds 8–12
+Mock 080: Exactly 65 questions required
+Mock 080: Numbering must be Q1–Q65 without gaps or repeats
+Mock 080: Expected 30 one-mark and 35 two-mark questions
+Mock 080: Total marks must equal 100
+Mock 080: GA allocation must be 10 questions / 15 marks
+Mock 080: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 080: Core CS must total 72 marks
+Mock 080: Core subject absent: Digital Logic
+Mock 080: Core subject absent: Computer Organization and Architecture
+Mock 080: Core subject absent: Programming and Data Structures
+Mock 080: Core subject absent: Algorithms
+Mock 080: Core subject absent: Theory of Computation
+Mock 080: Core subject absent: Compiler Design
+Mock 080: Core subject absent: Operating Systems
+Mock 080: Core subject absent: Databases
+Mock 080: Core subject absent: Computer Networks
+Mock 080: At least 28 technical questions must require two meaningful reasoning steps
+Mock 080: Difficulty Medium outside configured bounds 24–28
+Mock 080: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 080: Difficulty Hard outside configured bounds 8–12
+Mock 081: Exactly 65 questions required
+Mock 081: Numbering must be Q1–Q65 without gaps or repeats
+Mock 081: Expected 30 one-mark and 35 two-mark questions
+Mock 081: Total marks must equal 100
+Mock 081: GA allocation must be 10 questions / 15 marks
+Mock 081: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 081: Core CS must total 72 marks
+Mock 081: Core subject absent: Digital Logic
+Mock 081: Core subject absent: Computer Organization and Architecture
+Mock 081: Core subject absent: Programming and Data Structures
+Mock 081: Core subject absent: Algorithms
+Mock 081: Core subject absent: Theory of Computation
+Mock 081: Core subject absent: Compiler Design
+Mock 081: Core subject absent: Operating Systems
+Mock 081: Core subject absent: Databases
+Mock 081: Core subject absent: Computer Networks
+Mock 081: At least 28 technical questions must require two meaningful reasoning steps
+Mock 081: Difficulty Medium outside configured bounds 24–28
+Mock 081: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 081: Difficulty Hard outside configured bounds 8–12
+Mock 082: Exactly 65 questions required
+Mock 082: Numbering must be Q1–Q65 without gaps or repeats
+Mock 082: Expected 30 one-mark and 35 two-mark questions
+Mock 082: Total marks must equal 100
+Mock 082: GA allocation must be 10 questions / 15 marks
+Mock 082: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 082: Core CS must total 72 marks
+Mock 082: Core subject absent: Digital Logic
+Mock 082: Core subject absent: Computer Organization and Architecture
+Mock 082: Core subject absent: Programming and Data Structures
+Mock 082: Core subject absent: Algorithms
+Mock 082: Core subject absent: Theory of Computation
+Mock 082: Core subject absent: Compiler Design
+Mock 082: Core subject absent: Operating Systems
+Mock 082: Core subject absent: Databases
+Mock 082: Core subject absent: Computer Networks
+Mock 082: At least 28 technical questions must require two meaningful reasoning steps
+Mock 082: Difficulty Medium outside configured bounds 24–28
+Mock 082: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 082: Difficulty Hard outside configured bounds 8–12
+Mock 083: Exactly 65 questions required
+Mock 083: Numbering must be Q1–Q65 without gaps or repeats
+Mock 083: Expected 30 one-mark and 35 two-mark questions
+Mock 083: Total marks must equal 100
+Mock 083: GA allocation must be 10 questions / 15 marks
+Mock 083: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 083: Core CS must total 72 marks
+Mock 083: Core subject absent: Digital Logic
+Mock 083: Core subject absent: Computer Organization and Architecture
+Mock 083: Core subject absent: Programming and Data Structures
+Mock 083: Core subject absent: Algorithms
+Mock 083: Core subject absent: Theory of Computation
+Mock 083: Core subject absent: Compiler Design
+Mock 083: Core subject absent: Operating Systems
+Mock 083: Core subject absent: Databases
+Mock 083: Core subject absent: Computer Networks
+Mock 083: At least 28 technical questions must require two meaningful reasoning steps
+Mock 083: Difficulty Medium outside configured bounds 24–28
+Mock 083: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 083: Difficulty Hard outside configured bounds 8–12
+Mock 084: Exactly 65 questions required
+Mock 084: Numbering must be Q1–Q65 without gaps or repeats
+Mock 084: Expected 30 one-mark and 35 two-mark questions
+Mock 084: Total marks must equal 100
+Mock 084: GA allocation must be 10 questions / 15 marks
+Mock 084: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 084: Core CS must total 72 marks
+Mock 084: Core subject absent: Digital Logic
+Mock 084: Core subject absent: Computer Organization and Architecture
+Mock 084: Core subject absent: Programming and Data Structures
+Mock 084: Core subject absent: Algorithms
+Mock 084: Core subject absent: Theory of Computation
+Mock 084: Core subject absent: Compiler Design
+Mock 084: Core subject absent: Operating Systems
+Mock 084: Core subject absent: Databases
+Mock 084: Core subject absent: Computer Networks
+Mock 084: At least 28 technical questions must require two meaningful reasoning steps
+Mock 084: Difficulty Medium outside configured bounds 24–28
+Mock 084: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 084: Difficulty Hard outside configured bounds 8–12
+Mock 085: Exactly 65 questions required
+Mock 085: Numbering must be Q1–Q65 without gaps or repeats
+Mock 085: Expected 30 one-mark and 35 two-mark questions
+Mock 085: Total marks must equal 100
+Mock 085: GA allocation must be 10 questions / 15 marks
+Mock 085: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 085: Core CS must total 72 marks
+Mock 085: Core subject absent: Digital Logic
+Mock 085: Core subject absent: Computer Organization and Architecture
+Mock 085: Core subject absent: Programming and Data Structures
+Mock 085: Core subject absent: Algorithms
+Mock 085: Core subject absent: Theory of Computation
+Mock 085: Core subject absent: Compiler Design
+Mock 085: Core subject absent: Operating Systems
+Mock 085: Core subject absent: Databases
+Mock 085: Core subject absent: Computer Networks
+Mock 085: At least 28 technical questions must require two meaningful reasoning steps
+Mock 085: Difficulty Medium outside configured bounds 24–28
+Mock 085: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 085: Difficulty Hard outside configured bounds 8–12
+Mock 086: Exactly 65 questions required
+Mock 086: Numbering must be Q1–Q65 without gaps or repeats
+Mock 086: Expected 30 one-mark and 35 two-mark questions
+Mock 086: Total marks must equal 100
+Mock 086: GA allocation must be 10 questions / 15 marks
+Mock 086: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 086: Core CS must total 72 marks
+Mock 086: Core subject absent: Digital Logic
+Mock 086: Core subject absent: Computer Organization and Architecture
+Mock 086: Core subject absent: Programming and Data Structures
+Mock 086: Core subject absent: Algorithms
+Mock 086: Core subject absent: Theory of Computation
+Mock 086: Core subject absent: Compiler Design
+Mock 086: Core subject absent: Operating Systems
+Mock 086: Core subject absent: Databases
+Mock 086: Core subject absent: Computer Networks
+Mock 086: At least 28 technical questions must require two meaningful reasoning steps
+Mock 086: Difficulty Medium outside configured bounds 24–28
+Mock 086: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 086: Difficulty Hard outside configured bounds 8–12
+Mock 087: Exactly 65 questions required
+Mock 087: Numbering must be Q1–Q65 without gaps or repeats
+Mock 087: Expected 30 one-mark and 35 two-mark questions
+Mock 087: Total marks must equal 100
+Mock 087: GA allocation must be 10 questions / 15 marks
+Mock 087: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 087: Core CS must total 72 marks
+Mock 087: Core subject absent: Digital Logic
+Mock 087: Core subject absent: Computer Organization and Architecture
+Mock 087: Core subject absent: Programming and Data Structures
+Mock 087: Core subject absent: Algorithms
+Mock 087: Core subject absent: Theory of Computation
+Mock 087: Core subject absent: Compiler Design
+Mock 087: Core subject absent: Operating Systems
+Mock 087: Core subject absent: Databases
+Mock 087: Core subject absent: Computer Networks
+Mock 087: At least 28 technical questions must require two meaningful reasoning steps
+Mock 087: Difficulty Medium outside configured bounds 24–28
+Mock 087: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 087: Difficulty Hard outside configured bounds 8–12
+Mock 088: Exactly 65 questions required
+Mock 088: Numbering must be Q1–Q65 without gaps or repeats
+Mock 088: Expected 30 one-mark and 35 two-mark questions
+Mock 088: Total marks must equal 100
+Mock 088: GA allocation must be 10 questions / 15 marks
+Mock 088: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 088: Core CS must total 72 marks
+Mock 088: Core subject absent: Digital Logic
+Mock 088: Core subject absent: Computer Organization and Architecture
+Mock 088: Core subject absent: Programming and Data Structures
+Mock 088: Core subject absent: Algorithms
+Mock 088: Core subject absent: Theory of Computation
+Mock 088: Core subject absent: Compiler Design
+Mock 088: Core subject absent: Operating Systems
+Mock 088: Core subject absent: Databases
+Mock 088: Core subject absent: Computer Networks
+Mock 088: At least 28 technical questions must require two meaningful reasoning steps
+Mock 088: Difficulty Medium outside configured bounds 24–28
+Mock 088: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 088: Difficulty Hard outside configured bounds 8–12
+Mock 089: Exactly 65 questions required
+Mock 089: Numbering must be Q1–Q65 without gaps or repeats
+Mock 089: Expected 30 one-mark and 35 two-mark questions
+Mock 089: Total marks must equal 100
+Mock 089: GA allocation must be 10 questions / 15 marks
+Mock 089: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 089: Core CS must total 72 marks
+Mock 089: Core subject absent: Digital Logic
+Mock 089: Core subject absent: Computer Organization and Architecture
+Mock 089: Core subject absent: Programming and Data Structures
+Mock 089: Core subject absent: Algorithms
+Mock 089: Core subject absent: Theory of Computation
+Mock 089: Core subject absent: Compiler Design
+Mock 089: Core subject absent: Operating Systems
+Mock 089: Core subject absent: Databases
+Mock 089: Core subject absent: Computer Networks
+Mock 089: At least 28 technical questions must require two meaningful reasoning steps
+Mock 089: Difficulty Medium outside configured bounds 24–28
+Mock 089: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 089: Difficulty Hard outside configured bounds 8–12
+Mock 090: Exactly 65 questions required
+Mock 090: Numbering must be Q1–Q65 without gaps or repeats
+Mock 090: Expected 30 one-mark and 35 two-mark questions
+Mock 090: Total marks must equal 100
+Mock 090: GA allocation must be 10 questions / 15 marks
+Mock 090: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 090: Core CS must total 72 marks
+Mock 090: Core subject absent: Digital Logic
+Mock 090: Core subject absent: Computer Organization and Architecture
+Mock 090: Core subject absent: Programming and Data Structures
+Mock 090: Core subject absent: Algorithms
+Mock 090: Core subject absent: Theory of Computation
+Mock 090: Core subject absent: Compiler Design
+Mock 090: Core subject absent: Operating Systems
+Mock 090: Core subject absent: Databases
+Mock 090: Core subject absent: Computer Networks
+Mock 090: At least 28 technical questions must require two meaningful reasoning steps
+Mock 090: Difficulty Medium outside configured bounds 24–28
+Mock 090: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 090: Difficulty Hard outside configured bounds 8–12
+Mock 091: Exactly 65 questions required
+Mock 091: Numbering must be Q1–Q65 without gaps or repeats
+Mock 091: Expected 30 one-mark and 35 two-mark questions
+Mock 091: Total marks must equal 100
+Mock 091: GA allocation must be 10 questions / 15 marks
+Mock 091: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 091: Core CS must total 72 marks
+Mock 091: Core subject absent: Digital Logic
+Mock 091: Core subject absent: Computer Organization and Architecture
+Mock 091: Core subject absent: Programming and Data Structures
+Mock 091: Core subject absent: Algorithms
+Mock 091: Core subject absent: Theory of Computation
+Mock 091: Core subject absent: Compiler Design
+Mock 091: Core subject absent: Operating Systems
+Mock 091: Core subject absent: Databases
+Mock 091: Core subject absent: Computer Networks
+Mock 091: At least 28 technical questions must require two meaningful reasoning steps
+Mock 091: Difficulty Medium outside configured bounds 24–28
+Mock 091: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 091: Difficulty Hard outside configured bounds 8–12
+Mock 092: Exactly 65 questions required
+Mock 092: Numbering must be Q1–Q65 without gaps or repeats
+Mock 092: Expected 30 one-mark and 35 two-mark questions
+Mock 092: Total marks must equal 100
+Mock 092: GA allocation must be 10 questions / 15 marks
+Mock 092: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 092: Core CS must total 72 marks
+Mock 092: Core subject absent: Digital Logic
+Mock 092: Core subject absent: Computer Organization and Architecture
+Mock 092: Core subject absent: Programming and Data Structures
+Mock 092: Core subject absent: Algorithms
+Mock 092: Core subject absent: Theory of Computation
+Mock 092: Core subject absent: Compiler Design
+Mock 092: Core subject absent: Operating Systems
+Mock 092: Core subject absent: Databases
+Mock 092: Core subject absent: Computer Networks
+Mock 092: At least 28 technical questions must require two meaningful reasoning steps
+Mock 092: Difficulty Medium outside configured bounds 24–28
+Mock 092: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 092: Difficulty Hard outside configured bounds 8–12
+Mock 093: Exactly 65 questions required
+Mock 093: Numbering must be Q1–Q65 without gaps or repeats
+Mock 093: Expected 30 one-mark and 35 two-mark questions
+Mock 093: Total marks must equal 100
+Mock 093: GA allocation must be 10 questions / 15 marks
+Mock 093: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 093: Core CS must total 72 marks
+Mock 093: Core subject absent: Digital Logic
+Mock 093: Core subject absent: Computer Organization and Architecture
+Mock 093: Core subject absent: Programming and Data Structures
+Mock 093: Core subject absent: Algorithms
+Mock 093: Core subject absent: Theory of Computation
+Mock 093: Core subject absent: Compiler Design
+Mock 093: Core subject absent: Operating Systems
+Mock 093: Core subject absent: Databases
+Mock 093: Core subject absent: Computer Networks
+Mock 093: At least 28 technical questions must require two meaningful reasoning steps
+Mock 093: Difficulty Medium outside configured bounds 24–28
+Mock 093: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 093: Difficulty Hard outside configured bounds 8–12
+Mock 094: Exactly 65 questions required
+Mock 094: Numbering must be Q1–Q65 without gaps or repeats
+Mock 094: Expected 30 one-mark and 35 two-mark questions
+Mock 094: Total marks must equal 100
+Mock 094: GA allocation must be 10 questions / 15 marks
+Mock 094: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 094: Core CS must total 72 marks
+Mock 094: Core subject absent: Digital Logic
+Mock 094: Core subject absent: Computer Organization and Architecture
+Mock 094: Core subject absent: Programming and Data Structures
+Mock 094: Core subject absent: Algorithms
+Mock 094: Core subject absent: Theory of Computation
+Mock 094: Core subject absent: Compiler Design
+Mock 094: Core subject absent: Operating Systems
+Mock 094: Core subject absent: Databases
+Mock 094: Core subject absent: Computer Networks
+Mock 094: At least 28 technical questions must require two meaningful reasoning steps
+Mock 094: Difficulty Medium outside configured bounds 24–28
+Mock 094: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 094: Difficulty Hard outside configured bounds 8–12
+Mock 095: Exactly 65 questions required
+Mock 095: Numbering must be Q1–Q65 without gaps or repeats
+Mock 095: Expected 30 one-mark and 35 two-mark questions
+Mock 095: Total marks must equal 100
+Mock 095: GA allocation must be 10 questions / 15 marks
+Mock 095: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 095: Core CS must total 72 marks
+Mock 095: Core subject absent: Digital Logic
+Mock 095: Core subject absent: Computer Organization and Architecture
+Mock 095: Core subject absent: Programming and Data Structures
+Mock 095: Core subject absent: Algorithms
+Mock 095: Core subject absent: Theory of Computation
+Mock 095: Core subject absent: Compiler Design
+Mock 095: Core subject absent: Operating Systems
+Mock 095: Core subject absent: Databases
+Mock 095: Core subject absent: Computer Networks
+Mock 095: At least 28 technical questions must require two meaningful reasoning steps
+Mock 095: Difficulty Medium outside configured bounds 24–28
+Mock 095: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 095: Difficulty Hard outside configured bounds 8–12
+Mock 096: Exactly 65 questions required
+Mock 096: Numbering must be Q1–Q65 without gaps or repeats
+Mock 096: Expected 30 one-mark and 35 two-mark questions
+Mock 096: Total marks must equal 100
+Mock 096: GA allocation must be 10 questions / 15 marks
+Mock 096: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 096: Core CS must total 72 marks
+Mock 096: Core subject absent: Digital Logic
+Mock 096: Core subject absent: Computer Organization and Architecture
+Mock 096: Core subject absent: Programming and Data Structures
+Mock 096: Core subject absent: Algorithms
+Mock 096: Core subject absent: Theory of Computation
+Mock 096: Core subject absent: Compiler Design
+Mock 096: Core subject absent: Operating Systems
+Mock 096: Core subject absent: Databases
+Mock 096: Core subject absent: Computer Networks
+Mock 096: At least 28 technical questions must require two meaningful reasoning steps
+Mock 096: Difficulty Medium outside configured bounds 24–28
+Mock 096: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 096: Difficulty Hard outside configured bounds 8–12
+Mock 097: Exactly 65 questions required
+Mock 097: Numbering must be Q1–Q65 without gaps or repeats
+Mock 097: Expected 30 one-mark and 35 two-mark questions
+Mock 097: Total marks must equal 100
+Mock 097: GA allocation must be 10 questions / 15 marks
+Mock 097: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 097: Core CS must total 72 marks
+Mock 097: Core subject absent: Digital Logic
+Mock 097: Core subject absent: Computer Organization and Architecture
+Mock 097: Core subject absent: Programming and Data Structures
+Mock 097: Core subject absent: Algorithms
+Mock 097: Core subject absent: Theory of Computation
+Mock 097: Core subject absent: Compiler Design
+Mock 097: Core subject absent: Operating Systems
+Mock 097: Core subject absent: Databases
+Mock 097: Core subject absent: Computer Networks
+Mock 097: At least 28 technical questions must require two meaningful reasoning steps
+Mock 097: Difficulty Medium outside configured bounds 24–28
+Mock 097: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 097: Difficulty Hard outside configured bounds 8–12
+Mock 098: Exactly 65 questions required
+Mock 098: Numbering must be Q1–Q65 without gaps or repeats
+Mock 098: Expected 30 one-mark and 35 two-mark questions
+Mock 098: Total marks must equal 100
+Mock 098: GA allocation must be 10 questions / 15 marks
+Mock 098: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 098: Core CS must total 72 marks
+Mock 098: Core subject absent: Digital Logic
+Mock 098: Core subject absent: Computer Organization and Architecture
+Mock 098: Core subject absent: Programming and Data Structures
+Mock 098: Core subject absent: Algorithms
+Mock 098: Core subject absent: Theory of Computation
+Mock 098: Core subject absent: Compiler Design
+Mock 098: Core subject absent: Operating Systems
+Mock 098: Core subject absent: Databases
+Mock 098: Core subject absent: Computer Networks
+Mock 098: At least 28 technical questions must require two meaningful reasoning steps
+Mock 098: Difficulty Medium outside configured bounds 24–28
+Mock 098: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 098: Difficulty Hard outside configured bounds 8–12
+Mock 099: Exactly 65 questions required
+Mock 099: Numbering must be Q1–Q65 without gaps or repeats
+Mock 099: Expected 30 one-mark and 35 two-mark questions
+Mock 099: Total marks must equal 100
+Mock 099: GA allocation must be 10 questions / 15 marks
+Mock 099: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 099: Core CS must total 72 marks
+Mock 099: Core subject absent: Digital Logic
+Mock 099: Core subject absent: Computer Organization and Architecture
+Mock 099: Core subject absent: Programming and Data Structures
+Mock 099: Core subject absent: Algorithms
+Mock 099: Core subject absent: Theory of Computation
+Mock 099: Core subject absent: Compiler Design
+Mock 099: Core subject absent: Operating Systems
+Mock 099: Core subject absent: Databases
+Mock 099: Core subject absent: Computer Networks
+Mock 099: At least 28 technical questions must require two meaningful reasoning steps
+Mock 099: Difficulty Medium outside configured bounds 24–28
+Mock 099: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 099: Difficulty Hard outside configured bounds 8–12
+Mock 100: Exactly 65 questions required
+Mock 100: Numbering must be Q1–Q65 without gaps or repeats
+Mock 100: Expected 30 one-mark and 35 two-mark questions
+Mock 100: Total marks must equal 100
+Mock 100: GA allocation must be 10 questions / 15 marks
+Mock 100: Engineering Mathematics must be 5 one-mark + 4 two-mark questions
+Mock 100: Core CS must total 72 marks
+Mock 100: Core subject absent: Digital Logic
+Mock 100: Core subject absent: Computer Organization and Architecture
+Mock 100: Core subject absent: Programming and Data Structures
+Mock 100: Core subject absent: Algorithms
+Mock 100: Core subject absent: Theory of Computation
+Mock 100: Core subject absent: Compiler Design
+Mock 100: Core subject absent: Operating Systems
+Mock 100: Core subject absent: Databases
+Mock 100: Core subject absent: Computer Networks
+Mock 100: At least 28 technical questions must require two meaningful reasoning steps
+Mock 100: Difficulty Medium outside configured bounds 24–28
+Mock 100: Difficulty Medium-Hard outside configured bounds 27–31
+Mock 100: Difficulty Hard outside configured bounds 8–12

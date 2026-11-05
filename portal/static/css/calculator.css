@@ -1,0 +1,207 @@
+/* TCS iON Authentic GATE Scientific Calculator Styles */
+
+.calc-modal {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 480px;
+    background: #eef2f6;
+    border: 2px solid #336699;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    z-index: 99999;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    display: none;
+}
+
+.calc-modal.active {
+    display: block;
+}
+
+.calc-header {
+    background: linear-gradient(180deg, #336699 0%, #204060 100%);
+    color: #ffffff;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.calc-header-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: 0.5px;
+}
+
+.calc-header-title svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+}
+
+.calc-close-btn {
+    background: #cc3333;
+    color: white;
+    border: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.calc-close-btn:hover {
+    background: #ff4444;
+}
+
+.calc-body {
+    padding: 10px;
+}
+
+/* Display */
+.calc-display-container {
+    background: #ffffff;
+    border: 1px solid #a0a0a0;
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-bottom: 8px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.calc-history-line {
+    font-size: 11px;
+    color: #666;
+    height: 16px;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.calc-display {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #111;
+    text-align: right;
+    outline: none;
+}
+
+/* Angle Mode Bar */
+.calc-mode-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d8e2ed;
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    font-size: 11px;
+    color: #333;
+}
+
+.calc-radio-group {
+    display: flex;
+    gap: 12px;
+}
+
+.calc-radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.calc-memory-indicator {
+    font-weight: bold;
+    color: #204060;
+}
+
+/* Layout Grid */
+.calc-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.calc-btn {
+    background: linear-gradient(180deg, #fbfbfb 0%, #e0e5eb 100%);
+    border: 1px solid #99aab8;
+    border-radius: 3px;
+    padding: 8px 2px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #222;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.05s ease;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.calc-btn:hover {
+    background: linear-gradient(180deg, #ffffff 0%, #d4e0eb 100%);
+    border-color: #336699;
+}
+
+.calc-btn:active {
+    background: #cbd7e3;
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+/* Specialized Button Classes */
+.calc-btn-num {
+    background: linear-gradient(180deg, #ffffff 0%, #eef2f6 100%);
+    font-size: 14px;
+    font-weight: bold;
+    color: #111;
+}
+
+.calc-btn-op {
+    background: linear-gradient(180deg, #f0f4f8 0%, #d9e4ee 100%);
+    color: #0b457b;
+}
+
+.calc-btn-action {
+    background: linear-gradient(180deg, #ffd9d9 0%, #f4b4b4 100%);
+    color: #990000;
+    border-color: #c98888;
+}
+
+.calc-btn-action:hover {
+    background: linear-gradient(180deg, #ffe5e5 0%, #f7c5c5 100%);
+}
+
+.calc-btn-equal {
+    background: linear-gradient(180deg, #2b78c5 0%, #175496 100%);
+    color: #ffffff;
+    border-color: #114275;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.calc-btn-equal:hover {
+    background: linear-gradient(180deg, #3788db 0%, #1e64b0 100%);
+}
+
+.calc-btn-mem {
+    color: #555;
+    font-size: 11px;
+}
+

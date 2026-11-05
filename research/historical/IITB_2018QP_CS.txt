@@ -1,0 +1,1189 @@
+PAGE1
+GATE 2018                                                                                            General Aptitude (GA) Set-3  
+GA 1/3 
+Q. 1 – Q. 5 carry one mark each. 
+Q.1  “From where are they bringing their books? ________ bringing _______ books from 
+_____.” 
+ 
+The words that best fill the blanks in the above sentence are 
+ 
+(A) Their, they’re, there 
+(B) They’re, their, there 
+(C) There, their, they’re 
+(D) They’re, there, there 
+ 
+ 
+Q.2  “A _________ investigation can sometimes yield new facts, but typically organized ones 
+are more successful.” 
+ 
+The word that best fills the blank in the above sentence is  
+ 
+(A) meandering (B) timely (C) consistent (D) systematic 
+ 
+ 
+Q.3  The area of a square is 𝑑. What is  the area of the circle which has  the diagonal of the 
+square as its diameter? 
+ 
+(A) 𝜋𝑑 (B) 𝜋𝑑2 (C) 
+1
+4 𝜋𝑑2 (D) 
+1
+2 𝜋𝑑 
+ 
+ 
+Q.4  What would be the smallest natural number which when divided  either by 20 or by 42 or 
+by 76 leaves a remainder of 7 in each case? 
+ 
+(A) 3047 (B) 6047 (C) 7987  (D) 63847 
+ 
+ 
+Q.5  What is the missing number in the following sequence?  
+ 
+2,  12,  60,  240,  720,  1440,  _____,  0 
+ 
+(A) 2880 (B) 1440 (C) 720 (D) 0 
+ 
+ 
+  
+PAGE2
+GATE 2018                                                                                            General Aptitude (GA) Set-3  
+GA 2/3 
+Q. 6 – Q. 10 carry two marks each. 
+ 
+Q.6  In appreciation of the social improvements  completed in a town, a wealthy philanth ropist 
+decided to gift Rs 750 to each male senior citizen in the town and Rs 1000 to each female 
+senior citizen . Altogether, there were 300  senior citizens  eligible for this gift. However, 
+only 8/9th of the eligible men and 2/3 rd of the eligible women claimed the gift. How much 
+money (in Rupees) did the philanthropist give away in total? 
+ 
+(A) 1,50,000 (B) 2,00,000 
+(C) 1,75,000 (D) 1,51,000 
+ 
+ 
+Q.7  If 𝑝𝑞𝑟≠ 0 and 𝑝−𝑥 =  
+1
+𝑞 , 𝑞−𝑦 =  
+1
+𝑟 , 𝑟−𝑧 =  
+1
+𝑝 , what is the value of the product 𝑥𝑦𝑧? 
+ 
+(A) −1 (B) 
+1
+𝑝𝑞𝑟 (C) 1 (D) 𝑝𝑞𝑟 
+ 
+Q.8  In a party, 60% of the invited guests are male and 40% are female. If 80% of the invited 
+guests attended the party and if all the invited female guests attended, what would be the 
+ratio of males to females among the attendees in the party? 
+ 
+(A) 2:3 (B) 1:1 (C) 3:2 (D) 2:1 
+ 
+ 
+Q.9  In the figure below, ∠𝐷𝐸𝐶 +  ∠𝐵𝐹𝐶 is equal to ____________ . 
+ 
+ 
+ 
+(A) ∠𝐵𝐶𝐷 −  ∠𝐵𝐴𝐷 (B) ∠𝐵𝐴𝐷 +  ∠𝐵𝐶𝐹 
+(C) ∠𝐵𝐴𝐷 +  ∠𝐵𝐶𝐷 (D) ∠𝐶𝐵𝐴 +  ∠𝐴𝐷𝐶 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A 
+B 
+D 
+E 
+C 
+F 
+PAGE3
+GATE 2018                                                                                            General Aptitude (GA) Set-3  
+GA 3/3 
+ 
+Q.10  A six sided unbiased die  with four green faces and two red faces is rolled seven times. 
+Which of the following combinations is the most likely outcome of the experiment? 
+ 
+(A) Three green faces and four red faces. 
+(B) Four green faces and three red faces. 
+(C) Five green faces and two red faces. 
+(D) Six green faces and one red face. 
+ 
+ 
+END OF THE QUESTION PAPER 
+ 
+PAGE4
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 1/20 
+Q. 1 – Q. 25 carry one mark each. 
+ 
+Q.1  Which one of the following is a closed form expression for the generating function of the 
+sequence {an}, where an = 2n + 3 for all n = 0, 1, 2,… ? 
+ 
+(A) 
+2
+3
+(1 ) x  (B) 
+2
+3
+(1 )
+x
+x  (C)  
+2
+2
+(1 )
+x
+x
+
+  (D)  
+2
+3
+(1 )
+x
+x
+
+  
+ 
+ 
+Q.2  Consider the following C program. 
+ 
+#include<stdio.h> 
+struct Ournode{ 
+    char x,y,z; 
+}; 
+ 
+int main(){ 
+    struct Ournode p = {'1', '0', 'a'+2}; 
+    struct Ournode *q = &p; 
+    printf ("%c, %c", *((char*)q+1), *((char*)q+2)); 
+    return 0; 
+} 
+ 
+The output of this program is: 
+ 
+(A) 0, c (B) 0, a+2 (C) '0', 'a+2' (D) '0', 'c' 
+ 
+ 
+Q.3  A queue is implemented using a non-circular singly linked list. The queue has a head pointer 
+and a tail pointer, as shown in the figure. Let n denote the number of nodes in the queue. Let 
+enqueue be implemented by inserting a new node at the head, and dequeue be 
+implemented by deletion of a node from the tail.  
+ 
+ 
+ 
+ 
+ 
+ 
+Which one of the following is the time complexity of the most time-efficient implementation 
+of enqueue and dequeue, respectively, for this data structure?  
+ 
+ (A) θ(1), θ(1) (B) θ(1), θ(n) (C) θ(n), θ(1) (D) θ(n), θ(n) 
+ 
+ 
+ 
+ 
+ 
+ 
+head 
+ tail 
+PAGE5
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 2/20 
+ 
+ 
+ 
+Q.4  Let ⊕  and  ⊙ denote the Exclusive OR and Exclusive NOR operations, respectively. 
+Which one of the following is NOT CORRECT? 
+ 
+(A) 𝑃 ⊕ 𝑄̅̅̅̅̅̅̅̅ = 𝑃 ⊙ 𝑄 
+(B) 𝑃̅ ⊕ 𝑄 = 𝑃 ⊙ 𝑄 
+(C) 𝑃̅ ⊕ 𝑄̅ = 𝑃 ⊕ 𝑄 
+(D) (𝑃 ⊕ 𝑃̅) ⊕ 𝑄 =  (𝑃 ⊙ 𝑃̅) ⊙ 𝑄̅ 
+ 
+ 
+ 
+Q.5  Consider the following processor design characteristics. 
+ 
+I. Register-to-register arithmetic operations only 
+II. Fixed-length instruction format 
+III. Hardwired control unit 
+ 
+Which of the characteristics above are used in the design of a RISC processor? 
+ 
+(A)  I and II only (B)  II and III only (C)  I and III only (D)  I, II and III 
+ 
+ 
+Q.6  Let N be an NFA with n states. Let k be the number of states of a minimal DFA which is 
+equivalent to N. Which one of the following is necessarily true? 
+ 
+(A) 𝑘 ≥ 2𝑛 (B) 𝑘 ≥ 𝑛 (C) 𝑘 ≤ 𝑛2 (D) 𝑘 ≤ 2𝑛 
+ 
+ 
+Q.7  The set of all recursively enumerable languages is 
+ 
+(A) closed under complementation. 
+(B) closed under intersection. 
+(C) a subset of the set of all recursive languages. 
+(D) an uncountable set.  
+ 
+Q.8  Which one of the following statements is FALSE? 
+ 
+(A) Context-free grammar can be used to specify both lexical and syntax rules. 
+(B) Type checking is done before parsing. 
+(C) High-level language programs can be translated to different Intermediate 
+Representations. 
+(D) Arguments to a function can be passed using the program stack. 
+ 
+PAGE6
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 3/20 
+ 
+Q.9  The following are some events that occur after a device controller issues an interrupt while 
+process L is under execution.  
+ 
+(P) The processor pushes the process status of L onto the control stack. 
+(Q) The processor finishes the execution of the current instruction. 
+(R) The processor executes the interrupt service routine. 
+(S) The processor pops the process status of L from the control stack. 
+(T) The processor loads the new PC value based on the interrupt. 
+Which one of the following is the correct order in which the events above occur? 
+(A) QPTRS (B) PTRSQ (C)  TRPQS (D)  QTPRS 
+ 
+ 
+Q.10  Consider a process executing on an operating system that uses demand paging. The average 
+time for a memory access in the system is M units if the corresponding memory page is 
+available in memory, and D units if the memory access causes a page fault. It has been 
+experimentally measured that the average time taken for a memory access  in the process is 
+X units.  
+ 
+Which one of the following is the correct expression for the page fault rate experienced by 
+the process? 
+ 
+(A) (D – M) / (X – M) (B) (X – M) / (D – M) 
+(C) (D – X) / (D – M) (D) (X – M) / (D – X) 
+ 
+ 
+ 
+Q.11  In an Entity-Relationship (ER) model, suppose 𝑅 is a many-to-one relationship from entity 
+set E1 to entity set E2. Assume that E1 and E2 participate totally in 𝑅 and that the cardinality 
+of E1 is greater than the cardinality of E2. 
+ 
+Which one of the following is true about 𝑅? 
+ 
+(A) Every entity in E1 is associated with exactly one entity in E2. 
+(B) Some entity in E1 is associated with more than one entity in E2. 
+(C) Every entity in E2 is associated with exactly one entity in E1. 
+(D) Every entity in E2 is associated with at most one entity in E1. 
+ 
+PAGE7
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 4/20 
+Q.12  Consider the following two tables and four queries in SQL. 
+ 
+Book (isbn, bname), Stock (isbn, copies) 
+ 
+Query 1:           SELECT B.isbn, S.copies 
+                         FROM Book B INNER JOIN Stock S 
+                         ON B.isbn = S.isbn; 
+ 
+Query 2:           SELECT B.isbn, S.copies 
+                         FROM Book B LEFT OUTER JOIN Stock S 
+                         ON B.isbn = S.isbn; 
+ 
+Query 3:           SELECT B.isbn, S.copies 
+                          FROM Book B RIGHT OUTER JOIN Stock S 
+                          ON B.isbn = S.isbn; 
+ 
+Query 4:           SELECT B.isbn, S.copies 
+                         FROM Book B FULL OUTER JOIN Stock S 
+                         ON B.isbn = S.isbn; 
+ 
+Which one of the queries above is certain to have an output that is a superset of the outputs 
+of the other three queries? 
+ 
+(A) Query 1 (B) Query 2 (C) Query 3 (D) Query 4 
+ 
+ 
+Q.13  Match the following: 
+ 
+Field Length in bits 
+ 
+P.  UDP Header’s Port Number  I.   48  
+Q.  Ethernet MAC Address  II.    8 
+R.  IPv6 Next Header III. 32 
+S.  TCP Header’s Sequence Number       IV. 16  
+  
+ 
+(A) P-III, Q-IV, R-II, S-I (B) P-II,   Q-I,    R-IV,  S-III 
+(C) P-IV,  Q-I,  R-II,  S-III (D) P-IV, Q-I,    R-III, S-II 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAGE8
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 5/20 
+Q.14  Consider the following statements regarding the slow start phase of the TCP congestion 
+control algorithm.  Note that cwnd stands for the TCP congestion window and MSS denotes 
+the Maximum Segment Size. 
+ 
+(i) The cwnd increases by 2 MSS on every successful acknowledgment. 
+(ii) The cwnd approximately doubles on every successful acknowledgement. 
+(iii) The cwnd increases by 1 MSS every round trip time. 
+(iv) The cwnd approximately doubles every round trip time. 
+ 
+Which one of the following is correct? 
+ 
+(A) Only (ii) and (iii) are true (B) Only (i) and (iii) are true 
+(C) Only (iv) is true (D) Only (i) and (iv) are true 
+ 
+ 
+Q.15   Two people, P and Q, decide to independently roll two identical dice, each with 6 faces, 
+numbered 1 to 6. The person with the lower number wins. In case of a tie, they roll the dice 
+repeatedly until there is no tie. Define a trial as a throw of the dice by P and Q. Assume that 
+all 6 numbers on each dice are equi -probable and that all trials are independent. The 
+probability (rounded to 3 decimal places) that one of them wins on the third trial is _____.  
+ 
+ 
+ 
+Q.16  The value of   ∫ 𝑥 cos(𝑥2)𝑑𝑥 
+𝜋/4
+0  correct to three decimal places  
+(assuming that  𝜋 = 3.14 ) is _____.   
+ 
+ 
+ 
+Q.17  
+Consider a matrix 
+TA uv  where 
+11 ,21uv    
+   
+   
+ . Note that 
+Tv  denotes the 
+transpose of v. The largest eigenvalue of 
+A  is _____. 
+ 
+ 
+Q.18  The chromatic number of the following graph is _______. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE9
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 6/20 
+ 
+ 
+ 
+Q.19  Let G be a finite group on 84 elements. The size of a largest possible proper subgroup of G 
+is ________. 
+   
+ 
+ 
+Q.20  The postorder traversal of a binary tree is 8,9,6,7,4,5,2,3,1. The inorder traversal of the same 
+tree is 8,6,9,4,7,2,5,1,3. The height of a tree is the length of the longest path from the root to 
+any leaf. The height of the binary tree above is ______. 
+ 
+ 
+Q.21  Consider the following C program: 
+ 
+#include <stdio.h> 
+ 
+int counter = 0; 
+ 
+int calc (int a, int b) { 
+    int c; 
+ 
+    counter++; 
+    if (b==3) return (a*a*a); 
+    else { 
+        c = calc(a, b/3); 
+        return (c*c*c); 
+    } 
+} 
+ 
+int main (){ 
+    calc(4, 81); 
+    printf ("%d", counter); 
+} 
+ 
+The output of this program is _____. 
+ 
+ 
+Q.22  Consider the sequential circuit shown in the figure, where both flip -flops used are positive 
+edge-triggered D flip-flops. 
+ 
+ 
+ 
+ 
+clock 
+ 
+The number of states in the state transition diagram of this circuit that have a transition back 
+to the same state on some value of “in” is _____. 
+ 
+ 
+ 
+ 
+in 
+ D   Q 
+ out D   Q 
+PAGE10
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 7/20 
+ 
+ 
+Q.23  A 32-bit wide main memory unit with a capacity of 1 GB is built using 256M × 4-bit DRAM 
+chips. The number of rows of memory cells in the DRAM chip is 214. The time taken to 
+perform one refresh operation is 50 nanoseconds. The refresh period is 2 milliseconds. The 
+percentage (rounded to the closest integer) of the time available for performing the memory 
+read/write operations in the main memory unit is __________. 
+ 
+ 
+ 
+ 
+Q.24  Consider a system with 3 processes that share 4 instances of the same resource type. Each 
+process can request a maximum of 𝐾 instances. Resource instances can be requested and 
+released only one at a time. The largest value of 𝐾 that will always avoid deadlock is ____. 
+ 
+ 
+ 
+Q.25  Consider a long-lived TCP session with an end-to-end bandwidth of 1 Gbps (= 109 bits-per-
+second). The session starts with a sequence number of 1234. The minimum time (in seconds, 
+rounded to the closest integer) before this sequence number can be used again is _______. 
+ 
+ 
+ 
+ 
+ 
+ 
+Q. 26 – Q. 55 carry two marks each. 
+ 
+Q.26  
+Consider a matrix P whose only eigenvectors are the multiples of 
+1
+4
+
+ .  
+ Consider the following statements. 
+ 
+(I) P does not have an inverse 
+(II) P has a repeated eigenvalue 
+(III) P cannot be diagonalized 
+Which one of the following options is correct? 
+(A) Only I and III are necessarily true (B) Only II is necessarily true 
+(C) Only I and II are necessarily true (D) Only II and III are necessarily true 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAGE11
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 8/20 
+ 
+ 
+Q.27  Let N be the set of natural numbers. Consider the following sets. 
+ 
+       P:  Set of Rational numbers (positive and negative) 
+       Q: Set of functions from {0, 1} to N 
+       R:  Set of functions from N to {0, 1} 
+       S:  Set of finite subsets of N. 
+ 
+Which of the sets above are countable? 
+ 
+(A) Q and S only (B) P and S only (C)  P and R only (D)  P, Q and S only 
+ 
+ 
+ 
+Q.28  Consider the first-order logic sentence 
+ 
+𝜑 ≡   ∃𝑠∃𝑡∃𝑢∀𝑣∀𝑤∀𝑥∀𝑦 𝜓(𝑠, 𝑡, 𝑢, 𝑣, 𝑤, 𝑥, 𝑦) 
+ 
+where 𝜓(𝑠, 𝑡, 𝑢, 𝑣, 𝑤, 𝑥, 𝑦) is a quantifier-free first-order logic formula using only predicate 
+symbols, and possibly equality, but no function symbols.   Suppose 𝜑 has a model with a 
+universe containing 7 elements.   
+ 
+Which one of the following statements is necessarily true? 
+ 
+(A) There exists at least one model of 𝜑 with universe of size less than or equal to 3. 
+(B) There exists no model of 𝜑 with universe of size less than or equal to 3. 
+(C) There exists no model of 𝜑 with universe of size greater than 7. 
+(D) Every model of 𝜑 has a universe of size equal to 7. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAGE12
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 9/20 
+ 
+ 
+Q.29  Consider the following C program:  
+ 
+#include<stdio.h> 
+ 
+void fun1(char *s1, char *s2){ 
+ char *tmp; 
+ tmp = s1; 
+ s1 = s2; 
+ s2 = tmp; 
+} 
+void fun2(char **s1, char **s2){ 
+ char *tmp; 
+ tmp = *s1; 
+ *s1 = *s2; 
+ *s2 = tmp; 
+} 
+int main(){ 
+ char *str1 = "Hi", *str2 = "Bye"; 
+ fun1(str1, str2);   printf("%s %s ", str1, str2); 
+ fun2(&str1, &str2); printf("%s %s", str1, str2); 
+ return 0; 
+} 
+ 
+The output of the program above is 
+ 
+(A) Hi Bye Bye Hi (B) Hi Bye Hi Bye 
+(C) Bye Hi Hi Bye (D) Bye Hi Bye Hi 
+ 
+ 
+Q.30  Let G be a simple undirected graph. Let TD be a depth first  search tree of G. Let TB be a 
+breadth first search tree of G.  Consider the following statements. 
+ 
+(I) No edge of G is a cross edge with respect to TD.  (A cross edge in G is between two 
+nodes neither of which is an ancestor of the other in TD.) 
+(II) For every edge (u,v) of G, if u is at depth i  and v is at depth  j in TB, then |𝑖 − 𝑗| = 1. 
+Which of the statements above must necessarily be true? 
+  
+(A) I only (B) II only 
+(C) Both I and II (D) Neither I nor II 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAGE13
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 10/20 
+ 
+ 
+Q.31  Assume that multiplying a matrix  G1 of dimension 𝑝 ×  𝑞 with another matrix  G2 of 
+dimension 𝑞 ×  𝑟 requires 𝑝𝑞𝑟 scalar multiplications. Computing the product of n matrices 
+G1G2G3…Gn can be done by parenthesizing in different ways. Define Gi Gi+1 as an explicitly 
+computed pair for a given paranthesization if they are directly multiplied. For example, in 
+the matrix multiplication chain G1G2G3G4G5G6 using parenthesization  
+(G1(G2G3))(G4(G5G6)),  G2G3 and G5G6 are the only explicitly computed pairs. 
+ 
+Consider a matrix multiplication chain F1F2F3F4F5, where matrices F1, F2, F3, F4 and F5 are 
+of dimensions 2×25, 25×3, 3×16, 16×1 and 1×1000, respectively. In the parenthesization of 
+F1F2F3F4F5  that minimizes the total n umber of scalar multiplications, the explicitly 
+computed pairs is/are 
+ 
+(A) F1F2  and F3F4 only (B) F2F3 only 
+(C) F3F4 only (D) F1F2  and F4F5 only 
+ 
+ 
+Q.32  Consider the following C code. Assume that unsigned long int type length is 64 
+bits. 
+ 
+unsigned long int fun(unsigned long int n){ 
+    unsigned long int i, j = 0, sum = 0; 
+    for (i = n; i > 1; i = i/2) j++; 
+    for ( ; j > 1; j = j/2) sum++; 
+    return(sum); 
+} 
+ 
+The value returned when we call fun with the input 240 is 
+ 
+(A) 4 (B) 5 (C) 6 (D) 40 
+ 
+ 
+Q.33  Consider the unsigned 8-bit fixed point binary number representation below, 
+ 
+                    b7  b6  b5  b4  b3 .  b2   b1  b0 
+ 
+where the position of the binary point is between b3 and b2.  Assume b7 is the most significant 
+bit.  Some of the decimal numbers listed below cannot be represented exactly in the above 
+representation: 
+(i) 31.500       (ii)     0.875     (iii)  12.100      (iv)   3.001 
+ 
+Which one of the following statements is true? 
+ 
+(A) None of (i), (ii), (iii), (iv) can be exactly represented 
+(B) Only (ii) cannot be exactly represented 
+(C) Only (iii) and (iv) cannot be exactly represented 
+(D) Only (i) and (ii) cannot be exactly represented 
+ 
+ 
+PAGE14
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 11/20 
+ 
+ 
+ 
+Q.34  The size of the physical address space of a processor is 2𝑃 bytes. The word length is 
+2𝑊 bytes. The capacity of cache memory is 2𝑁 bytes. The size of each cache block is 
+2𝑀 words. For a 𝐾-way set-associative cache memory, the length (in number of bits ) of the 
+tag field is 
+ 
+(A) 𝑃 − 𝑁 −  log2 𝐾 (B) 𝑃 − 𝑁 +  log2 𝐾 
+(C) 𝑃 − 𝑁 − 𝑀 − 𝑊 − log2 𝐾 (D) 𝑃 − 𝑁 − 𝑀 − 𝑊 +  log2 𝐾 
+ 
+ 
+ 
+Q.35  Consider the following languages:   
+ 
+I. {𝑎𝑚𝑏𝑛𝑐𝑝𝑑𝑞| 𝑚 + 𝑝 = 𝑛 + 𝑞, where 𝑚, 𝑛, 𝑝, 𝑞 ≥ 0} 
+II. {𝑎𝑚𝑏𝑛𝑐𝑝𝑑𝑞| 𝑚 = 𝑛 and 𝑝 = 𝑞, where 𝑚, 𝑛, 𝑝, 𝑞 ≥ 0} 
+III. {𝑎𝑚𝑏𝑛𝑐𝑝𝑑𝑞| 𝑚 = 𝑛 = 𝑝 and 𝑝 ≠ 𝑞,   where 𝑚, 𝑛, 𝑝, 𝑞 ≥ 0} 
+IV. {𝑎𝑚𝑏𝑛𝑐𝑝𝑑𝑞| 𝑚𝑛= 𝑝 + 𝑞,   where 𝑚, 𝑛, 𝑝, 𝑞 ≥ 0} 
+ 
+Which of the languages above are context-free? 
+ 
+(A) I and IV only (B) I and II only 
+(C) II and III only (D) II and IV only 
+ 
+ 
+ 
+Q.36  Consider the following problems. 𝐿(𝐺) denotes the language generated by a grammar 𝐺. 
+𝐿(𝑀) denotes the language accepted by a machine 𝑀. 
+ 
+(I) For an unrestricted grammar 𝐺 and a string 𝑤, whether 𝑤 ∈ 𝐿(𝐺) 
+(II) Given a Turing machine M, whether L(M) is regular 
+(III) Given two grammars 𝐺1 and 𝐺2, whether 𝐿(𝐺1) = 𝐿(𝐺2) 
+(IV) Given an NFA N, whether there is a deterministic PDA P such that N and P 
+accept the same language. 
+ 
+Which one of the following statements is correct? 
+ 
+(A) Only I and II are undecidable (B) Only III is undecidable 
+(C) Only II and IV are undecidable (D) Only I, II and III are undecidable 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAGE15
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 12/20 
+ 
+ 
+ 
+Q.37  A lexical analyzer uses the following patterns to recognize three tokens T1, T2, and T3 over 
+the alphabet {a,b,c}. 
+ 
+    𝑇1:   𝑎? (𝑏|𝑐)∗𝑎  
+    𝑇2:   𝑏? (𝑎|𝑐)∗𝑏  
+    𝑇3:   𝑐? (𝑏|𝑎)∗𝑐   
+ 
+Note that ‘x?’ means 0 or 1 occurrence of the symbol x. Note also that the analyzer outputs 
+the token that matches the longest possible prefix.  
+ 
+If the string  𝑏𝑏𝑎𝑎𝑐𝑎𝑏𝑐 is processed by the analyzer, which one of the following is the 
+sequence of tokens it outputs? 
+  
+(A) 𝑇1𝑇2𝑇3 (B) 𝑇1𝑇1𝑇3 (C)  𝑇2𝑇1𝑇3 (D) 𝑇3𝑇3  
+ 
+ 
+ 
+Q.38  Consider the following parse tree for the expression a#b$c$d#e#f, involving two binary 
+operators $ and #.  
+ 
+ 
+ 
+Which one of the following is correct for the given parse tree? 
+(A) $ has higher precedence and is left associative; # is right associative 
+(B) # has higher precedence and is left associative; $ is right associative 
+(C) $ has higher precedence and is left associative; # is left associative 
+(D) # has higher precedence and is right associative; $ is left associative 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE16
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 13/20 
+ 
+ 
+ 
+Q.39 0 In a system, there are three types of resources: E, F and G. Four processes P0, P1, P2 and P3 
+execute concurrently. At the outset, the processes have declared their maximum resource 
+requirements using a matrix named Max  as given b elow. For example, Max[ P2,F] is the 
+maximum number of instances of F that P2 would require. The number of instances of the 
+resources allocated to the various processes  at any given state  is given by a matrix named 
+Allocation.  
+ 
+Consider a state of the system with the Allocation matrix as shown below, and in which 3 
+instances of E and 3 instances of F are the only resources available.  
+ 
+Allocation  Max 
+ E F G  E F G 
+P0 1 0 1 P0 4 3 1 
+P1 1 1 2 P1 2 1 4 
+P2 1 0 3 P2 1 3 3 
+P3 2 0 0 P3 5 4 1 
+ 
+From the perspective of deadlock avoidance, which one of the following is true? 
+ 
+(A) The system is in safe state. 
+(B) The system is not in safe state, but would be safe if one more instance of E were 
+available 
+(C) The system is not in safe state, but would be safe if one more instance of F were 
+available 
+(D) The system is not in safe state, but would be safe if one more instance of G were 
+available 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAGE17
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 14/20 
+ 
+ 
+ 
+Q.40  Consider the following solution to the producer -consumer synchronization problem. The 
+shared buffer size is 𝑁. Three semaphores empty,  full and mutex are defined with respective 
+initial values of 0, 𝑁 and 1. Semaphore empty denotes the number of available slots in the 
+buffer, for the consumer to read from. Semaphore full denotes the number of available slots 
+in the buffer, for the producer to write to. The placeholder variables, denoted by P, Q, R, 
+and S, in the code below can be assigned either empty or full. The valid semaphore 
+operations are: wait() and signal(). 
+ 
+Producer: 
+ 
+Consumer: 
+ 
+do{ 
+wait(P); 
+wait(mutex); 
+//Add item to buffer 
+signal(mutex); 
+signal(Q); 
+}while(1); 
+do{ 
+wait(R); 
+wait(mutex); 
+//Consume item from buffer 
+signal(mutex); 
+signal(S); 
+}while(1); 
+ 
+ 
+Which one of the following assignments to P, Q, R and S will yield the correct solution? 
+ 
+(A) P: full,     Q: full,     R: empty, S: empty 
+(B) P: empty,  Q: empty, R: full,     S: full 
+(C) P: full,     Q: empty, R: empty, S: full 
+(D) P: empty, Q: full,     R: full,     S: empty 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Q.41  Consider the relations r(A, B) and s(B, C), where s.B is a primary key and r.B is a foreign 
+key referencing s.B.  Consider the query 
+ 
+    Q:   𝑟 ⋈ (𝜎𝐵<5(𝑠)) 
+ 
+Let LOJ denote the natural left out er-join operation.  Assume that  r and s contain no null 
+values.  
+ 
+Which one of the following queries is NOT equivalent to Q?   
+ 
+(A) 𝜎𝐵<5(𝑟 ⋈ 𝑠) (B) 𝜎𝐵<5(𝑟 𝐿𝑂𝐽 𝑠) 
+(C) 𝑟 𝐿𝑂𝐽 (𝜎𝐵<5(𝑠)) (D) 𝜎𝐵<5(𝑟) 𝐿𝑂𝐽 𝑠 
+PAGE18
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 15/20 
+ 
+ 
+ 
+Q.42  Consider the following four relational schemas. For each schema, all non -trivial functional 
+dependencies are listed. The underlined attributes are the respective primary keys. 
+ 
+Schema I: Registration (rollno, courses) 
+Field ‘courses’ is a set-valued attribute containing the set of courses a student has 
+registered for.  
+Non-trivial functional dependency:  
+rollno 
+  courses 
+ 
+Schema II: Registration (rollno, courseid, email) 
+Non-trivial functional dependencies: 
+rollno, courseid 
+  email 
+email 
+  rollno 
+ 
+Schema III: Registration (rollno, courseid, marks, grade) 
+Non-trivial functional dependencies: 
+rollno, courseid 
+  marks, grade 
+marks 
+  grade 
+ 
+Schema IV: Registration (rollno, courseid, credit) 
+Non-trivial functional dependencies:  
+rollno, courseid 
+  credit 
+            courseid 
+  credit 
+ 
+ 
+Which one of the relational schemas above is in 3NF but not in BCNF? 
+ 
+(A)  Schema I  (B)  Schema II (C)  Schema III (D)  Schema IV 
+ 
+ 
+Q.43  Let 
+G be a graph with 100! vertices, with each vertex labelled by a distinct permutation of 
+the numbers 1,2, … , 100.  There is an edge between vertices 𝑢 and 𝑣 if and only if the label 
+of 𝑢 can be obtained by swapping two adjacent numbers in the label of 𝑣. Let  𝑦 denote the 
+degree of a vertex in G, and 𝑧 denote the number of connected components in G.  
+Then, 𝑦 +  10𝑧 = _____. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAGE19
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 16/20 
+ 
+ 
+ 
+Q.44  Consider Guwahati (G) and Delhi (D) whose temperatures can be classified as high (𝐻), 
+medium (𝑀) and low (𝐿). Let 𝑃(𝐻𝐺) denote the probability that Guwahati has high 
+temperature. Similarly, 𝑃(𝑀𝐺) and 𝑃(𝐿𝐺) denotes the probability of Guwahati having 
+medium and low temperatures respectively. Similarly, we use 𝑃(𝐻𝐷), 𝑃(𝑀𝐷) and 𝑃(𝐿𝐷) for 
+Delhi.  
+ 
+The following table gives  the co nditional probabilities for Delhi’s temperature given 
+Guwahati’s temperature. 
+ 
+ 𝐻𝐷 𝑀𝐷 𝐿𝐷 
+𝐻𝐺 0.40 0.48 0.12 
+𝑀𝐺 0.10 0.65 0.25 
+𝐿𝐺 0.01 0.50 0.49 
+ 
+Consider the first row in the table above. The first entry denotes that if Guwahati has high 
+temperature (𝐻𝐺) then the probability of Delhi also having a high temperature (𝐻𝐷) is 0.40; 
+i.e., 𝑃(𝐻𝐷|𝐻𝐺) = 0.40. Similarly, the next two entries are 𝑃(𝑀𝐷|𝐻𝐺) = 0.48 and 
+𝑃(𝐿𝐷|𝐻𝐺) = 0.12. Similarly for the other rows.  
+ 
+If it is known that  𝑃(𝐻𝐺) = 0.2, 𝑃(𝑀𝐺) = 0.5, and 𝑃(𝐿𝐺) = 0.3, then the probability 
+(correct to two decimal places) that Guwahati has high temperature given that Delhi has high 
+temperature is _______. 
+ 
+ 
+Q.45  Consider the following program written in pseudo-code. Assume that x and y are integers. 
+ 
+Count(x,y) { 
+    if (y != 1){   
+        if (x != 1) { 
+            print("*"); 
+            Count(x/2, y); 
+        } 
+        else { 
+            y = y-1; 
+            Count(1024, y); 
+       } 
+   } 
+} 
+ 
+The number of times that the print statement is executed by the call  
+Count(1024,1024) is _____. 
+ 
+ 
+Q.46  The number of possible min-heaps containing each value from 
+{ 1 , 2, 3, 4, 5, 6, 7} exactly once 
+is _____. 
+ 
+ 
+PAGE20
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 17/20 
+ 
+ 
+ 
+Q.47  Consider the following undirected graph G: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Choose a value for  x that will  maximize the number of minimum weight spanning trees 
+(MWSTs) of G. The number of MWSTs of G for this value of x is ______.  
+ 
+ 
+ 
+Q.48  Consider the weights and values of items listed below. Note that there is only one unit of 
+each item. 
+ 
+Item number Weight  
+(in Kgs) 
+Value 
+(in Rupees) 
+1 10 60 
+2 7 28 
+3 4 20 
+4 2 24 
+ 
+The task is to pick a subset of these items such that their total weight is no more than 11 Kgs 
+and their total value is maximized. Moreover, no item may be split. The total value of items 
+picked by an optimal algorithm is denoted by 𝑉opt.  A greedy algorithm sorts the items by 
+their value-to-weight ratios in descending order and packs them greedily, starting from the 
+first item in the ordered list. The total value of items picked by the greedy algorithm is 
+denoted by 𝑉greedy.  
+ 
+The value of 𝑉opt − 𝑉greedy is ____________. 
+ 
+ 
+ 
+Q.49  Consider the minterm list form of a Boolean function 𝐹 given below. 
+ 
+𝐹(𝑃, 𝑄, 𝑅, 𝑆) =  ∑ 𝑚(0, 2, 5, 7, 9, 11) + 𝑑(3, 8, 10, 12, 14) 
+ 
+Here, 𝑚 denotes a minterm and 𝑑 denotes a don’t care term. The number of essential prime 
+implicants of the function 𝐹 is  ______. 
+x 
+5 
+3 
+4 
+1 
+4 
+4 
+PAGE21
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 18/20 
+ 
+ 
+ 
+Q.50  The instruction pipeline of a RISC processor has the following stages: Instruction Fetch (IF), 
+Instruction Decode (ID), Operand Fetch (OF), Perform Operation (PO) and Writeback (WB). 
+The IF, ID, OF and WB stages take 1 clock cycle each for every instruction. Consider a 
+sequence of 100 instructions. In the PO stage, 40 instructions take 3 clock cycles each, 35 
+instructions take 2 clock cycles each, and th e remaining 25 instructions take 1 clock cycle 
+each. Assume that there are no data hazards and no control hazards.  
+ 
+The number of clock cycles required for completion of execution of the sequence of 
+instructions is ______. 
+ 
+ 
+ 
+ 
+Q.51  A processor has 16 integer  registers (R0, R1, .. , R15) and 64 floating point registers (F0,  
+F1,… , F63). It uses a 2-byte instruction format. There are four categor ies of instructions: 
+Type-1, Type-2, Type-3, and Type -4. Type-1 category consists of four instructions , each 
+with 3 integer register operands (3Rs). Type -2 category consists of eight instructions, each 
+with 2 floating point register operands (2Fs). Type -3 category consists of fourteen 
+instructions, each with one integer register operand and one floating point register op erand 
+(1R+1F). Type -4 category consists of N instructions, each with a floating point register 
+operand (1F).  
+ 
+The maximum value of N is __________. 
+ 
+ 
+Q.52  Given a language 𝐿, define 𝐿𝑖  as follows: 
+𝐿0 = {𝜀} 
+𝐿𝑖 = 𝐿𝑖−1 ⋅ 𝐿   𝑓𝑜𝑟 𝑎𝑙𝑙 𝑖 > 0 
+ 
+The order of a language L is defined as the smallest k such that  𝐿𝑘 =   𝐿𝑘+1.  
+Consider the language L1 (over alphabet 0) accepted by the following automaton. 
+ 
+ 
+ 
+ 
+ 
+  
+The order of L1 is _____. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0 
+0 
+0 
+PAGE22
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 19/20 
+ 
+ 
+ 
+Q.53  Consider a storage disk with 4 platters (numbered as 0, 1, 2 and 3), 200 cylinders (numbered 
+as 0, 1, … , 199), and 256 sectors per track (numbered as 0,  1, … , 255). The following 6 
+disk requests of the form [sector number, cylinder number, platter number] are received by 
+the disk controller at the same time: 
+ 
+[120, 72, 2] , [180, 134, 1] , [60, 20, 0] , [212, 86, 3] , [56, 116, 2] , [118, 16, 1] 
+ 
+Currently the head is positioned at sector number 100 of cylinder 80, and is moving towards 
+higher cylinder numbers . The average power dissipation in moving the head over 100 
+cylinders is 20 milliwatts and for reversing the direction of the head movement once is 15 
+milliwatts. Power dissipation associated with rotational latency and switching of head 
+between different platters is negligible.  
+ 
+The total power consumption in milliwatts to satisfy all of the above disk requests using the 
+Shortest Seek Time First disk scheduling algorithm is _______.  
+ 
+ 
+ 
+Q.54  Consider an IP packet with a length of 4,500 bytes that includes a 20 -byte IPv4 header and 
+a 40-byte TCP header. The packet is forwarded to an IPv4 router that supports a Maximum 
+Transmission Unit (MTU) of 600 bytes. Assume that the length of the IP header  in all the 
+outgoing fragments of this packet is 20 bytes. Assume that the fragmentation offset value 
+stored in the first fragment is 0.  
+ 
+The fragmentation offset value stored in the third fragment is _______. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAGE23
+GATE 2018                                                                                                    COMPUTER SCIENCE AND INFORMATION TECHNOLOGY 
+CS 20/20 
+ 
+ 
+ 
+Q.55  Consider a simple communication system where multiple nodes are connected by a shared 
+broadcast medium (like Ethernet or wireless). The nodes in the system use the following 
+carrier-sense based medium access protocol. A node that receives a packet to transmit will 
+carrier-sense the medium for 5 units of time. If the node does not detect any other 
+transmission in this duration, it starts transmitting its packet in the next time unit. If the node 
+detects another transmission, it waits until this  other transmission finishes, and then begins  
+to carrier-sense for 5 time units again. Once they start to transmit, nodes do not perform any 
+collision detection and continue transmission even if a collision occurs. All transmissions 
+last for 20 units of time. Assume that the transmission signal travels at the speed of 10 meters 
+per unit time in the medium.  
+ 
+Assume that the system has two nodes P and Q, located at a distance d meters from each 
+other. P starts transmitting a packet at time t=0 after successfully completing its carrier-sense 
+phase. Node Q has a packet to transmit at time t=0 and begins to carrier-sense the medium.  
+ 
+The maximum distance d (in meters , rounded to the closest integer) that allows Q to 
+successfully avoid a collision between its proposed transmission and P’s ongoing 
+transmission is _____. 
+ 
+ 
+ 
+ 
+END OF THE QUESTION PAPER 
+ 
+ 

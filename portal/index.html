@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATE CS 2027 — 100 Full-Length Mock Test Series Portal</title>
+    <link rel="stylesheet" href="/static/css/portal.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="portal-header">
+        <div class="portal-header-inner">
+            <div class="portal-brand-block">
+                <h1>
+                    <span>GATE CS 2027</span>
+                    <span class="portal-brand-tag">100 FULL MOCKS</span>
+                </h1>
+                <p class="portal-subtitle">
+                    Official 3-Hour Online Examination Portal simulating the authentic TCS iON test environment with 6,500 questions, scientific calculator & worked step-by-step solutions.
+                </p>
+            </div>
+
+            <!-- Candidate Profile Snippet -->
+            <div class="header-profile-badge" id="header-profile-badge" title="Click to edit candidate profile">
+                <div class="profile-avatar-circle" id="header-cand-avatar">CS</div>
+                <div class="profile-info-text">
+                    <div class="profile-cand-name" id="header-cand-name">GATE CS Aspirant</div>
+                    <div class="profile-cand-roll" id="header-cand-roll">GATE2027-CS-C001</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="portal-container">
+        <!-- Series Statistics Ribbon -->
+        <section class="stats-ribbon">
+            <div class="stat-card">
+                <div class="stat-card-label">Total Mock Series</div>
+                <div class="stat-card-val" id="stat-total-mocks">100 <small>Papers</small></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-label">Mocks Completed</div>
+                <div class="stat-card-val" id="stat-completed-mocks">0 <small>/ 100</small></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-label">Active / In Progress</div>
+                <div class="stat-card-val" id="stat-in-progress-mocks">0 <small>Active</small></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-label">Average Score</div>
+                <div class="stat-card-val" id="stat-avg-score">-- <small>/ 100</small></div>
+            </div>
+        </section>
+
+        <!-- Filter & Search Toolbar -->
+        <section class="filter-toolbar">
+            <div class="search-input-wrapper">
+                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                <input type="text" id="portal-search-input" class="portal-search-input" placeholder="Search mock test # (1-100), topic (e.g. Algorithms, OS)...">
+            </div>
+
+            <div class="status-filter-pills">
+                <button class="status-pill-btn active" data-status="all">All Mocks (100)</button>
+                <button class="status-pill-btn" data-status="not_attempted">Not Attempted</button>
+                <button class="status-pill-btn" data-status="in_progress">In Progress</button>
+                <button class="status-pill-btn" data-status="completed">Completed</button>
+            </div>
+        </section>
+
+        <!-- 100 Mock Test Grid -->
+        <main class="mocks-grid" id="mocks-grid">
+            <div style="grid-column: 1 / -1; text-align: center; padding: 60px; color: #64748b;">
+                Loading 100 GATE Mock Examination Papers...
+            </div>
+        </main>
+    </div>
+
+    <!-- Candidate Profile Edit Modal -->
+    <div id="profile-edit-modal" class="calc-modal" style="top: 20%; left: 50%; transform: translateX(-50%); width: 400px; background: #fff; border: 1px solid #cbd5e1;">
+        <div class="calc-header" style="background: #1e3a5f; cursor: default;">
+            <div class="calc-header-title">
+                <span>Candidate Profile Settings</span>
+            </div>
+            <button class="calc-close-btn" id="btn-close-profile-modal">&times;</button>
+        </div>
+        <div class="calc-body" style="padding: 20px;">
+            <div class="modal-profile-form">
+                <div class="form-group">
+                    <label>Candidate Full Name:</label>
+                    <input type="text" id="input-profile-name" placeholder="e.g. Sagnik Sarkar" />
+                </div>
+                <div class="form-group">
+                    <label>GATE Roll Number:</label>
+                    <input type="text" id="input-profile-roll" placeholder="e.g. GATE2027-CS-0042" />
+                </div>
+                <div class="form-group">
+                    <label>Target GATE Score (out of 100):</label>
+                    <input type="number" id="input-profile-target" min="25" max="100" value="75" />
+                </div>
+                <button id="btn-save-profile" class="btn-launch-mock btn-launch-fresh" style="margin-top: 10px;">
+                    Save Profile
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/portal.js"></script>
+</body>
+</html>
+

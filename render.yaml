@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: gate-cs-2027-mock-portal
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python portal_server.py
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+

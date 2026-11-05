@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATE CS 2027 Mock Paper & Solutions Reader</title>
+    <link rel="stylesheet" href="/static/css/result.css">
+    <!-- Optional KaTeX for math rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        .paper-nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 12px 20px;
+            margin-bottom: 24px;
+        }
+        .paper-select {
+            padding: 8px 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            background: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="result-container">
+        <!-- Navigation Bar -->
+        <div class="paper-nav-bar">
+            <div>
+                <a href="/" class="btn-result-nav">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+                    Back to Portal
+                </a>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <label for="paper-select-dropdown" style="font-size: 13px; font-weight: bold; color: #475569;">Select Mock Paper:</label>
+                <select id="paper-select-dropdown" class="paper-select">
+                    <!-- Populated 1 to 100 -->
+                </select>
+                <a id="btn-launch-timed-exam" href="#" class="btn-result-nav btn-result-primary">
+                    Launch in 3-Hour Exam Simulator &rarr;
+                </a>
+            </div>
+        </div>
+
+        <!-- Paper Overview Card -->
+        <div class="score-hero-card" style="padding: 24px;">
+            <h1 id="reader-paper-title" style="font-size: 24px; font-weight: 800; margin-bottom: 6px;">GATE CS 2027 Mock Test 001</h1>
+            <p style="color: #cbd5e1; font-size: 14px; margin-bottom: 16px;">
+                Complete Question Paper, Official Answer Key & Worked Step-by-Step Solutions (65 Questions &bull; 100 Marks).
+            </p>
+            <div style="display: flex; gap: 20px; font-size: 13.5px; color: #94a3b8;">
+                <div>Duration: <strong>180 Minutes</strong></div>
+                <div>Questions: <strong>65 Questions</strong></div>
+                <div>Marks: <strong>100 Marks</strong></div>
+                <div>Difficulty: <strong id="reader-diff-label">Medium-Hard</strong></div>
+            </div>
+        </div>
+
+        <!-- Questions & Worked Solutions Container -->
+        <div class="card-wrapper">
+            <div id="reader-questions-list">
+                <div style="text-align: center; padding: 40px; color: #64748b;">
+                    Loading Mock Paper Questions and Worked Solutions...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/common.js"></script>
+    <script>
+        function getPaperNum() {
+            const p = parseInt(new URLSearchParams(window.location.search).get('paper'), 10);
+            return (!isNaN(p) && p >= 1 && p <= 100) ? p : 1;
+        }
+
+        const currentPaper = getPaperNum();
+
+        // Populate dropdown
+        const select = document.getElementById('paper-select-dropdown');
+        for (let i = 1; i <= 100; i++) {
+            const opt = document.createElement('option');
+            opt.value = i;
+            opt.innerText = `Mock Test ${String(i).padStart(3, '0')}`;
+            if (i === currentPaper) opt.selected = true;
+            select.appendChild(opt);
+        }
+
+        select.addEventListener('change', (e) => {
+            window.location.href = `/paper_view.html?paper=${e.target.value}`;
+        });
+
+        document.getElementById('btn-launch-timed-exam').href = `/exam.html?paper=${currentPaper}`;
+
+        async function loadPaper() {
+            try {
+                const resp = await fetch(`/api/paper/${currentPaper}/solutions`);
+                const data = await resp.json();
+                if (data.status !== 'success') return;
+
+                document.getElementById('reader-paper-title').innerText = data.title;
+                const container = document.getElementById('reader-questions-list');
+                container.innerHTML = '';
+
+                data.questions.forEach((q, idx) => {
+                    const num = idx + 1;
+                    const letters = ['A', 'B', 'C', 'D'];
+                    let ansText = '';
+                    if (q.type === 'MCQ' || q.type === 'MSQ') {
+                        ansText = Array.isArray(q.answer) ? q.answer.join(', ') : String(q.answer);
+                    } else if (q.type === 'NAT') {
+                        const nat = q.nat || {};
+                        ansText = nat.min !== undefined ? (nat.min === nat.max ? `${nat.min}` : `${nat.min} to ${nat.max}`) : String(q.answer);
+                    }
+
+                    const card = document.createElement('div');
+                    card.className = 'solution-item-card';
+                    card.innerHTML = `
+                        <div class="solution-item-header">
+                            <div>
+                                <span class="sol-q-title">Q${num}.</span>
+                                <span style="font-size: 13px; color: #64748b; margin-left: 8px;">
+                                    [${q.marks} Mark] [${q.type}] [${q.subject} &bull; ${q.subtopic || ''}]
+                                </span>
+                            </div>
+                            <div style="font-size: 13px; font-weight: bold; color: #0284c7;">
+                                Official Answer: ${ansText}
+                            </div>
+                        </div>
+
+                        <div class="sol-stem">${GateFormatter.render(q.stem)}</div>
+
+                        ${q.options && q.options.length > 0 ? `
+                            <div style="margin: 14px 0 16px 12px; font-size: 14px; display: flex; flex-direction: column; gap: 8px;">
+                                ${q.options.map((opt, oIdx) => `
+                                    <div style="display: flex; gap: 10px;">
+                                        <strong>(${letters[oIdx]}):</strong>
+                                        <div>${GateFormatter.render(opt)}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        ` : ''}
+
+                        <div class="sol-worked-box">
+                            <div class="sol-worked-title">
+                                <span>Step-by-Step Worked Solution:</span>
+                            </div>
+                            <div class="sol-worked-text">${GateFormatter.render(q.solution || '')}</div>
+                        </div>
+
+                        ${q.option_explanations && q.option_explanations.length > 0 ? `
+                            <div class="sol-opt-explanations">
+                                <div style="font-weight: bold; margin-bottom: 6px;">Option Analysis:</div>
+                                ${q.option_explanations.map((exp, eIdx) => `
+                                    <div class="sol-opt-item"><strong>(${letters[eIdx]}):</strong> ${exp}</div>
+                                `).join('')}
+                            </div>
+                        ` : ''}
+
+                        ${q.misconception ? `
+                            <div class="sol-misconception-box">
+                                <strong>Exam Trap Warning:</strong> ${q.misconception}
+                            </div>
+                        ` : ''}
+                    `;
+                    container.appendChild(card);
+                });
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        loadPaper();
+    </script>
+</body>
+</html>
+

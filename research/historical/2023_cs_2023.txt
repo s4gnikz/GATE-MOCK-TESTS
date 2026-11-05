@@ -1,0 +1,1235 @@
+PAGE 1
+             Computer Science and Information Technology (CS)  
+Page 1 of 7 
+Organizing Institute: IIT Kanpur 
+General Aptitude (GA) 
+ – Q.5 Carry ONE mark Each 
+Q.1 We reached the station late, and _______ missed the train. 
+  
+(A) near 
+(B) nearly 
+(C) utterly  
+(D) mostly  
+  
+Q.2 Kind : _______ : : Often : Frequently 
+(By word meaning) 
+  
+(A) Mean  
+(B) Type 
+(C) Cruel 
+(D) Kindly 
+  
+ 
+ 
+Q.1
+PAGE 2
+             Computer Science and Information Technology (CS)  
+Page 2 of 7 
+Organizing Institute: IIT Kanpur 
+Q.3 A series of natural numbers 𝐹1, 𝐹2, 𝐹3, 𝐹4, 𝐹5, 𝐹6, 𝐹7, … obeys 𝐹𝑛+1 = 𝐹𝑛 + 𝐹𝑛−1 
+for all integers 𝑛 ≥ 2 .  
+If 𝐹6 = 37, and 𝐹7 = 60, then what is 𝐹1 ? 
+  
+(A) 4 
+(B) 5 
+(C) 8 
+(D) 9 
+  
+ 
+  
+PAGE 3
+             Computer Science and Information Technology (CS)  
+Page 3 of 7 
+Organizing Institute: IIT Kanpur 
+Q.4 A survey for a certain year found that 90% of pregnant women received medical 
+care at least once before giving birth. Of these women, 60% received medical care 
+from doctors, while 40% received medical care from other healthcare providers. 
+Given this information, which one of the following statements can be inferred with 
+certainty?  
+  
+(A) More than half of the pregnant women received medical care at least once from a 
+doctor. 
+(B) Less than half of the pregnant women received medical care at least once from a 
+doctor. 
+(C) More than half of the pregnant women received medical care at most once from a 
+doctor. 
+(D) Less than half of the pregnant women received medical care at most once from a 
+doctor. 
+  
+Q.5 Looking at the surface of a smooth 3 -dimensional object from the outside, which 
+one of the following options is TRUE? 
+  
+(A) The surface of the object must be concave everywhere. 
+(B) The surface of the object must be convex everywhere. 
+(C) The surface of the object may be concave in some places and convex in other places. 
+(D) The object can have edges, but no corners. 
+  
+ 
+PAGE 4
+             Computer Science and Information Technology (CS)  
+Page 4 of 7 
+Organizing Institute: IIT Kanpur 
+Q.6 – Q.10 Carry TWO marks Each 
+Q.6 
+ 
+The country of Zombieland is in distress since more than 75% of its working 
+population is suffering from serious health issues. Studies conducted by competent 
+health experts concluded that a complete lack of physical exercise among its 
+working population was one of the leading causes of their health issues. As one of 
+the measures to address the problem, the Government of Zombieland has decided 
+to provide monetary incentives to those who ride bicycles to work.  
+ 
+Based only on the information provided  above, which one of the following 
+statements can be logically inferred with certainty? 
+ 
+  
+(A) All the working population of Zombieland will henceforth ride bicycles to work. 
+(B) Riding bicycles will ensure that all of the working population of Zombieland is free 
+of health issues. 
+(C) The health experts suggested to the Government of Zombieland to declare riding 
+bicycles as mandatory. 
+(D) The Government of Zombieland believes that riding bicycl es is a form of physical 
+exercise. 
+  
+  
+PAGE 5
+             Computer Science and Information Technology (CS)  
+Page 5 of 7 
+Organizing Institute: IIT Kanpur 
+Q.7 Consider two functions of time (𝑡), 
+𝑓(𝑡)  = 0.01 𝑡2 
+𝑔(𝑡) = 4 𝑡 
+where 0 < 𝑡 < ∞. 
+Now consider the following two statements: 
+(i) For some 𝑡 > 0,  𝑔(𝑡) > 𝑓(𝑡). 
+(ii) There exists a 𝑇, such that 𝑓(𝑡) > 𝑔(𝑡) for all 𝑡 > 𝑇. 
+Which one of the following options is TRUE? 
+  
+(A) only (i) is correct 
+(B) only (ii) is correct 
+(C) both (i) and (ii) are correct 
+(D) neither (i) nor (ii) is correct 
+  
+ 
+  
+PAGE 6
+             Computer Science and Information Technology (CS)  
+Page 6 of 7 
+Organizing Institute: IIT Kanpur 
+Q.8 Which one of the following sentence sequences creates a coherent narrative? 
+(i) Once on the terrace, on her way to her small room in the corner, she 
+notices the man right away. 
+(ii) She begins to pant by the time she has climbed all the stairs. 
+(iii) Mina has bought vegetables and rice at the market, so her bags are 
+heavy. 
+(iv) He was leaning against the parapet, watching the traffic below. 
+  
+(A) (i), (ii), (iv), (iii) 
+(B) (ii), (iii), (i), (iv) 
+(C) (iv), (ii), (i), (iii) 
+(D) (iii), (ii), (i), (iv) 
+  
+Q.9 
+ 
+( )fx
+ and 
+( )gy are functions of x and y, respectively, and
+( ) ( )f x g y= for all real 
+values of  𝑥 and 𝑦.  Which one of the following options is necessarily TRUE for all 
+x and y? 
+  
+(A) 
+( ) 0fx =  and 
+( )  0gy =   
+(B) 
+( ) ( )  constant  f x g y==  
+(C) 
+( ) constantfx   and 
+( ) constantgy   
+(D) 
+( ) ( ) ( ) ( )=   f x g y f x g y+−  
+  
+PAGE 7
+             Computer Science and Information Technology (CS)  
+Page 7 of 7 
+Organizing Institute: IIT Kanpur 
+Q.10 Which one of the options best describes the transformation of the 2-dimensional 
+figure P to Q, and then to R, as shown? 
+ 
+ 
+(A) Operation 1: A clockwise rotation by 90º about an axis perpendicular to the plane 
+of the figure 
+Operation 2: A reflection along a horizontal line 
+(B) Operation 1: A counter clockwise rotation by 90º about an axis perpendicular to 
+the plane of the figure 
+Operation 2: A reflection along a horizontal line  
+(C) Operation 1: A clockwise rotation by 90º about an axis perpendicular to the plane 
+of the figure  
+Operation 2: A reflection along a vertical line  
+(D) Operation 1: A counter clockwise rotation by 180º about an axis perpendicular to 
+the plane of the figure 
+Operation 2: A reflection along a vertical line  
+  
+ 
+  
+ 
+ 
+ 
+ 
+
+PAGE 8
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the following statements regarding the front-end and back-end of a
+compiler.
+S1: The front-end includes phases that are independent of the target hardware.
+S2: The back-end includes phases that are speciﬁc to the target hardware.
+S3: The back-end includes phases that are speciﬁc to the programming language
+used in the source code.
+Identify the CORRECT option.
+(A) Only S1 is TRUE.
+(B) Only S1 and S2 are TRUE.
+(C) S1, S2,a n dS3 are all TRUE.
+(D) Only S1 and S3 are TRUE.
+CS Page 1 of 83
+Q.11 – Q.35 Carry ONE mark each.
+Q.11
+PAGE 9
+GATE 2023 Computer Science and Information Technology (CS)
+ Which one of the following sequences when stored in an array at locations
+A[1],...,A [10] forms a max-heap?
+(A) 23, 17, 10, 6, 13, 14, 1, 5, 7, 12
+(B) 23, 17, 14, 7, 13, 10, 1, 5, 6, 12
+(C) 23, 17, 14, 6, 13, 10, 1, 5, 7, 15
+(D) 23, 14, 17, 1, 10, 13, 16, 12, 7, 5
+CS Page 2 of 83
+Q.12
+PAGE 10
+GATE 2023 Computer Science and Information Technology (CS)
+ Let SLLdel be a function that deletes a node in a singly-linked list given a pointer
+to the node and a pointer to the head of the list. Similarly, letDLLdel be another
+function that deletes a node in a doubly-linked list given a pointer to the node and
+a pointer to the head of the list.
+Let n denote the number of nodes in each of the linked lists. Which one of the
+following choices is TRUE about the worst-case time complexity ofSLLdel and
+DLLdel?
+(A) SLLdel is O(1) and DLLdel is O(n)
+(B) Both SLLdel and DLLdel are O(log(n))
+(C) Both SLLdel and DLLdel are O(1)
+(D) SLLdel is O(n)a n dDLLdel is O(1)
+CS Page 3 of 83
+Q.13
+PAGE 11
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the Deterministic Finite-state Automaton (DFA)A shown below. The
+DFA runs on the alphabet{0,1}, and has the set of states{s,p,q,r },w i t hs being
+the start state andp being the only ﬁnal state.
+1
+00
+0
+0,1
+1
+1
+spq
+r
+Which one of the following regular expressions correctly describes the language
+accepted byA?
+(A) 1(0∗11)∗
+(B) 0(0+1) ∗
+(C) 1(0+11) ∗
+(D) 1(110∗)∗
+CS Page 4 of 83
+Q.14
+PAGE 12
+GATE 2023 Computer Science and Information Technology (CS)
+ The Lucas sequenceLn is deﬁned by the recurrence relation:
+Ln = Ln−1 +Ln−2, for n ≥3,
+with L1 =1a n dL2 =3 .
+Which one of the options given is TRUE?
+(A) Ln =
+(
+1+
+√
+5
+2
+)n
++
+(
+1−
+√
+5
+2
+)n
+(B) Ln =
+(
+1+
+√
+5
+2
+)n
+−
+(
+1−
+√
+5
+3
+)n
+(C) Ln =
+(
+1+
+√
+5
+2
+)n
++
+(
+1−
+√
+5
+3
+)n
+(D) Ln =
+(
+1+
+√
+5
+2
+)n
+−
+(
+1−
+√
+5
+2
+)n
+CS Page 5 of 83
+Q.15
+PAGE 13
+GATE 2023 Computer Science and Information Technology (CS)
+ Which one of the options given below refers to the degree (or arity) of a relation in
+relational database systems?
+(A) Number of attributes of its relation schema.
+(B) Number of tuples stored in the relation.
+(C) Number of entries in the relation.
+(D) Number of distinct domains of its relation schema.
+CS Page 6 of 83
+Q.16
+PAGE 14
+GATE 2023 Computer Science and Information Technology (CS)
+ Suppose two hosts are connected by a point-to-point link and they are conﬁgured
+to use Stop-and-Wait protocol for reliable data transfer. Identify in which one of
+the following scenarios, the utilization of the link is the lowest.
+(A) Longer link length and lower transmission rate
+(B) Longer link length and higher transmission rate
+(C) Shorter link length and lower transmission rate
+(D) Shorter link length and higher transmission rate
+CS Page 7 of 83
+Q.17
+PAGE 15
+GATE 2023 Computer Science and Information Technology (CS)
+ Let
+A =
+⎡
+⎢⎢⎣
+1234
+4123
+3412
+2341
+⎤
+⎥⎥⎦
+and
+B =
+⎡
+⎢⎢⎣
+3412
+4123
+1234
+2341
+⎤
+⎥⎥⎦.
+Let det(A)a n d det(B) denote the determinants of the matrices A and B,
+respectively.
+Which one of the options given below is TRUE?
+(A) det(A)= det(B)
+(B) det(B)= −det(A)
+(C) det(A)=0
+(D) det(AB)= det(A)+ det(B)
+CS Page 8 of 83
+Q.18
+PAGE 16
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the following deﬁnition of a lexical tokenid for an identiﬁer in a program-
+ming language, using extended regular expressions:
+letter → [A-Za-z]
+digit → [0-9]
+id → letter (letter | digit)∗
+Which one of the following Non-deterministic Finite-state Automata with ϵ-
+transitions accepts the set of valid identiﬁers? (A double-circle denotes a ﬁnal
+state)
+(A)
+letter letter
+digit
+ϵ
+(B)
+letter
+letter
+digit
+ϵ
+ϵ
+(C)
+letter
+letter
+digit
+ϵ
+ϵ
+ϵ
+ϵ
+ϵ
+(D)
+letter letter digit
+ϵ
+CS Page 9 of 83
+Q.19
+PAGE 17
+GATE 2023 Computer Science and Information Technology (CS)
+CS Page 10 of 83
+PAGE 18
+GATE 2023 Computer Science and Information Technology (CS)
+ An algorithm has to store several keys generated by an adversary in a hash
+table. The adversary is malicious who tries to maximize the number of collisions.
+Let k bethenumberofkeys, mbe the number of slots in the hash table, andk>m .
+Which one of the following is the best hashing strategy to counteract the adversary?
+(A) Division method, i.e., use the hash functionh(k)= k mod m.
+(B) Multiplication method, i.e., use the hash functionh(k)= ⌊m(kA −⌊kA⌋)⌋,w h e r e
+A is a carefully chosen constant.
+(C) Universal hashing method.
+(D) Ifk isaprimenumber, useDivisionmethod. Otherwise, useMultiplicationmethod.
+CS Page 11 of 83
+Q.20
+PAGE 19
+GATE 2023 Computer Science and Information Technology (CS)
+ The output of a 2-input multiplexer is connected back to one of its inputs as shown
+in the ﬁgure.
+0
+1
+S
+Q
+Multiplexer
+Match the functional equivalence of this circuit to one of the following options.
+(A) D Flip-ﬂop
+(B) DL a t c h
+(C) Half-adder
+(D) Demultiplexer
+CS Page 12 of 83
+Q.21
+PAGE 20
+GATE 2023 Computer Science and Information Technology (CS)
+ Which one or more of the following need to be saved on a context switch from one
+thread (T1) of a process to another thread (T2) of the same process?
+(A) Page table base register
+(B) Stack pointer
+(C) Program counter
+(D) General purpose registers
+CS Page 13 of 83
+Q.22
+PAGE 21
+GATE 2023 Computer Science and Information Technology (CS)
+ Which one or more of the following options guarantee that a computer system will
+transition from user mode to kernel mode?
+(A) Function Call
+(B) malloc Call
+(C) Page Fault
+(D) System Call
+CS Page 14 of 83
+Q.23
+PAGE 22
+GATE 2023 Computer Science and Information Technology (CS)
+ Which of the following statements is/are CORRECT?
+(A) The intersection of two regular languages is regular.
+(B) The intersection of two context-free languages is context-free.
+(C) The intersection of two recursive languages is recursive.
+(D) The intersection of two recursively enumerable languages is recursively enumerable.
+CS Page 15 of 83
+Q.24
+PAGE 23
+GATE 2023 Computer Science and Information Technology (CS)
+ Which of the following statements is/are INCORRECT about
+the OSPF (Open Shortest Path First) routing protocol used in the Internet?
+(A) OSPF implements Bellman-Ford algorithm to ﬁnd shortest paths.
+(B) OSPF uses Dijkstra’s shortest path algorithm to implement least-cost path routing.
+(C) OSPF is used as an inter-domain routing protocol.
+(D) OSPF implements hierarchical routing.
+CS Page 16 of 83
+Q.25
+PAGE 24
+GATE 2023 Computer Science and Information Technology (CS)
+ Geetha has a conjecture about integers, which is of the form
+∀x
+(
+P(x)= ⇒∃yQ(x,y)
+)
+,
+where P is a statement about integers, andQ is a statement about pairs of integers.
+Which of the following (one or more) option(s) wouldimply Geetha’s conjecture?
+(A) ∃x
+(
+P(x)∧∀yQ(x,y)
+)
+(B) ∀x∀yQ(x,y)
+(C) ∃y∀x
+(
+P(x)= ⇒ Q(x,y)
+)
+(D) ∃x
+(
+P(x)∧∃yQ(x,y)
+)
+CS Page 17 of 83
+Q.26
+PAGE 25
+GATE 2023 Computer Science and Information Technology (CS)
+ Which one or more of the following CPU scheduling algorithms can potentially
+cause starvation?
+(A) First-in First-Out
+(B) Round Robin
+(C) Priority Scheduling
+(D) Shortest Job First
+CS Page 18 of 83
+Q.27
+PAGE 26
+GATE 2023 Computer Science and Information Technology (CS)
+ Let
+f(x)= x3 +15x2 −33x−36
+be a real-valued function.
+Which of the following statements is/are TRUE?
+(A) f(x) does not have a local maximum.
+(B) f(x) has a local maximum.
+(C) f(x) does not have a local minimum.
+(D) f(x) has a local minimum.
+CS Page 19 of 83
+Q.28
+PAGE 27
+GATE 2023 Computer Science and Information Technology (CS)
+ Let f and g be functions of natural numbers given byf(n)= n and g(n)= n2.
+Which of the following statements is/are TRUE?
+(A) f ∈O(g)
+(B) f ∈Ω(g)
+(C) f ∈o(g)
+(D) f ∈Θ(g)
+CS Page 20 of 83
+Q.29
+PAGE 28
+GATE 2023 Computer Science and Information Technology (CS)
+ Let A be the adjacency matrix of the graph with vertices{1,2,3,4,5}.
+12
+4
+3
+5
+Let λ1, λ2, λ3, λ4,a n dλ5 b et h eﬁ v ee i g e n v a l u e so fA. Note that these eigenvalues
+need not be distinct.
+The value ofλ1 +λ2 +λ3 +λ4 +λ5 = .
+CS Page 21 of 83
+Q.30
+PAGE 29
+GATE 2023 Computer Science and Information Technology (CS)
+ The value of the deﬁnite integral
+∫ 3
+−3
+∫ 2
+−2
+∫ 1
+−1
+(
+4x2y −z3)
+dz dy dx
+is . (Rounded oﬀ to the nearest integer)
+CS Page 22 of 83
+Q.31
+PAGE 30
+GATE 2023 Computer Science and Information Technology (CS)
+ A particular number is written as 132 in radix-4 representation. The same number
+in radix-5 representation is .
+CS Page 23 of 83
+Q.32
+PAGE 31
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider a 3-stage pipelined processor having a delay of 10 ns (nanoseconds),
+20 ns, and 14 ns, for the ﬁrst, second, and the third stages, respectively. Assume
+that there is no other delay and the processor does not suﬀer from any pipeline
+hazards. Also assume that one instruction is fetched every cycle.
+The total execution time for executing 100 instructions on this processor is
+ns.
+CS Page 24 of 83
+Q.33
+PAGE 32
+GATE 2023 Computer Science and Information Technology (CS)
+ A keyboard connected to a computer is used at a rate of 1 keystroke per second.
+The computer system polls the keyboard every 10 ms (milli seconds) to check for
+a keystroke and consumes 100μs (micro seconds) for each poll. If it is determined
+after polling that a key has been pressed, the system consumes an additional 200
+μs to process the keystroke. LetT1 denote the fraction of a second spent in polling
+and processing a keystroke.
+In an alternative implementation, the system uses interrupts instead of polling.
+An interrupt is raised for every keystroke. It takes a total of 1 ms for servicing an
+interrupt and processing a keystroke. LetT2 denote the fraction of a second spent
+in servicing the interrupt and processing a keystroke.
+The ratio T1
+T2
+is . (Rounded oﬀ to one decimal place)
+CS Page 25 of 83
+Q.34
+PAGE 33
+GATE 2023 Computer Science and Information Technology (CS)
+ The integer value printed by the ANSI-C program given below is .
+#include<stdio.h>
+int funcp(){
+static int x = 1;
+x++;
+return x;
+}
+int main(){
+int x,y;
+x = funcp();
+y = funcp()+x;
+printf("%d\n", (x+y));
+return 0;
+}
+CS Page 26 of 83
+Q.35
+PAGE 34
+GATE 2023 Computer Science and Information Technology (CS)
+CS Page 27 of 83
+Q.36 – Q.65 Carry TWO mark each.
+PAGE 35
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the following program:
+int main()
+{
+f1();
+f2(2);
+f3();
+return(0);
+}
+int f1()
+{
+return(1);
+}
+int f2(int X)
+{
+f3();
+if (X==1)
+return f1();
+else
+return (X*f2(X-1));
+}
+int f3()
+{
+return(5);
+}
+Which one of the following options represents the activation tree corresponding to
+the main function?
+(A)
+main
+f1 f2 f3
+f3 f2
+f3 f1
+(B)
+main
+f2 f3
+f1
+f1
+f3
+(C)
+main
+f2
+f1
+f3 f1
+(D)
+main
+f1 f2 f3
+f3 f2 f1
+CS Page 28 of 83
+Q.36
+PAGE 36
+GATE 2023 Computer Science and Information Technology (CS)
+CS Page 29 of 83
+PAGE 37
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the control ﬂow graph shown.
+j = n
+a = 10
+i = i + 1
+j = j − 1
+B1
+B2
+i = a + 1
+a = 20
+B3
+B4
+EXIT
+ENTRY
+i = m − 1
+Which one of the following choices correctly lists the set oflive variables at the exit
+point of each basic block?
+(A) B1: {},B 2 :{a},B 3 :{a},B 4 :{a}
+(B) B1: {i, j},B 2 :{a},B 3 :{a},B 4 :{i}
+(C) B1: {a, i, j},B 2 :{a, i, j},B 3 :{a, i},B 4 :{a}
+(D) B1: {a, i, j},B 2 :{a, j},B 3 :{a, j},B 4 :{a, i, j}
+CS Page 30 of 83
+Q.37
+PAGE 38
+GATE 2023 Computer Science and Information Technology (CS)
+CS Page 31 of 83
+PAGE 39
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the two functionsincr and decr shown below.
+incr(){
+wait(s);
+X = X+1;
+signal(s);
+}
+decr(){
+wait(s);
+X = X-1;
+signal(s);
+}
+There are 5 threads each invokingincr once, and 3 threads each invokingdecr
+once, on the same shared variableX. The initial value ofX is 10.
+Suppose there are two implementations of the semaphores, as follows:
+I-1: s is a binary semaphore initialized to 1.
+I-2: s is a counting semaphore initialized to 2.
+Let V1, V2 be the values of X at the end of execution of all the threads with
+implementations I-1, I-2, respectively.
+Which one of the following choices corresponds to the minimum possible values of
+V1, V2, respectively?
+(A) 15, 7
+(B) 7, 7
+(C) 12, 7
+(D) 12, 8
+CS Page 32 of 83
+Q.38
+PAGE 40
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the context-free grammarG below
+S → aSb | X
+X → aX | Xb | a | b,
+where S and X are non-terminals, anda and b are terminal symbols. The starting
+non-terminal isS.
+Which one of the following statements is CORRECT?
+(A) The language generated byG is (a+b)∗
+(B) The language generated byG is a∗(a+b)b∗
+(C) The language generated byG is a∗b∗(a+b)
+(D) The language generated byG is not a regular language
+CS Page 33 of 83
+Q.39
+PAGE 41
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the pushdown automaton (PDA)P below, which runs on the input alpha-
+bet {a,b}, has stack alphabet{⊥,A}, and has three states{s,p,q },w i t hs being
+the start state. A transition from stateu to state v, labelled c/X/γ,w h e r ec is
+an input symbol or ϵ, X is a stack symbol, andγis a string of stack symbols,
+represents the fact that in stateu, the PDA can readc from the input, withX on
+the top of its stack, popX from the stack, push in the stringγon the stack, and
+go to statev. In the initial conﬁguration, the stack has only the symbol⊥in it.
+The PDA accepts by empty stack.
+s
+a/⊥/A⊥
+a/A/AA
+pb/A/ϵ
+b/A/ϵ
+q
+ϵ/A/ϵ
+ϵ/⊥/ϵ
+ϵ/A/ϵ ϵ/A/ϵ
+Which one of the following options correctly describes the language accepted byP?
+(A) {ambn | 1 ≤m and n<m }
+(B) {ambn | 0 ≤n ≤m}
+(C) {ambn | 0 ≤m and 0 ≤n}
+(D) {am | 0 ≤m}∪{bn | 0 ≤n}
+CS Page 34 of 83
+Q.40
+PAGE 42
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the given C-code and its corresponding assembly code, with a few
+operands U1–U4 being unknown. Some useful information as well as the semantics
+of each unique assembly instruction is annotated as inline comments in the code.
+The memory is byte-addressable.
+//C-code
+int a[10], b[10], i;
+// int is 32-bit
+for (i=0; i<10;i++)
+a[i] = b[i] * 8;
+;assembly-code (; indicates comments)
+;r1-r5 are 32-bit integer registers
+;initialize r1=0, r2=10
+;initialize r3, r4 with base address of a, b
+L01: jeq r1, r2, end ;if(r1==r2) goto end
+L02: lw r5, 0(r4) ;r5 <- Memory[r4+0]
+L03: shl r5, r5, U1 ;r5 <- r5 << U1
+L04: sw r5, 0(r3) ;Memory[r3+0] <- r5
+L05: add r3, r3, U2 ;r3 <- r3+U2
+L06: add r4, r4, U3
+L07: add r1, r1, 1
+L08: jmp U4 ;goto U4
+L09: end
+Which one of the following options is a CORRECT replacement for operands in
+the position (U1, U2, U3, U4) in the above assembly code?
+(A) (8, 4, 1,L02)
+(B) (3, 4, 4,L01)
+(C) (8, 1, 1,L02)
+(D) (3, 1, 1,L01)
+CS Page 35 of 83
+Q.41
+PAGE 43
+GATE 2023 Computer Science and Information Technology (CS)
+ A 4 kilobyte (KB) byte-addressable memory is realized using four 1 KB memory
+blocks. Two input address lines (IA4 and IA3) are connected to the chip select
+(CS) port of these memory blocks through a decoder as shown in the ﬁgure. The
+remaining ten input address lines from IA11–IA0 are connected to the address
+port of these blocks. The chip select (CS) is active high.
+X1 X2 X3 X4Decoder
+1KB memory 1KB memory 1KB memory 1KB memory
+Q0
+Q1
+Q2Q3
+A1A0
+CS CS CS CS
+IA11IA10IA9IA8
+IA7IA6IA5IA2IA1IA0
+IA4
+IA3
+Addr Addr Addr Addr
+10-bit
+MSB
+LS B
+The input memory addresses (IA11–IA0), in decimal, for the starting locations
+(Addr=0) of each block (indicated as X1, X2, X3, X4 in the ﬁgure) are among the
+options given below. Which one of the following options is CORRECT?
+(A) ( 0 ,1 ,2 ,3 )
+(B) (0, 1024, 2048, 3072)
+(C) (0, 8, 16, 24)
+(D) ( 0 ,0 ,0 ,0 )
+CS Page 36 of 83
+Q.42
+PAGE 44
+GATE 2023 Computer Science and Information Technology (CS)
+CS Page 37 of 83
+PAGE 45
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider a sequential digital circuit consisting of T ﬂip-ﬂops and D ﬂip-ﬂops as
+shown in the ﬁgure. CLKIN is the clock input to the circuit. At the beginning,
+Q1, Q2 and Q3 have values 0, 1 and 1, respectively.
+T
+Q
+CLK
+D
+Q
+CLK
+T
+Q
+CLKCLKIN Q1 Q2 Q3
+Which one of the given values of (Q1, Q2, Q3) can NEVER be obtained with this
+digital circuit?
+(A) (0, 0, 1)
+(B) (1, 0, 0)
+(C) (1, 0, 1)
+(D) (1, 1, 1)
+CS Page 38 of 83
+Q.43
+PAGE 46
+GATE 2023 Computer Science and Information Technology (CS)
+ A Boolean digital circuit is composed using two 4-input multiplexers (M1 and M2)
+and one 2-input multiplexer (M3) as shown in the ﬁgure. X0–X7 are the inputs of
+the multiplexers M1 and M2 and could be connected to either 0 or 1. The select
+lines of the multiplexers are connected to Boolean variables A, B and C as shown.
+X0
+X1
+X2
+X3
+A
+C
+X4
+X5
+X6
+X7
+A
+C
+B
+0
+1
+2
+3
+0
+1
+2
+3
+S1 S0
+S1 S0
+S
+0
+1
+Multiplexer
+Multiplexer
+Multiplexer
+Q
+Q
+Q
+M1
+M2
+M3
+Which one of the following set of values of (X0, X1, X2, X3, X4, X5, X6, X7) will
+realise the Boolean functionA+ A.C+A .B.C?
+(A) ( 1 ,1 ,0 ,0 ,1 ,1 ,1 ,0 )
+(B) ( 1 ,1 ,0 ,0 ,1 ,1 ,0 ,1 )
+(C) ( 1 ,1 ,0 ,1 ,1 ,1 ,0 ,0 )
+(D) ( 0 ,0 ,1 ,1 ,0 ,1 ,1 ,1 )
+CS Page 39 of 83
+Q.44
+PAGE 47
+GATE 2023 Computer Science and Information Technology (CS)
+CS Page 40 of 83
+PAGE 48
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the IEEE-754 single precision ﬂoating point numbers
+P=0xC1800000 and Q=0x3F5C2EF4.
+Which one of the following corresponds to the product of these numbers
+(i.e., P× Q), represented in the IEEE-754 single precision format?
+(A) 0x404C2EF4
+(B) 0x405C2EF4
+(C) 0xC15C2EF4
+(D) 0xC14C2EF4
+CS Page 41 of 83
+Q.45
+PAGE 49
+GATE 2023 Computer Science and Information Technology (CS)
+ Let A be a priority queue for maintaining a set of elements. Suppose A is
+implemented using a max-heap data structure. The operationExtract-Max(A)
+extracts and deletes the maximum element fromA. The operationInsert(A,key)
+inserts a new elementkey in A. The properties of a max-heap are preserved at the
+end of each of these operations.
+When Acontainsnelements, which one of the following statements about the worst
+case running time of these two operations is TRUE?
+(A) Both Extract-Max(A) and Insert(A,key) run inO(1).
+(B) Both Extract-Max(A) and Insert(A,key) run inO(log(n)).
+(C) Extract-Max(A) runs inO(1) whereas Insert(A,key) runs inO(n).
+(D) Extract-Max(A) runs inO(1) whereas Insert(A,key) runs inO(log(n)).
+CS Page 42 of 83
+Q.46
+PAGE 50
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the C functionfoo and the binary tree shown.
+typedef struct node {
+int val;
+struct node *left, *right;
+} node;
+int foo(node *p) {
+int retval;
+if (p == NULL)
+return 0;
+else {
+retval = p->val + foo(p->left) + foo(p->right);
+printf("%d ", retval);
+return retval;
+}
+}
+10
+5
+38
+11
+13
+When foo is called with a pointer to the root node of the given binary tree, what
+will it print?
+(A) 3851 31 11 0
+(B) 3581 01 11 3
+(C) 3 8 16 13 24 50
+(D) 3 16 8 50 24 13
+CS Page 43 of 83
+Q.47
+PAGE 51
+GATE 2023 Computer Science and Information Technology (CS)
+ Let U = {1,2,...,n },w h e r en is a large positive integer greater than 1000. Let
+k be a positive integer less thann.L e tA,B be subsets ofU with |A| = |B| = k
+and A∩B = ∅. We say that a permutation ofU separates A from B if one of the
+following is true.
+- All members ofA appear in the permutation before any of the members ofB.
+- All members ofB appear in the permutation before any of the members ofA.
+How many permutations ofU separate A from B?
+(A) n!
+(B)
+(n
+2k
+)
+(n−2k)!
+(C)
+(n
+2k
+)
+(n−2k)! (k!)2
+(D) 2
+(n
+2k
+)
+(n−2k)! (k!)2
+CS Page 44 of 83
+Q.48
+PAGE 52
+GATE 2023 Computer Science and Information Technology (CS)
+ Let f : A → B be an onto (or surjective) function, whereA and B are nonempty
+sets. Deﬁne an equivalence relation∼on the setA as
+a1 ∼a2 if f(a1)= f(a2) ,
+where a1,a 2 ∈A.L e tE = {[x]: x ∈A} be the set of all the equivalence classes
+under ∼. Deﬁne a new mappingF : E→ B as
+F([x]) =f(x), for all the equivalence classes [x]in E.
+Which of the following statements is/are TRUE?
+(A) F is NOT well-deﬁned.
+(B) F is an onto (or surjective) function.
+(C) F is a one-to-one (or injective) function.
+(D) F is a bijective function.
+CS Page 45 of 83
+Q.49
+PAGE 53
+GATE 2023 Computer Science and Information Technology (CS)
+ Suppose you are asked to design a new reliable byte-stream transport protocol
+like TCP. This protocol, namedmyTCP, runs over a 100 Mbps network with Round
+Trip Time of 150 milliseconds and the maximum segment lifetime of 2 minutes.
+Which of the following is/are valid lengths of theSequence Number ﬁeld in the
+myTCP header?
+(A) 30 bits
+(B) 32 bits
+(C) 34 bits
+(D) 36 bits
+CS Page 46 of 83
+Q.50
+PAGE 54
+GATE 2023 Computer Science and Information Technology (CS)
+ Let X be a set and 2X denote the powerset ofX.
+Deﬁne a binary operation Δ on 2X as follows:
+AΔB =( A−B)∪(B −A) .
+Let H =( 2X,Δ). Which of the following statements aboutH is/are correct?
+(A) H is a group.
+(B) Every element inH has an inverse, butH is NOT a group.
+(C) For everyA ∈2X, the inverse ofA is the complement ofA.
+(D) For everyA ∈2X, the inverse ofA is A.
+CS Page 47 of 83
+Q.51
+PAGE 55
+GATE 2023 Computer Science and Information Technology (CS)
+ Suppose in a web browser, you click on thewww.gate-2023.in URL. The browser
+cache is empty. The IP address for this URL is not cached in your local host, so
+a DNS lookup is triggered (by the local DNS server deployed on your local host)
+over the 3-tier DNS hierarchy in an iterative mode. No resource records are cached
+anywhere across all DNS servers.
+Let RTT denote the round trip time between your local host and DNS servers
+in the DNS hierarchy. The round trip time between the local host and the web
+server hosting www.gate-2023.in is also equal to RTT. The HTML ﬁle associated
+with the URL is small enough to have negligible transmission time and negligible
+rendering time by your web browser, which references 10 equally small objects on
+the same web server.
+Which of the following statements is/are CORRECT about the minimum elapsed
+time between clicking on the URL and your browser fully rendering it?
+(A) 7 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.
+(B) 5 RTTs, in case of persistent HTTP with pipelining.
+(C) 9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.
+(D) 6 RTTs, in case of persistent HTTP with pipelining.
+CS Page 48 of 83
+Q.52
+PAGE 56
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider a random experiment where two fair coins are tossed. LetA be the event
+that denotes HEAD on both the throws,B be the event that denotes HEAD on
+the ﬁrst throw, andC be the event that denotes HEAD on the second throw.
+Which of the following statements is/are TRUE?
+(A) A and B are independent.
+(B) A and C are independent.
+(C) B and C are independent.
+(D) Prob(B|C)=P r o b (B)
+CS Page 49 of 83
+Q.53
+PAGE 57
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider functions Function 1 and Function 2 expressed in pseudocode as
+follows:
+Function 1
+while n> 1 do
+for i =1 to n do
+x = x+1;
+end for
+n = ⌊n/2⌋;
+end while
+Function 2
+for i =1 to 100∗n do
+x = x+1;
+end for
+Let f1(n)a n df2(n) denote the number of times the statement “x = x +1 ”i s
+executed in Function 1 and Function 2, respectively.
+Which of the following statements is/are TRUE?
+(A) f1(n) ∈Θ(f2(n))
+(B) f1(n) ∈o(f2(n))
+(C) f1(n) ∈ω(f2(n))
+(D) f1(n) ∈O(n)
+CS Page 50 of 83
+Q.54
+PAGE 58
+GATE 2023 Computer Science and Information Technology (CS)
+ Let G be a simple, ﬁnite, undirected graph with vertex set{v1,...,v n}.L e tΔ (G)
+denotethemaximumdegreeof Gandlet N = {1,2,... }denotethesetofallpossible
+colors. Color the vertices ofG using the following greedy strategy:
+for i =1 ,...,n
+color(vi) ← min{j ∈N : no neighbour of vi is coloredj}
+Which of the following statements is/are TRUE?
+(A) This procedure results in a proper vertex coloring ofG.
+(B) The number of colors used is at most Δ(G)+1.
+(C) The number of colors used is at most Δ(G).
+(D) The number of colors used is equal to the chromatic number ofG.
+CS Page 51 of 83
+Q.55
+PAGE 59
+GATE 2023 Computer Science and Information Technology (CS)
+ Let U = {1,2,3}.L e t2U denote the powerset ofU. Consider an undirected graph
+G whose vertex set is 2U. For anyA,B ∈2U,( A,B)i sa ne d g ei nG if and only
+if (i)A ̸= B, and (ii) eitherA ⊊ B or B ⊊ A. For any vertexA in G, the set of
+all possible orderings in which the vertices ofG can be visited in a Breadth First
+Search (BFS) starting fromA is denoted byB(A).
+If ∅denotes the empty set, then the cardinality ofB(∅)i s .
+CS Page 52 of 83
+Q.56
+PAGE 60
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the following two-dimensional arrayD in the C programming language,
+which is stored in row-major order:
+int D[ 128][128];
+Demand paging is used for allocating memory and each physical page frame holds
+512 elements of the array D. The Least Recently Used (LRU) page-replacement
+policy is used by the operating system. A total of 30 physical page frames are
+allocated to a process which executes the following code snippet:
+for (int i = 0; i < 128; i++)
+for (int j = 0; j < 128; j++)
+D[j][i] *= 10;
+The number of page faults generated during the execution of this code snippet is
+.
+CS Page 53 of 83
+Q.57
+PAGE 61
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider a computer system with 57-bit virtual addressing using multi-level
+tree-structured page tables withL levels for virtual to physical address translation.
+The page size is 4 KB (1 KB = 1024 B) and a page table entry at any of the levels
+occupies 8 bytes.
+The value ofL is .
+CS Page 54 of 83
+Q.58
+PAGE 62
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider a sequencea of elements a0 =1 , a1 =5 , a2 =7 , a3 =8 , a4 =9 ,a n d
+a5 = 2. The following operations are performed on a stackS and a queueQ,b o t h
+of which are initially empty.
+I: push the elements ofa from a0 to a5 in that order intoS.
+II: enqueue the elements ofa from a0 to a5 in that order intoQ.
+III: pop an element fromS.
+IV: dequeue an element fromQ.
+V: pop an element fromS.
+VI: dequeue an element fromQ.
+VII: dequeue an element fromQ and push the same element intoS.
+VIII: Repeat operation VII three times.
+IX: pop an element fromS.
+X: pop an element fromS.
+The top element ofS after executing the above operations is .
+CS Page 55 of 83
+Q.59
+PAGE 63
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the syntax directed translation given by the following grammar and se-
+manticrules. Here N,I,F andB arenon-terminals. N isthestartingnon-terminal,
+and #, 0 and 1 are lexical tokens corresponding to input letters “#”, “0” and “1”,
+respectively. X.val denotes the synthesized attribute (a numeric value) associated
+with a non-terminalX. I1 and F1 denote occurrences ofI and F on the right hand
+side of a production, respectively. For the tokens0 and 1, 0.val =0a n d1.val =1 .
+N → I#FN . val = I.val +F.val
+I → I1 BI . val =( 2I1.val)+ B.val
+I → BI . val = B.val
+F → BF 1 F.val = 1
+2(B.val +F1.val)
+F → BF . val = 1
+2B.val
+B → 0 B.val = 0.val
+B → 1 B.val = 1.val
+The value computed by the translation scheme for the input string
+10#011
+is . (Rounded oﬀ to three decimal places)
+CS Page 56 of 83
+Q.60
+PAGE 64
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the following table namedStudent in a relational database. The primary
+key of this table is rollNum.
+Student
+rollNum name gender marks
+1 Naman M 62
+2 Aliya F 70
+3 Aliya F 80
+4 James M 82
+5 Swati F 65
+The SQL query below is executed on this database.
+SELECT *
+FROM Student
+WHERE gender = ‘F’ AND
+marks > 65;
+The number of rows returned by the query is .
+CS Page 57 of 83
+Q.61
+PAGE 65
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider a database of ﬁxed-length records, stored as an ordered ﬁle. The database
+has 25,000 records, with each record being 100 bytes, of which the primary key
+occupies 15 bytes. The data ﬁle is block-aligned in that each data record is fully
+contained within a block. The database is indexed by a primary index ﬁle, which
+is also stored as a block-aligned ordered ﬁle. The ﬁgure below depicts this indexing
+scheme.
+(15 Bytes)
+Primary Key Other Fields
+(85 Bytes)
+Data File
+Primary Key
+Block Anchor
+Pointer
+Block
+Index File
+Suppose the block size of the ﬁle system is 1024 bytes, and a pointer to a block
+occupies 5 bytes. The system uses binary search on the index ﬁle to search for a
+record with a given key. You may assume that a binary search on an index ﬁle of
+b blocks takes⌈log2 b⌉ block accesses in the worst case.
+Given a key, the number of block accesses required to identify the block in the data
+ﬁle that may contain a record with the key, in the worst case, is .
+CS Page 58 of 83
+Q.62
+PAGE 66
+GATE 2023 Computer Science and Information Technology (CS)
+CS Page 59 of 83
+PAGE 67
+GATE 2023 Computer Science and Information Technology (CS)
+ Consider the languageL over the alphabet{0,1}, given below:
+L = {w ∈{0,1}∗| w does not contain three or more consecutive 1’s}.
+The minimum number of states in a Deterministic Finite-State Automaton (DFA)
+for L is .
+CS Page 60 of 83
+Q.63
+PAGE 68
+GATE 2023 Computer Science and Information Technology (CS)
+ An 8-way set associative cache of size 64 KB (1 KB = 1024 bytes) is used in a
+system with 32-bit address. The address is sub-divided into TAG, INDEX, and
+BLOCK OFFSET.
+The number of bits in the TAG is .
+CS Page 61 of 83
+Q.64
+PAGE 69
+GATE 2023 Computer Science and Information Technology (CS)
+ The forwarding table of a router is shown below.
+Subnet Number Subnet Mask Interface ID
+200.150.0.0 255.255.0.0 1
+200.150.64.0 255.255.224.0 2
+200.150.68.0 255.255.255.0 3
+200.150.68.64 255.255.255.224 4
+Default 0
+A packet addressed to a destination address 200.150.68.118 arrives at the router.
+It will be forwarded to the interface with ID .
+CS Page 62 of 83
+Q.65
